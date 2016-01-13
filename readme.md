@@ -9,3 +9,18 @@ Return a list of 2016 events with title, sponsor, speakers, location, event brig
 Return a list of sponsors
 
 Return a list of contact details
+
+
+## Feed
+
+https://github.com/RoumenDamianoff/laravel-feed
+
+## Open Graph
+
+Twitter cards: https://dev.twitter.com/cards/getting-started
+
+Open graph: http://ogp.me
+
+## Graphics
+
+Favicon.ico
