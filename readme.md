@@ -15,6 +15,27 @@ Return a list of contact details
 
 https://github.com/RoumenDamianoff/laravel-feed
 
+## iCal Feed
+
+http://stevethomas.com.au/php/how-to-build-an-ical-calendar-with-php-and-mysql.html
+
+https://github.com/ahmad/ics.generator
+
+Headers (From Existing):
+
+```
+Content-Type: text/calendar; charset=UTF-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+```
+
+Existing Calendar:
+
+https://calendar.google.com/calendar/ical/rrb183sckdpi5pi4hrk5u36dbc%40group.calendar.google.com/public/basic.ics
+
+```sh
+curl -i https://calendar.google.com/calendar/ical/rrb183sckdpi5pi4hrk5u36dbc%40group.calendar.google.com/public/basic.ics
+```
+
 ## Open Graph
 
 Twitter cards: https://dev.twitter.com/cards/getting-started
