@@ -8,21 +8,20 @@
                     <div class="site-heading">
                         <h1>Melbourne Cocoaheads</h1>
                         <hr class="small">
-
                         @if($event)
-                            <span class="subheading">
+                            <p class="subheading">
                                 <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-                                Next Meetup &rarr; {{ $event->starts_at->format('l jS \\of F Y \\@ g:iA') }}
-                            </span>
-                            <span class="subheading">
+                                <a href="{{ $event->url() }}" style="color:white">Next Meetup</a> &rarr; {{ $event->starts_at->format('l jS \\of F Y \\@ g:iA') }}
+                            </p>
+                            <p class="subheading">
                                 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
                                 {{ $event->location }} - {{ $event->address_display }}
-                            </span>
+                            </p>
                         @else
-                            <span class="subheading">
+                            <p class="subheading">
                                 <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
                                 No upcoming events scheduled.
-                            </span>
+                            </p>
                         @endif
                     </div>
                 </div>
@@ -52,7 +51,7 @@
 
                 <ul class="pager">
                     <li class="next">
-                        <a href="{{ route('posts') }}">View ALl Posts &rarr;</a>
+                        <a href="{{ route('posts') }}">View All Posts &rarr;</a>
                     </li>
                 </ul>
             </div>

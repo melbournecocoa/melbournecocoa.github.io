@@ -41,6 +41,15 @@ class CreateEventsTable extends Migration
             $table->index('event_id');
             $table->index('sponsor_id');
         });
+
+        Schema::create('events_posts', function (Blueprint $table) {
+            $table->increments('id');
+            $table->unsignedInteger('event_id');
+            $table->unsignedInteger('post_id');
+
+            $table->index('event_id');
+            $table->index('post_id');
+        });
     }
 
     /**
@@ -52,5 +61,6 @@ class CreateEventsTable extends Migration
     {
         Schema::drop('events');
         Schema::drop('events_sponsors');
+        Schema::drop('events_posts');
     }
 }

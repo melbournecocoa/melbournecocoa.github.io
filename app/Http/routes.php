@@ -29,6 +29,13 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/posts/{post}', ['as' => 'post', 'uses' => 'PostsController@getSinglePost']);
 
     Route::get('/events', ['as' => 'events', 'uses' => 'EventsController@getEvents']);
-    Route::get('/event/{event}', ['as' => 'event', 'uses' => 'EventsController@getEvent']);
-//    Route::get('/events/calendar', ['as' => 'calendar', 'uses' => 'EventsController@xxx']);
+    Route::get('/event/{event}', ['as' => 'event', 'uses' => 'EventsController@getSingleEvent']);
+
+//    Route::get('/about', ['as' => 'about', 'uses' => 'PostsController@xxx']);
+//    Route::get('/contact', ['as' => 'contact', 'uses' => 'PostsController@xxx']);
+//    Route::get('/sitemap', ['as' => 'sitemap', 'uses' => 'PostsController@xxx']);
+
+    Route::get('/events/past', ['as' => 'pastEvents', 'uses' => 'EventsController@getPastEvents']);
+//    Route::get('/calendar', ['as' => 'calendar', 'uses' => 'EventsController@xxx']);
+//    Route::get('/rss', ['as' => 'calendar', 'uses' => 'EventsController@xxx']);
 });

@@ -22,13 +22,15 @@ class Post extends Model
         return route('post', $this->slug);
     }
 
-    public function event()
+    public function events()
     {
-        return $this->belongsTo(Event::class);
+        return $this->belongsToMany(Event::class, 'events_posts');
     }
 
     public function scopeHomepagePosts($query)
     {
-        return $query->where('frontpage', '>', 0)->orderBy('frontpage')->orderBy('created_at', 'desc');
+        return $query->where('frontpage', '>', 0)
+            ->orderBy('frontpage')
+            ->orderBy('created_at', 'desc');
     }
 }

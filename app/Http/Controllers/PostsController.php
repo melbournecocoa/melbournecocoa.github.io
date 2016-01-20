@@ -4,10 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Event;
 use App\Post;
-use Illuminate\Http\Request;
-
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
 
 class PostsController extends Controller
 {
@@ -22,7 +18,7 @@ class PostsController extends Controller
 
     public function getPosts()
     {
-        $posts = Post::paginate(2);
+        $posts = Post::paginate(5);
 
         return view('posts', ['posts' => $posts]);
     }

@@ -6,7 +6,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>Upcomming Events</h1>
+                        <h1>Melbourne Cocoaheads</h1>
+                        <hr class="small">
+                        <span class="subheading">{{ $title }}</span>
                     </div>
                 </div>
             </div>
@@ -50,11 +52,14 @@
                             </li>
                         </ul>
 
+                        @if(!$event->sponsors->isEmpty())
                         <h3>Sponsors</h3>
 
-                        <ul>
-                            <li>Link to Sponsors Info Here</li>
-                        </ul>
+                            @foreach($event->sponsors as $sponsor)
+                                <a href="{{ $sponsor->web }}"><img src="/img/{{ $sponsor->image }}" alt="{{$sponsor->name}}" class="img-responsive"></a>
+                            @endforeach
+
+                        @endif
 
                         @if($event->tickets)
                             <h3>Tickets</h3>
@@ -68,11 +73,15 @@
                             </p>
                         @endif
 
-                        <h3>Updates</h3>
+                        @if(!$event->posts->isEmpty())
+                            <h3>Updates</h3>
 
-                        <ul>
-                            <li>Link to Posts here</li>
-                        </ul>
+                            <ul>
+                                @foreach($event->posts as $post)
+                                    <li><a href="{{ $post->url() }}">{{ $post->title }}</a></li>
+                                @endforeach
+                            </ul>
+                        @endif
 
                         <p class="post-meta">
                             This event is organised by <a href="{{$event->contact}}">{{ $event->contact_name }}</a>
@@ -81,11 +90,23 @@
                     <hr>
                 @endforeach
 
-                {{--<ul class="pager">--}}
-                    {{--<li class="next">--}}
-                        {{--<a href="{{ route('posts') }}">View ALl Posts &rarr;</a>--}}
-                    {{--</li>--}}
-                {{--</ul>--}}
+                @if($events->total() < 1)
+                    <div class="post-preview">
+                        <p>There are no events scheduled.</p>
+                    </div>
+                @endif
+
+
+                <ul class="pager">
+                    <li class="next {{ !$events->hasMorePages() ? 'disabled' : '' }}">
+                        <a href="{{ $events->nextPageUrl() }}">More Events &rarr;</a>
+                    </li>
+                    @if($events->previousPageUrl())
+                        <li class="previous ">
+                            <a href="{{ $events->previousPageUrl() }}">&larr; Previous Events</a>
+                        </li>
+                    @endif
+                </ul>
             </div>
         </div>
     </div>

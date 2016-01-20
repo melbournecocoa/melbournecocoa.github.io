@@ -17,9 +17,9 @@ class Event extends Model
         return route('event', $this->id);
     }
 
-    public function post()
+    public function posts()
     {
-        return $this->hasOne(Post::class);
+        return $this->belongsToMany(Post::class, 'events_posts');
     }
 
     public function sponsors()

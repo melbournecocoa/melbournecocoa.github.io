@@ -4,22 +4,30 @@ namespace App\Http\Controllers;
 
 use App\Event;
 use Carbon\Carbon;
-use Illuminate\Http\Request;
-
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
 
 class EventsController extends Controller
 {
     public function getEvents()
     {
-        $events = Event::where('ends_at', '>=', Carbon::now())->get();
+        $events = Event::with('posts')
+            ->where('ends_at', '>=', Carbon::now())
+            ->orderBy('starts_at')
+            ->paginate(10);
 
-        return view('events', ['events' => $events]);
+        return view('events', ['events' => $events, 'title' => 'Upcoming Events']);
     }
 
-    public function getEvent(\App\Event $event)
+    public function getSingleEvent(Event $event)
     {
-        return view('events', ['events' => [$event]]);
+        return view('events', ['events' => [$event], 'title' => $event->title]);
+    }
+
+    public function getPastEvents()
+    {
+        $events = Event::where('ends_at', '<', Carbon::now())
+            ->orderBy('ends_at', 'desc')
+            ->paginate(10);
+
+        return view('events', ['events' => $events, 'title' => 'Past Events']);
     }
 }

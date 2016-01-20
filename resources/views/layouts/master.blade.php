@@ -60,10 +60,10 @@
                     <a href="/posts">Updates</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="/about">About</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="/contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -87,7 +87,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="#">
+                        <a href="https://www.twitter.com/melbournecocoa">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -95,7 +95,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.github.com/melbournecocoa">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -103,7 +103,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/rss">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -111,7 +111,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/calendar">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
@@ -119,7 +119,7 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; Your Website {{ date('Y') }}</p>
+                <p class="copyright text-muted">Copyright &copy; Jesse Collis {{ date('Y') }} | <a href="/sitemap">Sitemap</a></p>
             </div>
         </div>
     </div>

@@ -20,7 +20,6 @@ class CreatePostsTable extends Migration
             $table->boolean('frontpage')->default(0);
             $table->string('image');
             $table->text('body');
-            $table->unsignedInteger('event_id')->nullalbe();
 
             $table->timestamps();
 

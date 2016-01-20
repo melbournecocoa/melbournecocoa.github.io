@@ -12,10 +12,6 @@ class EventTableSeeder extends Seeder
      */
     public function run()
     {
-        //TODO: Seed the next twelve months, second Thursday, excluding January.
-
-        //TODO: Seed the next twelve months Hack night. Last Tuesday;
-
         /**
          * @var $event \App\Event
          */

@@ -8,7 +8,7 @@
                     <div class="site-heading">
                         <h1>Melbourne Cocoaheads</h1>
                         <hr class="small">
-                        <span class="subheading">Blog Posts</span>
+                        <span class="subheading">Updates</span>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
 
                 <ul class="pager">
                     <li class="next {{ !$posts->hasMorePages() ? 'disabled' : '' }}">
-                        <a href="{{ $posts->nextPageUrl() }}">Older Posts &rarr;</a>
+                        <a href="{{ $posts->nextPageUrl() }}">Previous Posts &rarr;</a>
                     </li>
                     @if($posts->previousPageUrl())
                         <li class="previous ">

@@ -72,8 +72,8 @@ class GenerateYearlyEvents extends Command
 
         $event = new Event;
         $event->type = Event::HACKNIGHT;
-        $event->title = 'Melbourne Cocoaheads Hack Night';
-        $event->subtitle = 'Hack Night';
+        $event->title = 'Hack Night';
+        $event->subtitle = 'Melbourne Cocoaheads Hack Night';
         $event->starts_at = $startDate;
         $event->ends_at = $startDate->copy()->addHours(3);
         $event->location = 'Little Creatures Dining Hall';

@@ -11,6 +11,7 @@
 |
 */
 
+use Carbon\Carbon;
 use Illuminate\Support\Str;
 
 $factory->define(App\User::class, function (Faker\Generator $faker) {
@@ -33,15 +34,15 @@ $factory->define(\App\Sponsor::class, function () {
 
 $factory->define(\App\Event::class, function (Faker\Generator $faker) {
 
+    $date = Carbon::createFromDate(2017, $faker->numberBetween(1, 12), null, new \DateTimeZone('Australia/Melbourne'));
+    $date->nthOfMonth(2, Carbon::THURSDAY)->setTime(18, 30);
 
-    $eventStart = \Carbon\Carbon::now(new DateTimeZone('Australia/Melbourne'))
-        ->nthOfMonth(2, \Carbon\Carbon::THURSDAY)
-        ->setTime(18, 30);
-
+    $eventStart = $date->copy()->setTimezone(new \DateTimeZone('UTC'));
     $eventEnd = $eventStart->copy()->addHours(3);
 
     return [
-        'name' => 'Melbourne Cocoaheads Meetup 2016',
+        'title' => 'Melbourne Cocoaheads Meetup 2016',
+        'subtitle' => 'Subtitle',
         'type' => \App\Event::MEETUP,
         'starts_at' => $eventStart,
         'ends_at' => $eventEnd,
@@ -53,7 +54,7 @@ $factory->define(\App\Event::class, function (Faker\Generator $faker) {
         'lng' => 144.9562388,
         'tickets' => 'https://melbournecocoaheads2015.eventbrite.com.au',
         'contact' => 'jesse@jcmultimedia.com.au',
-        'contact' => 'Jesse Collis'
+        'contact_name' => 'Jesse Collis'
     ];
 });
 
