@@ -23,7 +23,12 @@
 */
 
 Route::group(['middleware' => ['web']], function () {
-    Route::get('/', 'PostsController@getPosts');
+    Route::get('/', ['as' => 'home', 'uses' => 'PostsController@getHome']);
 
-    });
+    Route::get('/posts', ['as' => 'posts', 'uses' => 'PostsController@getPosts']);
+    Route::get('/posts/{post}', ['as' => 'post', 'uses' => 'PostsController@getSinglePost']);
+
+    Route::get('/events', ['as' => 'events', 'uses' => 'EventsController@getEvents']);
+    Route::get('/event/{event}', ['as' => 'event', 'uses' => 'EventsController@getEvent']);
+//    Route::get('/events/calendar', ['as' => 'calendar', 'uses' => 'EventsController@xxx']);
 });

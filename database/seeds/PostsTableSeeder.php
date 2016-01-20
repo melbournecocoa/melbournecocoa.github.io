@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Event;
 
 class PostsTableSeeder extends Seeder
 {
@@ -12,14 +11,13 @@ class PostsTableSeeder extends Seeder
      */
     public function run()
     {
-        /**
-         * @var $post \App\Post
-         */
-        $post = factory(\App\Post::class)->make();
-
-        $event = (new Event)->first();
-        $post->event()->associate($event);
-
-        $post->save();
+        $i = 0;
+        factory(\App\Post::class, 3)->make()->each(function (\App\Post $post) use (&$i) {
+            $event = factory(\App\Event::class)->create();
+            $post->event()->associate($event);
+            $post->frontpage = ($i % 3);
+            $post->save();
+            $i++;
+        });
     }
 }

@@ -17,8 +17,18 @@ class Post extends Model
         return 'slug';
     }
 
+    public function url()
+    {
+        return route('post', $this->slug);
+    }
+
     public function event()
     {
         return $this->belongsTo(Event::class);
+    }
+
+    public function scopeHomepagePosts($query)
+    {
+        return $query->where('frontpage', '>', 0)->orderBy('frontpage')->orderBy('created_at', 'desc');
     }
 }

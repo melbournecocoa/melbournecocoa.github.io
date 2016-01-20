@@ -42,14 +42,18 @@ $factory->define(\App\Event::class, function (Faker\Generator $faker) {
 
     return [
         'name' => 'Melbourne Cocoaheads Meetup 2016',
+        'type' => \App\Event::MEETUP,
         'starts_at' => $eventStart,
         'ends_at' => $eventEnd,
         'location' => 'Teamsquare',
+        'location_link' => 'https://teamsquare.co/contact',
+        'address_display' => 'Level 1, 520 Bourke Street',
         'address' => 'Level 1, 520 Bourke Street, Melbourne, 3000',
         'lat' => -37.8153744,
         'lng' => 144.9562388,
         'tickets' => 'https://melbournecocoaheads2015.eventbrite.com.au',
-        'contact' => 'jesse@jcmultimedia.com.au'
+        'contact' => 'jesse@jcmultimedia.com.au',
+        'contact' => 'Jesse Collis'
     ];
 });
 
@@ -59,6 +63,7 @@ $factory->define(\App\Post::class, function (Faker\Generator $faker) {
 
     return [
         'title' => $title,
+        'subtitle' => $faker->sentence(20),
         'slug' => Str::slug($title),
         'image' => 'img/post-bg.jpg',
         'body' => $faker->realText()

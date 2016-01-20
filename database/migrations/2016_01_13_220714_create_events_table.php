@@ -14,16 +14,23 @@ class CreateEventsTable extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
+            $table->string('type');
+            $table->string('title');
+            $table->text('subtitle');
             $table->dateTime('starts_at');
             $table->dateTime('ends_at');
             $table->string('location');
+            $table->string('location_link');
+            $table->string('address_display');
             $table->string('address');
             $table->float('lat');
             $table->float('lng');
-            $table->string('tickets');
+            $table->string('tickets')->nullable();
             $table->string('contact');
+            $table->string('contact_name');
             $table->timestamps();
+
+            $table->index('type');
         });
 
         Schema::create('events_sponsors', function (Blueprint $table) {
