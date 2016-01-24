@@ -58,8 +58,7 @@ class GenerateYearlyEvents extends Command
             $date->lastOfMonth(Carbon::TUESDAY)->setTime(18, 30);
 
             $this->createHackNightEvent($date);
-
-            $date = $date->copy()->addMonth();
+            $date = $date->copy()->startOfMonth()->addMonth();
 
         } while ((integer) $date->year === (integer) $year);
     }
@@ -69,6 +68,11 @@ class GenerateYearlyEvents extends Command
         $startDate = $startDate->copy()->setTimezone(new \DateTimeZone('UTC'));
 
         $this->info("Hack Night : $startDate UTC");
+
+        // Jan event is on the first wednesday
+        if ($startDate->month === 1) {
+            $startDate->addDay(1);
+        }
 
         $event = new Event;
         $event->type = Event::HACKNIGHT;
