@@ -15,7 +15,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/css/clean-blog.min.css" rel="stylesheet">
+    <link href="/css/clean-blog.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -87,7 +87,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="https://www.twitter.com/melbournecocoa">
+                        <a href="https://www.twitter.com/melbournecocoa" alt="Melbourne Cocoaheads on Twitter">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -95,7 +95,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.github.com/melbournecocoa">
+                        <a href="https://www.github.com/melbournecocoa" alt="Melbourne Cocoaheads on Github">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -103,7 +103,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/rss">
+                        <a href="/rss" alt="RSS Feed">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -111,15 +111,23 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/calendar">
+                        <a href="/calendar" alt="iCal Calendar Feed">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
+                    <li>
+                        <a href="#" alt="Melbourne Cocoaheads Tickets">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; Jesse Collis {{ date('Y') }} | <a href="/sitemap">Sitemap</a></p>
+                <p class="copyright text-muted">Melbourne Cocoaheads {{ date('Y') }} | <a href="/sitemap">Sitemap</a></p>
             </div>
         </div>
     </div>

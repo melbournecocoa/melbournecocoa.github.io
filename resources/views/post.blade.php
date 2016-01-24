@@ -1,14 +1,17 @@
 @extends('layouts.master')
 
 @section('header')
-        <header class="intro-header" style="background-image: url('/{{ $post->image }}')">
+        <header class="intro-header" style="background-image: url('/img/cch-post-bg-filter.jpg')">
+            {{--{{ $post->image }}--}}
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>{{ $post->title }}</h1>
+                        {{--<h1>{{ $post->title }}</h1>--}}
+                        <h1>Melbourne Cocoaheads 2015 End of Year Meetup (#90)</h1>
                         <hr class="small">
-                        <span class="subheading">{{ $post->subtitle }}</span>
+                        <span class="subheading">Celebrating 9 years of meetups!</span>
+                        {{--{{ $post->subtitle }}--}}
                     </div>
                 </div>
             </div>
@@ -21,40 +24,63 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+                    <h2>2015 has been a really exciting year!</h2>
 
-                    <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+                    <p>Some of my highlights include: </p>
 
-                    <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+                    <p>
+                        <ul>
+                            <li><i>Graduating</i> from our humble RMIT AV studio into the palatial surrounds of Teamsquare.</li>
+                            <li>Engaging 9 different Melbourne based sponsors.</li>
+                            <li>Live streaming events on YouTube.</li>
+                            <li>Consuming over 200 pizzas.</li>
+                            <li>RSVP-ing 730 times.</li>
+                            <li>Hosting over 40 presentations and lightning talks.</li>
+                            <li>Wrapping up our <a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory/blob/master/2007.mdown">9th year of meetups</a>!</li>
+                        </ul>
+                    </p>
 
-                    <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+                    <img class="img-responsive" src="/img/posts/cocoaheads-2015-12-cover.jpg" alt="Melbourne Cocoaheads 2015 End of Year Meetup">
 
-                    <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+                    <h2 class="section-heading">Yeah okay, but who's speaking this month?</h2>
 
-                    <h2 class="section-heading">The Final Frontier</h2>
+                    <p>This month we're going to skip the formalities and presentations - we'd like you to get up and say hi.</p>
 
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+                    <p>Every month there are are more and more new faces coming to cocoaheads, new companies in Melbourne
+                        and surrounds doing amazing stuff and we'd like as many people as possible to stand up, say hi,
+                        say who you are, (maybe who you work for) and what you're working on.</p>
 
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+                    <p>In my mind we'll spend some time before pizzas handing around the microphone and everyone can take
+                        it in turns hopping up and giving a 30 second spiel on themselves or give a quick app demo if
+                        it's relevant. It would be cool if you let us know who you are, what you're working on, what you're
+                        interested in or just why you come to cocoaheads. (If you're worried about this impending public
+                        speaking situation or need some ideas or encouragement, let Pete and/or I know and we can give
+                        you ideas ahead of time.)</p>
 
-                    <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+                    <p>Melbourne Cocoaheads is the <strong>top</strong> Cocoa based community across the globe, and is
+                        known for being the <strong>friendliest</strong>, fastest growing, <strong>highest quality</strong>
+                        presentation holding, best beverage providing meetup ever. <strong>Awesome people like you</strong>
+                        make this fact, so please come this month and share a little about yourself.</p>
 
-                    <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+                    <p>We (Pete and Jesse) will put together a slide for each person, so just shoot through your details to Jesse and/or Pete:</p>
 
-                    <h2 class="section-heading">Reaching for the Stars</h2>
+                    <ul>
+                        <li>Your name</li>
+                        <li>Who you work for / What you work on / What you study</li>
+                        <li>Twitter / github handle</li>
+                    </ul>
 
-                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+                    <p> Our details are: </p>
 
-                    <a href="#">
-                        <img class="img-responsive" src="/img/post-sample-image.jpg" alt="">
-                    </a>
-                    <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+                    <p>
+                        <ul>
+                            <li>Twitter: @_petegoldsmith @sirjec</li>
+                            <li>Email: <a href="mailto:peter@ittybittyapps.com">peter@ittybittyapps.com</a> <a href="mailto:jesse@jcmultimedia.com.au">jesse@jcmultimedia.com.au</a></li>
+                            <li>Slack: @pete @jesse (<a href="http://melbournecocoa.slack.com/">melbournecocoa.slack.com</a>)</li>
+                        </ul>
+                    </p>
 
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-                    <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+                    <p class="post-meta">Posted on {{ Carbon\Carbon::now()->format('l jS \\of F Y ') }}</p>
                 </div>
             </div>
         </div>

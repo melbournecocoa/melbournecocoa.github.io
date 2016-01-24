@@ -45,3 +45,7 @@ Open graph: http://ogp.me
 ## Graphics
 
 Favicon.ico
+
+## Sitemap
+
+https://github.com/RoumenDamianoff/laravel-sitemap

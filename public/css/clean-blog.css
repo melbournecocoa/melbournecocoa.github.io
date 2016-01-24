@@ -13,7 +13,7 @@ p {
   line-height: 1.5;
   margin: 30px 0;
 }
-p a {
+p a, li a {
   text-decoration: underline;
 }
 h1,
@@ -228,18 +228,18 @@ hr.small {
   font-weight: 300;
   margin-bottom: 10px;
 }
-.post-preview > .post-meta {
+.post-meta {
   color: #808080;
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
 }
-.post-preview > .post-meta > a {
+.post-meta > a {
   text-decoration: none;
   color: #404040;
 }
-.post-preview > .post-meta > a:hover,
-.post-preview > .post-meta > a:focus {
+.post-meta > a:hover,
+.post-meta > a:focus {
   color: #0085a1;
   text-decoration: underline;
 }
