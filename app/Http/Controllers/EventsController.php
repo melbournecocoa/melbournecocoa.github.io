@@ -19,7 +19,11 @@ class EventsController extends Controller
 
     public function getSingleEvent(Event $event)
     {
-        return view('events', ['events' => [$event], 'title' => $event->title]);
+        $events = Event::with('posts')
+            ->where('id', '=', $event->id)
+            ->paginate(10);
+
+        return view('events', ['events' => $events, 'title' => $event->title]);
     }
 
     public function getPastEvents()

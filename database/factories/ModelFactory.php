@@ -66,7 +66,6 @@ $factory->define(\App\Post::class, function (Faker\Generator $faker) {
         'title' => $title,
         'subtitle' => $faker->sentence(20),
         'slug' => Str::slug($title),
-        'image' => 'img/post-bg.jpg',
         'body' => $faker->realText()
     ];
 });

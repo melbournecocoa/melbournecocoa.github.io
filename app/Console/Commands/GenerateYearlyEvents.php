@@ -76,14 +76,24 @@ class GenerateYearlyEvents extends Command
         $event->subtitle = 'Melbourne Cocoaheads Hack Night';
         $event->starts_at = $startDate;
         $event->ends_at = $startDate->copy()->addHours(3);
-        $event->location = 'Little Creatures Dining Hall';
-        $event->location_link = 'https://littlecreatures.com.au/venues/2-melbourne-dining-hall';
-        $event->address_display = '222 Brunswick Street, Fitzroy';
-        $event->address = '222 Brunswick Street, Fitzroy, VIC 3065';
-        $event->lat = -37.8008;
-        $event->lng = 144.978;
         $event->contact = 'https://twitter.com/tupps';
         $event->contact_name = 'Luke Tupper';
+
+        if ($startDate->month === 1) {
+            $event->location = 'Little Creatures Dining Hall';
+            $event->location_link = 'https://littlecreatures.com.au/venues/2-melbourne-dining-hall';
+            $event->address_display = '222 Brunswick Street, Fitzroy';
+            $event->address = '222 Brunswick Street, Fitzroy, VIC 3065';
+            $event->lat = -37.8008;
+            $event->lng = 144.978;
+        } else {
+            $event->location = 'Location TBD';
+            $event->location_link = 'http://www.melbournecocoaheads.com';
+            $event->address_display = 'Location TBD';
+            $event->address = 'Location TBD';
+            $event->lat = -37.8153744;
+            $event->lng = 144.958427;
+        }
 
         $event->save();
     }
@@ -99,6 +109,20 @@ class GenerateYearlyEvents extends Command
 
         $this->info("Meetup : $count @ $startDate UTC");
 
+        $tickets = [
+            'https://melbournecocoaheads-feb-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-mar-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-apr-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-may-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-jun-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-jul-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-aug-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-sep-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-oct-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-nov-2016.eventbrite.com.au',
+            'https://melbournecocoaheads-dec-2016.eventbrite.com.au'
+        ];
+
         $event = new Event;
         $event->type = Event::MEETUP;
         $event->starts_at = $startDate;
@@ -110,7 +134,7 @@ class GenerateYearlyEvents extends Command
         $event->lat = -37.8153744;
         $event->lng = 144.958427;
         //TODO: Update eventbrite
-        $event->tickets = 'https://melbournecocoaheads2015.eventbrite.com.au/?ref=ebtnebregn';
+        $event->tickets = $tickets[$startDate->month - 2];
         $event->contact = 'mailto:jesse@jcmultimedia.com.au';
         $event->contact_name = 'Jesse Collis';
 

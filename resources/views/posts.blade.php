@@ -1,21 +1,10 @@
 @extends('layouts.master')
 
-@section('header')
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Melbourne Cocoaheads</h1>
-                        <hr class="small">
-                        <span class="subheading">Updates</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+@section('image', '/img/cch-post-bg-filter.jpg')
+@section('title', 'Melbourne Cocoaheads')
+@section('subtitle')
+    <span class="subheading">Updates</span>
 @endsection
-
 
 @section('content')
     <div class="container">
@@ -38,11 +27,11 @@
 
                 <ul class="pager">
                     <li class="next {{ !$posts->hasMorePages() ? 'disabled' : '' }}">
-                        <a href="{{ $posts->nextPageUrl() }}">Previous Posts &rarr;</a>
+                        <a href="{{ $posts->nextPageUrl() }}">Next Page &rarr;</a>
                     </li>
                     @if($posts->previousPageUrl())
-                        <li class="previous ">
-                            <a href="{{ $posts->previousPageUrl() }}">&larr; Newer Posts</a>
+                        <li class="previous">
+                            <a href="{{ $posts->previousPageUrl() }}">&larr; Previous Page</a>
                         </li>
                     @endif
                 </ul>

@@ -31,8 +31,13 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/events', ['as' => 'events', 'uses' => 'EventsController@getEvents']);
     Route::get('/event/{event}', ['as' => 'event', 'uses' => 'EventsController@getSingleEvent']);
 
-//    Route::get('/about', ['as' => 'about', 'uses' => 'PostsController@xxx']);
-//    Route::get('/contact', ['as' => 'contact', 'uses' => 'PostsController@xxx']);
+    Route::get('/about', ['as' => 'about', function () {
+        return view('about');
+    }]);
+
+    Route::get('/contact', ['as' => 'contact', function () {
+        return view('contact');
+    }]);
 //    Route::get('/sitemap', ['as' => 'sitemap', 'uses' => 'PostsController@xxx']);
 
     Route::get('/events/past', ['as' => 'pastEvents', 'uses' => 'EventsController@getPastEvents']);

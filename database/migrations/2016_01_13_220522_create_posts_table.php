@@ -18,12 +18,11 @@ class CreatePostsTable extends Migration
             $table->string('slug');
             $table->string('subtitle');
             $table->boolean('frontpage')->default(0);
-            $table->string('image');
             $table->text('body');
 
             $table->timestamps();
 
-            $table->index('slug');
+            $table->unique('slug');
         });
     }
 

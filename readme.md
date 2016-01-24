@@ -48,4 +48,10 @@ Favicon.ico
 
 ## Sitemap
 
-https://github.com/RoumenDamianoff/laravel-sitemap
+- https://github.com/RoumenDamianoff/laravel-sitemap
+- https://github.com/RoumenDamianoff/laravel-sitemap/wiki/Dynamic-sitemap
+
+
+## JS
+
+ - Imported OwnCarousel.js https://github.com/smashingboxes/OwlCarousel2

@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link href="/css/clean-blog.css" rel="stylesheet">
 
+    @stack('css')
+
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -73,7 +75,19 @@
 </nav>
 
 <!-- Page Header -->
-@yield('header')
+<header class="intro-header" style="background-image: url('@yield('image')')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>@yield('title')</h1>
+                    <hr class="small">
+                    @yield('subtitle')
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 <!-- Main Content -->
 @yield('content')
@@ -87,7 +101,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="https://www.twitter.com/melbournecocoa" alt="Melbourne Cocoaheads on Twitter">
+                        <a href="https://www.twitter.com/melbournecocoa" title="Melbourne Cocoaheads on Twitter">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -95,7 +109,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.github.com/melbournecocoa" alt="Melbourne Cocoaheads on Github">
+                        <a href="https://www.github.com/melbournecocoa" title="Melbourne Cocoaheads on Github">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -103,7 +117,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/rss" alt="RSS Feed">
+                        <a href="/rss" title="RSS Feed">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -111,7 +125,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/calendar" alt="iCal Calendar Feed">
+                        <a href="/calendar" title="iCal Calendar Feed">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
@@ -119,10 +133,18 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" alt="Melbourne Cocoaheads Tickets">
+                        <a href="http://melbournecocoaheads2016.eventbrite.com.au" title="Melbourne Cocoaheads Tickets">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://melbournecocoa.slack.com" title="Melbourne Cocoaheads Slack">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-slack fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
@@ -141,6 +163,8 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="/js/clean-blog.min.js"></script>
+
+@stack('scripts')
 
 </body>
 

@@ -1,19 +1,9 @@
 @extends('layouts.master')
 
-@section('header')
-    <header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Melbourne Cocoaheads</h1>
-                        <hr class="small">
-                        <span class="subheading">{{ $title }}</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+@section('image', '/img/cch-events-bg.jpg')
+@section('title', 'Melbourne Cocoaheads')
+@section('subtitle')
+    <span class="subheading">{{ $title }}</span>
 @endsection
 
 @section('content')
@@ -90,7 +80,7 @@
                     <hr>
                 @endforeach
 
-                @if($events->total() < 1)
+                @if(count($events) < 1)
                     <div class="post-preview">
                         <p>There are no events scheduled.</p>
                     </div>
