@@ -59,7 +59,7 @@
                     <a href="/events">Events</a>
                 </li>
                 <li>
-                    <a href="/posts">Updates</a>
+                    <a href="/updates">Updates</a>
                 </li>
                 <li>
                     <a href="/about">About</a>

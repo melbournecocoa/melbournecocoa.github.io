@@ -6,18 +6,36 @@
     @if($event)
         <p class="subheading">
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-            <a href="{{ $event->url() }}" style="color:white">Next Meetup</a> &rarr; {{ $event->starts_at->format('l jS \\of F Y \\@ g:iA') }}
+            <a href="{{ $event->url() }}" style="color:white">Next Meetup</a> &rarr; {{ $event->getFormattedTimeAttribute() }}
         </p>
-        <p class="subheading">
-            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-            {{ $event->location }} - {{ $event->address_display }}
-        </p>
+        {{--<p class="subheading">--}}
+            {{--<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>--}}
+            {{--{{ $event->location }} - {{ $event->address_display }}--}}
+        {{--</p>--}}
     @else
         <p class="subheading">
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
             No upcoming events scheduled.
         </p>
     @endif
+
+    @if($hacknight)
+        <p class="subheading">
+            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+            <a href="{{ $hacknight->url() }}" style="color:white">Next Hacknight</a> &rarr; {{ $hacknight->getFormattedTimeAttribute() }}
+        </p>
+        {{--<p class="subheading">--}}
+            {{--<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>--}}
+            {{--{{ $hacknight->location }} - {{ $hacknight->address_display }}--}}
+        {{--</p>--}}
+    @else
+        <p class="subheading">
+            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+            No upcoming hacknights scheduled.
+        </p>
+    @endif
+
+
 @endsection
 
 @section('content')

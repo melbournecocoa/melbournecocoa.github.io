@@ -12,8 +12,9 @@ class PostsController extends Controller
         $posts = (new Post)->homepagePosts()->get();
 
         $event = (new Event)->nextEvent()->first();
+        $hacknight = (new Event)->nextHacknight()->first();
 
-        return view('index', ['posts' => $posts, 'event' => $event]);
+        return view('index', ['posts' => $posts, 'event' => $event, 'hacknight' => $hacknight]);
     }
 
     public function getPosts()
