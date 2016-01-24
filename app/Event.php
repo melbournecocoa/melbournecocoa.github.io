@@ -34,12 +34,20 @@ class Event extends Model
         $sa = $this->starts_at->copy()->setTimeZone($tz);
         $ea = $this->ends_at->copy()->setTimeZone($tz);
 
-        return $sa->format('l jS \\of F Y \\@ g:i') . ' - '. $ea->format('g:i A');
+        return $sa->format('D jS \\of M Y \\@ g:i') . ' - '. $ea->format('g:i A');
     }
 
     public function scopeNextEvent($query)
     {
-        return $query->where('type', '=', EVent::MEETUP)
+        return $query->where('type', '=', Event::MEETUP)
+            ->where('ends_at', '>=', Carbon::now(new \DateTimeZone('UTC')))
+            ->orderBy('starts_at')
+            ->limit(1);
+    }
+
+    public function scopeNextHacknight($query)
+    {
+        return $query->where('type', '=', Event::HACKNIGHT)
             ->where('ends_at', '>=', Carbon::now(new \DateTimeZone('UTC')))
             ->orderBy('starts_at')
             ->limit(1);

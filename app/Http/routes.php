@@ -25,8 +25,8 @@
 Route::group(['middleware' => ['web']], function () {
     Route::get('/', ['as' => 'home', 'uses' => 'PostsController@getHome']);
 
-    Route::get('/posts', ['as' => 'posts', 'uses' => 'PostsController@getPosts']);
-    Route::get('/posts/{post}', ['as' => 'post', 'uses' => 'PostsController@getSinglePost']);
+    Route::get('/updates', ['as' => 'posts', 'uses' => 'PostsController@getPosts']);
+    Route::get('/updates/{post}', ['as' => 'post', 'uses' => 'PostsController@getSinglePost']);
 
     Route::get('/events', ['as' => 'events', 'uses' => 'EventsController@getEvents']);
     Route::get('/event/{event}', ['as' => 'event', 'uses' => 'EventsController@getSingleEvent']);
@@ -43,4 +43,32 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/events/past', ['as' => 'pastEvents', 'uses' => 'EventsController@getPastEvents']);
 //    Route::get('/calendar', ['as' => 'calendar', 'uses' => 'EventsController@xxx']);
 //    Route::get('/rss', ['as' => 'calendar', 'uses' => 'EventsController@xxx']);
+});
+
+Route::group(['prefix' => '/api', 'middleware' => ['api']], function () {
+
+    Route::get('/events', function () {
+        //TODO: Cache
+        $events = (new \App\Event())->nextEvent()->limit(null)->get();
+        $hacknights = (new \App\Event())->where('type', '=', \App\Event::HACKNIGHT)->get();
+        return response()->json(['meetups' => $events, 'hacknights' => $hacknights]);
+    });
+
+    Route::get('/events/next', function () {
+        //TODO: Cache
+        $event = (new \App\Event)->nextEvent()->first();
+        $hacknight = (new \App\Event)->nextHacknight()->first();
+
+        return response()->json(['meetups' => [$event], 'hacknights' => [$hacknight]]);
+    });
+
+    Route::get('/events/past', function () {
+        //TODO: Cache
+        $events = (new \App\Event())->where('type', '=', \App\Event::MEETUP)->get();
+        $hacknights = (new \App\Event())->where('type', '=', \App\Event::HACKNIGHT)->get();
+        return response()->json(['meetups' => $events, 'hacknights' => $hacknights]);
+    });
+
+
+
 });
