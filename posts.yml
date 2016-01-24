@@ -1,7 +1,74 @@
 posts:
+  - title: Welcome to Cocoaheads for 2016!
+    subtitle: New website, new calendar and an API!
+    frontpage: 1
+    created_at: 2016-01-24 03:30:00
+    events:
+    - 1
+    - 2
+    body: |
+      <p>I hope everyone had a good holiday break!</p>
+
+      <p>We're kicking off 2016 with our final Little Creatures Dining Hall Hack Night on Tuesday the 26th and our fist meetup on Thursday Feb 11th at Teamsquare.</p>
+
+      <p><strong>If you'd like to present in February</strong> please get in touch via <a href="mailto:jesse@jcmultimedia.com.au">email</a> or on slack.</p>
+
+      <p>We are working on a new venue for Hacknights after January. Suggestions welcome.</p>
+
+      <p>Checkout the <a href="/events">events page</a> for more details and to RSVP for February.</p>
+
+      <h3>New Website</h3>
+
+      <p>I've put together this new website with a new calendar, a RSS feed and an API to help keep things organised in 2016.
+      The new setup moves us away from the padded world of WYSIWYG editors and theme pickers at Squarespace and into the amazing world of hand crafted CSS and #Javascipt.</p>
+
+      <p>The new site is <a href="https://github.com/melbournecocoa/website">open source</a>, written in <a href="http://i.imgur.com/RdaFJ.gif">PHP</a> and using the
+      <a href="https://laravel.com">Laravel</a> framework. It is hosted on Heroku. Contributions are welcome.</p>
+
+      <h3>Venue</h3>
+
+      <p>Teamsquare have been confirmed as hosts for the whole year.<p>
+
+      <h3>Sponsors</h3>
+
+      <p>Sponsors are being sought for Feb - December.</p>
+
+      <h3>Event Calendar</h3>
+
+      <p>The old Google calendar was just another thing I would forget to update so I've integrated a calendar feed here that I don't have to manage separately.</p>
+
+      <p>Subscribe to the new calendar feed <a href="/calendar">here</a>.</p>
+
+      <p>All events for 2016 are scheduled (even the tentative ones) over on the <a href="/events" title="Events Page">events page</a>.</p>
+
+      <p>Each event links through to relevant updates on the event, ticketing and location and sponsor information.</p>
+
+      <h3>RSS Feed</h3>
+
+      <p>The new RSS feed represents the updates that appear over at the <a href="/updates">updates</a> page. This feed is also syndicated in the #general cocoaheads slack channel.
+
+      <p>Subscribe RSS feed <a href="/rss">here</a>.</p>
+
+      <H3>Events API</h3>
+
+      <p>The events API is a JSON representation of the events. There are three simple endpoints.</p>
+
+      <ul>
+          <li><code>/api/events</code> - All upcoming scheduled events</li>
+          <li><code>/api/events/past</code> - All past events</li>
+          <li><code>/api/events/next</code> - Just the next hack night and meetup</li>
+      </ul>
+
+      <p>Just throw a GET request at these endpoints and you'll get a JSON response.</p>
+
+      <h3>Slack</h3>
+
+      <p>Just a shout out for our slack channel. We are over 130 people strong at the moment and has more or less consumed all the traffic from the mailing list.
+      If you'd like an invite get in touch with me on <a href="https://twitter.com/sirjec">twitter</a> or via <a href="mailto:jesse@jcmultimedia.com.au">email</a>.</p>
+
   - title: Melbourne Cocoaheads 2015 End of Year Meetup (#90)
     subtitle: Celebrating 9 years of meetups!
-    frontpage: 1
+    frontpage: 2
     created_at: 2015-12-01 00:00:01
     body: |
       <h2>2015 has been a really exciting year!</h2>
