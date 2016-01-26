@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use App\Event;
+use App\Sponsor;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 
@@ -41,6 +42,8 @@ class GenerateYearlyEvents extends Command
     {
         // internally, if there's no year we will do the current year
         $year = $this->argument('year') ?? date('Y');
+
+        $this->createSponsors();
 
         /**
          * @var $date Carbon
@@ -137,7 +140,6 @@ class GenerateYearlyEvents extends Command
         $event->address = 'Level 1, 520 Bourke Street, Melbourne VIC 3000';
         $event->lat = -37.8153744;
         $event->lng = 144.958427;
-        //TODO: Update eventbrite
         $event->tickets = $tickets[$startDate->month - 2];
         $event->contact = 'mailto:jesse@jcmultimedia.com.au';
         $event->contact_name = 'Jesse Collis';
@@ -154,5 +156,14 @@ class GenerateYearlyEvents extends Command
         }
 
         $event->save();
+
+        // save the event, add sponsors
+        $event->sponsors()->save(Sponsor::first());
+    }
+
+    //TODO: create sponsors where required.
+    private function createSponsors()
+    {
+        factory(\App\Sponsor::class)->create();
     }
 }
