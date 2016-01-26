@@ -13,13 +13,9 @@
                 @foreach($events as $event)
                     <div class="post-preview">
                         <a href="{{ $event->url() }}">
-                            <h2 class="post-title">
-                                {{ $event->title }}
-                            </h2>
+                            <h2 class="post-title">{{ $event->title }}</h2>
                         </a>
-                        <p>
-                            {{ $event->subtitle }}
-                        </p>
+                        <p>{{ $event->subtitle }}</p>
 
                         <h3>When &amp; Where</h3>
 
@@ -43,24 +39,26 @@
                         </ul>
 
                         @if(!$event->sponsors->isEmpty())
-                        <h3>Sponsors</h3>
+                            <h3>Sponsors</h3>
 
-                            @foreach($event->sponsors as $sponsor)
-                                <a href="{{ $sponsor->web }}"><img src="/img/{{ $sponsor->image }}" alt="{{$sponsor->name}}" class="img-responsive"></a>
-                            @endforeach
+                            <div class="row">
+                                @foreach($event->sponsors as $sponsor)
+                                    <div class="col-md-6 col-sm-12">
+                                        <a href="{{ $sponsor->web }}"><img class="img-responsive" src="/img/{{ $sponsor->image }}" alt="{{$sponsor->name}}" ></a>
+                                    </div>
+                                @endforeach
+                            </div>
 
                         @endif
 
                         @if($event->tickets)
                             <h3>Tickets</h3>
 
-                            <p>
                             <ul class="list-inline">
                                 <li>
                                     <i class="fa fa-ticket"></i> <a href="{{ $event->tickets }}">Tickets</a>
                                 </li>
                             </ul>
-                            </p>
                         @endif
 
                         @if(!$event->posts->isEmpty())
