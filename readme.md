@@ -1,5 +1,21 @@
 # Cocoaheads 2016
 
+## Running this locally
+
+- homebrew
+- homebrew php
+- php70
+
+```sh
+php artisan key:generate
+touch database/database.sqlite
+php artisan migrate
+php artisan cocoa:events
+php artisan cocoa:posts
+php artisan serve
+```
+
+
 ## API
 
 Return a JSON file with the `next` 'event'.
