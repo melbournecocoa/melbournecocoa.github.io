@@ -47,6 +47,9 @@ class LoadPosts extends Command
             $newPost->subtitle = $post['subtitle'];
             $newPost->body = $post['body'];
             $newPost->frontpage = $post['frontpage'];
+            if (isset($post['coverImage'])) {
+                $newPost->coverImage = $post['coverImage'];
+            }
 
             $newPost->created_at = $post['created_at'];
             $newPost->updated_at = Carbon::now();

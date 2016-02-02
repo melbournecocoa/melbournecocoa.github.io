@@ -19,6 +19,7 @@ class CreatePostsTable extends Migration
             $table->string('subtitle');
             $table->boolean('frontpage')->default(0);
             $table->text('body');
+            $table->string('coverImage')->nullable();
 
             $table->timestamps();
 
