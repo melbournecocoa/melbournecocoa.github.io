@@ -38,9 +38,12 @@ curl -i https://calendar.google.com/calendar/ical/rrb183sckdpi5pi4hrk5u36dbc%40g
 
 ## Open Graph
 
+https://github.com/artesaos/seotools
+
 Twitter cards: https://dev.twitter.com/cards/getting-started
 
 Open graph: http://ogp.me
+
 
 ## Graphics
 
