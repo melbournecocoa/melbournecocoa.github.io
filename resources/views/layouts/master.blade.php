@@ -63,9 +63,9 @@
                 <li>
                     <a href="/about">About</a>
                 </li>
-                <li>
-                    <a href="/contact">Contact</a>
-                </li>
+                {{--<li>--}}
+                    {{--<a href="/contact">Contact</a>--}}
+                {{--</li>--}}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -148,7 +148,8 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Melbourne Cocoaheads {{ date('Y') }} | <a href="/sitemap">Sitemap</a></p>
+                <p class="copyright text-muted">Melbourne Cocoaheads {{ date('Y') }}</p>
+                {{--| <a href="/sitemap">Sitemap</a>--}}
             </div>
         </div>
     </div>

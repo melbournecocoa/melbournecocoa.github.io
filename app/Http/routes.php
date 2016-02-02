@@ -41,7 +41,7 @@ Route::group(['middleware' => ['web']], function () {
 //    Route::get('/sitemap', ['as' => 'sitemap', 'uses' => 'PostsController@xxx']);
 
     Route::get('/events/past', ['as' => 'pastEvents', 'uses' => 'EventsController@getPastEvents']);
-//    Route::get('/calendar', ['as' => 'calendar', 'uses' => 'EventsController@xxx']);
+    Route::get('/calendar', ['as' => 'calendar', 'uses' => 'EventsController@calendar']);
     Route::get('/rss', ['as' => 'feed', 'uses' => 'PostsController@feed']);
 });
 

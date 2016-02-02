@@ -72,4 +72,9 @@ class EventsController extends Controller
 
         return view('events', ['events' => $events, 'title' => 'Past Events']);
     }
+
+    public function calendar()
+    {
+        return 'Coming soon!';
+    }
 }
