@@ -42,7 +42,7 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::get('/events/past', ['as' => 'pastEvents', 'uses' => 'EventsController@getPastEvents']);
 //    Route::get('/calendar', ['as' => 'calendar', 'uses' => 'EventsController@xxx']);
-//    Route::get('/rss', ['as' => 'calendar', 'uses' => 'EventsController@xxx']);
+    Route::get('/rss', ['as' => 'feed', 'uses' => 'PostsController@feed']);
 });
 
 Route::group(['prefix' => '/api', 'middleware' => ['api']], function () {
@@ -68,7 +68,5 @@ Route::group(['prefix' => '/api', 'middleware' => ['api']], function () {
         $hacknights = (new \App\Event())->where('type', '=', \App\Event::HACKNIGHT)->get();
         return response()->json(['meetups' => $events, 'hacknights' => $hacknights]);
     });
-
-
 
 });

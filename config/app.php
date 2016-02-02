@@ -155,7 +155,8 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
+        Roumen\Feed\FeedServiceProvider::class
 
     ],
 
@@ -183,6 +184,7 @@ return [
         'DB'        => Illuminate\Support\Facades\DB::class,
         'Eloquent'  => Illuminate\Database\Eloquent\Model::class,
         'Event'     => Illuminate\Support\Facades\Event::class,
+        'Feed'      => Roumen\Feed\Facades\Feed::class,
         'File'      => Illuminate\Support\Facades\File::class,
         'Gate'      => Illuminate\Support\Facades\Gate::class,
         'Hash'      => Illuminate\Support\Facades\Hash::class,
