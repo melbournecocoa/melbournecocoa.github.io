@@ -4,9 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4f1d23c8b323944eeb364a3b4828a5e4",
-    "content-hash": "9e6ccbb4b66c480e58b6844128e6901e",
+    "hash": "8fbf3dcae83a1d9438816eed2d2b31ce",
+    "content-hash": "91a753f39330ae8c819c3514fa83f088",
     "packages": [
+        {
+            "name": "artesaos/seotools",
+            "version": "v0.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artesaos/seotools.git",
+                "reference": "f173a3f8f16353594e57819f79ccfb0e675ba063"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/artesaos/seotools/zipball/f173a3f8f16353594e57819f79ccfb0e675ba063",
+                "reference": "f173a3f8f16353594e57819f79ccfb0e675ba063",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "~5",
+                "illuminate/support": "~5",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "2.1.x",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Artesaos\\SEOTools\\": "src/SEOTools/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vinicius",
+                    "email": "luiz.vinicius73@gmail.com"
+                }
+            ],
+            "description": "SEO Tools for Laravel and Lumen",
+            "keywords": [
+                "laravel5",
+                "lumen",
+                "metatags",
+                "opengraph",
+                "seo",
+                "seotools",
+                "webmaster"
+            ],
+            "time": "2016-01-24 21:43:40"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
