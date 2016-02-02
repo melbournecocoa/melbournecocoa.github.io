@@ -16,6 +16,10 @@ php artisan serve
 ```
 
 
+## Writing Posts
+
+You can write posts by creating new entries in posts.yml. These are ingested automatically on deployment.
+
 ## API
 
 Return a JSON file with the `next` 'event'.
