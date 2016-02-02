@@ -17,7 +17,7 @@ class CreatePostsTable extends Migration
             $table->string('title');
             $table->string('slug');
             $table->string('subtitle');
-            $table->boolean('frontpage')->default(0);
+            $table->unsignedInteger('frontpage')->default(0);
             $table->text('body');
             $table->string('coverImage')->nullable();
 

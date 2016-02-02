@@ -51,7 +51,9 @@ class LoadPosts extends Command
                 $newPost->coverImage = $post['coverImage'];
             }
 
-            $newPost->created_at = $post['created_at'];
+            $date = Carbon::createFromTimestamp($post['created_at']);
+
+            $newPost->created_at = $date;
             $newPost->updated_at = Carbon::now();
 
             $newPost->save();
