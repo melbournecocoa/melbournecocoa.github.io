@@ -14,6 +14,7 @@ class CreateEventsTable extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('slug');
             $table->string('type');
             $table->string('title');
             $table->text('subtitle');
@@ -31,6 +32,7 @@ class CreateEventsTable extends Migration
             $table->timestamps();
 
             $table->index('type');
+            $table->unique('slug');
         });
 
         Schema::create('events_sponsors', function (Blueprint $table) {

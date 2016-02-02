@@ -6,6 +6,7 @@ use App\Event;
 use App\Sponsor;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
+use Illuminate\Support\Str;
 
 class GenerateYearlyEvents extends Command
 {
@@ -77,8 +78,13 @@ class GenerateYearlyEvents extends Command
             $startDate->addDay(1);
         }
 
-        $event = new Event;
+        // using slug as a unique string identifier
+        $slug = Str::slug(Event::HACKNIGHT . " $startDate");
+
+        $event = Event::firstOrNew(['slug' => $slug]);
+
         $event->type = Event::HACKNIGHT;
+        $event->slug = $slug;
         $event->title = 'Hack Night';
         $event->subtitle = 'Melbourne Cocoaheads Hack Night';
         $event->starts_at = $startDate;
@@ -130,8 +136,12 @@ class GenerateYearlyEvents extends Command
             'https://melbournecocoaheads-dec-2016.eventbrite.com.au'
         ];
 
-        $event = new Event;
+        // using slug as a unique string identifier
+        $slug = Str::slug(Event::MEETUP . " $startDate");
+
+        $event = Event::firstOrNew(['slug' => $slug]);
         $event->type = Event::MEETUP;
+        $event->slug = Str::slug("$event->type $startDate");
         $event->starts_at = $startDate;
         $event->ends_at = $startDate->copy()->addHours(3);
         $event->location = 'Teamsquare';
