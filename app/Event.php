@@ -54,4 +54,11 @@ class Event extends Model
             ->orderBy('starts_at')
             ->limit(1);
     }
+
+    public function scopeUpcomingEvents($query)
+    {
+        return $query->where('ends_at', '>=', Carbon::now())
+            ->orderBy('starts_at');
+    }
+
 }

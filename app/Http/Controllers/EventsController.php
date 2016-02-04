@@ -11,8 +11,7 @@ class EventsController extends Controller
     public function getEvents()
     {
         $events = Event::with('posts')
-            ->where('ends_at', '>=', Carbon::now())
-            ->orderBy('starts_at')
+            ->upcomingEvents()
             ->paginate(10);
 
         SEO::setTitle('Upcoming Events - Melbourne Cocoaheads');
@@ -75,6 +74,64 @@ class EventsController extends Controller
 
     public function calendar()
     {
-        return 'Coming soon!';
+        $events = (new Event)->upcomingEvents()->get();
+
+        $header = <<<EOT
+BEGIN:VCALENDAR
+PRODID:-//Melbourne Cocoaheads//Event Calendar//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Melbourne Cocoaheads
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:Calendar for Melbourne Cocoaheads. Meetings are scheduled for the second Thursday of the month from
+ February to December.For more inform ation visit http://www.melbournecocoaheads.com and
+ https://groups.google.com/group/cocoaheadsau and @melbournecocoa on twitter.
+EOT;
+
+        $body = '';
+        foreach ($events as $event) {
+            $startTimestamp = $event->starts_at->format('Ymd\THis\Z');
+            $endsTimestamp = $event->ends_at->format('Ymd\THis\Z');
+            $createdTimestamp = $event->created_at->format('Ymd\THis\Z');
+            $modifiedTimestamp = $event->updated_at->format('Ymd\THis\Z');
+            $uid = $event->id;
+
+            $address = str_replace(",", "\\,", $event->address_display);
+
+            $eventBody = <<<EOT
+BEGIN:VEVENT
+DTSTART:$startTimestamp
+DTEND:$endsTimestamp
+UID:$uid
+CLASS:PUBLIC
+CREATED:$createdTimestamp
+DESCRIPTION:$event->subtitle see {$event->url()} for more information.
+LAST-MODIFIED:$modifiedTimestamp
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:$event->title
+GEO:$event->lat;$event->lng
+LOCATION:$address
+TRANSP:TRANSPARENT
+END:VEVENT
+
+EOT;
+            $body .= $eventBody;
+        }
+
+        $footer = <<<EOT
+END:VCALENDAR
+EOT;
+
+        /**
+         * TODO: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+         */
+        $response = str_replace("\r\n", "\n", "$header\n$body\n$footer");
+        $response = str_replace("\n", "\r\n", $response);
+
+        return response($response, 200, [
+           'Content-Type' => 'text/calendar; charset=UTF-8'
+        ]);
     }
 }
