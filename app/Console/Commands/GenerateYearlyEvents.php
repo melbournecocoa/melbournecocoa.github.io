@@ -174,6 +174,11 @@ class GenerateYearlyEvents extends Command
     //TODO: create sponsors where required.
     private function createSponsors()
     {
-        factory(\App\Sponsor::class)->create();
+        $sponsor = new Sponsor();
+        $sponsor->name = 'Teamsquare';
+        $sponsor->image = 'sponsors/teamsquare.png';
+        $sponsor->web = 'https://teamsquare.co';
+        $sponsor->twitter = 'teamsquare';
+        $sponsor->save();
     }
 }
