@@ -18,7 +18,7 @@ class PostsController extends Controller
         $post = $posts->first();
 
         $description = <<<EOT
-Melbourne Cocoaheads - Next Meetup $event->getFormattedTimeAttribute(). Next Hacknight $hacknight->getFormattedTimeAttribute().
+Melbourne Cocoaheads - Next Meetup {$event->getFormattedTimeAttribute()}. Next Hacknight {$hacknight->getFormattedTimeAttribute()}.
 EOT;
 
         SEO::setTitle('Melbourne Cocoaheads');
