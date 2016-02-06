@@ -3,7 +3,7 @@
 ## Deploying to Heroku
 
 ```sh
-git push heroku master
+git push heroku master      
 heroku run php artisan migrate:refresh --force && heroku run php artisan cocoa:events && heroku run php artisan cocoa:posts 
 ```
 
