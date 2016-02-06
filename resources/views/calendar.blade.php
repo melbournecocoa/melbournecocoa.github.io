@@ -15,7 +15,11 @@
 
                     <p>All the <a href="/events">events</a> are syndicated in an iCal feed that you can subscribe too. The best way to
                         subscribe is to add the following address as a new calendar subscription.</p>
+
                     <pre>{{ route('calendarFeed') }}</pre>
+
+                    <div class="alert alert-info" role="alert">You can also <a style="text-decoration:underline;" href="{{ route('calendarFeed') }}">click here</a> to load the calendar url directly.</div>
+
 
                     <p>The keyboard shortcut in Calendar.app is <kbd>Command</kbd> <kbd>Option</kbd> <kbd>S</kbd></p>
 

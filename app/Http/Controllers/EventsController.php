@@ -131,7 +131,8 @@ EOT;
         $response = str_replace("\n", "\r\n", $response);
 
         return response($response, 200, [
-           'Content-Type' => 'text/calendar; charset=UTF-8'
+           'Content-Type' => 'text/calendar; charset=UTF-8',
+            'Content-Disposition' => 'attachment; filename=cocoaheads-calendar.ics'
         ]);
     }
 }

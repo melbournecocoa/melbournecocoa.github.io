@@ -44,7 +44,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/calendar', ['as' => 'calendar', function () {
         return view('calendar');
     }]);
-    Route::get('/calendar/ical', ['as' => 'calendarFeed', 'uses' => 'EventsController@calendar']);
+    Route::get('/calendar/ical.ics', ['as' => 'calendarFeed', 'uses' => 'EventsController@calendar']);
     Route::get('/rss', ['as' => 'feed', 'uses' => 'PostsController@feed']);
 });
 
