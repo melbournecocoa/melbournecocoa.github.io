@@ -55,17 +55,17 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/events">Events</a>
+                    <a href="{{ route('events') }}">Events</a>
                 </li>
                 <li>
-                    <a href="/updates">Updates</a>
+                    <a href="{{ route('posts') }}">Updates</a>
                 </li>
                 <li>
-                    <a href="/about">About</a>
+                    <a href="{{ route('about') }}">About</a>
                 </li>
-                {{--<li>--}}
-                    {{--<a href="/contact">Contact</a>--}}
-                {{--</li>--}}
+                <li>
+                    <a href="{{ route('calendar') }}">Calendar</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -116,7 +116,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/rss" title="RSS Feed">
+                        <a href="{{ route('feed') }}" title="RSS Feed">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -124,7 +124,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/calendar" title="iCal Calendar Feed">
+                        <a href="{{ route('calendar') }}" title="iCal Calendar Feed">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>

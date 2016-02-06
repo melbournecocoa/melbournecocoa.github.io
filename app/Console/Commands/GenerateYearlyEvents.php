@@ -167,18 +167,81 @@ class GenerateYearlyEvents extends Command
 
         $event->save();
 
-        // save the event, add sponsors
-        $event->sponsors()->save(Sponsor::first());
+        $event->sponsors()->detach();
+
+        $host = Sponsor::where('name', '=', 'Teamsquare')->first();
+        $event->sponsors()->attach($host);
+
+        switch($event->starts_at->month) {
+            case 1:
+                break;
+            case 2:
+                $event->sponsors()->attach(Sponsor::where('name', 'B2Cloud')->first());
+                break;
+            case 3:
+//                $event->sponsors()->attach(Sponsor::where('name', 'jtribe')->first());
+                break;
+            case 4:
+//                $event->sponsors()->attach(Sponsor::where('name', 'Vinomofo')->first());
+                break;
+            case 5:
+//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                break;
+            case 6:
+//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                break;
+            case 7:
+//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                break;
+            case 8:
+//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                break;
+            case 9:
+//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                break;
+            case 10:
+//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                break;
+            case 11:
+//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                break;
+            case 12:
+//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                break;
+        }
     }
 
-    //TODO: create sponsors where required.
     private function createSponsors()
     {
-        $sponsor = new Sponsor();
-        $sponsor->name = 'Teamsquare';
-        $sponsor->image = 'sponsors/teamsquare.png';
-        $sponsor->web = 'https://teamsquare.co';
-        $sponsor->twitter = 'teamsquare';
-        $sponsor->save();
+        $sponsors = [
+            [
+                'name' => 'Teamsquare',
+                'image' => 'sponsors/teamsquare.png',
+                'web' => 'https://teamsquare.co',
+                'twitter' => 'teamsquare'
+            ],
+            [
+                'name' => 'B2Cloud',
+                'image' => 'sponsors/b2cloud.jpg',
+                'web' => 'http://b2cloud.com.au',
+                'twitter' => 'b2cloud'
+            ],
+            [
+                'name' => 'jtribe',
+                'image' => 'sponsors/jtribe.png',
+                'web' => 'http://jtribe.com.au',
+                'twitter' => 'jtribeapps'
+            ],
+            [
+                'name' => 'Vinomofo',
+                'image' => 'sponsors/vinomofo.png',
+                'web' => 'https://vinomofo.com',
+                'twitter' => 'vinomofo'
+            ]
+        ];
+
+        foreach ($sponsors as $s) {
+            Sponsor::firstOrCreate($s);
+        }
     }
 }

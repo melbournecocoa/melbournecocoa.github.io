@@ -4,6 +4,7 @@ namespace App;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Event extends Model
 {
@@ -61,4 +62,10 @@ class Event extends Model
             ->orderBy('starts_at');
     }
 
+    public function formattedSponsorNames()
+    {
+        return implode(' and ', array_map(function ($s) {
+            return $s->name;
+        }, $this->sponsors->all()));
+    }
 }

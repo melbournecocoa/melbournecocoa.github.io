@@ -41,10 +41,11 @@
                         @if(!$event->sponsors->isEmpty())
                             <h3>Sponsors</h3>
 
+                            <p>Thanks to our sponsors for this month - {{ $event->formattedSponsorNames() }}.</p>
                             <div class="row">
                                 @foreach($event->sponsors as $sponsor)
                                     <div class="col-md-6 col-sm-12">
-                                        <a href="{{ $sponsor->web }}"><img class="img-responsive" src="/img/{{ $sponsor->image }}" alt="{{$sponsor->name}}" ></a>
+                                        <a href="{{ $sponsor->web }}"><img style="cursor:auto" class="img-responsive" src="/img/{{ $sponsor->image }}" alt="{{$sponsor->name}}" ></a>
                                     </div>
                                 @endforeach
                             </div>
