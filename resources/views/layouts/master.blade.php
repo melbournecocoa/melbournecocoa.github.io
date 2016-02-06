@@ -148,7 +148,8 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Melbourne Cocoaheads {{ date('Y') }}</p>
+                <p class="copyright text-muted">Melbourne Cocoaheads {{ date('Y') }}.</p>
+                <p class="copyright text-muted"><a href="https://github.com/melbournecocoa/website">Source</a></p>
                 {{--| <a href="/sitemap">Sitemap</a>--}}
             </div>
         </div>
