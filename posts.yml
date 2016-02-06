@@ -1,7 +1,49 @@
 posts:
+  - title: February Event and a call for speakers!
+    subtitle: Our first event for 2016 kicks off next week!
+    frontpage: 1
+    created_at: 2016-02-06 01:00:00 +0
+    events:
+    - 2
+    coverImage: /img/posts/2016-02/2016-02-cocoaheads-cover.jpg
+    body: |
+      <p>Our <a href="/events/3">first event for 2016</a> kicks off next week at Teamsqaure!</p>
+
+      <img src="/img/posts/2016-02/2016-02-cocoaheads-cover.jpg" alt="Melbourne Cocoaheads February 11 2016" class="img-responsive">
+
+      <p>At this stage we're looking for a couple of additional presentations and lightening talks. <strong>If you've got an idea for a talk or have done something cool over the break
+      you want to share with everyone please get in touch!</strong></p>
+
+      <h3>Remembering Tom Parry</h3>
+
+      <p>Over the break we were informed of some very sad news. A long time Melbourne Cocoaheads member, Tom Parry passed away.</p>
+
+      <p>Tom was a great contributor to Melbourne Cocoaheads over the years. He was a regular atendee, alway asking good questions
+      during presentations and he himself presented his <a href="https://github.com/tparry/PDFImage.framework">PDFImage.framework</a> project in October 2014.</p>
+
+      <p>Josh Guest from b2cloud is going to give us a lightning talk this month remembering Tom and highlighting mental health awareness.</p>
+
+      <h3 class="section-heading">Presentations for February</h3>
+
+      <ul>
+        <li>Jesse Collis - <s>The Month That Was</s> The Months That Were</li>
+        <li>Jake Lin - IBDesignable, IBInspectable and IBAnimatable</li>
+      </ul>
+
+      <h3>Slack channel invites</h3>
+
+      <p>If you haven't joined our slack channel and you'd like too, send me an <a href="mailto:jesse@jcmultimedia.com.au">email</a> and I'll get you invited. The #general slack
+      channel has quickly over taken the mailing list with day to day discussions and help with all things swift, cocoa.
+
+      <h3>2016 sponsorships</h3>
+
+      <p>Just another reminder that if you're keen to sponsor Cocoaheads this year to let me know if you haven't already. I'll be finalising things through February.</p>
+
+      <div class="alert alert-info" role="alert">I will keep this post up to date throughout the next week</div>
+
   - title: Welcome to Cocoaheads for 2016!
     subtitle: New website, new calendar and an API!
-    frontpage: 1
+    frontpage: 2
     created_at: 2016-01-24 03:30:00 +0
     events:
     - 3
