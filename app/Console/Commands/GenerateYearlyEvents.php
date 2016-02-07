@@ -185,28 +185,28 @@ class GenerateYearlyEvents extends Command
 //                $event->sponsors()->attach(Sponsor::where('name', 'Vinomofo')->first());
                 break;
             case 5:
-//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 6:
-//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', 'Odecee')->first());
                 break;
             case 7:
-//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', 'realestate.com.au')->first());
                 break;
             case 8:
-//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 9:
-//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', 'Outware')->first());
                 break;
             case 10:
 //                $event->sponsors()->attach(Sponsor::where('name', '')->first());
                 break;
             case 11:
-//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 12:
-//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
         }
     }
@@ -237,7 +237,32 @@ class GenerateYearlyEvents extends Command
                 'image' => 'sponsors/vinomofo.png',
                 'web' => 'https://vinomofo.com',
                 'twitter' => 'vinomofo'
+            ],
+            [
+                'name' => 'Domestic Cat',
+                'image' => 'sponsors/domestic-cat.png',
+                'web' => 'http://domesticcat.com.au',
+                'twitter' => ''
+            ],
+            [
+                'name' => 'Odecee',
+                'image' => 'sponsors/edecee.jpg',
+                'web' => 'http://odecee.com.au',
+                'twitter' => 'odecee'
+            ],
+            [
+                'name' => 'Outware',
+                'image' => 'sponsors/outware.jpg',
+                'web' => 'http://www.outware.com.au',
+                'twitter' => 'outware'
+            ],
+            [
+                'name' => 'Realestate.com.au',
+                'image' => 'sponsors/realestate.jpg',
+                'web' => 'http://techblog.realestate.com.au',
+                'twitter' => 'realestate_au'
             ]
+
         ];
 
         foreach ($sponsors as $s) {
