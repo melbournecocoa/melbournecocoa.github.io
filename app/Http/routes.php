@@ -46,6 +46,8 @@ Route::group(['middleware' => ['web']], function () {
     }]);
     Route::get('/calendar/ical.ics', ['as' => 'calendarFeed', 'uses' => 'EventsController@calendar']);
     Route::get('/rss', ['as' => 'feed', 'uses' => 'PostsController@feed']);
+
+    Route::get('/slides', ['as'=> 'slides', 'uses' => 'SlidesController@slides']);
 });
 
 Route::group(['prefix' => '/api', 'middleware' => ['api']], function () {

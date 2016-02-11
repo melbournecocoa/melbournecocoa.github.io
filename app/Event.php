@@ -30,6 +30,12 @@ class Event extends Model
         return $this->belongsToMany(Sponsor::class, 'events_sponsors');
     }
 
+    // TODO: use this in the generator
+    public function eventNumber()
+    {
+        return 90 + (($this->starts_at->year - 2016) * 11) + ($this->starts_at->month - 1);
+    }
+
     public function getFormattedTimeAttribute()
     {
         $tz = new \DateTimeZone('Australia/Melbourne');
@@ -38,6 +44,26 @@ class Event extends Model
         $ea = $this->ends_at->copy()->setTimeZone($tz);
 
         return $sa->format('D jS \\of M Y \\@ g:i') . ' - '. $ea->format('g:i A');
+    }
+
+    /**
+     * Returns next scheduled event after this one
+     */
+    public function followingEvent()
+    {
+        return Event::where('starts_at', '>=', $this->ends_at)
+            ->where('type', '=', Event::MEETUP)
+            ->first();
+    }
+
+    /**
+     * Next HackNight after this one
+     */
+    public function followingHacknight()
+    {
+        return Event::where('starts_at', '>=', $this->ends_at)
+            ->where('type', '=', Event::HACKNIGHT)
+            ->first();
     }
 
     public function scopeNextEvent($query)
