@@ -179,34 +179,34 @@ class GenerateYearlyEvents extends Command
                 $event->sponsors()->attach(Sponsor::where('name', 'B2Cloud')->first());
                 break;
             case 3:
-//                $event->sponsors()->attach(Sponsor::where('name', 'jtribe')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'jtribe')->first());
                 break;
             case 4:
 //                $event->sponsors()->attach(Sponsor::where('name', 'Vinomofo')->first());
                 break;
             case 5:
-//                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 6:
 //                $event->sponsors()->attach(Sponsor::where('name', 'Odecee')->first());
                 break;
             case 7:
-//                $event->sponsors()->attach(Sponsor::where('name', 'realestate.com.au')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 8:
-//                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', 'realestate.com.au')->first());
                 break;
             case 9:
-//                $event->sponsors()->attach(Sponsor::where('name', 'Outware')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 10:
 //                $event->sponsors()->attach(Sponsor::where('name', '')->first());
                 break;
             case 11:
-//                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 12:
-//                $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
                 break;
         }
     }
@@ -240,7 +240,7 @@ class GenerateYearlyEvents extends Command
             ],
             [
                 'name' => 'Domestic Cat',
-                'image' => 'sponsors/domestic-cat.png',
+                'image' => 'sponsors/domestic_cat.png',
                 'web' => 'http://domesticcat.com.au',
                 'twitter' => ''
             ],
