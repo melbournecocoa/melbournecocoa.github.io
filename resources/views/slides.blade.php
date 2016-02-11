@@ -149,7 +149,7 @@ Great to practice your presentation skills
 ---
 
 # [FIT] PIZZA Time
-## Next - Back soon for Presentations & Lightning Talks
+## Back soon for Presentations & Lightning Talks
 
 ![](http://richthediabetic.com/wp-content/uploads/2013/07/Pizza.jpg)
 
