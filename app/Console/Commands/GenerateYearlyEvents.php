@@ -99,6 +99,13 @@ class GenerateYearlyEvents extends Command
             $event->address = '222 Brunswick Street, Fitzroy, VIC 3065';
             $event->lat = -37.8008;
             $event->lng = 144.978;
+        } elseif ($startDate->month === 2) {
+            $event->location = '1000 £ Bend';
+            $event->location_link = 'http://thousandpoundbend.com.au';
+            $event->address_display = '361 Little Lonsdale St, Melbourne';
+            $event->address = '361 Little Lonsdale St, Melbourne, VIC 3000';
+            $event->lat = -37.811672;
+            $event->lng = 144.959092;
         } else {
             $event->location = 'Location TBD';
             $event->location_link = 'http://www.melbournecocoaheads.com';
