@@ -1,7 +1,32 @@
 posts:
+  - title: March 2016 Event Annoucement
+    subtitle: 
+    frontpage: 1
+    created_at: 2016-02-28 00:00:01 +0
+    events:
+    - 4
+    - 5
+    coverImage:
+    body: |
+      <h3 class="section-heading">Presentations for March</h3>
+
+      <ul>
+        <li>Josh Kugelmann <a href="https://www.twitter.com/protosphere">@protosphere</a> - Communicating with iOS devices over USB</li>
+        <li>Simon Wade (CTO @ JTribe) - React Native</li>
+        <li>Ben Deckys &amp; Mark Robinson - Redux</li>
+        <li>Peter Goldsmith <a href="https://www.twitter.com/_petegoldsmith">@_petegoldsmith</a> - Playing around with Google’s ‘EarlGrey’ UIAutomation testing framework</li>
+      </ul>
+
+      <h3 class="section-heading">Speaking spots for March and April</h3>
+
+      <p>We still have space for one more presentation in March, and it's never too early to get in touch about presenting in April.
+      If you'd like to present <i>"The Month That Was"</i> in March let me know.</p>
+
+      <p>Head over to the <a href="/events/4">event page</a> for tickets, dates and times.</p>
+
   - title: February Event and a call for speakers!
     subtitle: Our first event for 2016 kicks off next week!
-    frontpage: 1
+    frontpage: 2
     created_at: 2016-02-06 01:00:00 +0
     events:
     - 2
@@ -45,7 +70,7 @@ posts:
 
   - title: Welcome to Cocoaheads for 2016!
     subtitle: New website, new calendar and an API!
-    frontpage: 2
+    frontpage: 3
     created_at: 2016-01-24 03:30:00 +0
     events:
     - 3
@@ -115,7 +140,7 @@ posts:
 
   - title: Melbourne Cocoaheads 2015 End of Year Meetup (#90)
     subtitle: Celebrating 9 years of meetups!
-    frontpage: 2
+    frontpage: 0
     created_at: 2015-12-01 00:00:01
     coverImage: /img/posts/cocoaheads-2015-12-cover.jpg
     body: |
