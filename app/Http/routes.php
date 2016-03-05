@@ -29,7 +29,8 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/updates/{post}', ['as' => 'post', 'uses' => 'PostsController@getSinglePost']);
 
     Route::get('/events', ['as' => 'events', 'uses' => 'EventsController@getEvents']);
-    Route::get('/event/{event}', ['as' => 'event', 'uses' => 'EventsController@getSingleEvent']);
+    Route::get('/events/{event}', ['as' => 'event', 'uses' => 'EventsController@getSingleEvent']);
+    Route::get('/event/{event}', ['as' => 'eventSingle', 'uses' => 'EventsController@getSingleEvent']);
 
     Route::get('/about', ['as' => 'about', function () {
         return view('about');
