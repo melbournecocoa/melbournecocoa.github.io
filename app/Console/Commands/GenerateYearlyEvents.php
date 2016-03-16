@@ -99,21 +99,21 @@ class GenerateYearlyEvents extends Command
             $event->address = '222 Brunswick Street, Fitzroy, VIC 3065';
             $event->lat = -37.8008;
             $event->lng = 144.978;
-        } elseif ($startDate->month === 2) {
+        } elseif ($startDate->month >= 2) {
             $event->location = '1000 £ Bend';
             $event->location_link = 'http://thousandpoundbend.com.au';
             $event->address_display = '361 Little Lonsdale St, Melbourne';
             $event->address = '361 Little Lonsdale St, Melbourne, VIC 3000';
             $event->lat = -37.811672;
             $event->lng = 144.959092;
-        } else {
+        }/* else {
             $event->location = 'Location TBD';
             $event->location_link = 'http://www.melbournecocoaheads.com';
             $event->address_display = 'Location TBD';
             $event->address = 'Location TBD';
             $event->lat = -37.8153744;
             $event->lng = 144.958427;
-        }
+        }*/
 
         $event->save();
     }
@@ -179,7 +179,7 @@ class GenerateYearlyEvents extends Command
         $host = Sponsor::where('name', '=', 'Teamsquare')->first();
         $event->sponsors()->attach($host);
 
-        switch($event->starts_at->month) {
+        switch ($event->starts_at->month) {
             case 1:
                 break;
             case 2:
@@ -189,7 +189,7 @@ class GenerateYearlyEvents extends Command
                 $event->sponsors()->attach(Sponsor::where('name', 'jtribe')->first());
                 break;
             case 4:
-//                $event->sponsors()->attach(Sponsor::where('name', 'Vinomofo')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'Vinomofo')->first());
                 break;
             case 5:
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
