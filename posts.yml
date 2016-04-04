@@ -1,7 +1,44 @@
 posts:
+  - title: Cocoaheads No. 93 - March 2016 Presentations
+    subtitle: Universal links for all!
+    frontpage: 1
+    created_at: 2016-04-04 22:00:01 +0
+    events:
+    - 6
+    - 7
+    coverImage:
+    body: |
+      <p>It's been one of those five week months and it's felt like ages since the March meetup!</p>
+
+      <p>We've had new <a href="https://twitter.com/lukew/status/712322467180642305">iPhon[ES]</a>,
+      new iPads, an <a href="https://twitter.com/lukew/status/712322467180642305">iPhone recycling robot</a>, Xcode 7.3, Safari was
+      <a href="http://arstechnica.com/apple/2016/03/poorly-behaved-app-causing-crashes-and-link-problems-for-some-ios-9-x-users">broken for a solid week</a>
+      and this car company stole Apple's marketing play book and managed to get people to <a href="https://twitter.com/elonmusk/status/715303533659041792">line up</a>,
+      hand over $1500 and to wait for nearly two years for a car they hadn't seen yet.</p>
+
+      <p>Amaze.</p>
+
+      <h3 class="section-heading">Presentations for April</h3>
+
+      <ul>
+        <li>Ben Deckys <a href="https://www.twitter.com/cocotutch">@cocotutch</a> - The Month That Was</li>
+        <li>Gio <a href="https://www.twitter.com/mokagio">@mokagio</a> / <a href="https://www.twitter.com/_theiostimes">@_theiostimes</a> - "Pizza Driven Development"</li>
+        <li>Andy Hope <a href="https://www.twitter.com/andyyhope">@andyyhope</a> - TBC.</li>
+        <li>Ryan Blunden - <a href="https://www.twitter.com/ryan_blunden">@ryan_blunden</a> - "Using Carthage effectively and why your build process should know as little about Carthage as possible." </li>
+        <li>Cam Rogers <a href="https://www.twitter.com/CamRogersLegal">@CamRogersLegal</a> - "Privacy and data protection. What developers need to know to make sure they aren’t collecting anything they shouldn’t be."</li>
+        <li>Ashton Williams <a href="https://www.twitter.com/AshtonDev">@AshtonDev</a> - TBC.</li>
+      </ul>
+
+      <p>Head over to the <a href="/event/6">event page</a> for tickets, dates and times.</p>
+
+      <h3 class="section-heading">Speaking spots in May</h3>
+
+      <p>It's never too early to get in touch about presenting in May, or June or July!. Please let me know if you'd like
+      to present in the future, and make sure you remind me more than once <code>:i-often-forget-emoji:</code>.</p>
+
   - title: March 2016 Event Annoucement
     subtitle: Blacklisting your kernel extensions
-    frontpage: 1
+    frontpage: 2
     created_at: 2016-02-28 00:00:01 +0
     events:
     - 4
@@ -28,7 +65,7 @@ posts:
 
   - title: February Event and a call for speakers!
     subtitle: Our first event for 2016 kicks off next week!
-    frontpage: 2
+    frontpage: 0
     created_at: 2016-02-06 01:00:00 +0
     events:
     - 2
@@ -72,7 +109,7 @@ posts:
 
   - title: Welcome to Cocoaheads for 2016!
     subtitle: New website, new calendar and an API!
-    frontpage: 3
+    frontpage: 0
     created_at: 2016-01-24 03:30:00 +0
     events:
     - 3
