@@ -201,7 +201,7 @@ class GenerateYearlyEvents extends Command
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 8:
-//                $event->sponsors()->attach(Sponsor::where('name', 'realestate.com.au')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'Outware')->first());
                 break;
             case 9:
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
@@ -259,7 +259,7 @@ class GenerateYearlyEvents extends Command
             ],
             [
                 'name' => 'Outware',
-                'image' => 'sponsors/outware.jpg',
+                'image' => 'sponsors/Outware.jpg',
                 'web' => 'http://www.outware.com.au',
                 'twitter' => 'outware'
             ],
