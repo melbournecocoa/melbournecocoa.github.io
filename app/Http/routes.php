@@ -49,6 +49,19 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/rss', ['as' => 'feed', 'uses' => 'PostsController@feed']);
 
     Route::get('/slides', ['as'=> 'slides', 'uses' => 'SlidesController@slides']);
+
+    Route::get('/talks/list', ['middleware' => 'auth.basic.once', 'uses' => 'TalksController@listTalks']);
+
+    Route::post('/talks', ['as' => 'submitTalk', 'uses' => 'TalksController@submitTalk']);
+
+    Route::get('/talks', function () {
+        $events = (new \App\Event())->upcomingEvents()->where('type', '=', \App\Event::MEETUP)->get();
+        return view('talk', ['events' => $events]);
+    });
+
+    Route::get('/talks/success', ['as' => 'submitTalkSuccess', function () {
+        return view('talk-success');
+    }]);
 });
 
 Route::group(['prefix' => '/api', 'middleware' => ['api']], function () {
