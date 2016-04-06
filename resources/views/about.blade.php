@@ -55,12 +55,10 @@
 
                     <p>In addition the the formal monthly meetups we also have a monthly hack night on the last Tuesday
                         of the month at the Little Creature's Dining Hall. Bring your laptop along and hack over some
-                        great food, beer and conversation.
-                    </p>
+                        great food, beer and conversation.</p>
 
                     <p>The hack nights are organised by Luke Tupper. Follow him on Twitter (<a href="https://www.twitter.com/tupps">@tupps</a>
-                        for news and updates on upcoming hack nights.
-                    </p>
+                        for news and updates on upcoming hack nights.</p>
 
                 </div>
             </div>

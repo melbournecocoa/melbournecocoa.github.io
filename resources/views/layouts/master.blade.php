@@ -148,9 +148,8 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Melbourne Cocoaheads {{ date('Y') }}.</p>
-                <p class="copyright text-muted"><a href="https://github.com/melbournecocoa/website">Source</a></p>
-                {{--| <a href="/sitemap">Sitemap</a>--}}
+                <p class="copyright text-muted">Produced by Jesse Collis for Melbourne Cocoaheads {{ date('Y') }}.</p>
+                <p class="copyright text-muted"><a href="https://github.com/melbournecocoa/website">Fork this on Github</a></p>
             </div>
         </div>
     </div>
