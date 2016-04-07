@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Talk;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Mail\Message;
+use Mail;
 
 class TalksController extends Controller
 {
@@ -16,7 +19,6 @@ class TalksController extends Controller
 
     public function submitTalk(Request $request)
     {
-
         $this->validate($request, [
            'title' => 'required',
             'description' => 'required',
@@ -38,6 +40,16 @@ class TalksController extends Controller
         $talk->slack = $request->input('slack');
 
         $talk->save();
+
+        $admin = User::where('email', '=', env('ADMIN_EMAIL'))->first();
+
+        $subject = '[CCH] Talk submitted: ' . $talk->title;
+
+        Mail::send('emails.talk', ['talk' => $talk], function (Message $m) use ($talk, $admin, $subject) {
+            $m->to($admin->email);
+            $m->replyTo($talk->email);
+            $m->subject($subject);
+        });
 
         return redirect()->route('submitTalkSuccess');
     }
