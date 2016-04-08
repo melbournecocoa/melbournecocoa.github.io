@@ -66,6 +66,9 @@
                 <li>
                     <a href="{{ route('calendar') }}">Calendar</a>
                 </li>
+                <li>
+                    <a href="{{ route('talks') }}">Submit a Talk</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

@@ -54,10 +54,10 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::post('/talks', ['as' => 'submitTalk', 'uses' => 'TalksController@submitTalk']);
 
-    Route::get('/talks', function () {
+    Route::get('/talks', ['as' => 'talks', function () {
         $events = (new \App\Event())->upcomingEvents()->where('type', '=', \App\Event::MEETUP)->get();
         return view('talk', ['events' => $events]);
-    });
+    }]);
 
     Route::get('/talks/success', ['as' => 'submitTalkSuccess', function () {
         return view('talk-success');
