@@ -1,4 +1,39 @@
 posts:
+  - title: Taking talk submissions!
+    subtitle: An online form will stop me forgetting...
+    frontpage: 2
+    created_at: 2016-04-08 10:00:00 +0
+    coverImage:
+    events:
+    - 6
+    - 8
+    body: |
+
+      <h3>tldr;</h3>
+
+      <p>I've made an online form for everyone to submit talk proposals so I don't forget anyone who is scheduled to present each month.</p>
+
+      <p>That form is <a href="http://www.melbournecocoaheads.com/talks">here</a>.</p>
+
+      <h3>"You had one job..."</h3>
+
+      <p>Throughout each month it's one of my main tasks (along with working out what to mispell in my introduction slides)
+      to organise the presenters list for the next meetup and the meetup after that. Earlier this month I knew I'd forgotten
+      one speaker and in fact after publishing the list for April, I'd actually forgotten two.</p>
+
+      <img src="/img/posts/jc-forgets.jpg" class="img-responsive">
+
+      <p>Presentation submissions come to me via Slack, Email, Twitter (publicly and privately), iMessage and in person. The
+      critical flaw with my single-text-file-on-a-macbook system is it relies on me <strong>remembering</strong> to update it
+      and remembering where to find everyone's details.</p>
+
+      <p>As it turns out I'm slightly better at programming than event management so I've gone and PHP'd a form over
+      at <a href="http://www.melbournecocoaheads.com/talks">melbournecocoaheads.com/talks</a> that everyone can fill out
+      to give me their plan for a talk. It's in one place, I can't forget it. Submitting this form saves a row in the
+      database and forwards me an email with all the details.</p>
+
+      <p>Following up prior to each month and getting everyone's details right will now be much more straight forward.</p>
+
   - title: Cocoaheads No. 93 - April 2016 Presentations
     subtitle: Universal links for all!
     frontpage: 1
@@ -38,7 +73,7 @@ posts:
 
   - title: March 2016 Event Annoucement
     subtitle: Blacklisting your kernel extensions
-    frontpage: 2
+    frontpage: 3
     created_at: 2016-02-28 00:00:01 +0
     events:
     - 4
