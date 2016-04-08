@@ -161,7 +161,7 @@ class GenerateYearlyEvents extends Command
         $event->contact = 'mailto:jesse@jcmultimedia.com.au';
         $event->contact_name = 'Jesse Collis';
 
-        if ($startDate->month === 5) {
+        if ($startDate->month === 7) {
             $event->title = "Melbourne Cocoaheads #$count - Lightning Talk Month";
             $event->subtitle = 'This month we do away with longer form talks and fill the night with lightning talks!';
         } elseif ($startDate->month === 6) {
