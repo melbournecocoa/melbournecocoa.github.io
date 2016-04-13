@@ -55,10 +55,11 @@
 
 ---
 
-# A bit about Cocoaheads
+# About Cocoaheads
 
 - Established July 2007
 - 2nd Thursday of the month
+- Monthly Hack nights (final Tuesday of the month)
 - Sponsored by the Melbourne community
 - ~2-3 presentations @ 20-25 minutes
 - n * lightning talks @ ~5-10 minutes
@@ -66,23 +67,19 @@
 
 ---
 
-# A bit about Cocoaheads
+# About Cocoaheads
 
-- Monthly Hack nights (final Tuesday of the month)
-- melbournecocoaheads.com
+- melbournecocoaheads.com/about
 - @melbournecocoa
-- groups.google.com/d/forum/cocoaheadsau
-- github.com/melbournecocoa
-- melbournecocoa.slack.com - ping @melbournecocoa for an invite
+- melbournecocoa.slack.com - ping @melbournecocoa  for an invite
 
-^110 Members in the slack channel and counting
+^160 members in the slack channel and counting
 
 ---
 
 # Contributing to Cocoaheads
 
 - Presentations, lightning talks on iOS, OSX, watchOS, tvOS, IoT, other related topics
-- Take photos and mention @melbournecocoa
 - Answer questions on Slack & the google group
 
 ^ Relaxed and casual
