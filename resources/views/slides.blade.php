@@ -72,6 +72,7 @@
 - melbournecocoaheads.com/about
 - @melbournecocoa
 - melbournecocoa.slack.com - ping @melbournecocoa  for an invite
+- Broadcasting monthly on YouTube
 
 ^160 members in the slack channel and counting
 
