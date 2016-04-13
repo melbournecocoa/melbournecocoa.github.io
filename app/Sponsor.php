@@ -13,7 +13,8 @@ class Sponsor extends Model
         'name',
         'image',
         'web',
-        'twitter'
+        'twitter',
+        'contact'
     ];
 
     public function events()

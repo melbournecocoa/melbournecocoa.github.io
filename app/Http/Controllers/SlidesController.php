@@ -26,7 +26,14 @@ class SlidesController extends Controller
         $nextHackStart = $event->followingHacknight()
             ->starts_at->copy()->setTimeZone(new \DateTimeZone('Australia/Melbourne'));
 
+        $tsFilter = function ($key, $value) {
+            return $key->name !== 'Teamsquare';
+        };
+
+        $sponsor = $event->sponsors->filter($tsFilter)->first();
+
         $view = view('slides', [
+            'sponsor' => $sponsor,
             'number' => $event->eventNumber(),
             'dateString' => $startTime->format('j F, Y'),
             'timezone' => $startTime->format('T'),

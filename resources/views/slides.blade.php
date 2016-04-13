@@ -93,6 +93,9 @@ Great to practice your presentation skills
 
 # Thanks to our sponsors
 
+![inline](http://www.melbournecocoaheads.com/img/{{$sponsor->image}})
+
+## {{ $sponsor->contact }}
 
 ---
 

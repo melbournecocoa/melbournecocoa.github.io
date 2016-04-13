@@ -225,7 +225,8 @@ class GenerateYearlyEvents extends Command
                 'name' => 'Teamsquare',
                 'image' => 'sponsors/teamsquare.png',
                 'web' => 'https://teamsquare.co',
-                'twitter' => 'teamsquare'
+                'twitter' => 'teamsquare',
+                'contact' => 'Michael Shimmins'
             ],
             [
                 'name' => 'B2Cloud',
@@ -243,13 +244,15 @@ class GenerateYearlyEvents extends Command
                 'name' => 'Vinomofo',
                 'image' => 'sponsors/vinomofo.png',
                 'web' => 'https://vinomofo.com',
-                'twitter' => 'vinomofo'
+                'twitter' => 'vinomofo',
+                'contact' => 'Luke Cunningham'
             ],
             [
                 'name' => 'Domestic Cat',
                 'image' => 'sponsors/domestic_cat.png',
                 'web' => 'http://domesticcat.com.au',
-                'twitter' => ''
+                'twitter' => '',
+                'contact' => 'Pat Richards'
             ],
             [
                 'name' => 'Odecee',
@@ -261,7 +264,8 @@ class GenerateYearlyEvents extends Command
                 'name' => 'Outware',
                 'image' => 'sponsors/Outware.jpg',
                 'web' => 'http://www.outware.com.au',
-                'twitter' => 'outware'
+                'twitter' => 'outware',
+                'contact' => 'Gideon Kowadlo'
             ],
             [
                 'name' => 'Realestate.com.au',
