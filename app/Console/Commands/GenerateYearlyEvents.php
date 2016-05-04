@@ -65,6 +65,8 @@ class GenerateYearlyEvents extends Command
             $date = $date->copy()->startOfMonth()->addMonth();
 
         } while ((integer) $date->year === (integer) $year);
+
+        $this->createSpecialEvents();
     }
 
     private function createHackNightEvent(Carbon $startDate)
@@ -195,7 +197,7 @@ class GenerateYearlyEvents extends Command
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 6:
-//                $event->sponsors()->attach(Sponsor::where('name', 'Odecee')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'Odecee')->first());
                 break;
             case 7:
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
@@ -279,5 +281,35 @@ class GenerateYearlyEvents extends Command
         foreach ($sponsors as $s) {
             Sponsor::firstOrCreate($s);
         }
+    }
+
+    private function createSpecialEvents()
+    {
+        //NSBreakfast May
+        $nsBreakfastMay = Carbon::create(2016, 5, 6, 8, 0, 0, new \DateTimeZone('Australia/Melbourne'));
+        $nsBreakfastMay->setTimezone(new \DateTimeZone('UTC'));
+        // using slug as a unique string identifier
+        $slug = Str::slug(Event::SPECIAL . " $nsBreakfastMay");
+
+        $this->info("Special Event (NSBreakfast) $nsBreakfastMay UTC");
+
+        $event = Event::firstOrNew(['slug' => $slug]);
+
+        $event->type = Event::SPECIAL;
+        $event->slug = $slug;
+        $event->title = 'NSBreakfast';
+        $event->subtitle = 'Informal and unstructured; Hang out, drink coffee, eat breakfast and chat iOS / OSX';
+        $event->starts_at = $nsBreakfastMay;
+        $event->ends_at = $nsBreakfastMay->copy()->addHours(2);
+        $event->contact = 'https://twitter.com/nsbreakfast';
+        $event->contact_name = 'Matt Delves';
+        $event->location = '1000 £ Bend';
+        $event->location_link = 'http://thousandpoundbend.com.au';
+        $event->address_display = '361 Little Lonsdale St, Melbourne';
+        $event->address = '361 Little Lonsdale St, Melbourne, VIC 3000';
+        $event->lat = -37.811672;
+        $event->lng = 144.959092;
+
+        $event->save();
     }
 }

@@ -1,4 +1,38 @@
 posts:
+  - title: Cocoaheads No. 94 - May 2016 Presentations
+    subtitle: Down down, iPhone sales are down
+    frontpage: 1
+    created_at: 2016-05-05 22:00:01 +0
+    events:
+    - 8
+    - 9
+    - 24
+    coverImage:
+    body: |
+
+      <p>Thanks for all of the submissions to <a href="/talks">/talks</a> over the last month, here's the line up for may!</p>
+
+      <h3 class="section-heading">Presentations for May</h3>
+
+      <ul>
+        <li>Andyy Hope <a href="https://www.twitter.com/andyyhope">@andyyhope</a> - The Month That Was</li>
+
+        <li>Jinju Jang <a href="https://www.twitter.com/Arle13">@Arle13</a> - "Framer for the win"</li>
+        <li>Pavel Oborin - Dependency Injection (Title TBC)</li>
+        <li>Jeames Bone <a href="https://www.twitter.com/jeamesbone">@jeamesbone</a> - "Protocol Oriented Testing" </li>
+        <li>Matt Delves <a href="https://www.twitter.com/mattdelves">@mattdelves</a> - "Fun and games with UICollectionView layouts"</li>
+        <li>Joseph Liu <a href="https://www.twitter.com/ihunch">@ihunch</a> - App Demo - "Thirdplace"</li>
+      </ul>
+
+      <p>Head over to the <a href="/event/8">event page</a> for tickets, dates and times.</p>
+
+      <h3 class="section-heading">Speaking spots in June</h3>
+
+      <p>There have been a couple of submissions for June but as of writing there's still room for more. If you'd like
+       to present the informal start of the night, <strong>The Month That Was</strong> please get in touch.</p>
+
+      <p> Head over to <a href="/talks">/talks form</a> to let me know if you'd like to present in June or later in the year.</p>
+
   - title: Taking talk submissions!
     subtitle: An online form will stop me forgetting...
     frontpage: 2
@@ -36,7 +70,7 @@ posts:
 
   - title: Cocoaheads No. 93 - April 2016 Presentations
     subtitle: Universal links for all!
-    frontpage: 1
+    frontpage: 3
     created_at: 2016-04-04 22:00:01 +0
     events:
     - 6
@@ -73,7 +107,7 @@ posts:
 
   - title: March 2016 Event Annoucement
     subtitle: Blacklisting your kernel extensions
-    frontpage: 3
+    frontpage: 0
     created_at: 2016-02-28 00:00:01 +0
     events:
     - 4

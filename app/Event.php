@@ -10,6 +10,7 @@ class Event extends Model
 {
     const HACKNIGHT = 'hacknight';
     const MEETUP = 'meetup';
+    const SPECIAL = 'special';
 
     protected $dates = ['created_at', 'updated_at', 'starts_at', 'ends_at'];
 
