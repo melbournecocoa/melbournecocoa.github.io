@@ -166,9 +166,9 @@ class GenerateYearlyEvents extends Command
         if ($startDate->month === 7) {
             $event->title = "Melbourne Cocoaheads #$count - Lightning Talk Month";
             $event->subtitle = 'This month we do away with longer form talks and fill the night with lightning talks!';
-        } elseif ($startDate->month === 6) {
-            $event->title = "Melbourne Cocoaheads #$count - (WWDC Tentative Date)";
-            $event->subtitle = 'The date for this meetup is tentative due to WWDC being held in June. We will reschedule this meetup to be AFTER the WWDC conference.';
+//        } elseif ($startDate->month === 6) {
+//            $event->title = "Melbourne Cocoaheads #$count - (WWDC Tentative Date)";
+//            $event->subtitle = 'The date for this meetup is tentative due to WWDC being held in June. We will reschedule this meetup to be AFTER the WWDC conference.';
         } else {
             $event->title = "Melbourne Cocoaheads #$count";
             $event->subtitle = 'Melbourne Cocoaheads Meetup';
@@ -209,7 +209,7 @@ class GenerateYearlyEvents extends Command
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
                 break;
             case 10:
-//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'iflix')->first());
                 break;
             case 11:
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
@@ -258,7 +258,7 @@ class GenerateYearlyEvents extends Command
             ],
             [
                 'name' => 'Odecee',
-                'image' => 'sponsors/edecee.jpg',
+                'image' => 'sponsors/odecee.jpg',
                 'web' => 'http://odecee.com.au',
                 'twitter' => 'odecee'
             ],
