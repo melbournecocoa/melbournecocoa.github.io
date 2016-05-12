@@ -108,7 +108,15 @@ class GenerateYearlyEvents extends Command
             $event->address = '361 Little Lonsdale St, Melbourne, VIC 3000';
             $event->lat = -37.811672;
             $event->lng = 144.959092;
-        }/* else {
+        } elseif ($startDate->month >= 5) {
+            $event->location = 'The Mill House';
+            $event->location_link = 'http://themillhouse.com.au';
+            $event->address_display = '277 Flinders Lane (between Elizabeth & Swanston)';
+            $event->address = '277 Flinders Lane, Melbourne, VIC 3000';
+            $event->lat = -37.8171867;
+            $event->lng = 144.9652635;
+        }
+        /* else {
             $event->location = 'Location TBD';
             $event->location_link = 'http://www.melbournecocoaheads.com';
             $event->address_display = 'Location TBD';
@@ -310,6 +318,33 @@ class GenerateYearlyEvents extends Command
         $event->lat = -37.811672;
         $event->lng = 144.959092;
 
+        $event->save();
+
+        //NSBreakfast June
+
+        //NSBreakfast May
+        $nsBreakfastMay = Carbon::create(2016, 6, 3, 7, 30, 0, new \DateTimeZone('Australia/Melbourne'));
+        $nsBreakfastMay->setTimezone(new \DateTimeZone('UTC'));
+
+        $slug = Str::slug(Event::SPECIAL . " $nsBreakfastMay");
+
+        $this->info("Special Event (NSBreakfast) $nsBreakfastMay UTC");
+
+        $event = Event::firstOrNew(['slug' => $slug]);
+        $event->type = Event::SPECIAL;
+        $event->slug = $slug;
+        $event->title = 'NSBreakfast';
+        $event->subtitle = 'Informal and unstructured; Hang out, drink coffee, eat breakfast and chat iOS / OSX';
+        $event->starts_at = $nsBreakfastMay;
+        $event->ends_at = $nsBreakfastMay->copy()->addHours(2);
+        $event->contact = 'https://twitter.com/nsbreakfast';
+        $event->contact_name = 'Matt Delves';
+        $event->location = 'Hash Specialty Coffee';
+        $event->location_link = 'http://facebook.com/hashcoffeeroasters';
+        $event->address_display = '113 Hardware St, Melbourne';
+        $event->address = '113 Hardware St, Melbourne, VIC 3000';
+        $event->lat = -37.8123025;
+        $event->lng = 144.9605897;
         $event->save();
     }
 }
