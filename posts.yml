@@ -1,7 +1,46 @@
 posts:
+  - title: Cocoaheads No. 95 - June 2016 Presentations
+    subtitle: No sleep till' dub dub
+    frontpage: 1
+    created_at: 2016-05-26 08:00:00 +0
+    events:
+    - 10
+    - 25
+    coverImage:
+    body: |
+
+      <p>For the first time since I can remember, WWDC is <strong>not</strong> conflicting with us, so we're here at the same
+      time, same place in June.</p>
+
+      <h3 class="section-heading">Presentations for June</h3>
+
+      <ul>
+        <li>TBC - "The Month That Was"</li>
+        <li>Ashton Williams <a href="https://www.twitter.com/AshtonDev">@AshtonDev</a> - "Injecting Stubs"</li>
+        <li>Karl Bowden <a href="https://www.twitter.com/karlbowden">@karlbowden</a> - "Routing without storyboards"</li>
+        <li>Prasanna Gopalakrishnan <a href="https://www.twitter.com/prasannag">@prasannag</a> - "Handling large changes in a large codebase"</li>
+      </ul>
+
+      <h3 class="section-heading">Keen to present in June?</h3>
+
+      <p>We will have space this month for another presentation, or some lightning talks. Head over to <a href="/talks">/talks</a> to submit a talk and
+       I'll get back to you</p>
+
+      <h3 class="section-heading">Tickets!</h3>
+
+      <p>Head over to the <a href="/event/10">event page</a> for tickets, dates and times.</p>
+
+      <h3 class="section-heading">July is Lightning Talk Month!</h3>
+
+      <p>Over the last two years we've run fast paced lightning talk month and this year, coming off WWDC a few weeks before
+      a month of WWDC ligtning talks should better than ever. Lightning talks are short, succinct, <strong>five to seven minute</strong>
+      presentaions, and app demo or some cool piece of code you've seen/used/found.</p>
+
+      <p>If you're up for a lightning talk in July, head over to <a href="/talks">/talks form</a> and submit your ideas.</p>
+
   - title: Cocoaheads No. 94 - May 2016 Presentations
     subtitle: Down down, iPhone sales are down
-    frontpage: 1
+    frontpage: 2
     created_at: 2016-05-05 22:00:01 +0
     events:
     - 8
@@ -10,7 +49,7 @@ posts:
     coverImage:
     body: |
 
-      <p>Thanks for all of the submissions to <a href="/talks">/talks</a> over the last month, here's the line up for may!</p>
+      <p>Thanks for all of the submissions to <a href="/talks">/talks</a> over the last month, here's the line up for May!</p>
 
       <h3 class="section-heading">Presentations for May</h3>
 
@@ -36,7 +75,7 @@ posts:
 
   - title: Taking talk submissions!
     subtitle: An online form will stop me forgetting...
-    frontpage: 2
+    frontpage: 3
     created_at: 2016-04-08 10:00:00 +0
     coverImage:
     events:
@@ -71,7 +110,7 @@ posts:
 
   - title: Cocoaheads No. 93 - April 2016 Presentations
     subtitle: Universal links for all!
-    frontpage: 3
+    frontpage: 0
     created_at: 2016-04-04 22:00:01 +0
     events:
     - 6
