@@ -23,17 +23,7 @@ class GenerateYearlyEvents extends Command
      * @var string
      */
     protected $description = 'Command description';
-
-    /**
-     * Create a new command instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
+    
     /**
      * Execute the console command.
      *
@@ -287,7 +277,11 @@ class GenerateYearlyEvents extends Command
         ];
 
         foreach ($sponsors as $s) {
-            Sponsor::firstOrCreate($s);
+            $sponsor = Sponsor::firstOrNew(['name' => $s['name']]);
+            $sponsor->image = $s['image'];
+            $sponsor->web = $s['web'];
+            $sponsor->twitter = $s['twitter'];
+            $sponsor->save();
         }
     }
 
@@ -321,22 +315,20 @@ class GenerateYearlyEvents extends Command
         $event->save();
 
         //NSBreakfast June
+        $nsBreakfastJune = Carbon::create(2016, 6, 3, 7, 30, 0, new \DateTimeZone('Australia/Melbourne'));
+        $nsBreakfastJune->setTimezone(new \DateTimeZone('UTC'));
 
-        //NSBreakfast May
-        $nsBreakfastMay = Carbon::create(2016, 6, 3, 7, 30, 0, new \DateTimeZone('Australia/Melbourne'));
-        $nsBreakfastMay->setTimezone(new \DateTimeZone('UTC'));
+        $slug = Str::slug(Event::SPECIAL . " $nsBreakfastJune");
 
-        $slug = Str::slug(Event::SPECIAL . " $nsBreakfastMay");
-
-        $this->info("Special Event (NSBreakfast) $nsBreakfastMay UTC");
+        $this->info("Special Event (NSBreakfast) $nsBreakfastJune UTC");
 
         $event = Event::firstOrNew(['slug' => $slug]);
         $event->type = Event::SPECIAL;
         $event->slug = $slug;
         $event->title = 'NSBreakfast';
         $event->subtitle = 'Informal and unstructured; Hang out, drink coffee, eat breakfast and chat iOS / OSX';
-        $event->starts_at = $nsBreakfastMay;
-        $event->ends_at = $nsBreakfastMay->copy()->addHours(2);
+        $event->starts_at = $nsBreakfastJune;
+        $event->ends_at = $nsBreakfastJune->copy()->addHours(2);
         $event->contact = 'https://twitter.com/nsbreakfast';
         $event->contact_name = 'Matt Delves';
         $event->location = 'Hash Specialty Coffee';
@@ -346,5 +338,42 @@ class GenerateYearlyEvents extends Command
         $event->lat = -37.8123025;
         $event->lng = 144.9605897;
         $event->save();
+
+        //WWDC Event June 2016
+        $wwdcEventJune2016 = Carbon::create(2016, 6, 16, 18, 30, 0, new \DateTimeZone('Australia/Melbourne'));
+        $wwdcEventJune2016->setTimezone(new \DateTimeZone('UTC'));
+
+        $slug = Str::slug(Event::SPECIAL . " $nsBreakfastJune");
+        $this->info("Special Event (WWDC) $nsBreakfastJune UTC");
+
+        $event = Event::firstOrNew(['slug' => $slug]);
+        $event->type = Event::SPECIAL;
+        $event->slug = $slug;
+
+        $event->title = 'Cocoaheads WWDC Special Event';
+        $event->subtitle = <<<'EOT'
+We're going to start off with a special intro I'm calling 'The Keynote That Was' (TKTW) and we will then watch two 
+to three WWDC sessions. Depending on what's available at the time, we might have a few options but the best ones will be
+the State of the Union sessions that are usually presented on the Tuesday morning in San Francisco.
+EOT;
+
+        $event->starts_at = $wwdcEventJune2016;
+        $event->ends_at = $wwdcEventJune2016->copy()->addHours(3);
+        $event->location = 'Teamsquare';
+        $event->location_link = 'https://teamsquare.co/contact';
+        $event->address_display = 'Level 1, 520 Bourke Street, Melbourne';
+        $event->address = 'Level 1, 520 Bourke Street, Melbourne VIC 3000';
+        $event->lat = -37.8153744;
+        $event->lng = 144.958427;
+        $event->tickets = 'http://melbournecocoaheads-wwdc-2016.eventbrite.com.au';
+
+        $event->contact = 'https://twitter.com/melbournecocoa';
+        $event->contact_name = 'Jesse Collis';
+
+        $event->save();
+        $event->sponsors()->detach();
+
+        $event->sponsors()->attach(Sponsor::where('name', '=', 'Teamsquare')->first());
+        $event->sponsors()->attach(Sponsor::where('name', 'Odecee')->first());
     }
 }
