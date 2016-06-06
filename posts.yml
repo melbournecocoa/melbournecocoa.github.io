@@ -1,7 +1,39 @@
 posts:
+  - title: WWDC Events in Melbourne
+    subtitle: Livestream all the things
+    frontpage: 1
+    created_at: 2016-06-06 21:00:00 +0
+    events:
+    - 25
+    coverImage:
+    body: |
+
+      <p>Reset your download quotas, backup your dev machine and start catching up on sleep because next week is going to be a big week!</p>
+
+      <h3 class="section-heading">WWDC Events in Melbourne</h3>
+
+      <ul>
+        <li>We are havin ga <a href="/events/25">Melbourne Cocoaheads Special Event</a> at Teamsquare on Thursday night, spnosored by Odecee.</li>
+        <li>JTribe/OpenHub are hosting a <a href="https://twitter.com/jtribeapps/status/739629854165852161">Keynote viewing @3am Tuesday morning</a>.</li>
+        <li>Outware are hosting a <a href="https://www.eventbrite.com.au/e/wwdc-is-coming-to-outware-tickets-25888222370">"WWDC Extended Hack Night in Melbourne"</a> on Tuesday Evening.
+      </ul>
+
+      <p>For information on the OpenHub Keynote viewing, get in touch with Ben Deckys <a href="https://www.twitter.com/cocotutch">@cocotutch</a></p>
+
+      <p>If you have other events you or your company are hosting, send a link to <a href="https://twitter.com/melbournecocoa">@melbournecocoa</a> and I will update this post</p>
+
+      <h3 class="section-heading">Slack Channel</h3>
+
+      <p>If you're planning on sitting up for the keynote feel free join the Melbourne Cocoahads slack channel - there's always some good discussions as the events go long.
+       Get in touch with <a href="https://twitter.com/melbournecocoa">@melbournecocoa</a> for an invite.</p>
+
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Did YOU get left behind in Melbourne during WWDC? 😭<br><br>We’re having a Keynote viewing at 3am here at the OpenHub. <a href="https://twitter.com/melbournecocoa">@melbournecocoa</a></p>&mdash; jtribe (@jtribeapps) <a href="https://twitter.com/jtribeapps/status/739629854165852161">June 6, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/melbournecocoa">@melbournecocoa</a> We&#39;re hosting a WWDC hack night. Keynote, pizza, drinks and bingo! <a href="https://t.co/cti4CbzLra">https://t.co/cti4CbzLra</a></p>&mdash; Outware Mobile (@outware) <a href="https://twitter.com/outware/status/739615701095174144">June 6, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   - title: Cocoaheads No. 95 - June 2016 Presentations
     subtitle: No sleep till' dub dub
-    frontpage: 1
+    frontpage: 2
     created_at: 2016-05-26 08:00:00 +0
     events:
     - 10
@@ -15,7 +47,7 @@ posts:
       <h3 class="section-heading">Presentations for June</h3>
 
       <ul>
-        <li>TBC - "The Month That Was"</li>
+        <li>Ben Deckys <a href="https://www.twitter.com/cocotutch">@cocotutch</a> - "The Month That Was"</li>
         <li>Ashton Williams <a href="https://www.twitter.com/AshtonDev">@AshtonDev</a> - "Injecting Stubs"</li>
         <li>Karl Bowden <a href="https://www.twitter.com/karlbowden">@karlbowden</a> - "Routing without storyboards"</li>
         <li>Prasanna Gopalakrishnan <a href="https://www.twitter.com/prasannag">@prasannag</a> - "Handling large changes in a large codebase"</li>
@@ -40,7 +72,7 @@ posts:
 
   - title: Cocoaheads No. 94 - May 2016 Presentations
     subtitle: Down down, iPhone sales are down
-    frontpage: 2
+    frontpage: 0
     created_at: 2016-05-05 22:00:01 +0
     events:
     - 8
