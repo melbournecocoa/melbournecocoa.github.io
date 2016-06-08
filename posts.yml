@@ -38,11 +38,13 @@ posts:
     events:
     - 10
     - 25
-    coverImage:
+    coverImage: /img/posts/cch-2016-06-titles.jpg
     body: |
 
       <p>For the first time since I can remember, WWDC is <strong>not</strong> conflicting with us, so we're here at the same
       time, same place in June.</p>
+
+      <img class="img-responsive" src="/img/posts/cch-2016-06-titles.jpg" alt="WWDC Events in Melbourne">
 
       <h3 class="section-heading">Presentations for June</h3>
 
