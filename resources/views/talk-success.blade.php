@@ -12,7 +12,7 @@
                     <div class="panel-heading">Thanks!</div>
                     <div class="panel-body">
                         <p>Your talk details have been submitted.</p>
-                        <p>Don't hesitate to contact Jesse <a href="mailto:jesse@jcmultimedia.com.au">via email</a> or on slack or twitter if you have any questions or concerns.</p>
+                        <p>Don't hesitate to contact Jesse <a href="mailto:jesse@jcmultimedia.com.au">via email</a> or on slack or <a href="https://twitter.com/sirjec">Twitter</a> if you have any questions or concerns.</p>
                     </div>
                 </div>
             </div>
