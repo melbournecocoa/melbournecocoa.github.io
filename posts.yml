@@ -1,4 +1,41 @@
 posts:
+  - title: July is Lightning Talk Month!
+    subtitle: Demo one, demo all
+    frontpage: 1
+    created_at: 2016-06-29 23:00:00 +0
+    events:
+    - 12
+    coverImage:
+    body: |
+      <h3 class="section-heading">July is Lightning Talk Month</h3>
+
+      <p>Over the last couple of years, we pick one month and dedicate it purely to lightning talks. This year should be excellent
+      since we're in Xcode 8, iOS 10, Swift 3 beta land and everything is new and shiny.</p>
+
+      <p>The plan for July is to have as many lightning talks as we can, one after another from about 6:45pm through to 9:30/10.</p>
+
+      <h3 class="section-heading">Definition of a "Lightning Talk"</h3>
+
+      <p>Lightning talks are quick (0 - 5 minutes) presentations on short, sharp topics that will keep the audience engaged. If you
+      think of it in slides, it's probably a five slide presentation, although slides are optional.</p>
+
+      <p>Topics/ideas could include: </p>
+
+      <ul>
+        <li>A demo of some code you've just got working in the latest beta (perfect for Xcode slaygrounds)</li>
+        <li>Demo of your latest iOS app update, or a preview of an upcoming one</li>
+        <li>Demo of an open source project you like, have forked, fixed or written yourself</li>
+        <li>Dramatic reading of some Apple documentation</li>
+        <li>Something you learnt/didn't learn from WWDC</li>
+        <li>An appropriate rant on something you like/dislike about something or other in the Cocoa/iOS/macOS land</li>
+      </ul>
+
+      <p>If you've never thought of doing a presentation at Cocoaheads before, a lightning talk is a great place to start.</p>
+
+      <h3 class="section-heading">I'm in. How do I submit a talk?</h3>
+
+      <p>Excellent! Head over to <a href="/talks">/talks</a>, submit your idea and I'll get back to you if I need to clarify anything.</p>
+
   - title: WWDC Events in Melbourne
     subtitle: Livestream all the things
     frontpage: 1
@@ -7,7 +44,6 @@ posts:
     - 25
     coverImage:
     body: |
-
       <p>Reset your download quotas, backup your dev machine and start catching up on sleep because next week is going to be a big week!</p>
 
       <h3 class="section-heading">WWDC Events in Melbourne</h3>
