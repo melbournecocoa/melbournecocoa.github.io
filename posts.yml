@@ -1,7 +1,38 @@
 posts:
+  - title: Lightning Talks this Week!
+    subtitle: No talk is too short
+    frontpage: 1
+    created_at: 2016-07-11 08:00:00 +0
+    events:
+    - 12
+    coverImage:
+    body: |
+      <h3 class="section-heading">Lightning talks this week! Submit yours!</h3>
+
+      <p>Thursday night is fast approaching! We still have more time for anyone else keen to submit a presentation! For more information
+      on Lightning Talk Month check out the <a href="./updates/july-is-lightning-talk-monthupdates/july-is-lightning-talk-month">previous update</a>.</p>
+
+      <p>Thanks to <a href="http://domesticcat.com.au">Domestic Cat</a> for being awesome and sponsoring July too!</p>
+
+      <h3 class="section-heading">Lightning for June (so far)</h3>
+
+      <ul>
+        <li>Peter Goldsmith <a href="https://www.twitter.com/_petegoldsmith">@_petegoldsmith</a> - "The Month That Was"</li>
+        <li>Matt Kelsh <a href="https://www.twitter.com/mattro">@mattro</a> - "Things Apple are doing differently in iOS design this year"</li>
+        <li>Andyy Hope <a href="https://www.twitter.com/andyyhope">@andyyhope</a> - "NSUserDefaults candy wrapped for maximum sugar"</li>
+        <li>Gio <a href="https://www.twitter.com/mokagio">@mokagio</a> / <a href="https://www.twitter.com/_theiostimes">@_theiostimes</a> - "Less Conventional Swift"</li>
+        <li>Matt Delves <a href="https://www.twitter.com/mattdelves">@mattdelves</a> - "Hey Siri!"</li>
+        <li>Jesse Collis <a href="https://www.twitter.com/sirjec">@sirjec</a> / <a href="https://www.twitter.com/melbournecocoa">@melbournecocoa</a> - "Beanhunter 3.0"</a>
+      </ul>
+
+      <p>We can easily fit more presentations, app demos or anything else you've learnt. Get in touch if you need some encouragement!</p>
+
+      <h3 class="section-heading">How do I submit a talk?</h3>
+      <p>Head over to <a href="/talks">/talks</a>, submit your idea and be ready on the night!.</p>
+
   - title: July is Lightning Talk Month!
     subtitle: Demo one, demo all
-    frontpage: 1
+    frontpage: 2
     created_at: 2016-06-29 23:00:00 +0
     events:
     - 12
@@ -38,7 +69,7 @@ posts:
 
   - title: WWDC Events in Melbourne
     subtitle: Livestream all the things
-    frontpage: 2
+    frontpage: 0
     created_at: 2016-06-06 21:00:00 +0
     events:
     - 25
