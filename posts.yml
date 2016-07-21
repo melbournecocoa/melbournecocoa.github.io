@@ -1,7 +1,47 @@
 posts:
+  - title: August Update
+    subtitle: A New Venue and NSBreakfast is Now Official
+    frontpage: 1
+    created_at: 2016-07-21 10:00:00 +0
+    events:
+    - 16
+    - 14
+    - 15
+    - 13
+    coverImage:
+    body: |
+      <h3 class="section-heading">New Venue!</h3>
+
+      <p>I'm excited to annouce that starting from the <a href="/events/14">August meetup #97</a> we will be moving homes from Teamsquare
+       to <a href="http://www.outware.com.au">Outware</a> on La Trobe Street!</p>
+
+      <p>Outware have an excellent central space at <strong>469 La Trobe Street</strong> overlooking the Flagstaff gardens and are right
+       next to Flagstaff station. Make sure you take note of the new address, I have updated everythign relevant to reflect the new venue
+       and I'll reach out more directly closer to the date.</p>
+
+      <p>I'd like to take this chance to say thanks to the Michael and the team at Teamsquare for hosting us since August 2015,
+      they have been excellent hosts for a lot of Melbourne meetups over the last year and I know everyone's enjoyed using the space alot. </p>
+
+      <h3 class="section-heading">NS Breakfast</h3>
+
+      <p>NSBreakfast is now a recurring event, on the first Friday of the month from 7:30am. Checkout the <a href="/events">events</a> page for
+       more information on the next NSBreakfast.</p>
+
+      <h3 class="section-heading">Submit your talks for August</h3>
+
+      <p> So far I don't have many presentations lined up for August, head over to <a href="/talks">/talks</a> to submit your
+      talk!</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>I've noticed a few issues with the live stream over the last few months. I'm hoping to get these issues ironed out once I sort out the
+      setup at Outware.</p>
+
+      <p>- JC</p>
+
   - title: Lightning Talks this Week!
     subtitle: No talk is too short
-    frontpage: 1
+    frontpage: 0
     created_at: 2016-07-11 08:00:00 +0
     events:
     - 12
@@ -34,7 +74,7 @@ posts:
 
   - title: July is Lightning Talk Month!
     subtitle: Demo one, demo all
-    frontpage: 2
+    frontpage: 0
     created_at: 2016-06-29 23:00:00 +0
     events:
     - 12
