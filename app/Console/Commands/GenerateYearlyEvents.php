@@ -50,8 +50,13 @@ class GenerateYearlyEvents extends Command
 
             // hack nights last Tuesday of the month
             $date->lastOfMonth(Carbon::TUESDAY)->setTime(18, 30);
-
             $this->createHackNightEvent($date);
+
+            if ($date->month > 7) {
+                $date->firstOfMonth(Carbon::FRIDAY)->setTime(7, 30);
+                $this->createNSBreakfastEvent($date);
+            }
+
             $date = $date->copy()->startOfMonth()->addMonth();
 
         } while ((integer) $date->year === (integer) $year);
@@ -151,22 +156,30 @@ class GenerateYearlyEvents extends Command
         $event->slug = Str::slug("$event->type $startDate");
         $event->starts_at = $startDate;
         $event->ends_at = $startDate->copy()->addHours(3);
-        $event->location = 'Teamsquare';
-        $event->location_link = 'https://teamsquare.co/contact';
-        $event->address_display = 'Level 1, 520 Bourke Street, Melbourne';
-        $event->address = 'Level 1, 520 Bourke Street, Melbourne VIC 3000';
-        $event->lat = -37.8153744;
-        $event->lng = 144.958427;
         $event->tickets = $tickets[$startDate->month - 2];
         $event->contact = 'mailto:jesse@jcmultimedia.com.au';
         $event->contact_name = 'Jesse Collis';
 
+        // venue changes half way through 2016
+        if ($event->starts_at->month > 1 && $event->starts_at->month < 8) {
+            $event->location = 'Teamsquare';
+            $event->location_link = 'https://teamsquare.co/contact';
+            $event->address_display = 'Level 1, 520 Bourke Street, Melbourne';
+            $event->address = 'Level 1, 520 Bourke Street, Melbourne VIC 3000';
+            $event->lat = -37.8153744;
+            $event->lng = 144.958427;
+        } elseif ($event->starts_at->month > 1 && $event->starts_at->month <= 12) {
+            $event->location = 'Outware';
+            $event->location_link = 'http://www.outware.com.au/contact/';
+            $event->address_display = 'Level 3, 469 La Trobe Street, Melbourne';
+            $event->address = 'Level 3, 469 La Trobe Street, Melbourne VIC 3000';
+            $event->lat = -37.8126541;
+            $event->lng = 144.9551303;
+        }
+
         if ($startDate->month === 7) {
             $event->title = "Melbourne Cocoaheads #$count - Lightning Talk Month";
             $event->subtitle = 'This month we do away with longer form talks and fill the night with lightning talks!';
-//        } elseif ($startDate->month === 6) {
-//            $event->title = "Melbourne Cocoaheads #$count - (WWDC Tentative Date)";
-//            $event->subtitle = 'The date for this meetup is tentative due to WWDC being held in June. We will reschedule this meetup to be AFTER the WWDC conference.';
         } else {
             $event->title = "Melbourne Cocoaheads #$count";
             $event->subtitle = 'Melbourne Cocoaheads Meetup';
@@ -176,44 +189,51 @@ class GenerateYearlyEvents extends Command
 
         $event->sponsors()->detach();
 
-        $host = Sponsor::where('name', '=', 'Teamsquare')->first();
-        $event->sponsors()->attach($host);
-
         switch ($event->starts_at->month) {
             case 1:
                 break;
             case 2:
                 $event->sponsors()->attach(Sponsor::where('name', 'B2Cloud')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Teamsquare')->first());
                 break;
             case 3:
                 $event->sponsors()->attach(Sponsor::where('name', 'jtribe')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Teamsquare')->first());
                 break;
             case 4:
                 $event->sponsors()->attach(Sponsor::where('name', 'Vinomofo')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Teamsquare')->first());
                 break;
             case 5:
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Teamsquare')->first());
                 break;
             case 6:
                 $event->sponsors()->attach(Sponsor::where('name', 'Odecee')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Teamsquare')->first());
                 break;
             case 7:
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Teamsquare')->first());
                 break;
             case 8:
                 $event->sponsors()->attach(Sponsor::where('name', 'Outware')->first());
                 break;
             case 9:
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Outware')->first());
                 break;
             case 10:
-                $event->sponsors()->attach(Sponsor::where('name', 'iflix')->first());
+//                $event->sponsors()->attach(Sponsor::where('name', 'iflix')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Outware')->first());
                 break;
             case 11:
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Outware')->first());
                 break;
             case 12:
 //                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Outware')->first());
                 break;
         }
     }
@@ -285,6 +305,34 @@ class GenerateYearlyEvents extends Command
         }
     }
 
+    private function createNSBreakfastEvent(Carbon $startDate)
+    {
+        $startDate = $startDate->copy()->setTimezone(new \DateTimeZone('UTC'));
+
+        $slug = Str::slug(Event::SPECIAL . " $startDate");
+
+        $this->info("NSBreakfast $startDate UTC");
+
+        $event = Event::firstOrNew(['slug' => $slug]);
+
+        $event->type = Event::SPECIAL;
+        $event->slug = $slug;
+        $event->title = 'NSBreakfast';
+        $event->subtitle = 'Informal and unstructured; Hang out, drink coffee, eat breakfast and chat iOS / OSX';
+        $event->starts_at = $startDate;
+        $event->ends_at = $startDate->copy()->addHours(2);
+        $event->contact = 'https://twitter.com/nsbreakfast';
+        $event->contact_name = 'Matt Delves';
+        $event->location = 'Hash Specialty Coffee and Roasters';
+        $event->location_link = 'https://www.beanhunter.com/melbourne/hash-melbourne-cbd';
+        $event->address_display = '113 Hardware Street, Melbourne';
+        $event->address = '113 Hardware Street, Melbourne, VIC 3000';
+        $event->lat = -37.81138;
+        $event->lng = 144.958709;
+
+        $event->save();
+    }
+
     private function createSpecialEvents()
     {
         //NSBreakfast May
@@ -343,8 +391,8 @@ class GenerateYearlyEvents extends Command
         $wwdcEventJune2016 = Carbon::create(2016, 6, 16, 18, 30, 0, new \DateTimeZone('Australia/Melbourne'));
         $wwdcEventJune2016->setTimezone(new \DateTimeZone('UTC'));
 
-        $slug = Str::slug(Event::SPECIAL . " $nsBreakfastJune");
-        $this->info("Special Event (WWDC) $nsBreakfastJune UTC");
+        $slug = Str::slug(Event::SPECIAL . " $wwdcEventJune2016");
+        $this->info("Special Event (WWDC) $wwdcEventJune2016 UTC");
 
         $event = Event::firstOrNew(['slug' => $slug]);
         $event->type = Event::SPECIAL;
