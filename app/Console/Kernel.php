@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use App\Console\Commands\CreateAdmin;
 use App\Console\Commands\LoadPosts;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -15,7 +16,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         Commands\GenerateYearlyEvents::class,
-        LoadPosts::class
+        LoadPosts::class,
+        CreateAdmin::class,
     ];
 
     /**
