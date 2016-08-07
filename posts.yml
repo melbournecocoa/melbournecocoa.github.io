@@ -1,4 +1,31 @@
 posts:
+  - title: Speakers for August
+    subtitle: Don't forget the new venue!
+    frontpage: 1
+    created_at: 2016-08-07 22:00:00 +0
+    events:
+    - 14
+    body: |
+      <p>Don't forget we have a new venue at <strong><a href="https://goo.gl/maps/doMSSDtnNau">Level 3 469 La Trobe Street</a></strong> for the reaminder of 2016.
+      Make sure you checkout the <a href="/events/14">event page</a> and the previous <a href="/updates/august-update">August Update</a> post for more details.</p>
+
+      <p>Additional thanks to Outware for sponsoring the August Meetup too!</p>
+
+      <h3 class="section-heading">Presentations for August</h3>
+
+      <ul>
+        <li>Peter Goldsmith <a href="https://www.twitter.com/_petegoldsmith">@_petegoldsmith</a> - "The Month That Was"</li>
+        <li>Matt Delves <a href="https://www.twitter.com/mattdelves">@mattdelves</a> - "SiriKit"</li>
+        <li>Tristan Burnside - "iMessage apps and extensions"</li>
+        <li>Andyy Hope <a href="https://www.twitter.com/andyyhope">@andyyhope</a> - "NSLayoutConstraint fixed for Swift"</li>
+        <li>Gavan Chan <a href="https://www.twitter.com/gavanchan">@gavanchan</a> - "Generalising (not Generic) View Controllers"</li>
+      </ul>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>Keep your eye on the <a href="https://www.twitter.com/melbournecocoa">@melbournecocoa</a> twitter or the #general slack channel
+      for notifications on if/where/how we will be live streaming this month.</p>
+
   - title: August Update
     subtitle: A new venue and NSBreakfast is now official
     frontpage: 1
@@ -15,7 +42,7 @@ posts:
       <p>I'm excited to announce that starting from the <a href="/events/14">August meetup #97</a> we will be moving homes from Teamsquare
        to <a href="http://www.outware.com.au">Outware</a> on La Trobe Street!</p>
 
-      <p>Outware have an excellent central space at <strong>469 La Trobe Street</strong> overlooking the Flagstaff gardens and are right
+      <p>Outware have an excellent central space at <strong>Level 3 469 La Trobe Street</strong> overlooking the Flagstaff gardens and are right
        next to Flagstaff station. Make sure you take note of the new address, I have updated everything relevant to reflect the new venue
        and I'll reach out more directly closer to the date.</p>
 
