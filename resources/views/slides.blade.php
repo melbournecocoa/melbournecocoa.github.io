@@ -1,14 +1,14 @@
 ##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne Cocoaheads #{{ $number }}
 ##[FIT]{{ $dateString }}
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-hb-melbourne-crop.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-hb-melbourne-crop.jpg)
 
 ---
 
 ##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne Cocoaheads #{{ $number }}
 ##[FIT]{{ $dateString }}
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-hb-melbourne-crop.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-hb-melbourne-crop.jpg)
 
 ### Kicking off @ 6:30pm {{ $timezone }}
 
@@ -16,7 +16,7 @@
 
 # Tonight's Presentations
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -35,13 +35,13 @@ TODO: Presentations
 
 # [FIT] Introductions
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
 # hi, I'm Jesse
 
-![right](http://www.melbournecocoaheads.com/img/sides-common/_petegoldsmith_2015-Jul-09.jpg)
+![right](http://www.melbournecocoaheads.com/img/slides-common/_petegoldsmith_2015-Jul-09.jpg)
 
 - Melbourne Coocaheads organiser since August 2014
 - Cocoaheads attendee since 2008
@@ -107,13 +107,13 @@ Great to practice your presentation skills
 
 # [FIT] General Business
 
-![](http://www.melbournecocoaheads.com/img/sides-common/business-cat.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/business-cat.jpg)
 
 ---
 
 # [FIT] Who's Hiring?
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -123,7 +123,7 @@ Great to practice your presentation skills
 
 # [FIT] Presentations
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -143,7 +143,7 @@ Great to practice your presentation skills
 
 # [FIT] Presentations
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -156,7 +156,7 @@ Great to practice your presentation skills
 
 # [FIT] Lightning Talks
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -168,7 +168,7 @@ Great to practice your presentation skills
 
 #[FIT] Next Meetup >><br/>{{ $nextEventDateString }}<br/> {{ $nextEvent->location }}
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -184,4 +184,4 @@ Great to practice your presentation skills
 ##[FIT]Thanks for Coming!
 ##[FIT]Next meetup {{ $nextEventDateString }}
 
-![](http://www.melbournecocoaheads.com/img/sides-common/covers-hb-melbourne-crop.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-hb-melbourne-crop.jpg)
