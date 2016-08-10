@@ -1,30 +1,26 @@
 ##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne Cocoaheads #{{ $number }}
 ##[FIT]{{ $dateString }}
 
-![](../assets/01 covers/covers-hayley-black-melbourne-crop.jpg)
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-hb-melbourne-crop.jpg)
 
 ---
 
 ##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne Cocoaheads #{{ $number }}
 ##[FIT]{{ $dateString }}
 
-![](../assets/01 covers/covers-hayley-black-melbourne-crop.jpg)
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-hb-melbourne-crop.jpg)
 
 ### Kicking off @ 6:30pm {{ $timezone }}
 
 ---
 
-##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne Cocoaheads #{{ $number }}
-##[FIT]{{ $dateString }}
+# Tonight's Presentations
 
-### Wifi: teamsquare visitors
-### Password: coworking
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
-# Tonight's Presentations
-
-![](../assets/01 covers/covers-jesse-collis-abbotsford-2.jpg)
+TODO: Presentations
 
 ---
 
@@ -39,13 +35,13 @@
 
 # [FIT] Introductions
 
-![](../assets/01 covers/covers-jesse-collis-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
 # hi, I'm Jesse
 
-![right](../assets/05 photos/_petegoldsmith_2015-Jul-09.jpg)
+![right](http://www.melbournecocoaheads.com/img/sides-common/_petegoldsmith_2015-Jul-09.jpg)
 
 - Melbourne Coocaheads organiser since August 2014
 - Cocoaheads attendee since 2008
@@ -74,7 +70,7 @@
 - melbournecocoa.slack.com - ping @melbournecocoa  for an invite
 - Broadcasting monthly on YouTube
 
-^160 members in the slack channel and counting
+^197 members in the slack channel and counting
 
 ---
 
@@ -99,36 +95,25 @@ Great to practice your presentation skills
 
 # Thanks to our hosts
 
-![inline](../assets/04 sponsors/teamsquare-2500x791-white.png)
+@if (isset($host))
 
-## Free for anybody to try for a day via <br/>http://try.teamsquare.co/
+![inline](http://www.melbournecocoaheads.com/img/{{$host->image}})
 
-### Michael Shimmins
+## {{ $host->contact }}
 
-
-^ Teamsquare provides beautiful and collaborative workspace for Melbourne’s leading creators - freelancers, startups, designers, builders and doers.
-^
-^ amazing amenities
-^ rock solid technology infrastructure
-^ A strong community, regular events and a raft of other services
-^
-^ Highlights
-^ We have a combination of open-plan workstations and private offices
-^ Casual plans for infrequent use coming soon
-^ Free for anybody to try for a day via http://try.teamsquare.co/
-^ Michael's at the front desk if you want to have a chat and learn more after the even
+@endif
 
 ---
 
 # [FIT] General Business
 
-![](../assets/02 memes/BusinessCat.png)
+![](http://www.melbournecocoaheads.com/img/sides-common/business-cat.jpg)
 
 ---
 
 # [FIT] Who's Hiring?
 
-![](../assets/01 covers/covers-jesse-collis-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -138,7 +123,7 @@ Great to practice your presentation skills
 
 # [FIT] Presentations
 
-![](../assets/01 covers/covers-jesse-collis-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -158,7 +143,7 @@ Great to practice your presentation skills
 
 # [FIT] Presentations
 
-![](../assets/01 covers/covers-jesse-collis-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -171,7 +156,7 @@ Great to practice your presentation skills
 
 # [FIT] Lightning Talks
 
-![](../assets/01 covers/covers-jesse-collis-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -183,7 +168,7 @@ Great to practice your presentation skills
 
 #[FIT] Next Meetup >><br/>{{ $nextEventDateString }}<br/> {{ $nextEvent->location }}
 
-![](../assets/01 covers/covers-jesse-collis-abbotsford-2.jpg)
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-jc-abbotsford-2.jpg)
 
 ---
 
@@ -196,15 +181,7 @@ Great to practice your presentation skills
 ---
 
 
-# To the pub!
-### The Irish Times
-### 427 Little Collins Street
-
-![right](../assets/03 locations/Isish Times.png)
-
----
-
 ##[FIT]Thanks for Coming!
 ##[FIT]Next meetup {{ $nextEventDateString }}
 
-![](../assets/01 covers/covers-hayley-black-melbourne-crop.jpg)
+![](http://www.melbournecocoaheads.com/img/sides-common/covers-hb-melbourne-crop.jpg)

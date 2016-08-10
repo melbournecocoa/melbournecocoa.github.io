@@ -252,13 +252,15 @@ class GenerateYearlyEvents extends Command
                 'name' => 'B2Cloud',
                 'image' => 'sponsors/b2cloud.jpg',
                 'web' => 'http://b2cloud.com.au',
-                'twitter' => 'b2cloud'
+                'twitter' => 'b2cloud',
+                'contact' => 'Josh Guest'
             ],
             [
                 'name' => 'jtribe',
                 'image' => 'sponsors/jtribe.png',
                 'web' => 'http://jtribe.com.au',
-                'twitter' => 'jtribeapps'
+                'twitter' => 'jtribeapps',
+                'contact' => 'Armin Kroll'
             ],
             [
                 'name' => 'Vinomofo',
@@ -278,7 +280,8 @@ class GenerateYearlyEvents extends Command
                 'name' => 'Odecee',
                 'image' => 'sponsors/odecee.jpg',
                 'web' => 'http://odecee.com.au',
-                'twitter' => 'odecee'
+                'twitter' => 'odecee',
+                'contact' => 'Ashton Williams'
             ],
             [
                 'name' => 'Outware',
@@ -291,7 +294,8 @@ class GenerateYearlyEvents extends Command
                 'name' => 'Realestate.com.au',
                 'image' => 'sponsors/realestate.jpg',
                 'web' => 'http://techblog.realestate.com.au',
-                'twitter' => 'realestate_au'
+                'twitter' => 'realestate_au',
+                'contact' => null
             ]
 
         ];
@@ -301,6 +305,7 @@ class GenerateYearlyEvents extends Command
             $sponsor->image = $s['image'];
             $sponsor->web = $s['web'];
             $sponsor->twitter = $s['twitter'];
+            $sponsor->contact = $s['contact'];
             $sponsor->save();
         }
     }

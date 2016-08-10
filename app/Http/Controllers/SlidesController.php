@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Event;
+use App\Sponsor;
 use Carbon\Carbon;
 use App\Http\Requests;
 
@@ -32,8 +33,14 @@ class SlidesController extends Controller
 
         $sponsor = $event->sponsors->filter($tsFilter)->first();
 
+        $sponsorHost = null;
+        if ($startTime->month >= 8) {
+            $sponsorHost = Sponsor::find(7);
+        }
+
         $view = view('slides', [
             'sponsor' => $sponsor,
+            'host' => $sponsorHost,
             'number' => $event->eventNumber(),
             'dateString' => $startTime->format('j F, Y'),
             'timezone' => $startTime->format('T'),
