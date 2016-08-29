@@ -1,7 +1,40 @@
 posts:
+  - title: September Call for Speakers
+    subtitle: See you on the 8th (not the 7th)
+    frontpage: 1
+    created_at: 2016-08-29 22:00:00 +0
+    events:
+    - 15
+    - 17
+    body: |
+      <p>September meetup is on next Thursday at Outware (<strong><a href="https://goo.gl/maps/doMSSDtnNau">Level 3 469 La Trobe Street</a></strong>) - now is the time to
+      submit your talk ideas!</p>
+
+      <p>September meetup is sponsored by the awesome <a href="http://domesticcat.com.au/">Domestic Cat</a> team.<p>
+
+      <h3 class="section-heading">Submit Your Talks</h3>
+
+      <p>Head over to <a href="/talks">/talks</a> to submit your talks for September!</p>
+
+      <h3 class="section-heading">Hack Night Tonight!</h3>
+
+      <p>Hack Night is tonight, <a href="http://2016.devworld.com.au">/Dev/World</a> is also on today so there'll be handfuls of cocoa devs out and about.</p>
+
+      <h3 class="section-heading">Apple Event, Sept 7th</h3>
+
+      <p>Apple are holding an event the morning of the meetup, I'm hearing this is going to be the event where Apple announce a new one of <i>everything</i> so this should
+      be excellent TMTW fodder. Ben, Pete or I will have a wrap up of the news.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>Keep your eye on the <a href="https://www.twitter.com/melbournecocoa">@melbournecocoa</a> twitter or the #general slack channel I will be working
+      hard to get the streaming going now that we're a bit more familiar with the new venue.</p>
+
+      <p>Did I mention you should head over to <a href="/talks">/talks</a> and submit a talk idea?</p>
+
   - title: Speakers for August
     subtitle: Don't forget the new venue!
-    frontpage: 1
+    frontpage: 0
     created_at: 2016-08-07 22:00:00 +0
     events:
     - 14
@@ -28,7 +61,7 @@ posts:
 
   - title: August Update
     subtitle: A new venue and NSBreakfast is now official
-    frontpage: 1
+    frontpage: 2
     created_at: 2016-07-21 10:00:00 +0
     events:
     - 16
