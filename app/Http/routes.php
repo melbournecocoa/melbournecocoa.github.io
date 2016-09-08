@@ -41,6 +41,10 @@ Route::group(['middleware' => ['web']], function () {
     }]);
 //    Route::get('/sitemap', ['as' => 'sitemap', 'uses' => 'PostsController@xxx']);
 
+    Route::get('/live', function () {
+        return response('', 303)->header('location', 'http://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw/live');
+    });
+
     Route::get('/events/past', ['as' => 'pastEvents', 'uses' => 'EventsController@getPastEvents']);
     Route::get('/calendar', ['as' => 'calendar', function () {
         return view('calendar');
