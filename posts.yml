@@ -1,7 +1,34 @@
 posts:
+  - title: Lineup for October
+    subtitle: Repeated Fraudulent Activity
+    frontpage: 1
+    created_at: 2016-10-08 00:00:01 +0
+    events:
+    - 20
+    - 21
+    - 25
+    body: |
+      <p>Welcome to October! This month's post subtitle is reference to some <a href="http://www.macrumors.com/2016/10/06/dash-pulled-for-app-store-review-manipulation/">unfortunate App Store drama</a> that occurred earlier this week.</p>
+
+      <h3 class="section-heading">Presentations for October</h3>
+
+      <ul>
+        <li>Peter Goldsmith <a href="https://www.twitter.com/_petegoldsmith">@_petegoldsmith</a> - "The Month That Was"</li>
+        <li>Gio <a href="https://www.twitter.com/mokagio">@mokagio</a> - "CI & CD @ iflix"</li>
+        <li>Jayant Varma <a href="https://www.twitter.com/ozapps">@ozapps</a>, <a href="https://www.twitter.com/learnswiftblog">@learnswiftblog</a> - "Defaults - A Safety Net or a Trap"</li>
+        <li>Gavan Chan <a href="https://www.twitter.com/gavanchan">@gavanchan</a> - "Data-Flow Programming Pt. 2"</li>
+      </ul>
+
+      <p>Our October meetup is sponsored by iflix.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>I will continue to iterate and attempt to sort out the streaming this month. It will be available via the Melbourne Cocoaheads
+      YouTube channel from about 6:30pm. Check it out at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a></p>
+
   - title: Speakers for September
     subtitle: Jet Black is the new Black
-    frontpage: 1
+    frontpage: 0
     created_at: 2016-09-07 23:00:00 +0
     events:
     - 17
@@ -16,17 +43,17 @@ posts:
         <li>Ray Hilton <a href="https://www.twitter.com/rayh">@rayh</a> - "App design fallacies - things that cause more harm than good (even though they sound great at the time)"</li>
       </ul>
 
-      <p>September meetup is sponsored by the awesome <a href="http://domesticcat.com.au/">Domestic Cat</a> team.<p>
+      <p>September meetup is sponsored by the awesome <a href="http://domesticcat.com.au/">Domestic Cat</a> team.</p>
 
       <h3 class="section-heading">Live Streaming</h3>
 
-      <p>We will be streaming live tonight from the new Melbourne Cocoaheads YouTube channel from about 6:30pm. Check it out at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>
+      <p>We will be streaming live tonight from the new Melbourne Cocoaheads YouTube channel from about 6:30pm. Check it out at <a href="http://www.melbournecocoaheads.com/live">melbournecocoaheads.com/live</a></p>
 
       <p>See you at Outware tonight! - <strong><a href="https://goo.gl/maps/doMSSDtnNau">Level 3 469 La Trobe Street</a></strong></p>
 
   - title: September Call for Speakers
     subtitle: See you on the 8th (not the 7th)
-    frontpage: 2
+    frontpage: 0
     created_at: 2016-08-29 22:00:00 +0
     events:
     - 15
