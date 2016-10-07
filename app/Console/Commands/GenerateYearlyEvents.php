@@ -224,7 +224,7 @@ class GenerateYearlyEvents extends Command
                 $event->sponsors()->attach(Sponsor::where('name', '=', 'Outware')->first());
                 break;
             case 10:
-//                $event->sponsors()->attach(Sponsor::where('name', 'iflix')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'iflix')->first());
                 $event->sponsors()->attach(Sponsor::where('name', '=', 'Outware')->first());
                 break;
             case 11:
@@ -232,7 +232,7 @@ class GenerateYearlyEvents extends Command
                 $event->sponsors()->attach(Sponsor::where('name', '=', 'Outware')->first());
                 break;
             case 12:
-//                $event->sponsors()->attach(Sponsor::where('name', '')->first());
+                $event->sponsors()->attach(Sponsor::where('name', 'Bilue')->first());
                 $event->sponsors()->attach(Sponsor::where('name', '=', 'Outware')->first());
                 break;
         }
@@ -296,8 +296,21 @@ class GenerateYearlyEvents extends Command
                 'web' => 'http://techblog.realestate.com.au',
                 'twitter' => 'realestate_au',
                 'contact' => null
+            ],
+            [
+                'name' => 'Bilue',
+                'image' => 'sponsors/bilue.png',
+                'web' => 'https://bilue.com.au',
+                'twitter' => 'bilue_voice',
+                'contact' => 'Stewart Gleadow'
+            ],
+            [
+            'name' => 'iflix',
+            'image' => 'sponsors/iflix.png',
+            'web' => 'https://jobs.lever.co/iflix.com',
+            'twitter' => 'iflixMY',
+            'contact' => 'Ray Hilton'
             ]
-
         ];
 
         foreach ($sponsors as $s) {
