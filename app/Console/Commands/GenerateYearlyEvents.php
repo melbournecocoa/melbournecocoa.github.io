@@ -54,6 +54,11 @@ class GenerateYearlyEvents extends Command
 
             if ($date->month > 7) {
                 $date->firstOfMonth(Carbon::FRIDAY)->setTime(7, 30);
+
+                if ($date->month == 11) {
+                    $date->addDays(7); // delayed one week in November
+                }
+
                 $this->createNSBreakfastEvent($date);
             }
 
