@@ -1,7 +1,50 @@
 posts:
+  - title: Lineup for November
+    subtitle: There is no excape
+    frontpage: 1
+    created_at: 2016-11-03 23:00:00 +1
+    events:
+    - 23
+    - 24
+    - 32
+    body: |
+      <p>Welcome to November and our 100th event! If you're at all curious about the history of Melbourne Cocoaheads the early meetup history is <a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory">documented here</a>.</p>
+      <p>Thank you so much to everyone who submitted presentations for this month, as well to our sponsors this month, the awesome
+      <a href="http://domesticcat.com.au/">Domestic Cat</a> team and to <a href="http://www.outware.com.au">Outware</a> for hosting.</p>
+
+      <h3 class="section-heading">MCs for November</h3>
+
+      <p>Ben Deckys <a href="https://www.twitter.com/cocotutch">@cocotutch</a> will be your MC for the evening.</p>
+
+      <h3 class="section-heading">Presentations for November</h3>
+
+      <p><strong>Peter Goldsmith <a href="https://www.twitter.com/_petegoldsmith">@_petegoldsmith</a> - The Month That Was</strong></p>
+
+      <p><i>"There is no escape"</i>. Pete will convince you 16GB of RAM is enough
+      and give you his top tips on how you can have your new Macbook Pro and eat <a href="http://www.theaustralian.com.au/life/weekend-australian-magazine/moralisers-we-need-you/news-story/6bdb24f77572be68330bd306c14ee8a3">Smashed Avocado</a> too.</p>
+
+      <p><strong>Phil Farrugia <a href="https://www.twitter.com/phillfarrugia">@phillfarrugia</a> - Giving Better Talks</strong></p>
+
+      <p>These days technical talks tend to follow a very rigid formula. Bring some excitement, passion and unexpectedness to your talk in order
+      to engage your audience and deliver your core ideas in the most effective way possible.</p>
+
+      <p><strong>Kru Majithiya - 1 Million Pushes, under $20.00 USD / month</strong></p>
+
+      <p>While working on my own little start up, I created my own push notification infrastructure from scratch by using AWS.
+      It scales as per requirements and it is completely decoupled from application servers.</p>
+
+      <p><strong>Sam Saito - Kernel Functions for iOS</strong></p>
+
+      <p>We have boatloads of processing power in our iOS and macOS devices hidden away in the nooks and crannies of Apple's obscure libraries.
+      While use cases may be few and far between, kernel functions can give you brute force steroid solutions to embarrassingly parallel non branchy problems.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>There should be a livestream of the evening, check <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a> from about 6:20pm.</p>
+
   - title: Lineup for October
     subtitle: Repeated Fraudulent Activity
-    frontpage: 1
+    frontpage: 0
     created_at: 2016-10-08 00:00:01 +0
     events:
     - 20
