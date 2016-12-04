@@ -1,8 +1,71 @@
 posts:
+  - title: Cocoaheads No. 101 - December 2016 Lineup
+    subtitle: There's a dongle for that
+    frontpage: 1
+    created_at: 2016-12-04 08:00:00 +0
+    events:
+    - 26
+    - 27
+    body: |
+      <p>It's been another great year of Melbourne Cocoaheads, thanks to everyone who has come along to the meetups, the speakers,
+      sponsors and hosts.</p>
+
+      <p>Thank you to our sponsors for December, <a href="http://bilue.com.au">Bilue</a> and our hosts <a href="http://www.outware.com.au">Outware</a>.</p>
+
+      <h3 class="section-heading">Meetups in 2017</h3>
+
+      <p>Note that <strong>there is no meetup in January</strong> but we will be back in February. Keep your eye on the website,
+      slack and mailing list for more details on the February meetup in late January.</p>
+
+      <h3 class="section-heading">Sponsorships for 2017</h3>
+
+      <p>Sponsorships are available for 2017, if you or your company are keen to sponsor one or more meetups in 2017 or you'd like more information
+      please <a href="mailto:jesse@jcmultimedia.com.au">get in touch with Jesse</a> throughout December and January. Manager convincing documentation
+      will be available in January.</p>
+
+      <h3 class="section-heading">Presentations for December</h3>
+
+      <p><strong>Peter Goldsmith <a href="https://www.twitter.com/_petegoldsmith">@_petegoldsmith</a> &amp;
+      Andyy Hope <a href="https://www.twitter.com/andyyhope">@andyyhope</a> - The Year That Was</strong></p>
+
+      <p>Pete and Andyy will recap the highlights of the year that was 2016.</p>
+
+      <p><strong>Audrey Tam <a href="https://www.twitter.com/mataharimau">@mataharimau</a></strong></p>
+
+      <p>Audrey is seeking feedback on her outline for an update to the URLSession video course at <a href="https://www.raywenderlich.com">raywenderlich.com</a>.
+
+      <p><strong>Kru Majithiya - 1 Million Pushes, under $20.00 USD / month</strong></p>
+
+      <p>While working on my own little start up, I created my own push notification infrastructure from scratch by using AWS.
+      It scales as per requirements and it is completely decoupled from application servers. (Previsly scheduled for November)</p>
+
+      <p><strong>Gio <a href="https://www.twitter.com/mokagio">@mokagio</a> - Building Seams To Test Legacy Code</strong></p>
+
+      <p>A lighting talk illustrating the seams technique from "Working Effectively with Legacy Code", which can be use
+      to start writing unit tests around important pieces of legacy code in order to ensure they don't regress.</p>
+
+      <p><strong>Stew Gleadow <a href="https://www.twitter.com/StewGleadow">@StewGleadow</a> (Bilue) - Topic TBC</strong></p>
+
+      <p><strong>TBC</strong> - but it could either be about building serverless mobile backends or about some fancy http etag caching.</p>
+
+      <p><strong>Jesse Collis <a href="https://www.twitter.com/sirjec">@sirjec</a> - Exploring CloudKit and CloudKit Web Services</strong></p>
+
+      <p>Using the CloudKit.framework frees you from needing a number of third party frameworks, from networking libraries to
+       JSON parsing and push notificaitons. I'll go over how I've begun implementing a CloudKit app with minimal external dependenceies using the
+       CloudKit NSOperation apis and show some interactions with CloudKit web services.<p>
+
+      <p><strong>Matt Delves <a href="https://www.twitter.com/mattdelves">@mattdelves</a> - GraphQL</strong></p>
+
+      <p><a href="http://graphql.org">GraphQL</a> is the future.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>Check the <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a> page from about 6:20pm.</p>
+
   - title: Lineup for November
     subtitle: There is no escape
-    frontpage: 1
-    created_at: 2016-11-03 23:00:00 +1
+    frontpage: 0
+    created_at: 2016-11-03 23:00:00 +0
     events:
     - 23
     - 24
@@ -27,11 +90,6 @@ posts:
 
       <p>These days technical talks tend to follow a very rigid formula. Bring some excitement, passion and unexpectedness to your talk in order
       to engage your audience and deliver your core ideas in the most effective way possible.</p>
-
-      <p><strong>Kru Majithiya - 1 Million Pushes, under $20.00 USD / month</strong></p>
-
-      <p>While working on my own little start up, I created my own push notification infrastructure from scratch by using AWS.
-      It scales as per requirements and it is completely decoupled from application servers.</p>
 
       <p><strong>Sam Saito - Kernel Functions for iOS</strong></p>
 
