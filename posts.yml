@@ -48,15 +48,12 @@ posts:
 
       <p><strong>TBC</strong> - but it could either be about building serverless mobile backends or about some fancy http etag caching.</p>
 
-      <p><strong>Jesse Collis <a href="https://www.twitter.com/sirjec">@sirjec</a> - Exploring CloudKit and CloudKit Web Services</strong></p>
-
-      <p>Using the CloudKit.framework frees you from needing a number of third party frameworks, from networking libraries to
-       JSON parsing and push notificaitons. I'll go over how I've begun implementing a CloudKit app with minimal external dependenceies using the
-       CloudKit NSOperation apis and show some interactions with CloudKit web services.<p>
-
       <p><strong>Matt Delves <a href="https://www.twitter.com/mattdelves">@mattdelves</a> - GraphQL</strong></p>
 
       <p><a href="http://graphql.org">GraphQL</a> is the future.</p>
+
+      <p><strong>Update</strong></p>
+      <p>Posponed Jesse's presentation until February</p>
 
       <h3 class="section-heading">Live Streaming</h3>
 
