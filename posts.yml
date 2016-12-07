@@ -44,9 +44,10 @@ posts:
       <p>A lighting talk illustrating the seams technique from "Working Effectively with Legacy Code", which can be use
       to start writing unit tests around important pieces of legacy code in order to ensure they don't regress.</p>
 
-      <p><strong>Stew Gleadow <a href="https://www.twitter.com/StewGleadow">@StewGleadow</a> (Bilue) - Topic TBC</strong></p>
+      <p><strong>Stew Gleadow <a href="https://www.twitter.com/StewGleadow">@StewGleadow</a> (Bilue) - Simplify your apps with serverless APIs</strong></p>
 
-      <p><strong>TBC</strong> - but it could either be about building serverless mobile backends or about some fancy http etag caching.</p>
+      <p>Mobile developers are always complaining about unnecessary complexity in their code from poorly structured APIs. I'll show a couple of
+      examples of simplifying an app by pushing logic to the backend, without having to run any of your own servers, using Amazon's API Gateway and Lambda.</p>
 
       <p><strong>Matt Delves <a href="https://www.twitter.com/mattdelves">@mattdelves</a> - GraphQL</strong></p>
 
