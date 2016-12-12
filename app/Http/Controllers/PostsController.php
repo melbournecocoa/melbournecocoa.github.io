@@ -17,9 +17,13 @@ class PostsController extends Controller
         $hacknight = (new Event)->nextHacknight()->first();
         $post = $posts->first();
 
-        $description = <<<EOT
+        if ($event) {
+            $description = <<<EOT
 Melbourne Cocoaheads - Next Meetup {$event->getFormattedTimeAttribute()}. Next Hacknight {$hacknight->getFormattedTimeAttribute()}.
 EOT;
+        } else {
+            $description = "Melbourne Cocoaheads";
+        }
 
         SEO::setTitle('Melbourne Cocoaheads');
         SEO::setDescription($description);
