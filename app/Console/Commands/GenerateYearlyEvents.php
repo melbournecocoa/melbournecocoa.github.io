@@ -45,12 +45,12 @@ class GenerateYearlyEvents extends Command
             // events are 2nd Thursday of the month, not January
             if ($date->month > 1) {
                 $date->nthOfMonth(2, Carbon::THURSDAY)->setTime(18, 30);
-                $this->createMeetupEvent($date);
+                $this->createMeetupEvent2016($date);
             }
 
             // hack nights last Tuesday of the month
             $date->lastOfMonth(Carbon::TUESDAY)->setTime(18, 30);
-            $this->createHackNightEvent($date);
+            $this->createHackNightEvent2016($date);
 
             if ($date->month > 7) {
                 $date->firstOfMonth(Carbon::FRIDAY)->setTime(7, 30);
@@ -59,17 +59,17 @@ class GenerateYearlyEvents extends Command
                     $date->addDays(7); // delayed one week in November
                 }
 
-                $this->createNSBreakfastEvent($date);
+                $this->createNSBreakfastEvent2016($date);
             }
 
             $date = $date->copy()->startOfMonth()->addMonth();
 
         } while ((integer) $date->year === (integer) $year);
 
-        $this->createSpecialEvents();
+        $this->createSpecialEvents2016();
     }
 
-    private function createHackNightEvent(Carbon $startDate)
+    private function createHackNightEvent2016(Carbon $startDate)
     {
         $startDate = $startDate->copy()->setTimezone(new \DateTimeZone('UTC'));
 
@@ -128,12 +128,12 @@ class GenerateYearlyEvents extends Command
         $event->save();
     }
 
-    private function createMeetupEvent(Carbon $startDate)
+    private function createMeetupEvent2016(Carbon $startDate)
     {
         $startDate = $startDate->copy()->setTimezone(new \DateTimeZone('UTC'));
 
         // rough algorithm for the number of cch we're at.
-        // - december 2015 meetup was #90. We have 11 meetups a year
+        // - December 2015 meetup was #90. We have 11 meetups a year
         // TODO: this can be placed on the model
         $count = 90 + (($startDate->year - 2016) * 11) + ($startDate->month - 1);
 
@@ -328,7 +328,7 @@ class GenerateYearlyEvents extends Command
         }
     }
 
-    private function createNSBreakfastEvent(Carbon $startDate)
+    private function createNSBreakfastEvent2016(Carbon $startDate)
     {
         $startDate = $startDate->copy()->setTimezone(new \DateTimeZone('UTC'));
 
@@ -356,7 +356,7 @@ class GenerateYearlyEvents extends Command
         $event->save();
     }
 
-    private function createSpecialEvents()
+    private function createSpecialEvents2016()
     {
         //NSBreakfast May
         $nsBreakfastMay = Carbon::create(2016, 5, 6, 8, 0, 0, new \DateTimeZone('Australia/Melbourne'));

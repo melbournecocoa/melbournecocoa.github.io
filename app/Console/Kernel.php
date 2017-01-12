@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use App\Console\Commands\BootstrapEvents;
 use App\Console\Commands\CreateAdmin;
 use App\Console\Commands\LoadPosts;
 use Illuminate\Console\Scheduling\Schedule;
@@ -18,6 +19,7 @@ class Kernel extends ConsoleKernel
         Commands\GenerateYearlyEvents::class,
         LoadPosts::class,
         CreateAdmin::class,
+        BootstrapEvents::class
     ];
 
     /**
