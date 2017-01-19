@@ -31,10 +31,14 @@ class Event extends Model
         return $this->belongsToMany(Sponsor::class, 'events_sponsors');
     }
 
-    // TODO: use this in the generator
-    public function eventNumber()
+    public function eventNumber() : int
     {
-        return 90 + (($this->starts_at->year - 2016) * 11) + ($this->starts_at->month - 1);
+        return static::eventNumberDate($this->starts_at);
+    }
+
+    public static function eventNumberDate(Carbon $starts_at) : int
+    {
+        return 90 + (($starts_at->year - 2016) * 11) + ($starts_at->month - 1);
     }
 
     public function getFormattedTimeAttribute()

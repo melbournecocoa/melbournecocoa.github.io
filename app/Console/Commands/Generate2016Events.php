@@ -8,49 +8,33 @@ use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 
-class GenerateYearlyEvents extends Command
+class Generate2016Events extends Command
 {
-    /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
-    protected $signature = 'cocoa:events {year? : The year to create events for}';
+    protected $signature = 'cocoa:events-2016';
 
-    /**
-     * The console command description.
-     *
-     * @var string
-     */
-    protected $description = 'Command description';
+    protected $description = '2016 event creator. Also creates sponsors.';
     
-    /**
-     * Execute the console command.
-     *
-     * @return mixed
-     */
     public function handle()
     {
-        // internally, if there's no year we will do the current year
-        $year = $this->argument('year') ?? date('Y');
+        // // https://github.com/briannesbitt/Carbon/issues/627
+        Carbon::useMonthsOverflow(false);
 
         $this->createSponsors();
 
-        /**
-         * @var $date Carbon
-         */
+        $year = 2016;
+
         $date = Carbon::createFromDate($year, 1, 1, new \DateTimeZone('Australia/Melbourne'));
 
         do {
             // events are 2nd Thursday of the month, not January
             if ($date->month > 1) {
                 $date->nthOfMonth(2, Carbon::THURSDAY)->setTime(18, 30);
-                $this->createMeetupEvent2016($date);
+                $this->createMeetupEvent2016($date->copy());
             }
 
             // hack nights last Tuesday of the month
             $date->lastOfMonth(Carbon::TUESDAY)->setTime(18, 30);
-            $this->createHackNightEvent2016($date);
+            $this->createHackNightEvent2016($date->copy());
 
             if ($date->month > 7) {
                 $date->firstOfMonth(Carbon::FRIDAY)->setTime(7, 30);
@@ -59,10 +43,10 @@ class GenerateYearlyEvents extends Command
                     $date->addDays(7); // delayed one week in November
                 }
 
-                $this->createNSBreakfastEvent2016($date);
+                $this->createNSBreakfastEvent2016($date->copy());
             }
 
-            $date = $date->copy()->startOfMonth()->addMonth();
+            $date->addMonth();
 
         } while ((integer) $date->year === (integer) $year);
 
@@ -222,7 +206,7 @@ class GenerateYearlyEvents extends Command
                 $event->sponsors()->attach(Sponsor::where('name', '=', 'Teamsquare')->first());
                 break;
             case 8:
-                $event->sponsors()->attach(Sponsor::where('name', 'Outware')->first());
+                $event->sponsors()->attach(Sponsor::where('name', '=', 'Outware')->first());
                 break;
             case 9:
                 $event->sponsors()->attach(Sponsor::where('name', 'Domestic Cat')->first());
@@ -310,11 +294,18 @@ class GenerateYearlyEvents extends Command
                 'contact' => 'Stewart Gleadow'
             ],
             [
-            'name' => 'iflix',
-            'image' => 'sponsors/iflix.png',
-            'web' => 'https://jobs.lever.co/iflix.com',
-            'twitter' => 'iflixMY',
-            'contact' => 'Ray Hilton'
+                'name' => 'iflix',
+                'image' => 'sponsors/iflix.png',
+                'web' => 'https://jobs.lever.co/iflix.com',
+                'twitter' => 'iflixMY',
+                'contact' => 'Ray Hilton'
+            ],
+            [
+                'name' => 'Playgrounds',
+                'image' => 'sponsors/playgrounds.png',
+                'web' => 'http://www.playgroundscon.com',
+                'twitter' => 'playgroundscon',
+                'contact' => 'Andyy Hope'
             ]
         ];
 

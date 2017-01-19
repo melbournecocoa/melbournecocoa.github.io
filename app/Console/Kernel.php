@@ -2,8 +2,11 @@
 
 namespace App\Console;
 
-use App\Console\Commands\BootstrapEvents;
+use App\Console\Commands\CocoaheadsBootstrap;
+use App\Console\Commands\Generate2017Events;
 use App\Console\Commands\CreateAdmin;
+use App\Console\Commands\Generate2016Events;
+use App\Console\Commands\LoadEvents;
 use App\Console\Commands\LoadPosts;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -16,10 +19,12 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        Commands\GenerateYearlyEvents::class,
         LoadPosts::class,
+        LoadEvents::class,
         CreateAdmin::class,
-        BootstrapEvents::class
+        Generate2017Events::class,
+        Generate2016Events::class,
+        CocoaheadsBootstrap::class,
     ];
 
     /**
@@ -30,7 +35,5 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
     }
 }

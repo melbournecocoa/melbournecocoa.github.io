@@ -11,33 +11,17 @@ use Symfony\Component\Yaml\Parser;
 
 class LoadPosts extends Command
 {
-    /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
-    protected $signature = 'cocoa:posts {file=posts.yml : the yaml file to load}';
+    protected $signature = 'cocoa:posts';
 
-    /**
-     * The console command description.
-     *
-     * @var string
-     */
-    protected $description = 'Load posts from a YAML file';
+    protected $description = 'Load posts from posts.yml.';
 
-    /**
-     * Execute the console command.
-     *
-     * @return mixed
-     */
     public function handle()
     {
         $yaml = new Parser();
 
-        $posts = $yaml->parse(file_get_contents(base_path($this->argument('file'))));
+        $posts = $yaml->parse(file_get_contents(base_path('posts.yml')));
 
         foreach ($posts['posts'] as $post) {
-
             $slug = Str::slug($post['title']);
 
             $newPost = Post::firstOrNew(['slug' => $slug]);

@@ -1,22 +1,28 @@
-# Cocoaheads 2016
+# Cocoaheads Website
 
 ## Deploying to Heroku
 
 ```sh
-git push heroku master && heroku run php artisan migrate && heroku run php artisan cocoa:events && heroku run php artisan cocoa:posts
+git push heroku master && heroku run php artisan migrate && heroku run php artisan cocoa:update
 ```
 
 More simply (no migration)
 
 ```sh
-git push heroku master && heroku run php artisan cocoa:events && heroku run php artisan cocoa:posts
+git push heroku master && heroku run php artisan cocoa:update
+```
+
+Starting from scratch. This will clean out the DB, add everything again.
+
+```sh
+got push heroku master && heroku run php artisan migrate:refresh && heroku run php artisan cocoa:update --bootstrap
 ```
 
 ## Running this locally
 
 - homebrew
 - homebrew php
-- php70
+- php71
 
 ```sh
 php artisan key:generate
@@ -27,10 +33,16 @@ php artisan cocoa:posts
 php artisan serve
 ```
 
-
 ## Writing Posts
 
 You can write posts by creating new entries in posts.yml. These are ingested automatically on deployment.
+
+## Events
+
+Update events.yml with new events in the same format as what's there and you can add more events.
+
+There is a command `cocoa:events-2017` that populates the events.yml with a base set of 2017 events. 
+This will replace the existing file.  
 
 ## API
 

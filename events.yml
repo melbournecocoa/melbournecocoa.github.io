@@ -1,0 +1,368 @@
+events:
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-01-31-073000
+        starts_at: '2017-01-31 07:30:00 +0000'
+        ends_at: '2017-01-31 10:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-02-09-073000
+        starts_at: '2017-02-09 07:30:00 +0000'
+        ends_at: '2017-02-09 10:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-feb-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #102'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Playgrounds, Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-02-28-073000
+        starts_at: '2017-02-28 07:30:00 +0000'
+        ends_at: '2017-02-28 10:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-03-09-073000
+        starts_at: '2017-03-09 07:30:00 +0000'
+        ends_at: '2017-03-09 10:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-mar-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #103'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-03-28-073000
+        starts_at: '2017-03-28 07:30:00 +0000'
+        ends_at: '2017-03-28 10:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-04-13-083000
+        starts_at: '2017-04-13 08:30:00 +0000'
+        ends_at: '2017-04-13 11:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-apr-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #104'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-04-25-083000
+        starts_at: '2017-04-25 08:30:00 +0000'
+        ends_at: '2017-04-25 11:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-05-11-083000
+        starts_at: '2017-05-11 08:30:00 +0000'
+        ends_at: '2017-05-11 11:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-may-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #105'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-05-30-083000
+        starts_at: '2017-05-30 08:30:00 +0000'
+        ends_at: '2017-05-30 11:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-06-08-083000
+        starts_at: '2017-06-08 08:30:00 +0000'
+        ends_at: '2017-06-08 11:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-jun-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #106'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-06-27-083000
+        starts_at: '2017-06-27 08:30:00 +0000'
+        ends_at: '2017-06-27 11:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-07-13-083000
+        starts_at: '2017-07-13 08:30:00 +0000'
+        ends_at: '2017-07-13 11:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-jul-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #107 - Lightning Talk Month'
+        subtitle: 'This month we do away with longer form talks and fill the night with lightning talks!'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-07-25-083000
+        starts_at: '2017-07-25 08:30:00 +0000'
+        ends_at: '2017-07-25 11:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-08-10-083000
+        starts_at: '2017-08-10 08:30:00 +0000'
+        ends_at: '2017-08-10 11:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-aug-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #108'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-08-29-083000
+        starts_at: '2017-08-29 08:30:00 +0000'
+        ends_at: '2017-08-29 11:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-09-07-083000
+        starts_at: '2017-09-07 08:30:00 +0000'
+        ends_at: '2017-09-07 11:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-sep-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #109'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-09-26-083000
+        starts_at: '2017-09-26 08:30:00 +0000'
+        ends_at: '2017-09-26 11:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-10-12-073000
+        starts_at: '2017-10-12 07:30:00 +0000'
+        ends_at: '2017-10-12 10:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-oct-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #110'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-10-31-073000
+        starts_at: '2017-10-31 07:30:00 +0000'
+        ends_at: '2017-10-31 10:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-11-09-073000
+        starts_at: '2017-11-09 07:30:00 +0000'
+        ends_at: '2017-11-09 10:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-nov-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #111'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-11-28-073000
+        starts_at: '2017-11-28 07:30:00 +0000'
+        ends_at: '2017-11-28 10:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-12-07-073000
+        starts_at: '2017-12-07 07:30:00 +0000'
+        ends_at: '2017-12-07 10:30:00 +0000'
+        tickets: 'https://melbournecocoaheads-dec-2017.eventbrite.com.au'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne Cocoaheads #112'
+        subtitle: 'Melbourne Cocoaheads Meetup'
+        location: Outware
+        location_link: 'http://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne Cocoaheads Hack Night'
+        slug: hacknight-2017-12-26-073000
+        starts_at: '2017-12-26 07:30:00 +0000'
+        ends_at: '2017-12-26 10:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'http://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
