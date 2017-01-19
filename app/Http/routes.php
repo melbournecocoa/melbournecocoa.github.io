@@ -39,7 +39,6 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/contact', ['as' => 'contact', function () {
         return view('contact');
     }]);
-//    Route::get('/sitemap', ['as' => 'sitemap', 'uses' => 'PostsController@xxx']);
 
     Route::get('/live', function () {
         return response('', 303)->header('location', 'http://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw/live');
@@ -71,14 +70,12 @@ Route::group(['middleware' => ['web']], function () {
 Route::group(['prefix' => '/api', 'middleware' => ['api']], function () {
 
     Route::get('/events', function () {
-        //TODO: Cache
         $events = (new \App\Event())->nextEvent()->limit(null)->get();
         $hacknights = (new \App\Event())->where('type', '=', \App\Event::HACKNIGHT)->get();
         return response()->json(['meetups' => $events, 'hacknights' => $hacknights]);
     });
 
     Route::get('/events/next', function () {
-        //TODO: Cache
         $event = (new \App\Event)->nextEvent()->first();
         $hacknight = (new \App\Event)->nextHacknight()->first();
 
@@ -86,10 +83,8 @@ Route::group(['prefix' => '/api', 'middleware' => ['api']], function () {
     });
 
     Route::get('/events/past', function () {
-        //TODO: Cache
         $events = (new \App\Event())->where('type', '=', \App\Event::MEETUP)->get();
         $hacknights = (new \App\Event())->where('type', '=', \App\Event::HACKNIGHT)->get();
         return response()->json(['meetups' => $events, 'hacknights' => $hacknights]);
     });
-
 });
