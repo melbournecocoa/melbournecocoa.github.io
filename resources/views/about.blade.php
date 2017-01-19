@@ -17,7 +17,7 @@
                         <li><a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory">History</a></li>
                         <li><a href="https://github.com/melbournecocoa">Github</a></li>
                         <li><a href="https://www.twitter.com/melbournecocoa">Twitter - @meloburnecocoa</a></li>
-                        <li><a href="https://melbournecocoa.slack.com">Slack - @meloburnecocoa</a> - ask for an invite</li>
+                        <li><a href="https://slack.melbournecocoaheads.com">Slack - @meloburnecocoa</a> - click for an invite</li>
                     </ul>
 
                     <h2>Meetings</h2>

@@ -143,7 +143,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://melbournecocoa.slack.com" title="Melbourne Cocoaheads Slack">
+                        <a href="https://slack.melbournecocoaheads.com" title="Melbourne Cocoaheads Slack">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-slack fa-stack-1x fa-inverse"></i>
