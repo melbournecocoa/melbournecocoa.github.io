@@ -2,6 +2,8 @@
 
 return [
 
+    'name' => 'Melbourne Cocoaheads',
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
