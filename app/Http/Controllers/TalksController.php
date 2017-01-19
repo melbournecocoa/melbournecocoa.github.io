@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\TalkSubmitted;
 use App\Talk;
 use App\User;
 use Illuminate\Http\Request;
-use Illuminate\Mail\Message;
 use Mail;
 
 class TalksController extends Controller
@@ -43,13 +43,7 @@ class TalksController extends Controller
 
         $admin = User::where('email', '=', env('ADMIN_EMAIL'))->first();
 
-        $subject = '[CCH] Talk submitted: ' . $talk->title;
-
-        Mail::send('emails.talk', ['talk' => $talk], function (Message $m) use ($talk, $admin, $subject) {
-            $m->to($admin->email);
-            $m->replyTo($talk->email);
-            $m->subject($subject);
-        });
+        Mail::to($admin->email)->send(new TalkSubmitted($talk));
 
         return redirect()->route('submitTalkSuccess');
     }
