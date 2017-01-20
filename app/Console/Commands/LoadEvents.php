@@ -46,9 +46,10 @@ class LoadEvents extends Command
 
             $e->save();
 
-            $sponsors = $e['sponsors'];
-            if (is_array($sponsors)) {
-                foreach ($sponsors as $sponsor) {
+            $e->sponsors()->detach();
+
+            if (isset($event['sponsors'])) {
+                foreach ($event['sponsors'] as $sponsor) {
                     $e->sponsors()->attach(Sponsor::where('name', '=', $sponsor)->first());
                 }
             }
