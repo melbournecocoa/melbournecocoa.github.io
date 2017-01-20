@@ -17,7 +17,9 @@ class CocoaheadsBootstrap extends Command
         /**
          * Note: You don't need to call 2017 events unless you want to rewrite the events.yml file.
          */
-        $this->call('cocoa:events-2016');
+        if ($this->hasOption('bootstrap')) {
+            $this->call('cocoa:events-2016');
+        }
         $this->call('cocoa:events');
         $this->call('cocoa:posts');
     }
