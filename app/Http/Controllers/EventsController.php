@@ -8,7 +8,7 @@ use SEO;
 
 class EventsController extends Controller
 {
-    public function getEvents()
+    public function getUpcomingEvents()
     {
         $events = Event::with('posts')
             ->upcomingEvents()
@@ -28,8 +28,10 @@ class EventsController extends Controller
         return view('events', ['events' => $events, 'title' => 'Upcoming Events']);
     }
 
-    public function getSingleEvent(Event $event)
+    public function getEvent($eventId)
     {
+        $event = Event::findOrFail((integer) $eventId);
+
         $events = Event::with('posts')
             ->where('id', '=', $event->id)
             ->paginate(10);

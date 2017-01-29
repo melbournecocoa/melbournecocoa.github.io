@@ -55,8 +55,10 @@ EOT;
         return view('posts', ['posts' => $posts]);
     }
 
-    public function getSinglePost(Post $post)
+    public function getSinglePost($postId)
     {
+        $post = Post::where('slug', '=', $postId)->firstOrFail();
+
         SEO::setTitle("$post->title - Melbourne CocoaHeads");
         SEO::setDescription($post->subtitle);
         SEO::opengraph()->setUrl($post->url());
