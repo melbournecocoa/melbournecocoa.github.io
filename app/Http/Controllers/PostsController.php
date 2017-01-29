@@ -19,13 +19,13 @@ class PostsController extends Controller
 
         if ($event) {
             $description = <<<EOT
-Melbourne Cocoaheads - Next Meetup {$event->getFormattedTimeAttribute()}. Next Hacknight {$hacknight->getFormattedTimeAttribute()}.
+Melbourne CocoaHeads - Next Meetup {$event->getFormattedTimeAttribute()}. Next Hack Night {$hacknight->getFormattedTimeAttribute()}.
 EOT;
         } else {
-            $description = "Melbourne Cocoaheads";
+            $description = "Melbourne CocoaHeads";
         }
 
-        SEO::setTitle('Melbourne Cocoaheads');
+        SEO::setTitle('Melbourne CocoaHeads');
         SEO::setDescription($description);
         SEO::opengraph()->setUrl(request()->fullUrl());
         SEO::opengraph()->setArticle([
@@ -48,7 +48,7 @@ EOT;
     {
         $posts = Post::orderBy('created_at', 'desc')->paginate(5);
 
-        SEO::setTitle('Melbourne Cocoaheads');
+        SEO::setTitle('Melbourne CocoaHeads');
         SEO::opengraph()->setUrl(request()->fullUrl());
         SEO::opengraph()->addProperty('type', 'articles');
 
@@ -57,7 +57,7 @@ EOT;
 
     public function getSinglePost(Post $post)
     {
-        SEO::setTitle("$post->title - Melbourne Cocoaheads");
+        SEO::setTitle("$post->title - Melbourne CocoaHeads");
         SEO::setDescription($post->subtitle);
         SEO::opengraph()->setUrl($post->url());
         SEO::opengraph()->setArticle([

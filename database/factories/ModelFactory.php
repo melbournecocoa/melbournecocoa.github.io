@@ -41,7 +41,7 @@ $factory->define(\App\Event::class, function (Faker\Generator $faker) {
     $eventEnd = $eventStart->copy()->addHours(3);
 
     return [
-        'title' => 'Melbourne Cocoaheads Meetup 2016',
+        'title' => 'Melbourne CocoaHeads Meetup 2016',
         'subtitle' => 'Subtitle',
         'type' => \App\Event::MEETUP,
         'starts_at' => $eventStart,

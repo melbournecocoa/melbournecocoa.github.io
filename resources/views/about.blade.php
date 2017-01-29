@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('image', '/img/cch-events-bg.jpg')
-@section('title', 'Melbourne Cocoaheads')
+@section('title', 'Melbourne CocoaHeads')
 @section('subtitle')
     <span class="subheading">About</span>
 @endsection
@@ -11,9 +11,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2>About Melbourne Cocoaheads</h2>
+                    <h2>About Melbourne CocoaHeads</h2>
                     <ul>
-                        <li><a href="https://groups.google.com/group/cocoaheadsau">Australian Cocoaheads Google Group Mailing List</a></li>
+                        <li><a href ="https://www.meetup.com/Melbourne-CocoaHeads">Melbourne CocoaHeads on Meetup.com</a></li>
+                        <li><a href="https://groups.google.com/group/cocoaheadsau">Australian CocoaHeads Google Group Mailing List</a></li>
                         <li><a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory">History</a></li>
                         <li><a href="https://github.com/melbournecocoa">Github</a></li>
                         <li><a href="https://www.twitter.com/melbournecocoa">Twitter - @meloburnecocoa</a></li>
@@ -41,7 +42,7 @@
                     </ol>
 
                     <p>A diverse range of people come to the meetings including hobbyist developers, designers,
-                        freelance contractors, commercial and indie developers. Whatever your background, the Cocoaheads
+                        freelance contractors, commercial and indie developers. Whatever your background, the CocoaHeads
                         community is a fantastic, supportive group who are all ears when it comes to discussing
                         development for iOS and OSX.
                     </p>

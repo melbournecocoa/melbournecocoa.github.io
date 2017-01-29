@@ -59,7 +59,7 @@ class Generate2017Events extends Command
         $event = [
             'type' => Event::HACKNIGHT,
             'title' => 'Hack Night',
-            'subtitle' => 'Melbourne Cocoaheads Hack Night',
+            'subtitle' => 'Melbourne CocoaHeads Hack Night',
             'slug' => Str::slug(Event::HACKNIGHT . " $date"),
             'starts_at' => $date->format(self::YAML_DATE),
             'ends_at' => $date->copy()->addHours(3)->format(self::YAML_DATE),
@@ -107,8 +107,8 @@ class Generate2017Events extends Command
             'tickets' => $tickets2017[$date->month - 2],
             'contact' => 'mailto:jesse@jcmultimedia.com.au',
             'contact_name' => 'Jesse Collis',
-            'title' => "Melbourne Cocoaheads #$eventNumber",
-            'subtitle' => 'Melbourne Cocoaheads Meetup',
+            'title' => "Melbourne CocoaHeads #$eventNumber",
+            'subtitle' => 'Melbourne CocoaHeads Meetup',
             'location' => 'Outware',
             'location_link' => 'http://www.outware.com.au/contact',
             'address_display' => 'Level 3, 469 La Trobe Street, Melbourne',
@@ -126,7 +126,7 @@ class Generate2017Events extends Command
                 array_unshift($event['sponsors'], 'Playgrounds');
                 break;
             case 7:
-                $event['title'] = "Melbourne Cocoaheads #$eventNumber - Lightning Talk Month";
+                $event['title'] = "Melbourne CocoaHeads #$eventNumber - Lightning Talk Month";
                 $event['subtitle'] = 'This month we do away with longer form talks and fill the night with lightning talks!';
                 break;
         }

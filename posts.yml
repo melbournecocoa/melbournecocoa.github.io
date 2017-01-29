@@ -1,5 +1,5 @@
 posts:
-  - title: Cocoaheads No. 101 - December 2016 Lineup
+  - title: CocoaHeads No. 101 - December 2016 Lineup
     subtitle: There's a dongle for that
     frontpage: 1
     created_at: 2016-12-04 08:00:00 +0
@@ -7,7 +7,7 @@ posts:
     - 26
     - 27
     body: |
-      <p>It's been another great year of Melbourne Cocoaheads, thanks to everyone who has come along to the meetups, the speakers,
+      <p>It's been another great year of Melbourne CocoaHeads, thanks to everyone who has come along to the meetups, the speakers,
       sponsors and hosts.</p>
 
       <p>Thank you to our sponsors for December, <a href="http://bilue.com.au">Bilue</a> and our hosts <a href="http://www.outware.com.au">Outware</a>.</p>
@@ -68,7 +68,7 @@ posts:
     - 23
     - 24
     body: |
-      <p>Welcome to November and our 100th event! If you're at all curious about the history of Melbourne Cocoaheads the early meetup history is <a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory">documented here</a>.</p>
+      <p>Welcome to November and our 100th event! If you're at all curious about the history of Melbourne CocoaHeads the early meetup history is <a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory">documented here</a>.</p>
       <p>Thank you so much to everyone who submitted presentations for this month, as well to our sponsors this month, the awesome
       <a href="http://domesticcat.com.au/">Domestic Cat</a> team and to <a href="http://www.outware.com.au">Outware</a> for hosting.</p>
 
@@ -122,7 +122,7 @@ posts:
 
       <h3 class="section-heading">Live Streaming</h3>
 
-      <p>There will be a live stream tonight on the Melbourne Cocoaheads YouTube channel from about 6:20pm.
+      <p>There will be a live stream tonight on the Melbourne CocoaHeads YouTube channel from about 6:20pm.
       Check it out at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a></p>
 
   - title: Speakers for September
@@ -146,7 +146,7 @@ posts:
 
       <h3 class="section-heading">Live Streaming</h3>
 
-      <p>We will be streaming live tonight from the new Melbourne Cocoaheads YouTube channel from about 6:30pm. Check it out at <a href="http://www.melbournecocoaheads.com/live">melbournecocoaheads.com/live</a></p>
+      <p>We will be streaming live tonight from the new Melbourne CocoaHeads YouTube channel from about 6:30pm. Check it out at <a href="http://www.melbournecocoaheads.com/live">melbournecocoaheads.com/live</a></p>
 
       <p>See you at Outware tonight! - <strong><a href="https://goo.gl/maps/doMSSDtnNau">Level 3 469 La Trobe Street</a></strong></p>
 
@@ -314,7 +314,7 @@ posts:
         <li>An appropriate rant on something you like/dislike about something or other in the Cocoa/iOS/macOS land</li>
       </ul>
 
-      <p>If you've never thought of doing a presentation at Cocoaheads before, a lightning talk is a great place to start.</p>
+      <p>If you've never thought of doing a presentation at CocoaHeads before, a lightning talk is a great place to start.</p>
 
       <h3 class="section-heading">I'm in. How do I submit a talk?</h3>
 
@@ -333,7 +333,7 @@ posts:
       <h3 class="section-heading">WWDC Events in Melbourne</h3>
 
       <ul>
-        <li>We are having a <a href="/events/25">Melbourne Cocoaheads Special Event</a> at Teamsquare on Thursday night, sponsored by Odecee.</li>
+        <li>We are having a <a href="/events/25">Melbourne CocoaHeads Special Event</a> at Teamsquare on Thursday night, sponsored by Odecee.</li>
         <li>JTribe/OpenHub are hosting a <a href="https://twitter.com/jtribeapps/status/739629854165852161">Keynote viewing @3am Tuesday morning</a>.</li>
         <li>Outware are hosting a <a href="https://www.eventbrite.com.au/e/wwdc-is-coming-to-outware-tickets-25888222370">"WWDC Extended Hack Night in Melbourne"</a> on Tuesday Evening.
       </ul>
@@ -351,7 +351,7 @@ posts:
 
       <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/melbournecocoa">@melbournecocoa</a> We&#39;re hosting a WWDC hack night. Keynote, pizza, drinks and bingo! <a href="https://t.co/cti4CbzLra">https://t.co/cti4CbzLra</a></p>&mdash; Outware Mobile (@outware) <a href="https://twitter.com/outware/status/739615701095174144">June 6, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  - title: Cocoaheads No. 95 - June 2016 Presentations
+  - title: CocoaHeads No. 95 - June 2016 Presentations
     subtitle: No sleep till' dub dub
     frontpage: 0
     created_at: 2016-05-26 08:00:00 +0
@@ -392,7 +392,7 @@ posts:
 
       <p>If you're up for a lightning talk in July, head over to <a href="/talks">/talks form</a> and submit your ideas.</p>
 
-  - title: Cocoaheads No. 94 - May 2016 Presentations
+  - title: CocoaHeads No. 94 - May 2016 Presentations
     subtitle: Down down, iPhone sales are down
     frontpage: 0
     created_at: 2016-05-05 22:00:01 +0
@@ -462,7 +462,7 @@ posts:
 
       <p>Following up prior to each month and getting everyone's details right will now be much more straight forward.</p>
 
-  - title: Cocoaheads No. 93 - April 2016 Presentations
+  - title: CocoaHeads No. 93 - April 2016 Presentations
     subtitle: Universal links for all!
     frontpage: 0
     created_at: 2016-04-04 22:00:01 +0
@@ -536,16 +536,16 @@ posts:
     body: |
       <p>Our <a href="/event/2">first event for 2016</a> kicks off next week at Teamsqaure!</p>
 
-      <img src="/img/posts/2016-02/2016-02-cocoaheads-cover.jpg" alt="Melbourne Cocoaheads February 11 2016" class="img-responsive">
+      <img src="/img/posts/2016-02/2016-02-cocoaheads-cover.jpg" alt="Melbourne CocoaHeads February 11 2016" class="img-responsive">
 
       <p>At this stage we're looking for a couple of additional presentations and lightening talks. <strong>If you've got an idea for a talk or have done something cool over the break
       you want to share with everyone please get in touch!</strong></p>
 
       <h3>Remembering Tom Parry</h3>
 
-      <p>Over the break we were informed of some very sad news. A long time Melbourne Cocoaheads member, Tom Parry passed away.</p>
+      <p>Over the break we were informed of some very sad news. A long time Melbourne CocoaHeads member, Tom Parry passed away.</p>
 
-      <p>Tom was a great contributor to Melbourne Cocoaheads over the years. He was a regular atendee, alway asking good questions
+      <p>Tom was a great contributor to Melbourne CocoaHeads over the years. He was a regular atendee, alway asking good questions
       during presentations and he himself presented his <a href="https://github.com/tparry/PDFImage.framework">PDFImage.framework</a> project in October 2014.
       Tom also gave us a lightning talk in December 2015 on a new app he had worked on named <a href="https://itunes.apple.com/au/app/rise-recharge/id962974154?mt=8"> Rise and Recharge</a> for Baker IDI.</p>
 
@@ -566,11 +566,11 @@ posts:
 
       <h3>2016 sponsorships</h3>
 
-      <p>Just another reminder that if you're keen to sponsor Cocoaheads this year to let me know if you haven't already. I'll be finalising things through February.</p>
+      <p>Just another reminder that if you're keen to sponsor CocoaHeads this year to let me know if you haven't already. I'll be finalising things through February.</p>
 
       <div class="alert alert-info" role="alert">I will keep this post up to date throughout the next week</div>
 
-  - title: Welcome to Cocoaheads for 2016!
+  - title: Welcome to CocoaHeads for 2016!
     subtitle: New website, new calendar and an API!
     frontpage: 0
     created_at: 2016-01-24 03:30:00 +0
@@ -585,11 +585,11 @@ posts:
 
       <p><strong>If you'd like to present in February</strong> please get in touch via <a href="mailto:jesse@jcmultimedia.com.au">email</a> or on slack.</p>
 
-      <p>We are working on a new venue for Hacknights after January. Suggestions welcome.</p>
+      <p>We are working on a new venue for Hack Nights after January. Suggestions welcome.</p>
 
       <p>Checkout the <a href="/events">events page</a> for more details and to RSVP for February.</p>
 
-      <img src="/img/posts/cocoaheads-2016-welcome-banner.jpg" alt="Melbourne Cocoaheads 2016" class="img-responsive">
+      <img src="/img/posts/cocoaheads-2016-welcome-banner.jpg" alt="Melbourne CocoaHeads 2016" class="img-responsive">
 
       <h3>New Website</h3>
 
@@ -640,7 +640,7 @@ posts:
       <p>Just a shout out for our slack channel. We are over 130 people strong at the moment and has more or less consumed all the traffic from the mailing list.
       If you'd like an invite get in touch with me on <a href="https://twitter.com/sirjec">twitter</a> or via <a href="mailto:jesse@jcmultimedia.com.au">email</a>.</p>
 
-  - title: Melbourne Cocoaheads 2015 End of Year Meetup (#90)
+  - title: Melbourne CocoaHeads 2015 End of Year Meetup (#90)
     subtitle: Celebrating 9 years of meetups!
     frontpage: 0
     created_at: 2015-12-01 00:00:01
@@ -660,7 +660,7 @@ posts:
           <li>Wrapping up our <a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory/blob/master/2007.mdown">9th year of meetups</a>!</li>
       </ul>
 
-      <img class="img-responsive" src="/img/posts/cocoaheads-2015-12-cover.jpg" alt="Melbourne Cocoaheads 2015 End of Year Meetup">
+      <img class="img-responsive" src="/img/posts/cocoaheads-2015-12-cover.jpg" alt="Melbourne CocoaHeads 2015 End of Year Meetup">
 
       <h2 class="section-heading">Yeah okay, but who's speaking this month?</h2>
 
@@ -677,7 +677,7 @@ posts:
           speaking situation or need some ideas or encouragement, let Pete and/or I know and we can give
           you ideas ahead of time.)</p>
 
-      <p>Melbourne Cocoaheads is the <strong>top</strong> Cocoa based community across the globe, and is
+      <p>Melbourne CocoaHeads is the <strong>top</strong> Cocoa based community across the globe, and is
           known for being the <strong>friendliest</strong>, fastest growing, <strong>highest quality</strong>
           presentation holding, best beverage providing meetup ever. <strong>Awesome people like you</strong>
           make this fact, so please come this month and share a little about yourself.</p>

@@ -2,7 +2,7 @@
 
 return [
 
-    'name' => 'Melbourne Cocoaheads',
+    'name' => 'Melbourne CocoaHeads',
 
     /*
     |--------------------------------------------------------------------------

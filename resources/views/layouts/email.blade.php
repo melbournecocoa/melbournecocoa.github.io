@@ -133,7 +133,7 @@
             <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="max-width: 500px;" class="responsive-table">
                 <tr>
                     <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;">
-                        <a href="http://www.melbournecocoaheads.com" target="_blank" style="color: #666666; text-decoration: none;">Melbourne Cocoaheads</a>
+                        <a href="http://www.melbournecocoaheads.com" target="_blank" style="color: #666666; text-decoration: none;">Melbourne CocoaHeads</a>
                     </td>
                 </tr>
             </table>

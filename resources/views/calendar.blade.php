@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('image', '/img/cch-events-bg.jpg')
-@section('title', 'Melbourne Cocoaheads')
+@section('title', 'Melbourne CocoaHeads')
 @section('subtitle')
     <span class="subheading">Calendar</span>
 @endsection

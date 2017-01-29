@@ -14,7 +14,7 @@ class EventsController extends Controller
             ->upcomingEvents()
             ->paginate(10);
 
-        SEO::setTitle('Upcoming Events - Melbourne Cocoaheads');
+        SEO::setTitle('Upcoming Events - Melbourne CocoaHeads');
         SEO::setDescription('Meetings are scheduled for the second Thursday of the month from February to December.
     A meeting might be moved forward or back a week depending on where it falls in relation to
                         public holidays or WWDC, so make sure you keep tabs on the schedule by subscribing to Google
@@ -34,7 +34,7 @@ class EventsController extends Controller
             ->where('id', '=', $event->id)
             ->paginate(10);
 
-        SEO::setTitle("$event->title - Melbourne Cocoaheads");
+        SEO::setTitle("$event->title - Melbourne CocoaHeads");
         SEO::setDescription($event->subtitle);
         SEO::opengraph()->setUrl($event->url());
         SEO::opengraph()->setArticle([
@@ -57,7 +57,7 @@ class EventsController extends Controller
 
         //FIXME: JC - duplicated
 
-        SEO::setTitle('Upcoming Events - Melbourne Cocoaheads');
+        SEO::setTitle('Upcoming Events - Melbourne CocoaHeads');
         SEO::setDescription('Meetings are scheduled for the second Thursday of the month from February to December.
     A meeting might be moved forward or back a week depending on where it falls in relation to
                         public holidays or WWDC, so make sure you keep tabs on the schedule by subscribing to Google
@@ -78,13 +78,13 @@ class EventsController extends Controller
 
         $header = <<<EOT
 BEGIN:VCALENDAR
-PRODID:-//Melbourne Cocoaheads//Event Calendar//EN
+PRODID:-//Melbourne CocoaHeads//Event Calendar//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Melbourne Cocoaheads
+X-WR-CALNAME:Melbourne CocoaHeads
 X-WR-TIMEZONE:UTC
-X-WR-CALDESC:Calendar for Melbourne Cocoaheads. Meetings are scheduled for the second Thursday of the month from
+X-WR-CALDESC:Calendar for Melbourne CocoaHeads. Meetings are scheduled for the second Thursday of the month from
  February to December.For more inform ation visit http://www.melbournecocoaheads.com and
  https://groups.google.com/group/cocoaheadsau and @melbournecocoa on twitter.
 EOT;

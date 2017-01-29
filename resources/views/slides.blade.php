@@ -1,11 +1,11 @@
-##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne Cocoaheads #{{ $number }}
+##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne CocoaHeads #{{ $number }}
 ##[FIT]{{ $dateString }}
 
 ![](http://www.melbournecocoaheads.com/img/slides-common/covers-hb-melbourne-crop.jpg)
 
 ---
 
-##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne Cocoaheads #{{ $number }}
+##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne CocoaHeads #{{ $number }}
 ##[FIT]{{ $dateString }}
 
 ![](http://www.melbournecocoaheads.com/img/slides-common/covers-hb-melbourne-crop.jpg)
@@ -44,14 +44,14 @@ TODO: Presentations
 ![right](http://www.melbournecocoaheads.com/img/slides-common/_petegoldsmith_2015-Jul-09.jpg)
 
 - Melbourne Coocaheads organiser since August 2014
-- Cocoaheads attendee since 2008
+- CocoaHeads attendee since 2008
 - Developing for :iphone: since 2009
 - CTO @ Beanhunter :coffee:
 - @sirjec
 
 ---
 
-# About Cocoaheads
+# About CocoaHeads
 
 - Established July 2007
 - 2nd Thursday of the month
@@ -63,7 +63,7 @@ TODO: Presentations
 
 ---
 
-# About Cocoaheads
+# About CocoaHeads
 
 - melbournecocoaheads.com/about
 - @melbournecocoa
@@ -74,7 +74,7 @@ TODO: Presentations
 
 ---
 
-# Contributing to Cocoaheads
+# Contributing to CocoaHeads
 
 - Presentations, lightning talks on iOS, OSX, watchOS, tvOS, IoT, other related topics
 - Answer questions on Slack & the google group

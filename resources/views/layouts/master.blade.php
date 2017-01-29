@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Melbourne Cocoaheads</title>
+    <title>Melbourne CocoaHeads</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -45,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Melbourne Cocoaheads</a>
+            <a class="navbar-brand" href="/">Melbourne CocoaHeads</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -103,7 +103,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="https://www.twitter.com/melbournecocoa" title="Melbourne Cocoaheads on Twitter">
+                        <a href="https://www.twitter.com/melbournecocoa" title="Melbourne CocoaHeads on Twitter">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -111,7 +111,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.github.com/melbournecocoa" title="Melbourne Cocoaheads on Github">
+                        <a href="https://www.github.com/melbournecocoa" title="Melbourne CocoaHeads on Github">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -135,7 +135,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="http://melbournecocoaheads2016.eventbrite.com.au" title="Melbourne Cocoaheads Tickets">
+                        <a href="https://www.meetup.com/Melbourne-CocoaHeads" title="Melbourne CocoaHeads Meetup.com">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
@@ -143,7 +143,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://slack.melbournecocoaheads.com" title="Melbourne Cocoaheads Slack">
+                        <a href="https://slack.melbournecocoaheads.com" title="Melbourne CocoaHeads Slack">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-slack fa-stack-1x fa-inverse"></i>
@@ -151,7 +151,7 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Produced by Jesse Collis for Melbourne Cocoaheads {{ date('Y') }}.</p>
+                <p class="copyright text-muted">Produced by Jesse Collis for Melbourne CocoaHeads {{ date('Y') }}.</p>
                 <p class="copyright text-muted"><a href="https://github.com/melbournecocoa/website">Fork this on Github</a></p>
             </div>
         </div>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('image', '/img/cch-events-bg.jpg')
-@section('title', 'Melbourne Cocoaheads')
+@section('title', 'Melbourne CocoaHeads')
 @section('subtitle')
     @if($event)
         <p class="subheading">
@@ -31,7 +31,7 @@
     @else
         <p class="subheading">
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-            No upcoming hacknights scheduled.
+            No upcoming Hack Nights scheduled.
         </p>
     @endif
 

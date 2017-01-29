@@ -1,4 +1,4 @@
-# Cocoaheads Website
+# MelbourneCocoaHeads Website
 
 ## Deploying to Heroku
 

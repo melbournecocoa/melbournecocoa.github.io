@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'website@melbournecocoaheads.com', 'name' => 'Cocoaheads Website'],
+    'from' => ['address' => 'website@melbournecocoaheads.com', 'name' => 'Melbourne CocoaHeads Website'],
 
     /*
     |--------------------------------------------------------------------------

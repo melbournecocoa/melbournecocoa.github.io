@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('image', '/img/cch-post-bg-filter.jpg')
-@section('title', 'Melbourne Cocoaheads')
+@section('title', 'Melbourne CocoaHeads')
 @section('subtitle')
     <span class="subheading">Updates</span>
 @endsection

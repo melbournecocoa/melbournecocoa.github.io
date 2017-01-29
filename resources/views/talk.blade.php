@@ -80,11 +80,6 @@
                         <textarea class="form-control" rows="3" id="inputTalkExtra" name="extra">{{ old('extra') }}</textarea>
                     </div>
 
-                    {{--<div class="form-group">--}}
-                        {{--<label for="inputTalkCaptcha">What day of the week does Melbourne Cocoaheads meet?</label>--}}
-                        {{--<input type="text" class="form-control" id="inputCaptcha" name="captcha" placeholder="The day after Wednesday">--}}
-                    {{--</div>--}}
-
                     <button type="submit" class="btn btn-default">Submit</button>
                 </form>
             </div>

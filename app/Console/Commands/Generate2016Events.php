@@ -72,7 +72,7 @@ class Generate2016Events extends Command
         $event->type = Event::HACKNIGHT;
         $event->slug = $slug;
         $event->title = 'Hack Night';
-        $event->subtitle = 'Melbourne Cocoaheads Hack Night';
+        $event->subtitle = 'Melbourne CocoaHeads Hack Night';
         $event->starts_at = $startDate;
         $event->ends_at = $startDate->copy()->addHours(3);
         $event->contact = 'https://twitter.com/tupps';
@@ -167,11 +167,11 @@ class Generate2016Events extends Command
         }
 
         if ($startDate->month === 7) {
-            $event->title = "Melbourne Cocoaheads #$count - Lightning Talk Month";
+            $event->title = "Melbourne CocoaHeads #$count - Lightning Talk Month";
             $event->subtitle = 'This month we do away with longer form talks and fill the night with lightning talks!';
         } else {
-            $event->title = "Melbourne Cocoaheads #$count";
-            $event->subtitle = 'Melbourne Cocoaheads Meetup';
+            $event->title = "Melbourne CocoaHeads #$count";
+            $event->subtitle = 'Melbourne CocoaHeads Meetup';
         }
 
         $event->save();
@@ -412,7 +412,7 @@ class Generate2016Events extends Command
         $event->type = Event::SPECIAL;
         $event->slug = $slug;
 
-        $event->title = 'Cocoaheads WWDC Special Event';
+        $event->title = 'CocoaHeads WWDC Special Event';
         $event->subtitle = <<<'EOT'
 We're going to start off with a special intro I'm calling 'The Keynote That Was' (TKTW) and we will then watch two 
 to three WWDC sessions. Depending on what's available at the time, we might have a few options but the best ones will be
