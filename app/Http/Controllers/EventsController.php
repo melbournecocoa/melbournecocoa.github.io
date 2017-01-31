@@ -28,9 +28,9 @@ class EventsController extends Controller
         return view('events', ['events' => $events, 'title' => 'Upcoming Events']);
     }
 
-    public function getEvent($eventId)
+    public function getEvent($eventSlug)
     {
-        $event = Event::findOrFail((integer) $eventId);
+        $event = Event::where('slug', '=', $eventSlug)->firstOrFail();
 
         $events = Event::with('posts')
             ->where('id', '=', $event->id)

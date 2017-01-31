@@ -3,7 +3,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-01-31-073000
+        slug: hacknight-2017-01-31
         starts_at: '2017-01-31 07:30:00 +0000'
         ends_at: '2017-01-31 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/events/237278532/'
@@ -17,7 +17,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-02-09-073000
+        slug: meetup-2017-02-09
         starts_at: '2017-02-09 07:30:00 +0000'
         ends_at: '2017-02-09 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/events/237278367/'
@@ -36,7 +36,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-02-28-073000
+        slug: hacknight-2017-02-28
         starts_at: '2017-02-28 07:30:00 +0000'
         ends_at: '2017-02-28 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/events/kqdhnmywdblc/'
@@ -50,7 +50,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-03-09-073000
+        slug: meetup-2017-03-09
         starts_at: '2017-03-09 07:30:00 +0000'
         ends_at: '2017-03-09 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -69,7 +69,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-03-28-073000
+        slug: hacknight-2017-03-28
         starts_at: '2017-03-28 07:30:00 +0000'
         ends_at: '2017-03-28 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -83,7 +83,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-04-13-083000
+        slug: meetup-2017-04-13
         starts_at: '2017-04-13 08:30:00 +0000'
         ends_at: '2017-04-13 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -102,7 +102,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-04-25-083000
+        slug: hacknight-2017-04-25
         starts_at: '2017-04-25 08:30:00 +0000'
         ends_at: '2017-04-25 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -116,7 +116,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-05-11-083000
+        slug: meetup-2017-05-11
         starts_at: '2017-05-11 08:30:00 +0000'
         ends_at: '2017-05-11 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -135,7 +135,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-05-30-083000
+        slug: hacknight-2017-05-30
         starts_at: '2017-05-30 08:30:00 +0000'
         ends_at: '2017-05-30 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -149,7 +149,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-06-08-083000
+        slug: meetup-2017-06-08
         starts_at: '2017-06-08 08:30:00 +0000'
         ends_at: '2017-06-08 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -168,7 +168,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-06-27-083000
+        slug: hacknight-2017-06-27
         starts_at: '2017-06-27 08:30:00 +0000'
         ends_at: '2017-06-27 11:30:00 +0000'
         contact: 'https://twitter.com/tupps'
@@ -181,7 +181,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-07-13-083000
+        slug: meetup-2017-07-13
         starts_at: '2017-07-13 08:30:00 +0000'
         ends_at: '2017-07-13 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -200,7 +200,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-07-25-083000
+        slug: hacknight-2017-07-25
         starts_at: '2017-07-25 08:30:00 +0000'
         ends_at: '2017-07-25 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -214,7 +214,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-08-10-083000
+        slug: meetup-2017-08-10
         starts_at: '2017-08-10 08:30:00 +0000'
         ends_at: '2017-08-10 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -233,7 +233,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-08-29-083000
+        slug: hacknight-2017-08-29
         starts_at: '2017-08-29 08:30:00 +0000'
         ends_at: '2017-08-29 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -247,7 +247,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-09-07-083000
+        slug: meetup-2017-09-07
         starts_at: '2017-09-07 08:30:00 +0000'
         ends_at: '2017-09-07 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -266,7 +266,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-09-26-083000
+        slug: hacknight-2017-09-26
         starts_at: '2017-09-26 08:30:00 +0000'
         ends_at: '2017-09-26 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -280,7 +280,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-10-12-073000
+        slug: meetup-2017-10-12
         starts_at: '2017-10-12 07:30:00 +0000'
         ends_at: '2017-10-12 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -299,7 +299,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-10-31-073000
+        slug: hacknight-2017-10-31
         starts_at: '2017-10-31 07:30:00 +0000'
         ends_at: '2017-10-31 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -313,7 +313,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-11-09-073000
+        slug: meetup-2017-11-09
         starts_at: '2017-11-09 07:30:00 +0000'
         ends_at: '2017-11-09 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -332,7 +332,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-11-28-073000
+        slug: hacknight-2017-11-28
         starts_at: '2017-11-28 07:30:00 +0000'
         ends_at: '2017-11-28 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -346,7 +346,7 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-12-07-073000
+        slug: meetup-2017-12-07
         starts_at: '2017-12-07 07:30:00 +0000'
         ends_at: '2017-12-07 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
@@ -365,7 +365,7 @@ events:
         type: hacknight
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-12-26-073000
+        slug: hacknight-2017-12-26
         starts_at: '2017-12-26 07:30:00 +0000'
         ends_at: '2017-12-26 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'

@@ -18,7 +18,7 @@ class Event extends Model
 
     public function url()
     {
-        return route('event', $this->id);
+        return route('event', $this->slug);
     }
 
     public function posts()

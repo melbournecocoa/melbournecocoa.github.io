@@ -45,7 +45,7 @@ class LoadPosts extends Command
             $newPost->events()->detach();
 
             if (isset($post['events']) && is_array($post['events'])) {
-                $events = (new Event)->whereIn('id', $post['events'])->get();
+                $events = (new Event)->whereIn('id', $post['events'])->orWhereIn('slug', $post['events'])->get();
 
                 if (!$events->isEmpty()) {
                     $newPost->events()->saveMany($events);
