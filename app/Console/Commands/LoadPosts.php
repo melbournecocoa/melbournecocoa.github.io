@@ -6,6 +6,7 @@ use App\Event;
 use App\Post;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Str;
 use Symfony\Component\Yaml\Parser;
 
@@ -45,7 +46,13 @@ class LoadPosts extends Command
             $newPost->events()->detach();
 
             if (isset($post['events']) && is_array($post['events'])) {
-                $events = (new Event)->whereIn('id', $post['events'])->orWhereIn('slug', $post['events'])->get();
+                $events = new Collection();
+                try {
+                    // this throws in postgres if they're not integers
+                    $events = (new Event)->whereIn('id', $post['events'])->get();
+                } catch (\Exception $e) {
+                    $events = (new Event)->whereIn('slug', $post['events'])->get();
+                }
 
                 if (!$events->isEmpty()) {
                     $newPost->events()->saveMany($events);
