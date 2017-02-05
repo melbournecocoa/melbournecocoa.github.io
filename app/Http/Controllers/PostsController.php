@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Event;
-use App\Http\Requests\Request;
 use App\Post;
-use Feed;
+use Roumen\Feed\Feed;
 use SEO;
 
 class PostsController extends Controller
