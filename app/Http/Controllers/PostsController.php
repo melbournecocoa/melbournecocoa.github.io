@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Event;
 use App\Post;
-use Roumen\Feed\Feed;
+use Feed;
 use SEO;
 
 class PostsController extends Controller
@@ -80,7 +80,7 @@ EOT;
 
     public function feed()
     {
-        $feed = Feed::make();
+        $feed = app('feed');
 
         // cache the feed for 60 minutes (second parameter is optional)
         $feed->setCache(60, 'laravelFeedKey');
