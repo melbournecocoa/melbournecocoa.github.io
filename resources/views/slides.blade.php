@@ -1,16 +1,17 @@
 ##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne CocoaHeads #{{ $number }}
 ##[FIT]{{ $dateString }}
 
-![](http://www.melbournecocoaheads.com/img/slides-common/covers-hb-melbourne-crop.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-jesse-richmond-prisma.JPG)
 
 ---
 
 ##[FIT]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Melbourne CocoaHeads #{{ $number }}
 ##[FIT]{{ $dateString }}
 
-![](http://www.melbournecocoaheads.com/img/slides-common/covers-hb-melbourne-crop.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/covers-jesse-richmond-prisma.JPG)
 
 ### Kicking off @ 6:30pm {{ $timezone }}
+### Live Streaming @ melbournecocoaheads.com/live
 
 ---
 
@@ -20,7 +21,9 @@
 
 ---
 
+```
 TODO: Presentations
+```
 
 ---
 
@@ -43,10 +46,9 @@ TODO: Presentations
 
 ![right](http://www.melbournecocoaheads.com/img/slides-common/_petegoldsmith_2015-Jul-09.jpg)
 
-- Melbourne Coocaheads organiser since August 2014
-- CocoaHeads attendee since 2008
-- Developing for :iphone: since 2009
-- CTO @ Beanhunter :coffee:
+- Attendee since 2008
+- iOS developer from iOS 3 days
+- Known to write PHP
 - @sirjec
 
 ---
@@ -54,12 +56,12 @@ TODO: Presentations
 # About CocoaHeads
 
 - Established July 2007
-- 2nd Thursday of the month
-- Monthly Hack nights (final Tuesday of the month)
 - Sponsored by the Melbourne community
 - ~2-3 presentations @ 20-25 minutes
 - n * lightning talks @ ~5-10 minutes
 - Drinks and pizza
+- 2nd Thursday of the month
+- + Hack nights, Breakfast Meetups
 
 ---
 
@@ -70,18 +72,13 @@ TODO: Presentations
 - melbournecocoa.slack.com - ping @melbournecocoa  for an invite
 - Broadcasting monthly on YouTube
 
-^197 members in the slack channel and counting
-
 ---
 
-# Contributing to CocoaHeads
+# Contributing to Cocoaheads
 
-- Presentations, lightning talks on iOS, OSX, watchOS, tvOS, IoT, other related topics
-- Answer questions on Slack & the google group
-
-^ Relaxed and casual
-Great to practice your presentation skills
-
+- Submit a talk @ melbournecocoaheads.com/talks
+- Join the slack channel
+- Sponsor in 2017
 
 ---
 
@@ -107,7 +104,7 @@ Great to practice your presentation skills
 
 # [FIT] General Business
 
-![](http://www.melbournecocoaheads.com/img/slides-common/business-cat.jpg)
+![](http://www.melbournecocoaheads.com/img/slides-common/businesscat-prisma.JPG
 
 ---
 
@@ -179,7 +176,6 @@ Great to practice your presentation skills
 ### {{ $nextHacknight->address_display }}
 
 ---
-
 
 ##[FIT]Thanks for Coming!
 ##[FIT]Next meetup {{ $nextEventDateString }}
