@@ -89,14 +89,11 @@ EOT;
         if (!$feed->isCached()) {
             // creating rss feed with our most recent 20 posts
 
-            $posts = Post::orderBy('created_at')->take(20)->get();
-
-            // set your feed's title, description, link, pubdate and language
-            //FIXME: These are duplicated
+            $posts = Post::orderBy('created_at', 'desc')->take(15)->get();
 
             $feed->title = config('seotools.meta.defaults.title');
             $feed->description = config('seotools.meta.defaults.description');
-            $feed->logo = 'http://yoursite.tld/logo.jpg';
+            $feed->logo = 'https://raw.githubusercontent.com/melbournecocoa/cocoaheads-logo/master/Melbourne-Cocoaheads-Transparent.png';
             $feed->link = route('feed');
             $feed->setDateFormat('datetime'); // 'datetime', 'timestamp' or 'carbon'
             $feed->pubdate = $posts[0]->created_at;
