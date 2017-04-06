@@ -1,8 +1,43 @@
 posts:
+  - title: CocoaHeads No. 104 - April Event
+    subtitle: The MacPro Lives!
+    created_at: 2017-04-06 00:00:01 +0
+    frontpage: 1
+    events:
+      - meetup-2017-04-13
+    body: |
+      <p> We're back next week with our April meetup! Check out our meetup page for the most up to date details.</p>
+
+      <p>I'm still looking to lock a couple of presentations in for next week, if you've got something iOS/macOS related
+      you'd like to talk about, please get in touch!</p>
+
+      <h3 class="section-heading">Presentations (so far) for April</h3>
+
+      <p><strong>Ben Deckys <a href="https://www.twitter.com/cocotutch">@cocotutch</a> The Month That Was.</strong></p>
+
+      <p>A light hearted look back at the industry happenings over the last five weeks.</p>
+
+      <p><strong>Gio <a href="https://www.twitter.com/mokagio">@mokagio</a> - Back to the Future: Git Rebase for iOS Developers.</strong></p>
+
+      <p>In this live coding talk we'll look at how to rewrite history (well your repo's at least) and what are the advantages this technique provides.</p>
+
+      <h3 class="section-heading">Special Thanks</h3>
+
+      <p>Outware Mobile for sponsoring our food and beverages sand for providing a venue for this month.</p>
+
+      <h3 class="section-heading">CocoaHeads on Meetup.com</h3>
+
+      <p>If you haven't already, make sure you join the <a href="https://www.meetup.com/Melbourne-CocoaHeads/">Meetup group</a> and register
+      your attendance for Thursday.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>If you can't make it on the night check the <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a> page from about 6:20pm for the live stream.</p>
+
   - title: CocoaHeads No. 103 - March Event
     subtitle: AAPL Park
     created_at: 2017-03-02 00:00:01 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2017-03-09
     body: |
@@ -55,7 +90,7 @@ posts:
   - title: CocoaHeads No. 102 - Speakers for February
     subtitle: Seventy Eight Point Three Million iPhones
     created_at: 2017-02-05 00:00:01 +0
-    frontpage: 2
+    frontpage: 3
     events:
     - meetup-2017-02-09
     body: |
@@ -91,7 +126,7 @@ posts:
 
   - title: CocoaHeads No. 102 - February 2017
     subtitle: Welcome to 2017!
-    frontpage: 3
+    frontpage: 0
     created_at: 2017-01-31 00:00:01 +0
     events:
     - hacknight-2017-01-31
