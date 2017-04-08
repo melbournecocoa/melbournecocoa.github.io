@@ -3,20 +3,21 @@
 use App\Event;
 
 Route::get('/events', function () {
-    $events = (new Event())->nextEvent()->limit(null)->get();
-    $hacknights = (new Event())->where('type', '=', Event::HACKNIGHT)->get();
-    return response()->json(['meetups' => $events, 'hacknights' => $hacknights]);
-});
+    /**
+     * @var $events \Illuminate\Database\Eloquent\Collection
+     */
+    $events = (new Event)
+        ->where('ends_at', '>=', \Carbon\Carbon::now())
+        ->orderBy('starts_at', 'asc')
+        ->get();
 
-Route::get('/events/next', function () {
-    $event = (new Event)->nextEvent()->first();
-    $hacknight = (new Event)->nextHacknight()->first();
+    $eventsArray = $events->map(function (Event $event) {
+        return $event->toArray();
+    });
 
-    return response()->json(['meetups' => [$event], 'hacknights' => [$hacknight]]);
-});
+    $options = JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES;
 
-Route::get('/events/past', function () {
-    $events = (new Event())->where('type', '=', Event::MEETUP)->get();
-    $hacknights = (new Event())->where('type', '=', Event::HACKNIGHT)->get();
-    return response()->json(['meetups' => $events, 'hacknights' => $hacknights]);
+    return response()
+        ->json(['events' => $eventsArray])
+        ->setEncodingOptions($options);
 });

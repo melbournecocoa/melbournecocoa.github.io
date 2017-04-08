@@ -4,7 +4,6 @@ namespace App;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Str;
 
 class Event extends Model
 {
@@ -19,8 +18,25 @@ class Event extends Model
         'ends_at'
     ];
 
-    protected $fillable = ['slug'];
+    protected $fillable = [
+        'slug'
+    ];
 
+    protected $hidden = [
+        'slug',
+        'created_at',
+        'updated_at',
+        'id',
+    ];
+
+    protected $appends = [
+      'url',
+    ];
+
+    protected $casts = [
+        'lat' => 'double',
+        'lng' => 'double',
+    ];
 
     public function posts()
     {
