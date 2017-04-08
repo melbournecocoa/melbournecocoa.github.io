@@ -3,6 +3,7 @@
 namespace App;
 
 use Carbon\Carbon;
+use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;
 
 class Event extends Model
@@ -37,6 +38,17 @@ class Event extends Model
         'lat' => 'double',
         'lng' => 'double',
     ];
+
+    /**
+     * Returns the format we require for the API/JSON
+     *
+     * @param DateTimeInterface $date
+     * @return string
+     */
+    protected function serializeDate(DateTimeInterface $date)
+    {
+        return $date->format(Carbon::ISO8601);
+    }
 
     public function posts()
     {
