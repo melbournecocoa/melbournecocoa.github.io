@@ -12,14 +12,15 @@ class Event extends Model
     const MEETUP = 'meetup';
     const SPECIAL = 'special';
 
-    protected $dates = ['created_at', 'updated_at', 'starts_at', 'ends_at'];
+    protected $dates = [
+        'created_at',
+        'updated_at',
+        'starts_at',
+        'ends_at'
+    ];
 
     protected $fillable = ['slug'];
 
-    public function url()
-    {
-        return route('event', $this->slug);
-    }
 
     public function posts()
     {
@@ -51,6 +52,11 @@ class Event extends Model
         return $sa->format('D jS \\of M Y \\@ g:i') . ' - '. $ea->format('g:i A');
     }
 
+    public function getUrlAttribute()
+    {
+        return route('event', $this->slug);
+    }
+
     /**
      * Returns next scheduled event after this one
      */
@@ -75,7 +81,7 @@ class Event extends Model
     {
         return $query->where('type', '=', Event::MEETUP)
             ->where('ends_at', '>=', Carbon::now(new \DateTimeZone('UTC')))
-            ->orderBy('starts_at')
+            ->orderBy('starts_at', 'asc')
             ->limit(1);
     }
 
@@ -83,7 +89,7 @@ class Event extends Model
     {
         return $query->where('type', '=', Event::HACKNIGHT)
             ->where('ends_at', '>=', Carbon::now(new \DateTimeZone('UTC')))
-            ->orderBy('starts_at')
+            ->orderBy('starts_at', 'asc')
             ->limit(1);
     }
 

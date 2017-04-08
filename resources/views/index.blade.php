@@ -3,10 +3,10 @@
 @section('image', '/img/cch-events-bg.jpg')
 @section('title', 'Melbourne CocoaHeads')
 @section('subtitle')
-    @if($event)
+    @if($meetup)
         <p class="subheading">
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-            <a href="{{ $event->url() }}" style="color:white">Next Meetup</a> &rarr; {{ $event->getFormattedTimeAttribute() }}
+            <a href="{{ $meetup->url }}" style="color:white">Next Meetup</a> &rarr; {{ $meetup->getFormattedTimeAttribute() }}
         </p>
         {{--<p class="subheading">--}}
             {{--<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>--}}
@@ -15,14 +15,14 @@
     @else
         <p class="subheading">
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-            No upcoming events scheduled.
+            No meetups scheduled.
         </p>
     @endif
 
-    @if($hacknight)
+    @if($hackNight)
         <p class="subheading">
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-            <a href="{{ $hacknight->url() }}" style="color:white">Next Hacknight</a> &rarr; {{ $hacknight->getFormattedTimeAttribute() }}
+            <a href="{{ $hackNight->url }}" style="color:white">Next Hack Night</a> &rarr; {{ $hackNight->getFormattedTimeAttribute() }}
         </p>
         {{--<p class="subheading">--}}
             {{--<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>--}}
@@ -34,8 +34,6 @@
             No upcoming Hack Nights scheduled.
         </p>
     @endif
-
-
 @endsection
 
 @section('content')

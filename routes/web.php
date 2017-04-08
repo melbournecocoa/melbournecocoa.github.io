@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/', ['as' => 'home', 'uses' => 'PostsController@getHome']);
+Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
 Route::get('/updates', ['as' => 'posts', 'uses' => 'PostsController@getPosts']);
 Route::get('/updates/{post}', ['as' => 'post', 'uses' => 'PostsController@getSinglePost']);

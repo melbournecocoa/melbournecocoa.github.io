@@ -20,7 +20,7 @@
                     <h2 class="section-heading">Related Events</h2>
                     <ul>
                         @foreach($post->events as $event)
-                            <li><a href="{{ $event->url() }}">{{ $event->title }}</a> - <span class="small">{{ $event->getFormattedTimeAttribute() }}</span></li>
+                            <li><a href="{{ $event->url }}">{{ $event->title }}</a> - <span class="small">{{ $event->getFormattedTimeAttribute() }}</span></li>
                         @endforeach
                     </ul>
                 </div>
