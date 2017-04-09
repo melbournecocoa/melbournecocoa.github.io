@@ -11,7 +11,9 @@ Route::get('/events', function () {
         ->get();
 
     $eventsArray = $events->map(function (Event $event) {
-        return $event->toArray();
+        $a = $event->toArray();
+        ksort($a);
+        return $a;
     });
 
     return response()

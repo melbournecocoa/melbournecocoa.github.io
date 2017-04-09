@@ -28,10 +28,12 @@ class Event extends Model
         'created_at',
         'updated_at',
         'id',
+        'type',
     ];
 
     protected $appends = [
-      'url',
+        'url',
+        'event_type',
     ];
 
     protected $casts = [
@@ -83,6 +85,11 @@ class Event extends Model
     public function getUrlAttribute()
     {
         return route('event', $this->slug);
+    }
+
+    public function getEventTypeAttribute()
+    {
+        return $this->type;
     }
 
     /**
