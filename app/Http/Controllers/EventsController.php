@@ -38,7 +38,7 @@ class EventsController extends Controller
 
         SEO::setTitle("$event->title - Melbourne CocoaHeads");
         SEO::setDescription($event->subtitle);
-        SEO::opengraph()->setUrl($event->url());
+        SEO::opengraph()->setUrl($event->url);
         SEO::opengraph()->setArticle([
             'published_time' => $event->created_at,
             'modified_time' => $event->modified_at,
@@ -108,7 +108,7 @@ DTEND:$endsTimestamp
 UID:$uid
 CLASS:PUBLIC
 CREATED:$createdTimestamp
-DESCRIPTION:$event->subtitle see {$event->url()} for more information.
+DESCRIPTION:$event->subtitle see {$event->url} for more information.
 LAST-MODIFIED:$modifiedTimestamp
 SEQUENCE:0
 STATUS:CONFIRMED
