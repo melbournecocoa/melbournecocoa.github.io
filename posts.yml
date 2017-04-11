@@ -30,6 +30,11 @@ posts:
       <p>I'll be looking at using the <a href="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md">Swagger 2.0 Spec</a> and some simple tooling to automatically
       generate a swift3 client library that can consume the <a href="https://www.melbournecocoaheads.com/api/events">melbournecocoaheds.com API</a> and be easily utilised in an iOS app.</p>
 
+      <h3 class="section-heading">Book Give Away!</h3>
+
+      <p>On Thursday night I'll have a copy of <a href="http://www.apress.com/us/book/9781430260370">More iPhone Development with Objective-C</a> to give away, with thanks to it's author
+      and Melbourne CocoaHeads members Jayant Varma.</p>
+
       <h3 class="section-heading">Special Thanks</h3>
 
       <p>Outware Mobile for sponsoring our food and beverages sand for providing a venue for this month.</p>
