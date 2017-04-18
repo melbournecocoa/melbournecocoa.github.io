@@ -122,8 +122,8 @@ events:
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
         contact: 'mailto:jesse@jcmultimedia.com.au'
         contact_name: 'Jesse Collis'
-        title: 'Melbourne CocoaHeads #105'
-        subtitle: 'Melbourne CocoaHeads Meetup'
+        title: 'Melbourne CocoaHeads #105 - UIKit'
+        subtitle: 'The topic this month is all things UIKit'
         location: Outware
         location_link: 'http://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
@@ -149,14 +149,14 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-06-08
-        starts_at: '2017-06-08 08:30:00 +0000'
-        ends_at: '2017-06-08 11:30:00 +0000'
+        slug: meetup-2017-06-15
+        starts_at: '2017-06-15 08:30:00 +0000'
+        ends_at: '2017-06-15 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
         contact: 'mailto:jesse@jcmultimedia.com.au'
         contact_name: 'Jesse Collis'
-        title: 'Melbourne CocoaHeads #106'
-        subtitle: 'Melbourne CocoaHeads Meetup'
+        title: 'Melbourne CocoaHeads #106 - WWDC 2017 Edition'
+        subtitle: Fresh from WWDC, let's recap what's new in iOS/macOS/watchOS/tvOS for 2017
         location: Outware
         location_link: 'http://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
@@ -187,8 +187,8 @@ events:
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
         contact: 'mailto:jesse@jcmultimedia.com.au'
         contact_name: 'Jesse Collis'
-        title: 'Melbourne CocoaHeads #107 - Lightning Talk Month'
-        subtitle: 'This month we do away with longer form talks and fill the night with lightning talks!'
+        title: 'Melbourne CocoaHeads #107'
+        subtitle: 'Melbourne CocoaHeads Meetup'
         location: Outware
         location_link: 'http://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'

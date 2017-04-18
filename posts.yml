@@ -1,8 +1,65 @@
 posts:
+  - title: Changes to CocoaHeads for 2017
+    subtitle: Themed meetups!
+    created_at: 2017-04-18 10:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2017-05-11
+      - meetup-2017-06-08
+    body: |
+      <p>At last week's meetup I was excited to announce some changes in the way we will run our monthly meetups. These
+      changes will take effect from May on a trial basis, and if things go well we can continue to iterate. Any feedback
+      on these changed are more than welcome.</p>
+
+      <h3 class="section-heading">CocoaHeads Crew</h3>
+
+      <p>Melbourne CocoaHeads over the years has often been a one person operation, throughout 2017 we've semi-formalised
+      a working group who will help share the load of planning our monthly meetups.</p>
+
+      <ul>
+        <li><strong>Jesse Collis <a href="https://www.twitter.com/sirjec">@sirjec</a></strong> - Jesse's been organising
+        Melbourne CococaHeads since August 2014 and is known for mispelling things.</li>
+        <li><strong>Andyy Hope <a href="https://www.twitter.com/andyyhope">@andyyhope</a></strong> - Organiser of the
+        excellent <a href="http://www.playgroundscon.com">Playgrounds Conference</a>.</li>
+        <li><strong>Rob Amos</strong> - <a href="https://www.twitter.com/bok_">@bok_</a> - Organiser of the
+        <a href="https://www.meetup.com/AWS-AUS/">Amazon WebServices User Group</a>.</li>
+        <li><strong>Ben Deckys</strong> - <a href="https://www.twitter.com/cocotutch">@cocotutch</a> - Regular presenter
+        of the monthly <i>The Month That Was</i>.</li>
+      </ul>
+
+      <h3 class="section-heading">Themed Meetups</h3>
+
+      <p>As a way to shake things up a bit we thought it might be an interesting idea to theme our meetups for the
+      remainder of 2017. Having a set theme up front gives everyone time to come up with presentation ideas and possibly
+      even learn something new to present. It gives us something to promote to the wider Melbourne community as a reason
+      to attend a particular CocoaHeads event and it may provide opportunities for us to reach out to particular people
+      to come and present where they otherwise wouldn't.</p>
+
+      <p>In the coming days we'll ask for wider feedback on topics and based on that we'll set a few themes upfront. For our
+      <strong><a href="/events/meetup-2017-05-11">May meetup</a></strong>, the topic will be <strong>UIKit</strong>. This
+      is a broad topic, but something most of us work with regularly.</p>
+
+      <h3 class="section-heading">Lightning Talks</h3>
+      <p>We're going to keep lightning talks unchanged. They will remain short, sharp and spontaneous. They don't have
+      to be on topic. Having said that, <i>Lightning Talk Month</i> which is usually scheduled for July will be replaced
+      with a set theme.</p>
+
+      <h3 class="section-heading">Speaker Mentoring</h3>
+
+      <p>Speaking at any meetup for the first time is daunting, but it's one of the best things you can to do practice
+      your presentation skills. We've setup a #speakers channel in slack where we hope we can provide a relaxed environment
+       to answer any questions people may have about speaking or about their ideas.</p>
+
+      <h3 class="section-heading">June Meetup</h3>
+
+      <p>WWDC clashes with our dates again this year, we will push the date back to <i>after</i> the event, and the theme
+      in June will be <strong>What's new in iOS/watchOS/tvOS/macOS</strong>. It should be great fun, if you're keen to
+      present (even without knowing what's coming), put your name down now and we can work it out as we go along.</p>
+
   - title: CocoaHeads No. 104 - April Event
     subtitle: The MacPro Lives!
     created_at: 2017-04-06 00:00:01 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2017-04-13
     body: |
@@ -51,7 +108,7 @@ posts:
   - title: CocoaHeads No. 103 - March Event
     subtitle: AAPL Park
     created_at: 2017-03-02 00:00:01 +0
-    frontpage: 2
+    frontpage: 0
     events:
       - meetup-2017-03-09
     body: |
@@ -104,7 +161,7 @@ posts:
   - title: CocoaHeads No. 102 - Speakers for February
     subtitle: Seventy Eight Point Three Million iPhones
     created_at: 2017-02-05 00:00:01 +0
-    frontpage: 3
+    frontpage: 0
     events:
     - meetup-2017-02-09
     body: |
