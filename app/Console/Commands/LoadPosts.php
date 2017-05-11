@@ -46,11 +46,18 @@ class LoadPosts extends Command
             $newPost->events()->detach();
 
             if (isset($post['events']) && is_array($post['events'])) {
-                $events = new Collection();
-                try {
-                    // this throws in postgres if they're not integers
-                    $events = (new Event)->whereIn('id', $post['events'])->get();
-                } catch (\Exception $e) {
+                $intEvents = array_filter(array_map(function ($id) {
+                    if (is_numeric($id)) {
+                        return (int) $id;
+                    }
+                    return null;
+                }, $post['events']), function ($id) {
+                    return !is_null($id);
+                });
+
+                if (!empty($intEvents)) {
+                    $events = (new Event)->whereIn('id', $intEvents)->get();
+                } else {
                     $events = (new Event)->whereIn('slug', $post['events'])->get();
                 }
 
