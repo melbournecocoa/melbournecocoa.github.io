@@ -308,7 +308,7 @@ class Generate2016Events extends Command
                 'contact' => 'Andyy Hope'
             ],
             [
-                'name' => 'Duis',
+                'name' => 'Dius',
                 'image' => 'sponsors/dius.png',
                 'web' => 'http://dius.com.au',
                 'twitter' => 'dius_au',
