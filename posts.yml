@@ -1,8 +1,48 @@
 posts:
+  - title: CocoaHeads No. 106 - WWDC 2017 Edition
+    subtitle: No sleep till Dub' Dub'
+    created_at: 2017-05-24 22:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2017-06-15
+      - hacknight-2017-05-30
+    body: |
+      <p>Melbourne CococaHeads started after WWDC 2007; Before it ever sold out, when NDAs existed and Apple <i>mailed</i> you
+      the videos on DVDs months later. June has always been exciting, read on for what's happening in Melbourne this year.</p>
+
+      <h3 class="section-heading">Hack Night - May 30th </h3>
+
+      <p>Our May Hack Night is on the <a href="https://www.meetup.com/Melbourne-CocoaHeads/events/239321246/">30th at the Mill House</a>. This is less
+      than a week before WWDC kicks off.<p>
+
+      <h3 class="section-heading">Outware's WWDC17 Melbourne Event</h3>
+
+      <p>Outware are hosing an evening event on the 6th of June. They'll be screening of some of the highlights of day 1.
+      There'll be snacks, beer, and some fun competitions to keep everyone entertained. Same venue as CocoaHeads.</p>
+
+      <p>Tickets are free, but limited. <a href="https://www.eventbrite.com.au/e/wwdc-2017-extended-tickets-34456555485">Reserve yours here</a>.</p>
+
+      <h3 class="section-heading">CocoaHeads WWDC17 Meetup</h3>
+
+      <p>Our meetup is the week following WWDC on June 15. In following with our new format the theme this month will be <strong>"Whats new from WWDC"</strong>.
+      It would be great to get some presentations on new things in Swift/Xcode, iOS/tvOS/watchOS, <small>macOS</small>. There's less than a week
+       to parepare, so the Lightning talk format would be ideal - if something particularly interests you, <strong>get in touch!</strong></p>
+
+      <p>If you'd like to present, or think you'd <i>possibly</i> like to present something head over to the #speakers channel in slack and we can help you
+      with any queries.</p>
+
+      <h3 class="section-heading">YOW! Connected Door Prize!</h3>
+
+      <p>Katie Osborne from Hays has generously offered a ticket to the annual YOW! Connected conference as a door prize. We'll pick randomly from
+      the attendee list on the night. So make sure you <a href="https://www.meetup.com/Melbourne-CocoaHeads/">register your attendance</a>.</p>
+
+      <p>This year YOW! Connected runs on 21-22 September and is all about Mobile development and IoT. It's been running for a number of years now and
+      is a great conference. Checkout <a href="http://connected.yowconference.com.au/">connected.yowconference.com.au</a> for more info.</p>
+
   - title: CocoaHeads No. 105 - May Event
     subtitle: All About UI Kit
     created_at: 2017-05-11 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2017-05-11
     body: |
@@ -25,7 +65,7 @@ posts:
   - title: Changes to CocoaHeads for 2017
     subtitle: Themed meetups!
     created_at: 2017-04-18 10:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2017-05-11
       - meetup-2017-06-08

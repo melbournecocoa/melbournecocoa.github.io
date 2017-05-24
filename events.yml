@@ -163,7 +163,7 @@ events:
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
         lng: 144.9551303
-        sponsors: [Outware]
+        sponsors: [Outware, Dius]
     -
         type: hacknight
         title: 'Hack Night'

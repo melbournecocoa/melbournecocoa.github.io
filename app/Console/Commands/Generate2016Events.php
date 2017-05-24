@@ -306,7 +306,14 @@ class Generate2016Events extends Command
                 'web' => 'http://www.playgroundscon.com',
                 'twitter' => 'playgroundscon',
                 'contact' => 'Andyy Hope'
-            ]
+            ],
+            [
+                'name' => 'Duis',
+                'image' => 'sponsors/dius.png',
+                'web' => 'http://dius.com.au',
+                'twitter' => 'dius_au',
+                'contact' => 'Ian Donaldson',
+            ],
         ];
 
         foreach ($sponsors as $s) {
