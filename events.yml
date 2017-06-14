@@ -159,11 +159,11 @@ events:
         subtitle: Fresh from WWDC, let's recap what's new in iOS/macOS/watchOS/tvOS for 2017
         location: Outware
         location_link: 'http://www.outware.com.au/contact'
-        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
-        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
-        lat: -37.8126541
-        lng: 144.9551303
-        sponsors: [Outware, DiUS]
+        address_display: 'Level 21, 367 Collins St, Melbourne'
+        address: 'Level 21, 367 Collins Street, Melbourne Melbourne VIC 3000'
+        lat: -37.816982
+        lng: 144.9627356
+        sponsors: [DiUS]
     -
         type: hacknight
         title: 'Hack Night'

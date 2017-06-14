@@ -1,8 +1,41 @@
 posts:
+  - title: Cocoaheads No. 106 Update - Venue Change
+    created_at: 2017-06-14 00:00:00 +0
+    subtitle: New venue for June
+    frontpage: 1
+    events:
+      - meetup-2017-06-15
+    body: |
+      <p>Due to a scheduling blunder (oops!), we've had to relocate for June. Sportsbet have been able to help out and provide a venue for the night.</p>
+      <p>The address for this Thursday's meetup is <strong>Level 21, 367 Collins St, Melbourne</strong>. There will be the usual signs and people helping everyone
+      up in the lifts.</p>
+
+      <h3 class="section-heading">Presentations for June</h3>
+
+      <p>With a focus on new things from WWDC, this month we've got some interesting presentations lined up!</p>
+
+      <p><strong>Vlas V, Ben D, Jesse C</strong> - The WWDC that was, in three parts.</p>
+
+      <p>We're going to tag-team the usual 'The Month That Was' overview with a three part overview of WWDC. Attendee Vlas with Ben, and Jesse will give some
+      overviews on iOS & UIK, Xcode & Swift, and what's new in hardware.</p>
+
+      <p><strong>Hon Weng Chong <a href="https://www.twitter.com/dr1337">@dr1337</a></strong> - Applying Deep Learning in iOS via CoreML.</p>
+
+      <p>Hon has been <a href="https://www.youtube.com/watch?v=nL6LPTW08LQ"> playing with the new CoreML framework</a> and is going to show us how to apply some deep learning.</p>
+
+      <p><strong>Tyrone Trevorrow <a href="https://www.twitter.com/tyrone">@tyrone</a></strong> - Ten long-awaited things that we didn't get at WWDC 2017.</p>
+
+      <p>Lots of stuff was announced at WWDC 2017. Let's talk about some of the stuff that wasn't.</p>
+
+      <h3 class="section-heading">Reminder: YOW! Connected Door Prize!</h3>
+
+      <p>Katie Osborne from Hays has generously offered a ticket to the annual <a href="http://connected.yowconference.com.au">YOW! Connected</a> conference as a door prize. We'll pick randomly from
+      the attendee list on the night. So make sure you <a href="https://www.meetup.com/Melbourne-CocoaHeads/">register your attendance</a>.</p>
+
   - title: CocoaHeads No. 106 - WWDC 2017 Edition
     subtitle: No sleep till Dub' Dub'
     created_at: 2017-05-24 22:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2017-06-15
       - hacknight-2017-05-30
@@ -42,7 +75,7 @@ posts:
   - title: CocoaHeads No. 105 - May Event
     subtitle: All About UI Kit
     created_at: 2017-05-11 00:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2017-05-11
     body: |
@@ -50,9 +83,7 @@ posts:
 
       <h3 class="section-heading">Presentations for May</h3>
 
-      <p><strong> Andyy Hope <a href="https://www.twitter.com/andyyhope">@andyyhope</a></strong> - 10 things I hate about UIKit</p>
-
-      <p><strong>Ashton Williams <a href="https://www.twitter.com/AshtonDev">@AshtonDev</a></strong> - UIActivityViewController is weird</p>
+      <p><strong>Andyy Hope <a href="https://www.twitter.com/andyyhope">@andyyhope</a></strong> - 10 things I hate about UIKit</p>
 
       <p><strong>Ben Deckys <a href="https://www.twitter.com/cocotutch">@cocotutch</a></strong> - Custom Bezier Curves with UIViewAnimator</p>
 
@@ -65,7 +96,7 @@ posts:
   - title: Changes to CocoaHeads for 2017
     subtitle: Themed meetups!
     created_at: 2017-04-18 10:00:00 +0
-    frontpage: 3
+    frontpage: 4
     events:
       - meetup-2017-05-11
       - meetup-2017-06-08
