@@ -247,9 +247,9 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-09-07
-        starts_at: '2017-09-07 08:30:00 +0000'
-        ends_at: '2017-09-07 11:30:00 +0000'
+        slug: meetup-2017-09-14
+        starts_at: '2017-09-14 08:30:00 +0000'
+        ends_at: '2017-09-14 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
         contact: 'mailto:jesse@jcmultimedia.com.au'
         contact_name: 'Jesse Collis'
@@ -346,9 +346,9 @@ events:
         lng: 144.9652635
     -
         type: meetup
-        slug: meetup-2017-12-07
-        starts_at: '2017-12-07 07:30:00 +0000'
-        ends_at: '2017-12-07 10:30:00 +0000'
+        slug: meetup-2017-12-14
+        starts_at: '2017-12-14 07:30:00 +0000'
+        ends_at: '2017-12-14 10:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
         contact: 'mailto:jesse@jcmultimedia.com.au'
         contact_name: 'Jesse Collis'
