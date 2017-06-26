@@ -1,8 +1,53 @@
 posts:
-  - title: Cocoaheads No. 106 Update - Venue Change
-    created_at: 2017-06-14 00:00:00 +0
-    subtitle: New venue for June
+  - title: Upcoming Meetup Topics
+    subtitle: Architecture, Swift 4, Automation
+    created_at: 2017-06-25 23:00:00 +0
     frontpage: 1
+    events:
+      - meetup-2017-07-13
+      - meetup-2017-08-10
+      - meetup-2017-09-14
+    body: |
+      <p>I posted a poll in slack last week with some ideas for upcoming meetup topics. Here's the outcome of the votes:</p>
+
+      <img src="/img/posts/june2017-poll.jpg" class="img-responsive" />
+
+      <p>Therefore, the upcoming months' themes will be Architecture, Swift 4, Automation and tooling. We will vote on
+      October through to December at some point after the July meetup but <strong>ideas are always welcome</strong>.</p>
+
+      <h3 class="section-heading">July 2017 - Architecture</h3>
+
+      <p>Architecture was the highest voted topic. It's broad and sometimes controversial. The discussions on who and what
+      will be presented are ongoing in the public #speakers slack channel. If you have a take on a common (or not common)
+      iOS/mobile/macOS architecture pattern you'd like to share, feel free to join #speakers and add your idea.</p>
+
+      <h3 class="section-heading">August 2017 - Swift 4</h3>
+
+      <p>By August we'll be reasonably close the the Swift 4 / Xcode 9 release - it could be a good idea to dedicate a
+      month to talking about new swift language features, and even some of the advancements in programming with swift in general.</p>
+
+      <h3 class="section-heading">September 2017 - Automation and Tooling</h3>
+
+      <p>If Xcode 9 isn't out by the September meetup it won't be far away. We already know we have a new build system with Xcode 9,
+      this includes advancements in tooling and automation (multi simulators!) - I know automation is a passion of a lot of people
+      so let's talk about all that.</p>
+
+      <h3 class="section-heading">October - December 2017 - TBC</h3>
+
+      <p>There are still a lot of ideas we could cover for the last three months. We could dedicate particular months to large frameworks
+      like Foundation or CoreAnimation or focus on smaller/newer frameworks like ARKit. I liked the idea of a beginners month that could
+      appeal to a different audience to usual and might appeal to first time speakers.</p>
+
+      <h3 class="section-heading">Lightning Talks</h3>
+
+      <p>Lightning talks are still lightning talks. If you've got an app to demo, a new feature or trick you've learnt and you want to
+      show it off, if we've got time they're more than welcome any month. Just let me/us know either in #speakers, via <a href="/talks">/talks</a> or
+      just directly via email.</p>
+
+  - title: Cocoaheads No. 106 Update - Venue Change
+    subtitle: New venue for June
+    created_at: 2017-06-14 00:00:00 +0
+    frontpage: 2
     events:
       - meetup-2017-06-15
     body: |
@@ -35,7 +80,7 @@ posts:
   - title: CocoaHeads No. 106 - WWDC 2017 Edition
     subtitle: No sleep till Dub' Dub'
     created_at: 2017-05-24 22:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2017-06-15
       - hacknight-2017-05-30
@@ -75,7 +120,7 @@ posts:
   - title: CocoaHeads No. 105 - May Event
     subtitle: All About UI Kit
     created_at: 2017-05-11 00:00:00 +0
-    frontpage: 3
+    frontpage: 0
     events:
       - meetup-2017-05-11
     body: |
@@ -96,7 +141,7 @@ posts:
   - title: Changes to CocoaHeads for 2017
     subtitle: Themed meetups!
     created_at: 2017-04-18 10:00:00 +0
-    frontpage: 4
+    frontpage: 0
     events:
       - meetup-2017-05-11
       - meetup-2017-06-08
