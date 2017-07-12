@@ -1,8 +1,33 @@
 posts:
+  - title: CocoaHeads No. 107 - Speakers
+    subtitle: All about Architecture
+    created_at: 2017-07-11 23:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2017-07-13
+    body: |
+
+      <p>July marks CocoaHeads's 10th year running. I once wrote as much of the Melbourne CocoaHeads history as I could
+      find, 2007 is catalogued <a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory/blob/master/2007.mdown">here</a></p>
+
+      <h3 class="section-heading">Presentations for July</h3>
+
+      <p><strong>Andyy Hope <a href="https://www.twitter.com/andyyhope">@andyyhope</a></strong> - The Month That Was</p>
+
+      <p><strong>Mark Robinson <a href="https://www.twitter.com/sparkyrobinson">@sparkyrobinson</a></strong> - There and Back Again: A React Native Tale</p>
+
+      <p><strong>Jean-Étienne <a href="https://www.twitter.com/jeanetienne">@jeanetienne</a></strong> - The way I approach architecture these days</p>
+
+      <p><strong>Matt Delves <a href="https://www.twitter.com/mattdelves">@mattdelves</a></strong> - Routing and ReSwift, concepts and benefits</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>If you can't make it on the night check the <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a> page from about 6:20pm for the live stream.</p>
+
   - title: Upcoming Meetup Topics
     subtitle: Architecture, Swift 4, Automation
     created_at: 2017-06-25 23:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2017-07-13
       - meetup-2017-08-10
@@ -44,7 +69,7 @@ posts:
       show it off, if we've got time they're more than welcome any month. Just let me/us know either in #speakers, via <a href="/talks">/talks</a> or
       just directly via email.</p>
 
-  - title: Cocoaheads No. 106 Update - Venue Change
+  - title: CocoaHeads No. 106 Update - Venue Change
     subtitle: New venue for June
     created_at: 2017-06-14 00:00:00 +0
     frontpage: 2
