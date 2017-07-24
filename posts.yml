@@ -1,8 +1,34 @@
 posts:
+  - title: CocoaHeads No. 108 - August 2017 Meetup
+    subtitle: All about Swift 4
+    created_at: 2017-07-24 00:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2017-08-10
+      - hacknight-2017-07-25
+    body: |
+      <p>August's topic is all about <strong>Swift 4</strong>! If you're inspired by the end of third party JSON parsers, want to demo some
+      live Swift code refactoring or are just excited about one particular detail related to the Swift 3 to 4 transition - head over to (in to?) the #speakers channel on slack,
+      or submit your ideas to me via the <a href="/talks">/talks</a> form and we'll go from there.</p>
+
+      <p>Don't forget we're also up for any <strong>lightning talks</strong> on more general topics if something else has has piqued your interest lately.</p>
+
+      <p>You can invite yourself to our slack channel at <a href="https://slack.melbournecocoaheads.com">slack.melbournecocoaheads.com</a></p>
+
+      <h3 class="section-heading">Sponsors for 2017</h3>
+
+      <p>We're still looking to secure sponsors for <strong>four</strong> of the remaining months this year. The venue, food and drinks we enjoy each month rely on members of the community to
+      sponsor each month. If your company would be interested in tapping into the Melbourne CocoaHeads community please get in touch with me
+      directly at <a href="mailto:jesse@melbournecoocaheads.com">jesse@melbournecoocaheads.com</a>.</p>
+
+      <h3 class="section-heading">Hack Night</h3>
+
+      <p>Hack Night is tomorrow night! Come along to the Mill House from about 6/6:30 for some drinks and conversations.</p>
+
   - title: CocoaHeads No. 107 - Speakers
     subtitle: All about Architecture
     created_at: 2017-07-11 23:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2017-07-13
     body: |
@@ -27,7 +53,7 @@ posts:
   - title: Upcoming Meetup Topics
     subtitle: Architecture, Swift 4, Automation
     created_at: 2017-06-25 23:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2017-07-13
       - meetup-2017-08-10
@@ -72,7 +98,7 @@ posts:
   - title: CocoaHeads No. 106 Update - Venue Change
     subtitle: New venue for June
     created_at: 2017-06-14 00:00:00 +0
-    frontpage: 2
+    frontpage: 0
     events:
       - meetup-2017-06-15
     body: |
@@ -105,7 +131,7 @@ posts:
   - title: CocoaHeads No. 106 - WWDC 2017 Edition
     subtitle: No sleep till Dub' Dub'
     created_at: 2017-05-24 22:00:00 +0
-    frontpage: 3
+    frontpage: 0
     events:
       - meetup-2017-06-15
       - hacknight-2017-05-30
