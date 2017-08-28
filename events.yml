@@ -234,8 +234,8 @@ events:
         title: 'Hack Night'
         subtitle: 'Melbourne CocoaHeads Hack Night'
         slug: hacknight-2017-08-29
-        starts_at: '2017-08-29 08:30:00 +0000'
-        ends_at: '2017-08-29 11:30:00 +0000'
+        starts_at: '2017-08-22 08:30:00 +0000'
+        ends_at: '2017-08-22 11:30:00 +0000'
         tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
@@ -261,7 +261,7 @@ events:
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
         lng: 144.9551303
-        sponsors: [Outware]
+        sponsors: [Outware, Realestate.com.au]
     -
         type: hacknight
         title: 'Hack Night'

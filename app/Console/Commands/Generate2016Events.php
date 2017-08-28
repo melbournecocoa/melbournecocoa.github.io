@@ -282,7 +282,7 @@ class Generate2016Events extends Command
             [
                 'name' => 'Realestate.com.au',
                 'image' => 'sponsors/realestate.jpg',
-                'web' => 'http://techblog.realestate.com.au',
+                'web' => 'http://rea.tech',
                 'twitter' => 'realestate_au',
                 'contact' => null
             ],

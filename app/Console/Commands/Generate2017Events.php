@@ -119,8 +119,6 @@ class Generate2017Events extends Command
         ];
 
         // Special cases month by month
-
-        // TODO: fill in sponsors for rest of 2017
         switch ($date->month) {
             case 2:
                 array_unshift($event['sponsors'], 'Playgrounds');
