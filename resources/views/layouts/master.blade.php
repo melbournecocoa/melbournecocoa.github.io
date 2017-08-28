@@ -64,6 +64,9 @@
                     <a href="{{ route('about') }}">About</a>
                 </li>
                 <li>
+                    <a href="{{ url('/live') }}">Live</a>
+                </li>
+                <li>
                     <a href="{{ route('calendar') }}">Calendar</a>
                 </li>
                 <li>
@@ -147,6 +150,14 @@
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-slack fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw" title="Melbourne CocoaHeads on YouTube">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
