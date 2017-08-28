@@ -1,8 +1,81 @@
 posts:
+  - title: Topics for CocoaHeads No. 109, 110 - September, October 2017
+    subtitle: Automation and Tooling, AR Kit
+    created_at: 2017-08-29 12:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2017-09-14
+      - hacknight-2017-09-26
+    body: |
+      <p>It's been a lot of fun running themed meetups over the past few months. We've had great talks on UIKit, WWDC 2017,
+      Architecture and Swift 4. For September and October our topics are <strong>Automation and tooling</strong> and <strong>AR Kit</strong> respectively.</p>
+
+      <h3 class="section-heading">Automation and Tooling</h3>
+
+      <p>Automation and tooling can cover anything from ways you and your team use Xcode to automation and testing practices you use (or would like to use!) in your projects.
+      It's broad topic and we've had a lot of good presentations over the years. With Apple's tools improving significantly over the years and awesome third party
+      tools becoming widely adopted like <a href="https://fastlane.tools">Fastlane</a> and <a href="https://www.buddybuild.com">Buddy Build</a>, there's lots to learn and share.</p>
+
+      <h3 class="section-heading">AR Kit</h3>
+
+      <p>Probably <a href="http://www.madewitharkit.com">the hottest topic right now</a> in iOS so I'm posting the topic nice and early! Bring your demos, trials, errors and anything else you've been tinkering with
+      within ARKit. The more lightning talks we have on the night the better - but if anyone has enough time to put together a 20 minute presentation on "getting started with ARKit"
+      please put your hand up - it will be well received.</p>
+
+      <h3 class="section-heading">#speakers and /talks </h3>
+
+      <p>As usual, head over to the #speakers channel on slack, or submit your ideas to me via the <a href="/talks">/talks</a> form. You can invite yourself to our slack channel
+      at <a href="https://slack.melbournecocoaheads.com">here</a></p>
+
+      <h3 class="section-heading">Thanks to our September and October sponsors</h3>
+
+      <p>A shout out and thanks to our September sponsor Realestate.com.au, our October Sponsor JTribe and our venue sponsor Outware.</p>
+
+  - title: CocoaHeads on YouTube
+    subtitle: Better late than never
+    created_at: 2017-08-29 11:00:00 +0
+    frontpage: 2
+    body: |
+      <p>I spent some time the other week organising the <a href="https://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw">Melbourne CocoaHeads YouTube Channel</a>.
+      You can also get directly to the live stream at <a href="https://melbournecocoaheads.com/live">https://melbournecocoaheads.com/live</a></p>
+
+      <p>As part of the reorganisation effort I have tidied up all of the 2017 livestream recordings as best as possible and published 8 videos from 2017, including three presentations from our most
+      recent meetup. For those that watch the live stream at home, or after the fact I'm also pleased to report <strong>I have solved the mono audio issue</strong> for future broadcasts.</p>
+
+      <p>If you use YouTube it would be great if you could subscribe to the channel, it will only make our videos go that bit further!</p>
+
+      <h3 class="section-heading">2017 Published Presentations</h3>
+
+      <ul>
+        <li>August - Jayant Varma <a href="https://www.youtube.com/watch?v=igFEVA0Z1D4">String Theory [What's new in Strings in Swift 4]</a></li>
+        <li>August - Stew Gleadow <a href="https://www.youtube.com/watch?v=n3r3k6Kqkfc">Strongly Types Values in Swift 3 and Swift 4</a></li>
+        <li>August - Tom Adams <a href="https://www.youtube.com/watch?v=ZEGdi0V41C84">Swift 4 Decodable and GraphQL</a></li>
+        <li>May - Ben Deckys <a href="https://www.youtube.com/watch?v=r50BL6cp-6A">Custom Bezier Curves with UIViewAnimator</a></li>
+        <li>May - Andyy Hope <a href="https://www.youtube.com/watch?v=7VkAOa8c8MY">10 Things I Hate About UI Kit</a></li>
+        <li>May - Vlas Voloshin <a href="https://www.youtube.com/watch?v=I3oB_8xNhPU&t=4s">Intro to TextKit - Advanced typography for fun and profit</a></li>
+        <li>April - Gio  <a href="https://www.youtube.com/watch?v=Zj-kvFJcLwc">Back to the Future - Git Rebase for iOS Developers</a></li>
+        <li>April - Jesse Collis  <a href="https://www.youtube.com/watch?v=EzKwi-u9jQo">Automatically Generating your API Client with Swagger and Swagger Codegen</a></li>
+      </ul>
+
+      <h3 class="section-heading">2017 Livestream Links</h3>
+
+      <p>There's more trimming that could be done on these livestream videos, but for the moment they are named correctly and are in order. Any gaps or loss in sound
+      is unrecoverable unfortunately.</p>
+
+      <ul>
+        <li>August 2017 Livestream <a href="https://www.youtube.com/watch?v=cfWOllnRZgs">Video 1</a>, <a href="https://www.youtube.com/watch?v=yE-mxFmdArc">Video 2</a></li>
+        <li><a href="https://www.youtube.com/watch?v=J_V6R7VXe-g">July 2017 Livestream</a></li>
+        <li>June 2017 Livestream <a href="https://www.youtube.com/watch?v=voKPBGBxT-w">Video 1</a>, <a href="https://www.youtube.com/watch?v=WqNbGtrwR5Q">Video 2</a></li>
+        <li><a href="https://www.youtube.com/watch?v=wIylLF28l6A">May 2017 Livestream</a></li>
+        <li>April 2017 Livestream <a href="https://www.youtube.com/watch?v=UiBuuOrbW7c">Video 1</a>, <a href="https://www.youtube.com/watch?v=9gSfgIMttcY">Video 2</a>, <a href="https://www.youtube.com/watch?v=_CU0R5LAgx8">Video 3</a></li>
+        <li>March 2017 Livestream <a href="https://www.youtube.com/watch?v=x5g0mBsX_jQ">Video 1</a>, <a href="https://www.youtube.com/watch?v=zDIY3zT_2Qc">Video 2</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xkWGFLafSLk">February 2017 Livestream</a></li>
+      </ul>
+
   - title: CocoaHeads No. 108 - August 2017 Meetup
     subtitle: All about Swift 4
     created_at: 2017-07-24 00:00:00 +0
-    frontpage: 1
+    frontpage: 0
     events:
       - meetup-2017-08-10
       - hacknight-2017-07-25
@@ -28,7 +101,7 @@ posts:
   - title: CocoaHeads No. 107 - Speakers
     subtitle: All about Architecture
     created_at: 2017-07-11 23:00:00 +0
-    frontpage: 2
+    frontpage: 0
     events:
       - meetup-2017-07-13
     body: |
