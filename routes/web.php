@@ -20,6 +20,13 @@ Route::get('/live', function () {
     return response('', 303)->header('location', 'http://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw/live');
 });
 
+Route::get('/2018', function () {
+    return response()->redirectToRoute(
+        'post',
+        ['post' => \App\Post::where('slug', '=', 'cococaheads-2017-summer-break')->firstOrFail()]
+    );
+});
+
 Route::get('/events/past', ['as' => 'pastEvents', 'uses' => 'EventsController@getPastEvents']);
 Route::get('/calendar', ['as' => 'calendar', function () {
     return view('calendar');
