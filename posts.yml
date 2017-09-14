@@ -1,8 +1,105 @@
 posts:
+  - title: CococaHeads 2017 Summer Break
+    subtitle: Planning for 2018
+    created_at: 2017-09-14 00:00:01 +0
+    frontpage: 1
+    events:
+      - meetup-2017-10-12
+      - hacknight-2017-11-28
+      - hacknight-2017-12-26
+    body: |
+      <p>
+        Historically, Melbourne CocoaHeads takes a summer break in January and we start the year off in February.
+      </p>
+
+      <p>
+        This year we will be taking an <strong>extended break</strong>. Our
+      <a href="/events/meetup-2017-10-12">October Meetup No. #110</a> will be the last official meetup for 2017.
+      Hack nights and NSBreakfast events will still be scheduled for November and December as usual.
+      </p>
+
+      <h3 class="section-heading">2018 Organisational Meeting</h3>
+
+      <p>
+      Taking a break enables us to look ahead to 2018. It's a chance to get out in front and organise venues, sponsors, volunteers
+      and topics. It's a chance to take stock of the successes and challenges of 2017.
+      </p>
+
+      <p>
+      In place of our November meetup, I'll be scheduling an <strong>open meeting</strong> for anyone interested in
+      contributing feedback or their time to help organise Melbourne CocoaHeads in 2018. I'll announce the time and
+      location and an agenda prior to the October meetup.
+      </p>
+
+      <p>
+      Minutes of the meeting will be posted here and added to the the
+      <a href="https://github.com/melbournecocoa/MelbourneCocoaHeadsHistory/">Melbourne CocoaHeads History</a> github repo.
+      </p>
+
+      <p>A brief, incomplete outline of some of the topics to cover are below:</p>
+
+      <h3 class="section-heading">Volunteering in 2018</h3>
+
+      <p>
+        CocoaHeads has always relied on the community members to keep it running. Sharing this responsibility is going to
+        be key in 2018. Too much consolidation of responsibility is a risk. I'm looking for volunteers/co-organisers to
+        help out in the following areas:
+      </p>
+
+      <ul>
+        <li><strong>Community Coordination</strong> - Meetup dates, website blog updates, Meetup.com admin, slack admin, responding to emails, invoicing and following up payments.</li>
+        <li><strong>Speakers Coordination</strong> - Following up interested speakers, reaching out to people ahead of time.
+        Encouraging new speakers.</li>
+        <li><strong>Sponsorship Coordination</strong> - Reaching out to potential sponsors.</li>
+        <li><strong>Logistics Coordination</strong> - Food and drinks ordering, delivery, setup on the night.</li>
+        <li><strong>Hack Night Coordination</strong> - Helping facilitate the hack night event (see below).</li>
+        <li><strong>Video and Live Streaming</strong> - Managing live streaming, video editing and publishing to YouTube. We also have a 2+ year backlog of recorded talks.</li>
+        <li><strong>Social Media</strong> - tweeting from @melbournecocoa twitter, re posting photos to Meetup.com etc.</li>
+      </ul>
+
+      <p>Support will be provided to anyone interested in volunteering; Volunteering is as much an opportunity to give back to
+      the community as it is for you to learn. It's about contributing what time you can and helping out. Get in touch with me
+      directly if you'd like to volunteer - <a href="mailto:jesse@melbournecocoaheads.com">jesse@melbournecocoaheads.com</a>.</p>
+
+      <h3 class="section-heading">Hack Nights in 2018</h3>
+
+      <p>
+      If I could find a volunteer to help, I'd like to make an effort to formalise the Hack Nights with a venue and a sponsor.
+      This could open up the hack night to be an avenue providing support for new members of the community and a space for
+      hacking on that side project in a comfortable co-working like environment.
+      </p>
+      <p>
+      I envision the current Hack Night becoming something like a <i>drinks night</i>, maintaining it's relaxed atmosphere and location.
+      </p>
+
+      <p>I would <strong>love</strong> feedback and input on this idea.</p>
+
+      <h3 class="section-heading">Sponsors and Venues</h3>
+
+      <p>
+        Our current model is one company sponsors the drinks and food each month and we have an ongoing sponsor who provides
+        their venue. It was a bit different in <a href="https://github.com/melbournecocoa/MelbourneCocoaHeadsHistory/blob/master/2011.mdown">2011</a> with different venues each month as well.
+      </p>
+
+      <p>There's a lot of overhead in finding sponsors each month, invoicing and following up payment - in 2018 I'd like to
+      explore the possibility of a more efficient sponsorship model with longer term (year long) sponsorships.</p>
+
+      <p>Venue wise, we've been very lucky over the years with some great venues. I'd like to see what options we could
+      come up with for 2018.</p>
+
+      <h3 class="section-heading">Future CocoaHeads</h3>
+
+      <p>
+        This year Melbourne CocoaHeads eclipsed <a href="https://github.com/melbournecocoa/MelbourneCocoaHeadsHistory/blob/master/2007.mdown">10 years of meetups</a>.
+        An independent community meeting over decade is something I don't think get's highlighted enough. Over this whole time Melbourne CocoaHeads has been run <strong>by the community</strong>
+        for the sole benefit <strong>of the community</strong>. I'm really excited about where the Apple/Mobile/Melbourne tech community is headed and can't wait for 2018.
+      </p>
+      <p>If any of the above inspires you to get involved please get in touch with me directly at <a href="mailto:jesse@melbournecocoaheads.com">jesse@melbournecocoaheads.com</a>.</p>
+
   - title: Speakers for CocoaHeads No. 109
     subtitle: Automation and Tooling
     created_at: 2017-09-13 03:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2017-09-14
       - hacknight-2017-09-26
@@ -31,7 +128,7 @@ posts:
   - title: Topics for CocoaHeads No. 109, 110 - September, October 2017
     subtitle: Automation and Tooling, AR Kit
     created_at: 2017-08-29 12:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2017-09-14
       - hacknight-2017-09-26
@@ -63,7 +160,7 @@ posts:
   - title: CocoaHeads on YouTube
     subtitle: Better late than never
     created_at: 2017-08-29 11:00:00 +0
-    frontpage: 3
+    frontpage: 4
     body: |
       <p>I spent some time the other week organising the <a href="https://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw">Melbourne CocoaHeads YouTube Channel</a>.
       You can also get directly to the live stream at <a href="https://melbournecocoaheads.com/live">https://melbournecocoaheads.com/live</a></p>
