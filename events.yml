@@ -294,7 +294,7 @@ events:
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
         lng: 144.9551303
-        sponsors: [Outware]
+        sponsors: [Outware, jtribe]
     -
         type: hacknight
         title: 'Hack Night'
@@ -343,3 +343,19 @@ events:
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
         lng: 144.9652635
+    -
+        type: special
+        title: 'CocoaHeads 2018 planning meeting'
+        subtitle: 'Planning for CocoaHeads in 2018'
+        slug: planning-meeting-2017-10-26
+        starts_at: '2017-10-26 06:45:00 +0000'
+        ends_at: '2017-10-26 8:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/244099223/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: Itty Bitty Apps
+        location_link: http://www.ittybittyapps.com
+        address_display: 'Level 6, 84 William St, Melbourne'
+        address: 'Level 6, 84 William St, Melbourne, VIC, 3000,'
+        lat: -37.8171325
+        lng: 144.9571

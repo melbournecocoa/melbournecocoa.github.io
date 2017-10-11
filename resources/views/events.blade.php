@@ -53,11 +53,11 @@
                         @endif
 
                         @if($event->tickets)
-                            <h3>Tickets</h3>
+                            <h3>RSVP</h3>
 
                             <ul class="list-inline">
                                 <li>
-                                    <i class="fa fa-ticket"></i> <a href="{{ $event->tickets }}">Tickets</a>
+                                    <i class="fa fa-ticket"></i> <a href="{{ $event->tickets }}">RSVP</a>
                                 </li>
                             </ul>
                         @endif

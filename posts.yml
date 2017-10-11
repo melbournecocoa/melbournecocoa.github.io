@@ -1,10 +1,51 @@
 posts:
-  - title: CococaHeads 2017 Summer Break
-    subtitle: Planning for 2018
-    created_at: 2017-09-14 00:00:01 +0
+  - title: Speakers for CocoaHeads No. 110
+    subtitle: ARKit
+    created_at: 2017-10-11 00:00:00 +0
     frontpage: 1
     events:
       - meetup-2017-10-12
+      - planning-meeting-2017-10-26
+    body: |
+          <p>Our topic this month is ARKit, probably the hottest topic in iOS land right now. Also note that this is our <strong>last meetup for 2017</strong>. We will be back
+          in February 2018. Checkout the blog post on our <a href="/updates/cococaheads-2017-summer-break">2017 Summer Break and planning for 2018</a> for more details.</p>
+
+          <h3 class="section-heading">Presentations for October</h3>
+
+          <p><strong>Ben Deckys <a href="https://www.twitter.com/topLayoutGuide">@topLayoutGuide</a></strong> - The Month That Was</p>
+
+          <p><strong>Simon Chessum</strong> - Using SpriteKit for dynamic textures in ARKit – Tips and Traps</p>
+
+          <p><strong>Vlas Voloshin <a href="https://www.twitter.com/argentumko">@argentumko</a></strong> - The making of the Reveal AR demo</p>
+
+          <p><strong>Renaud Lienhart <a href="https://www.twitter.com/layoutSubviews">@layoutSubviews</a></strong> - BlueBorne: the perspective of the guy who wrote the memcpy()</p>
+
+          <h3 class="section-heading">Special Thanks</h3>
+
+          <p>Thanks to the team at JTribe for sponsoring the food and drinks this month and to Outware for the venue!</p>
+
+          <p>A big thank you to <strong>Outware</strong> for providing us a venue for 2017, as well
+          as SportsBet for helping out in June. An extra shout out to our food and drinks sponsors for 2017 too - <strong> Outware, JTribe, realestate.com.au, DiUS,
+          Redbubble and Playgrounds</strong>.</p>
+
+          <h3 class="section-heading">YouTube and Live Streaming</h3>
+
+          <p>We will be livestreaming and recording from about 6:30. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>. Audio quality <a href="https://twitter.com/cocoawithlove/status/908261157986721792">should be good</a> this month too!
+
+          <h3 class="section-heading">2018 Planning meeting</h3>
+
+          <p>As mentioned above and in <a href="/updates/cococaheads-2017-summer-break">this blog post</a> we've scheduled an open meeting for
+          anybody who might be interested in volunteering their time to help Melbourne CocoaHeads run smoothly in 2018. If you're interested in
+          volunteering or have ideas for Melbourne CocoaHeads RSVP when it becomes available <a href="/events/planning-meeting-2017-10-26">here</a>.</p>
+
+
+  - title: CococaHeads 2017 Summer Break
+    subtitle: Planning for 2018
+    created_at: 2017-09-14 00:00:01 +0
+    frontpage: 2
+    events:
+      - meetup-2017-10-12
+      - planning-meeting-2017-10-26
       - hacknight-2017-11-28
       - hacknight-2017-12-26
     body: |
@@ -12,10 +53,8 @@ posts:
         Historically, Melbourne CocoaHeads takes a summer break in January and we start the year off in February.
       </p>
 
-      <p>
-        This year we will be taking an <strong>extended break</strong>. Our
-      <a href="/events/meetup-2017-10-12">October Meetup No. #110</a> will be the last official meetup for 2017.
-      Hack nights and NSBreakfast events will still be scheduled for November and December as usual.
+      <p>This year we will be taking an <strong>extended break</strong>. Our <a href="/events/meetup-2017-10-12">October Meetup No. #110</a>
+      will be the last official meetup for 2017. Hack nights and NSBreakfast events will still be scheduled for November and December as usual.
       </p>
 
       <h3 class="section-heading">2018 Organisational Meeting</h3>
@@ -27,8 +66,11 @@ posts:
 
       <p>
       In place of our November meetup, I'll be scheduling an <strong>open meeting</strong> for anyone interested in
-      contributing feedback or their time to help organise Melbourne CocoaHeads in 2018. I'll announce the time and
-      location and an agenda prior to the October meetup.
+      contributing feedback or their time to help organise Melbourne CocoaHeads in 2018.
+
+      <strong>Update:</strong> The planning meeting will be held at the Itty Bitty Apps offices on Thursday October 26th
+      from 5:45pm. <a href="/events/planning-meeting-2017-10-26">See here</a> for more details. RSVPs will be open on
+      meetup.com after our October event.
       </p>
 
       <p>
@@ -99,7 +141,7 @@ posts:
   - title: Speakers for CocoaHeads No. 109
     subtitle: Automation and Tooling
     created_at: 2017-09-13 03:00:00 +0
-    frontpage: 2
+    frontpage: 0
     events:
       - meetup-2017-09-14
       - hacknight-2017-09-26
@@ -128,7 +170,7 @@ posts:
   - title: Topics for CocoaHeads No. 109, 110 - September, October 2017
     subtitle: Automation and Tooling, AR Kit
     created_at: 2017-08-29 12:00:00 +0
-    frontpage: 3
+    frontpage: 0
     events:
       - meetup-2017-09-14
       - hacknight-2017-09-26
@@ -250,7 +292,7 @@ posts:
   - title: Upcoming Meetup Topics
     subtitle: Architecture, Swift 4, Automation
     created_at: 2017-06-25 23:00:00 +0
-    frontpage: 4
+    frontpage: 0
     events:
       - meetup-2017-07-13
       - meetup-2017-08-10
