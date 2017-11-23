@@ -1,8 +1,48 @@
 posts:
+  - title: Melbourne CocoaHeads 2018 Planning Session
+    subtitle: Planning for 2018
+    created_at: 2017-11-23 01:00:00 +0
+    frontpage: 1
+    events:
+      - planning-meeting-2017-10-26
+    body: |
+      <h3 class="section-heading">2018 Planning Meeting</h3>
+
+      <p>
+        I have scheduled an <strong>open meeting</strong> for anyone interested volunteering their time to help organise and run Melbourne CocoaHeads
+        throughout 2018 and beyond. It's a great opporunity to come up with new ideas and involve more of us in the month to month running of the event.
+        For a bit more background on this meeting see the <a href="https://www.melbournecocoaheads.com/2018">Melbourne CocoaHeads 2018</a> blog post from earlier this year.
+      </p>
+
+      <h3 class="section-heading">Where and When</h3>
+        The meeting will take place at the Itty Bitty Apps offices in the CBD on <a href="/events/planning-meeting-2017-10-26">Thursday December 7th from 5:45pm</a>. <strong>If you would like to attend
+        please get in touch with me directly and I will invite you to RSVP via the relevant channels</strong>. There will be a limit on the total number of people to keep things comfortable.
+        If you can't physically make it into the CBD on the night, it's possible I could setup a Google Hang Out session.
+      </p>
+
+      <h3 class="section-heading">What and Why</h3>
+
+      <p>
+        I have a <a href="https://gist.github.com/jessedc/3ae72609e53c0dc627711494d72bbfc0">rough gist</a> document outlining some thoughts,
+        roles and opportunities to expand and improve CocoaHeads in 2018. Key to my thoughts are sharing the responsibility of running
+        CococaHeads every month, encouraging new members and bringing back the hacking at the Hack Nights. I hope to revise the gist a bit
+        prior to Thursday but I'm happy to take feedback as comments or directly at this time.
+      </p>
+      <p>
+        A more structured agenda will be provided to everyone attending prior to the night and there should be plenty of time for unplanned agenda items on the night. Basic minutes from
+        the meeting will be posted here and added to the the <a href="https://github.com/melbournecocoa/MelbourneCocoaHeadsHistory/">Melbourne CocoaHeads History</a> repository.
+      </p>
+
+      <p>
+        If you are interested in helping out please get in touch with me at <a href="mailto:jesse@melbournecocoaheads.com">jesse@melbournecocoaheads.com</a> and I will
+        loop you in with an invitation to RSVP. You can also reach out to myself, Rob Amos, Ben Deckys or Gavan Chan on <a href="https://slack.melbournecocoaheads.com">Slack</a>
+        for more info or with any queries.
+      </p>
+
   - title: Speakers for CocoaHeads No. 110
     subtitle: ARKit
     created_at: 2017-10-11 00:00:00 +0
-    frontpage: 1
+    frontpage: 0
     events:
       - meetup-2017-10-12
       - planning-meeting-2017-10-26
@@ -68,9 +108,7 @@ posts:
       In place of our November meetup, I'll be scheduling an <strong>open meeting</strong> for anyone interested in
       contributing feedback or their time to help organise Melbourne CocoaHeads in 2018.
 
-      <strong>Update:</strong> The planning meeting will be held at the Itty Bitty Apps offices on Thursday October 26th
-      from 5:45pm. <a href="/events/planning-meeting-2017-10-26">See here</a> for more details. RSVPs will be open on
-      meetup.com after our October event.
+      <strong>Update:</strong> The planning meeting was postponed and will be held at the Itty Bitty Apps offices in December. <a href="/events/planning-meeting-2017-10-26">See here</a> for more details.
       </p>
 
       <p>
