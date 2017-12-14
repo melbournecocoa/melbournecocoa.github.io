@@ -360,7 +360,7 @@ events:
         lat: -37.8171325
         lng: 144.9571
     -
-        type: special
+        type: meetup
         title: 'Xmas party CocaHeads, Android GDG & Melbourne Mobile'
         subtitle: 'Planning for CocoaHeads in 2018'
         slug: xmas-party-2017
