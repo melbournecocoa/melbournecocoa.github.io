@@ -26,7 +26,7 @@ class HomeController extends Controller
 
         $description = "Melbourne CocoaHeads";
 
-        if ($event) {
+        if ($event && $hackNight) {
             $hnt = $hackNight->getFormattedTimeAttribute();
             $mut = $event->getFormattedTimeAttribute();
 
