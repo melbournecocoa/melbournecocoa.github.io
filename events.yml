@@ -328,22 +328,6 @@ events:
         lat: -37.8171867
         lng: 144.9652635
     -
-        type: hacknight
-        title: 'Hack Night'
-        subtitle: 'Melbourne CocoaHeads Hack Night'
-        slug: hacknight-2017-12-26
-        starts_at: '2017-12-26 07:30:00 +0000'
-        ends_at: '2017-12-26 10:30:00 +0000'
-        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
-        contact: 'https://twitter.com/tupps'
-        contact_name: 'Luke Tupper'
-        location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
-        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
-        address: '277 Flinders Lane, Melbourne, VIC 3000'
-        lat: -37.8171867
-        lng: 144.9652635
-    -
         type: special
         title: 'CocoaHeads 2018 planning meeting'
         subtitle: 'Planning for CocoaHeads in 2018'
