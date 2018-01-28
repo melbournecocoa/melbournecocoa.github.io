@@ -365,7 +365,7 @@ events:
         subtitle: 'Back for 2018!'
         slug: meetup-2018-02-08
         starts_at: '2018-02-08 07:00:00 +0000'
-        ends_at: '2017-02-08 10:00:00 +0000'
+        ends_at: '2018-02-08 10:00:00 +0000'
         tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038398/
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
