@@ -6,11 +6,10 @@ return [
          * The default configurations to be used by the meta generator.
          */
         'defaults'       => [
-            'title'       => "Melbourne CocoaHeads Meetup", // set false to total remove
-            'description' => 'This is the Melbourne chapter of the world-wide CocoaHeads group.
-            Each month we gather to hear presentations on a diverse range of topics related to designing,
-            developing and shipping applications for Apple\'s iOS and Mac OSX platforms. Melbourne CocoaHeads is
-            organised by Jesse Collis',
+            'title'       => 'Melbourne CocoaHeads Meetup', // set false to total remove
+            'description' => 'Melbourne CocoaHeads has been running monthly since 2007 and is Melbourne’s longest running independent 
+            Apple developer community event. We\'re run by a small group of volunteers and supported by the wider Melbourne community. 
+            Each month members volunteer their time to present on iOS, macOS and software development topics.',
             'separator'   => ' - ',
             'keywords'    => ['meetup', 'melbourne', 'teamsquare', 'apple', 'coworking', 'technology',
                 'iOS', 'tvOS', 'OSX'],
@@ -34,10 +33,9 @@ return [
          */
         'defaults' => [
             'title'       => 'Melbourne CocoaHeads Meetup',
-            'description' => 'This is the Melbourne chapter of the world-wide CocoaHeads group.
-            Each month we gather to hear presentations on a diverse range of topics related to designing,
-            developing and shipping applications for Apple\'s iOS and Mac OSX platforms. Melbourne CocoaHeads is
-            organised by Jesse Collis',
+            'description' => 'Melbourne CocoaHeads has been running monthly since 2007 and is Melbourne’s longest running independent 
+             Apple developer community event. We\'re run by a small group of volunteers and supported by the wider Melbourne community. 
+             Each month members volunteer their time to present on iOS, macOS and software development topics.',
             'url'         => false,
             'type'        => false,
             'site_name'   => 'Melbourne CocoaHeads',
