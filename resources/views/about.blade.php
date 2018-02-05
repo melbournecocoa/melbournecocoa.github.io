@@ -3,7 +3,7 @@
 @section('image', '/img/cch-events-bg.jpg')
 @section('title', 'Melbourne CocoaHeads')
 @section('subtitle')
-    <span class="subheading">About</span>
+    <span class="subheading">About Us</span>
 @endsection
 
 @section('content')
@@ -11,55 +11,113 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2>About Melbourne CocoaHeads</h2>
-                    <ul>
-                        <li><a href ="https://www.meetup.com/Melbourne-CocoaHeads">Melbourne CocoaHeads on Meetup.com</a></li>
-                        <li><a href="https://groups.google.com/group/cocoaheadsau">Australian CocoaHeads Google Group Mailing List</a></li>
-                        <li><a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory">History</a></li>
-                        <li><a href="https://github.com/melbournecocoa">Github</a></li>
-                        <li><a href="https://www.twitter.com/melbournecocoa">Twitter - @meloburnecocoa</a></li>
-                        <li><a href="https://slack.melbournecocoaheads.com">Slack - @meloburnecocoa</a> - click for an invite</li>
-                    </ul>
+                    <h2 class="section-heading">About Melbourne CocoaHeads</h2>
 
-                    <h2>Meetings</h2>
-
-                    <p>Meetings are scheduled for the second Thursday of the month from February to December.
-                        A meeting might be moved forward or back a week depending on where it falls in relation to
-                        public holidays or WWDC, so make sure you keep tabs on the schedule by subscribing to Google
-                        Calendar, keeping an eye out on the
-                        <a href="https://groups.google.com/group/cocoaheadsau">Google Group</a> or following
-                        <a href="https://www.twitter.com/melbournecocoa">@melbournecocoa</a>.
+                    <p>
+                        Melbourne CocoaHeads has been running monthly since 2007 and is Melbourne’s longest running independent Apple developer community event.
+                        </p>
+                    <p>We're run by a small group of volunteers and supported by the wider Melbourne community.
+                        Each month members volunteer their time to present on iOS, macOS and software development topics. Events are also streamed to YouTube.
                     </p>
 
-                    <p>The meetings start at 6:30pm and go through to 9:30pm. They usually go a little something like this:</p>
-
-                    <ol>
-                        <li>Introduction, news & announcements (10 minutes). If you're looking to hire, there is a chance to let the group know.</li>
-                        <li>First presentations (40-60 minutes).</li>
-                        <li>Break (30-45 minutes). Beer, pizza and a great opportunity to meet people.</li>
-                        <li>Second presentations and Lightning Talks (20-45 minutes).</li>
-                        <li>Final wrap-up. We usually head to a local pub.</li>
-                    </ol>
-
-                    <p>A diverse range of people come to the meetings including hobbyist developers, designers,
+                    <p>CocoaHeads is open to everyone. A diverse range of people come to the meetings including hobbyist developers, designers,
                         freelance contractors, commercial and indie developers. Whatever your background, the CocoaHeads
                         community is a fantastic, supportive group who are all ears when it comes to discussing
-                        development for iOS and OSX.
+                        development for iOS and macOS.
                     </p>
 
-                    <h2>Presentation Formats</h2>
+                    <p>
+                        For enquiries about Melbourne CocoaHeads please contact Jesse Collis at <a href="mailto:jesse@melbournecocoaheads.com">jesse@melbournecocoaheads.com</a>.
+                    </p>
 
-                    <p>Normally a full length presentation is around 20 to 25 minutes, and lightning talks or app demos
-                        come in at about 5 minutes.</p>
+                    <h2 class="section-heading">Finding Us</h2>
 
-                    <h2>Hack Nights</h2>
+                    <ul>
+                        <li><a href ="https://www.meetup.com/Melbourne-CocoaHeads">Melbourne CocoaHeads on Meetup.com</a></li>
+                        <li><a href="http://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw">YouTube</a></li>
+                        <li><a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory">Melbourne CocoaHeads History</a></li>
+                        <li><a href="https://slack.melbournecocoaheads.com">Slack - @meloburnecocoa</a> - click for an invite</li>
+                        <li><a href="https://www.twitter.com/melbournecocoa">Twitter - @meloburnecocoa</a></li>
+                        <li><a href="https://github.com/melbournecocoa">Github</a></li>
+                    </ul>
 
-                    <p>In addition the the formal monthly meetups we also have a monthly hack night on the last Tuesday
-                        of the month at the Little Creature's Dining Hall. Bring your laptop along and hack over some
-                        great food, beer and conversation.</p>
+                    <h3 class="section-heading">Code of Conduct</h3>
 
-                    <p>The hack nights are organised by Luke Tupper. Follow him on Twitter (<a href="https://www.twitter.com/tupps">@tupps</a>
-                        for news and updates on upcoming hack nights.</p>
+                    <p>
+                        We are currently finalising our code of conduct, it will more than likely have it's own page.
+                    </p>
+
+                    <h2 class="section-heading">Our Events</h2>
+
+                    <h3 class="section-heading">Presentation Night</h3>
+
+                    <p>
+                        Presentation night is our main event, running on the <strong>2nd Thursday</strong> of the month, from February to December. We are centrally located in the Melbourne CBD.
+                        Check the events page and meetup.com for the most recent date and venue.
+                    </p>
+
+                    <p><strong>Event Agenda (2018)</strong></p>
+
+                    <dl>
+                        <dt>6:00 - 6:30</dt>
+                        <dd>Arrive. Pizza served</dd>
+                        <dt>6:30 - 6:45</dt>
+                        <dd>Welcome and introductions</dd>
+                        <dt>6:45 - 7:20</dt>
+                        <dd>Lightning talks (2x 15 minutes max)</dd>
+                        <dt>7:20 - 7:30</dt>
+                        <dd>Break</dd>
+                        <dt>7:30 - 8:00</dt>
+                        <dd>Main presentation (30 minutes max)</dd>
+                        <dt>8:30</dt>
+                        <dd>Finish</dd>
+                    </dl>
+
+                    <h3 class="section-heading">Hack Night</h3>
+                    <p>
+                        <i>Bring your laptop and your iOS, macOS, tvOS or watchOS project to the ultimate hack night. An all-ages alcohol-free event welcoming everyone.
+                            It will be held in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.</i>
+                    </p>
+
+                    <dl>
+                        <dt>When</dt>
+                        <dd>3rd Wednesday of the Month (week after the meetup)</dd>
+                        <dt>Where</dt>
+                        <dd>Melbourne CBD (check event details)</dd>
+                    </dl>
+
+                    <p><strong>Event Agenda (2018)</strong></p>
+
+                    <dl>
+                        <dt>6:00</dt>
+                        <dd>Doors open</dd>
+                        <dt>6:30 - 6:45</dt>
+                        <dd>Quick welcome and introductions</dd>
+                        <dt>6:45 - 8:30</dt>
+                        <dd>Hacking!</dd>
+                    </dl>
+
+                    <h3 class="section-heading">Drinks Night</h3>
+
+                    <p>Casual catchup at a central Melbourne bar after work.</p>
+
+                    <dl>
+                        <dt>When</dt>
+                        <dd>Last Tuesday of the month from 6:00pm</dd>
+                        <dt>Where</dt>
+                        <dd>The Mill House. 277-279 Flinders Lane</dd>
+                    </dl>
+
+                    <h3 class="section-heading">NSBreakfast</h3>
+
+                    <p>NSBreakfast is the name of our monthly breakfast catch up. Running on the <strong>First Friday</strong> of the month at a central Melbourne Cafe.
+                        Keep your eye on <a href="https://twitter.com/nsbreakfast">@NSBreakfast</a> and the meetup.com page for up to date info.</p>
+
+
+                    <h2>Older Links</h2>
+                    <ul>
+                        <li><a href="https://groups.google.com/group/cocoaheadsau">Australian CocoaHeads Google Group Mailing List</a></li>
+                    </ul>
 
                 </div>
             </div>

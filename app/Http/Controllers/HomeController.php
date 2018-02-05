@@ -24,7 +24,7 @@ class HomeController extends Controller
 
         $post = $posts->first();
 
-        $description = "Melbourne CocoaHeads";
+        $description = 'Melbourne CocoaHeads';
 
         if ($event && $hackNight) {
             $hnt = $hackNight->getFormattedTimeAttribute();

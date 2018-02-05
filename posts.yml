@@ -1,8 +1,103 @@
 posts:
+  - title: Melbourne CocoaHeads 2018
+    subtitle: Back from holidays
+    created_at: 2018-02-05 07:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2018-02-08
+      - hacknight-2018-02-21
+    body: |
+      <h3 class="section-heading">We're back for 2018!</h3>
+
+      <p>
+        After a longer than usual break, Melbourne CocoaHeads gets back underway <a href="/events/meetup-2018-02-08">later this week</a> for 2018. I thought I'd share some updates on some changes we're implementing
+        as a result of our super successful planning meeting. For more on what was discussed at the meeting, checkout the detailed <a href="https://github.com/melbournecocoa/MelbourneCocoaHeadsHistory/blob/master/2018-planning-meeting-notes.mdown">meeting notes</a>.
+      </p>
+
+      <p>RSVP to CocoaHeads #111 <a href="/events/meetup-2018-02-08">here</a>.</p>
+
+      <h3 class="section-heading">The 2018 tldr;</h3>
+
+      <ul>
+      <li>We're tightening up the presentation night schedule. Pizza from 6:00pm; finish by 8:30pm at the latest.</li>
+      <li>A revamped Hack Night. It's all about creating an encouraging night for new people, mentoring and learning.</li>
+      <li>We're implementing a code of conduct.</li>
+      </ul>
+
+      <h3 class="section-heading">Presentation Night Schedule</h3>
+
+      <p>
+        For 2018 we're tightening up the schedule, moving the pizza first and aiming to fill the first two hours with all the content
+        so people don't feel they miss out when they have to head home after the old pizza break time.
+      </p>
+
+      <dl>
+        <dt>When</dt>
+        <dd>2rd Thursday of the Month</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures (prev. TeamSquare) - 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrive. Pizza served</dd>
+        <dt>6:30 - 6:45</dt>
+        <dd>Welcome and introductions</dd>
+        <dt>6:45 - 7:20</dt>
+        <dd>Lightning talks (2x 15 minutes max)</dd>
+        <dt>7:20 - 7:30</dt>
+        <dd>Break</dd>
+        <dt>7:30 - 8:00</dt>
+        <dd>Main presentation (30 minutes max)</dd>
+        <dt>8:30</dt>
+        <dd>Discussion / Packup / Leave venue</dd>
+      </dl>
+
+      <h3 class="section-heading">A revamped Hack Night</h3>
+
+      <p>
+        Hack Night for 2018 takes on a whole new format. Look out for the events as they are annouced on Meetup. Here's the pitch...
+      </p>
+
+      <p>
+        <i>Bring your laptop and your iOS, macOS, tvOS or watchOS project to the ultimate hack night. An all-ages alcohol-free event welcoming everyone.
+        It will be held in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.</i>
+      </p>
+
+      <dl>
+        <dt>When</dt>
+        <dd>3rd Wednesday of the Month (week after the meetup)</dd>
+        <dt>Where</dt>
+        <dd>Aconex, 96 Flinders Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00</dt>
+        <dd>Doors open</dd>
+        <dt>6:30 - 6:45</dt>
+        <dd>Quick welcome and introductions</dd>
+        <dt>6:45 - 8:30</dt>
+        <dd>Hacking!</dd>
+      </dl>
+
+      <h3 class="section-heading">Code of Conduct</h3>
+
+      <p>
+        At the planning meeting we discussed formalising the kind of behaviour and leadership we expect from new and existing members of the group.
+        Detailed notes of the discussion are highlighted in the <a href="https://github.com/melbournecocoa/MelbourneCocoaHeadsHistory/blob/master/2018-planning-meeting-notes.mdown#discussion---code-of-conduct--diversity">meeting notes</a>
+        and the group came to the conclusion that we will put together a Code of Conduct / Rules of Engagement document. This document will be published in the coming weeks.
+      </p>
+
+      <h3 class="section-heading">Annual Sponsorship</h3>
+
+      <p>
+        This year we're offering annual sponsorships at three different levels with one major sponsor. Please <a href="mailto:jesse@melbournecocoaheads.com">get in touch with me</a> with me if you or your company would like to sponsor us for the year.
+      </p>
+
   - title: Melbourne CocoaHeads 2018 Planning Session
     subtitle: Planning for 2018
     created_at: 2017-11-23 01:00:00 +0
-    frontpage: 1
+    frontpage: 0
     events:
       - planning-meeting-2017-10-26
     body: |
@@ -82,7 +177,7 @@ posts:
   - title: CococaHeads 2017 Summer Break
     subtitle: Planning for 2018
     created_at: 2017-09-14 00:00:01 +0
-    frontpage: 2
+    frontpage: 0
     events:
       - meetup-2017-10-12
       - planning-meeting-2017-10-26
