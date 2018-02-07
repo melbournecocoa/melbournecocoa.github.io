@@ -1,8 +1,56 @@
 posts:
+  - title: Speakers for CocoaHeads no. 111
+    subtitle: February 2018
+    created_at: 2018-02-07 07:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2018-02-08
+      - hacknight-2018-02-21
+    body: |
+
+      <h3 class="section-heading">We're back for 2018!</h3>
+
+      <p>We're back for 2018 tomorrow night! Here's the schedule:</p>
+
+      <dl>
+        <dt>When</dt>
+        <dd>Thursday February 8th, doors open at 6pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures (prev. TeamSquare) - 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival and Pizza</dd>
+        <dt>6:30 - 6:45</dt>
+        <dd><strong>Jesse Collis</strong> - 2018 welcome.</dd>
+        <dt>6:45 - 7:00</dt>
+        <dd><strong>Gio <a href="https://www.twitter.com/mokagio">@mokagio</a></strong> - Why Slack Can Be Harmful.</dd>
+        <dt>7:00 - 7:15</dt>
+        <dd><strong>Matt Delves <a href="https://www.twitter.com/mattdelves">@mattdelves</a></strong> - The Land Before Time (An AppKit Journey).</dd>
+        <dt>7:15 - 7:30</dt>
+        <dd>Break</dd>
+        <dt>7:30 - 8:00</dt>
+        <dd><strong>Hon Weng Chong <a href="https://www.twitter.com/dr1337">@dr1337</a></strong> - An automated CoreML workflow for Natural Language Processing (NLP).</dd>
+        <dt>8:00 - 8:30</dt>
+        <dd>Discussion / Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Sponsors for 2018</h3>
+
+      <p>I'm excited to annouce that <strong><a href="https://realestate.com.au">Realestate.com.au</a></strong> are coming on board as our Gold sponsor for 2018, as well as <a href="http://www.ittybittyapps.com">Itty Bitty Apps</a> as a Silver sponsor.</p>
+
+      <h3 class="section-heading">RSVP</h3>
+      <p>RSVP to CocoaHeads #111 <a href="/events/meetup-2018-02-08">here</a>.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>If all goes well We will be live streaming from about 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.
+
   - title: Melbourne CocoaHeads 2018
     subtitle: Back from holidays
     created_at: 2018-02-05 07:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21
