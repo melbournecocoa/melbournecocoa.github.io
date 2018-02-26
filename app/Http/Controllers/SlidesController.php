@@ -22,21 +22,10 @@ class SlidesController extends Controller
         $startTime = $event->starts_at->copy();
         $startTime->setTimezone(new \DateTimeZone('Australia/Melbourne'));
 
-        $nextEventStart = $event->followingEvent()
-            ->starts_at->copy()->setTimeZone(new \DateTimeZone('Australia/Melbourne'));
-        $nextHackStart = $event->followingHacknight()
-            ->starts_at->copy()->setTimeZone(new \DateTimeZone('Australia/Melbourne'));
-
-        $tsFilter = function ($key, $value) {
-            return $key->name !== 'Teamsquare';
-        };
-
-        $sponsor = $event->sponsors->filter($tsFilter)->first();
-
-        $sponsorHost = null;
-        if ($startTime->month >= 8) {
-            $sponsorHost = Sponsor::find(7);
-        }
+        $nextEventStart = $event
+            ->followingEvent()->starts_at->copy()->setTimeZone(new \DateTimeZone('Australia/Melbourne'));
+        $nextHackStart = $event
+            ->followingHacknight()->starts_at->copy()->setTimeZone(new \DateTimeZone('Australia/Melbourne'));
 
         $view = view('slides', [
             'sponsor' => $sponsor,
