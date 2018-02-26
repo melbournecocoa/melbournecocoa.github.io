@@ -163,7 +163,7 @@
                     </li>
                 </ul>
                 <p class="copyright text-muted">Produced by Jesse Collis for Melbourne CocoaHeads {{ date('Y') }}.</p>
-                <p class="copyright text-muted"><a href="https://github.com/melbournecocoa/website">Fork this on Github</a></p>
+                <p class="copyright text-muted"><a href="{{ route('about') }}" title="About Melbourne CocoaHeads">About CocoaHeads</a> | <a href="{{ route('coc') }}" title="Code of Conduct">Code of Conduct</a></p>
             </div>
         </div>
     </div>

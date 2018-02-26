@@ -16,6 +16,10 @@ Route::get('/contact', ['as' => 'contact', function () {
     return view('contact');
 }]);
 
+Route::get('/code-of-conduct', ['as' => 'coc', function () {
+    return view('code-of-conduct');
+}]);
+
 Route::get('/live', function () {
     return response('', 303)->header('location', 'http://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw/live');
 });

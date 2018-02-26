@@ -30,6 +30,17 @@
                         For enquiries about Melbourne CocoaHeads please contact Jesse Collis at <a href="mailto:jesse@melbournecocoaheads.com">jesse@melbournecocoaheads.com</a>.
                     </p>
 
+                    <h3 class="section-heading">Code of Conduct</h3>
+
+                    <p>
+                        All of Melbourne CocoaHeads' events and associated channels are covered by a Code of Conduct. All a members or attendees of CocoaHeads events are expected to be familiar with
+                        our code of conduct.
+                    </p>
+
+                    <p>
+                        View the <a href="{{ route('coc') }}" title="Code of Conduct">Melbourne CocoaHeads Code of Conduct</a>.
+                    </p>
+
                     <h2 class="section-heading">Finding Us</h2>
 
                     <ul>
@@ -40,12 +51,6 @@
                         <li><a href="https://www.twitter.com/melbournecocoa">Twitter - @meloburnecocoa</a></li>
                         <li><a href="https://github.com/melbournecocoa">Github</a></li>
                     </ul>
-
-                    <h3 class="section-heading">Code of Conduct</h3>
-
-                    <p>
-                        We are currently finalising our code of conduct, it will more than likely have it's own page.
-                    </p>
 
                     <h2 class="section-heading">Our Events</h2>
 
