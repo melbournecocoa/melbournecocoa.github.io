@@ -1,8 +1,61 @@
 posts:
+  - title: Speakers for CocoaHeads no. 112
+    subtitle: March 2018
+    created_at: 2018-03-05 07:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2018-03-08
+      - hacknight-2018-03-21
+    body: |
+
+      <p>Here's our schedule for March:</p>
+
+      <dl>
+        <dt>When</dt>
+        <dd>Thursday March 8th, doors open at 6pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures (prev. TeamSquare) - 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival and Pizza</dd>
+        <dt>6:30 - 6:45</dt>
+        <dd><strong>Jesse Collis</strong> - Intros and "Who's Hiring".</dd>
+        <dt>6:45 - 7:00</dt>
+        <dd><strong>Gerald Kim <a href="https://www.twitter.com/gerald_kim">@gerald_kim</a></strong> and <strong>Israel Sundseth <a href="https://www.twitter.com/appuru">@kappuru</a></strong> - Animation Workshop: Favourite Button.</dd>
+        <dt>7:00 - 7:15</dt>
+        <dd><strong>TBC</strong></dd>
+        <dt>7:15 - 7:30</dt>
+        <dd>Break</dd>
+        <dt>7:30 - 8:00</dt>
+        <dd><strong>Pablo Caif</strong> - Speaking Bluetooth LE with CoreBluetooth.</dd>
+        <dt>8:00 - 8:30</dt>
+        <dd>Discussion / Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Sponsors for 2018</h3>
+
+      <p>
+      I'm really gratefull to Realestate.com.au, Itty Bitty Apps, Bilue, Cognizant, XPlor and JTribe for coming onboard as sponsors for this year. I will be announcing their contribution in another post this week as I'm just waiting to
+      finalise a couple of other sponsors.
+      </p>
+
+      <h3 class="section-heading">RSVP</h3>
+      <p>RSVP to CocoaHeads #111 <a href="/events/meetup-2018-03-08">here</a>.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>If all goes well We will be live streaming from about 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
+      <h3 class="section-heading">Videos from February</h3>
+
+      <p>All of our videos from last month have been published in the <a href="https://www.youtube.com/playlist?list=PLRdg1MF7wOwySNZgwwKPS0vV6TxxbUbK-"> 2018 Presentations Playlist</a> over on YouTube.</p>
+
   - title: Speakers for CocoaHeads no. 111
     subtitle: February 2018
     created_at: 2018-02-07 07:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21
@@ -45,12 +98,12 @@ posts:
 
       <h3 class="section-heading">Live Streaming</h3>
 
-      <p>If all goes well We will be live streaming from about 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.
+      <p>If all goes well We will be live streaming from about 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
 
   - title: Melbourne CocoaHeads 2018
     subtitle: Back from holidays
     created_at: 2018-02-05 07:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21
@@ -383,7 +436,7 @@ posts:
   - title: CocoaHeads on YouTube
     subtitle: Better late than never
     created_at: 2017-08-29 11:00:00 +0
-    frontpage: 4
+    frontpage: 0
     body: |
       <p>I spent some time the other week organising the <a href="https://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw">Melbourne CocoaHeads YouTube Channel</a>.
       You can also get directly to the live stream at <a href="https://melbournecocoaheads.com/live">https://melbournecocoaheads.com/live</a></p>
