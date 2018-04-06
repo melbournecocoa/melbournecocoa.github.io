@@ -1,8 +1,74 @@
 posts:
+  - title: Sponsors for 2018
+    subtitle: ''
+    created_at: 2018-04-05 00:00:00 +0
+    frontpage: 1
+    events:
+    body: |
+      <p>
+      I'm really happy to announce that <strong>Realestate.com.au</strong>, <strong>Bilue</strong>, <strong>Cognizant</strong>, <strong>Itty Bitty Apps</strong>, <strong>JTribe</strong> and <strong>Xplor</strong> have each their hand up to support Melbourne CocoaHeads in 2018. 👏
+      They are are looking forward to engaging (or continuing to engage) with the CocoaHeads community throughout this year.
+      </p>
+      <p>
+        Their support goes towards the food and drinks provided at our monthly presentation nights, our new hack night events and it covers our ongoing running costs.
+      </p>
+
+      <h3 class="section-heading">Gold Sponsor</h3>
+
+      <p>
+        <a href="http://rea.tech">
+          <img src="/img/sponsors/2018/Realestate.png" alt="Realtestate.com.au / REA Tech" class="img-responsive">
+          </a>
+      </p>
+
+      <h3 class="section-heading">Silver Sponsors</h3>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="http://bilue.com.au">
+            <img src="/img/sponsors/2018/Bilue.png" alt="Bilue" class="img-responsive">
+            </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://www.cognizant.com">
+            <img src="/img/sponsors/2018/Cognizant.png" alt="Cognizant" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="http://www.ittybittyapps.com">
+            <img src="/img/sponsors/2018/IttyBittyApps.png" alt="Itty Bitty Apps" class="img-responsive">
+          </a>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+          <a href="https://jtribe.com.au">
+            <img src="/img/sponsors/2018/JTribe.png" alt="JTribe" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://www.ourxplor.com">
+            <img src="/img/sponsors/2018/Xplor.png" alt="Xplor" class="img-responsive">
+          </a>
+        </div>
+      </div>
+
+      <p>
+        Thanks to our 6 awesome sponsors:
+        <ul>
+          <li><a href="http://rea.tech">Realestate.com.au</a></li>
+          <li><a href="https://bilue.com.au">Bilue</a></li>
+          <li><a href="https://www.cognizant.com">Cognizant</a></li>
+          <li><a href="http://www.ittybittyapps.com">Itty Bitty Apps</a></li>
+          <li><a href="https://jtribe.com.au">JTribe</a></li>
+          <li><a href="https://www.ourxplor.com">Xplor</a></li>
+        </ul>
+      </p>
+
   - title: Speakers for CocoaHeads no. 112
     subtitle: March 2018
     created_at: 2018-03-05 07:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2018-03-08
       - hacknight-2018-03-21
@@ -55,7 +121,7 @@ posts:
   - title: Speakers for CocoaHeads no. 111
     subtitle: February 2018
     created_at: 2018-02-07 07:00:00 +0
-    frontpage: 2
+    frontpage: 0
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21
