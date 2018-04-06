@@ -1,8 +1,70 @@
 posts:
+  - title: Speakers for CocoaHeads no. 113
+    subtitle: April 2018
+    created_at: 2018-04-06 01:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2018-04-12
+      - hacknight-2018-04-18
+    body: |
+
+      <p>We've got two great presentations lined up for April:</p>
+
+      <p>
+        <strong>Allen Zeng <a href="https://www.twitter.com/_allenzeng_">@_allenzeng_</a></strong><br>
+        Scaling iOS engineering at Xero.
+      </p>
+
+      <p>
+        <strong>Jean Etienne <a href="https://www.twitter.com/jeanetienne">@jeanetienne</a></strong><br>
+        Introduction to Swift on the Server: How to share code between your apps and your APIs.</dd>
+      </p>
+
+      <h3 class="section-heading">Schedule for April</h3>
+
+      <dl>
+        <dt>When</dt>
+        <dd>Thursday April 12th, doors open at 6pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures (prev. TeamSquare) - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival and Pizza</dd>
+        <dt>6:30 - 6:45</dt>
+        <dd><strong>Ben Deckys</strong> - Intros, TMTW and "Who's Hiring".</dd>
+        <dt>6:45 - 7:15</dt>
+        <dd><strong>Allen Zeng</strong> - Scaling iOS engineering at Xero.</dd>
+        <dt>7:15 - 7:30</dt>
+        <dd><strong>Break</strong></dd>
+        <dt>7:30 - 8:00</dt>
+        <dd><strong>Jean Etienne</strong> - Introduction to Swift on the Server: How to share code between your apps and your APIs.</dd>
+        <dt>8:00 - 8:30</dt>
+        <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Sponsors for 2018</h3>
+
+      <p>
+        As I <a href="/updates/sponsors-for-2018">mentioned previously</a>, I'm really excited to have Realestate.com.au, Itty Bitty Apps, Bilue, Cognizant, XPlor and JTribe onboard as sponsors for this year.
+      </p>
+
+      <h3 class="section-heading">RSVP</h3>
+      <p>RSVP to CocoaHeads #113 <a href="/events/meetup-2018-04-12">here</a>.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
+      <h3 class="section-heading">Videos from March</h3>
+
+      <p>All of our videos from last month have been published in the <a href="https://www.youtube.com/playlist?list=PLRdg1MF7wOwySNZgwwKPS0vV6TxxbUbK-"> 2018 Presentations Playlist</a> over on YouTube.</p>
+
   - title: Sponsors for 2018
     subtitle: ''
     created_at: 2018-04-05 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
     body: |
       <p>
@@ -68,7 +130,7 @@ posts:
   - title: Speakers for CocoaHeads no. 112
     subtitle: March 2018
     created_at: 2018-03-05 07:00:00 +0
-    frontpage: 2
+    frontpage: 0
     events:
       - meetup-2018-03-08
       - hacknight-2018-03-21
@@ -95,7 +157,7 @@ posts:
         <dt>7:15 - 7:30</dt>
         <dd>Break</dd>
         <dt>7:30 - 8:00</dt>
-        <dd><strong>Pablo Caif</strong> - Speaking Bluetooth LE with CoreBluetooth.</dd>
+        <dd><strong>Pablo Caif <a href="https://www.twitter.com/pablocaif">@pablocaif</a></strong> - Speaking Bluetooth LE with CoreBluetooth.</dd>
         <dt>8:00 - 8:30</dt>
         <dd>Discussion / Finish up</dd>
       </dl>
