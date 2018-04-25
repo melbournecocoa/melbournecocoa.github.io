@@ -1,8 +1,85 @@
 posts:
+  - title: Speakers for CocoaHeads no. 114
+    subtitle: May 2018
+    created_at: 2018-04-06 01:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2018-05-08
+      - hacknight-2018-05-16
+    body: |
+      <h3 class="section-heading">Change of date!</h3>
+
+      <p>We're extra organised this month but we've had to swap the day of the week to <strong>Tuesday the 8th</strong> rather than the Thursday. Just this month, next month we'll be back on our usual Thursday.</p>
+
+      <p>We've got a great line up for May:</p>
+
+      <p>
+        <strong>Vlas Voloshin <a href="https://www.twitter.com/argentumko">@argentumko</a></strong><br>
+        ARKit 1.5 Demo (lightning)
+      </p>
+
+      <p>
+        <strong>Oliver Jones <a href="https://www.twitter.com/orj">@orj</a></strong><br>
+        Strategies for dealing with Legacy Code
+      </p>
+
+      <p>
+        <strong>Rob Amos <a href="https://www.twitter.com/bok_">@bok_</a></strong><br>
+        An introduction to Swift on the command line and the Swift Package Manager
+      </p>
+
+      <h3 class="section-heading">Schedule for May</h3>
+
+      <p><strong>This month we are two days earlier on Tuesday the 8th!</strong></p>
+
+      <dl>
+        <dt>When</dt>
+        <dd><strong>Tuesday May 8th</strong>, doors open at 6pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival and Pizza</dd>
+        <dt>6:30 - 6:40</dt>
+        <dd><strong>Jesse Collis</strong> - Welcome, Intros and "Who's Hiring".</dd>
+        <dt>6:40 - 6:50</dt>
+        <dd><strong>Vlas Voloshin</strong> - ARKit 1.5 Demo.</dd>
+        <dt>6:50 - 7:20</dt>
+        <dd><strong>Oliver Jones</strong> - Strategies for dealing with Legacy Code.</dd>
+        <dt>7:20 - 7:30</dt>
+        <dd>Break</dd>
+        <dt>7:30 - 8:00</dt>
+        <dd><strong>Rob Amos</strong> - An introduction to Swift on the command line and the Swift Package Manager.</dd>
+        <dt>8:00 - 8:30</dt>
+        <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Sponsors for 2018</h3>
+
+      <p>
+        As I announced <a href="/updates/sponsors-for-2018">last month</a>, we have some great sponsors this year. Thanks to Realestate.com.au, Itty Bitty Apps, Bilue, Cognizant, XPlor and JTribe onboard as sponsors.
+      </p>
+
+      <h3 class="section-heading">RSVP</h3>
+
+      <p><strong>This month it's on Tuesday the 8th! (Not Thursday the 10th)</strong></p>
+
+      <p>RSVP to CocoaHeads #114 <a href="/events/meetup-2018-05-08">here</a>.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
+      <h3 class="section-heading">Videos from April</h3>
+
+      <p>All of our presentaions from last month have been published in the <a href="https://www.youtube.com/playlist?list=PLRdg1MF7wOwySNZgwwKPS0vV6TxxbUbK-"> 2018 Presentations Playlist</a> over on YouTube.</p>
+
   - title: Speakers for CocoaHeads no. 113
     subtitle: April 2018
     created_at: 2018-04-06 01:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2018-04-12
       - hacknight-2018-04-18
@@ -17,7 +94,7 @@ posts:
 
       <p>
         <strong>Jean Etienne <a href="https://www.twitter.com/jeanetienne">@jeanetienne</a></strong><br>
-        Introduction to Swift on the Server: How to share code between your apps and your APIs.</dd>
+        Introduction to Swift on the Server: How to share code between your apps and your APIs.
       </p>
 
       <h3 class="section-heading">Schedule for April</h3>
@@ -64,7 +141,7 @@ posts:
   - title: Sponsors for 2018
     subtitle: ''
     created_at: 2018-04-05 00:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
     body: |
       <p>

@@ -467,10 +467,11 @@ events:
     -
         type: meetup
         title: 'Melbourne CocoaHeads No. 114'
-        subtitle: ''
-        slug: meetup-2018-04-12
-        starts_at: '2018-05-10 08:00:00 +0000'
-        ends_at: '2018-05-10 10:30:00 +0000'
+        subtitle: |
+          Please note that this meetup is two days earlier on the Tuesday!
+        slug: meetup-2018-05-08
+        starts_at: '2018-05-08 08:00:00 +0000'
+        ends_at: '2018-05-08 10:30:00 +0000'
         tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038639/
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
@@ -487,7 +488,7 @@ events:
           Bring your laptop and your iOS, macOS, tvOS or watchOS project to the Cocoaheads hack night.
 
           Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
-        slug: hacknight-2018-04-18
+        slug: hacknight-2018-05-16
         starts_at: '2018-05-16 08:00:00 +0000'
         ends_at: '2018-05-16 11:00:00 +0000'
         tickets:
