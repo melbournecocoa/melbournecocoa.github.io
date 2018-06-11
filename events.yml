@@ -524,15 +524,15 @@ events:
           Bring your laptop and your iOS, macOS, tvOS or watchOS project to the Cocoaheads hack night.
 
           Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
-        slug: hacknight-2018-05-16
+        slug: hacknight-2018-06-16
         starts_at: '2018-06-20 08:00:00 +0000'
         ends_at: '2018-06-20 11:00:00 +0000'
         tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/249968379/
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
-        location: 'Aconex'
+        location: 'IBM'
         location_link: 'https://twitter.com/melbournecocoa/status/966194205122093058'
-        address_display: 'Back entrance to Aconex via Duckboard Place'
-        address: 'Duckboard Place, Melbourne, VIC 3000'
-        lat: -37.815683
-        lng: 144.971355
+        address_display: 'Level 28 Design Hall 2, 60 City Road, Melbourne'
+        address: 'Level 28 Design Hall 2, 60 City Road, Melbourne VIC, 3000'
+        lat: -37.821358
+        lng: 144.966130
