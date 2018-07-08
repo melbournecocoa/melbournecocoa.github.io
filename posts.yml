@@ -1,4 +1,56 @@
 posts:
+  - title: Speakers for CocoaHeads no. 116
+    subtitle: July 2018
+    created_at: 2018-07-08 01:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2018-07-12
+      - hacknight-2018-07-18
+    body: |
+
+      <h3 class="section-heading">Schedule for July</h3>
+
+      <p>
+        <strong>Vlas Voloshin <a href="https://www.twitter.com/argentumko">@argentumko</a></strong><br>
+        Mac OS Mojave Marzipan's Internals
+      </p>
+
+      <p>
+        <strong>Prasanna Gopalakrishnan <a href="https://www.twitter.com/prasannag">@prasannag</a></strong><br>
+        Architecture for scaling mobile
+      </p>
+
+      <h3 class="section-heading">Schedule for July</h3>
+
+      <dl>
+        <dt>When</dt>
+        <dd><strong>Thursday July 12th</strong>, doors open at 6pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival and Pizza</dd>
+        <dt>6:30 - 6:40</dt>
+        <dd><strong>Jesse Collis</strong> - Welcome, Intros and "Who's Hiring".</dd>
+        <dt>6:45 - 7:15</dt>
+        <dd><strong>Vlas Voloshin</strong> - Mac OS Mojave Marzipan's Internals</dd>
+        <dt>7:15 - 7:30</dt>
+        <dd>Break</dd>
+        <dt>7:30 - 8:00</dt>
+        <dd><strong>Prasanna Gopalakrishnan</strong> - Architecture for scaling mobile.</dd>
+        <dt>8:00 - 8:15</dt>
+        <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
+      <h3 class="section-heading">Videos from June</h3>
+
+      <p>All of our presentaions from last month will soon been published in the <a href="https://www.youtube.com/playlist?list=PLRdg1MF7wOwySNZgwwKPS0vV6TxxbUbK-"> 2018 Presentations Playlist</a> over on YouTube.</p>
   - title: Speakers for CocoaHeads no. 115
     subtitle: June 2018
     created_at: 2018-05-11 01:00:00 +0
