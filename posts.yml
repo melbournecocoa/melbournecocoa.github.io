@@ -1,8 +1,61 @@
 posts:
+  - title: Speakers for CocoaHeads no. 117
+    subtitle: August 2018
+    created_at: 2018-07-29 01:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2018-08-09
+      - hacknight-2018-08-22
+
+    body: |
+      <h3 class="section-heading">Schedule for August</h3>
+
+      <p>
+        <strong>Audrey Tam <a href="https://www.twitter.com/mataharimau">@mataharimau</a></strong><br>
+         Getting started with Apple ML
+      </p>
+
+      <p>
+        <strong>Renaud Lienhart <a href="https://www.twitter.com/layoutSubviews">@layoutSubviews</a></strong><br>
+        Demystifying self-sizing cells
+      </p>
+
+      <h3 class="section-heading">Schedule for August</h3>
+
+      <dl>
+      <dt>When</dt>
+      <dd><strong>Thursday August 9th</strong>, doors open at 5:45pm.</dd>
+      <dt>Where</dt>
+      <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+      <dt>6:00 - 6:30</dt>
+      <dd>Arrival and Pizza</dd>
+      <dt>6:30 - 6:40</dt>
+      <dd><strong>Jesse Collis</strong> - Welcome, Intros and "Who's Hiring"</dd>
+      <dt>6:45 - 7:15</dt>
+      <dd><strong>Audrey Tam</strong> - Getting started with Apple ML</dd>
+      <dt>7:15 - 7:30</dt>
+      <dd>Break</dd>
+      <dt>7:30 - 8:00</dt>
+      <dd><strong>Renaud Lienhart</strong> - Demystifying self-sizing cells</dd>
+      <dt>8:00 - 8:15</dt>
+      <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
+      <h3 class="section-heading">Videos from May and June</h3>
+
+      <p>All of our presentaions from this year are published on our YouTube channel. Check out the <a href="https://www.youtube.com/playlist?list=PLRdg1MF7wOwySNZgwwKPS0vV6TxxbUbK-"> 2018 Presentations Playlist</a>.</p>
+
   - title: Speakers for CocoaHeads no. 116
     subtitle: July 2018
     created_at: 2018-07-08 01:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2018-07-12
       - hacknight-2018-07-18
@@ -33,13 +86,13 @@ posts:
         <dt>6:00 - 6:30</dt>
         <dd>Arrival and Pizza</dd>
         <dt>6:30 - 6:40</dt>
-        <dd><strong>Jesse Collis</strong> - Welcome, Intros and "Who's Hiring".</dd>
+        <dd><strong>Jesse Collis</strong> - Welcome, Intros and "Who's Hiring"</dd>
         <dt>6:45 - 7:15</dt>
         <dd><strong>Vlas Voloshin</strong> - Mac OS Mojave Marzipan's Internals</dd>
         <dt>7:15 - 7:30</dt>
         <dd>Break</dd>
         <dt>7:30 - 8:00</dt>
-        <dd><strong>Prasanna Gopalakrishnan</strong> - Architecture for scaling mobile.</dd>
+        <dd><strong>Prasanna Gopalakrishnan</strong> - Architecture for scaling mobile</dd>
         <dt>8:00 - 8:15</dt>
         <dd>Discussions & Finish up</dd>
       </dl>
@@ -54,7 +107,7 @@ posts:
   - title: Speakers for CocoaHeads no. 115
     subtitle: June 2018
     created_at: 2018-05-11 01:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2018-06-14
       - hacknight-2018-06-16
@@ -253,7 +306,7 @@ posts:
   - title: Sponsors for 2018
     subtitle: ''
     created_at: 2018-04-05 00:00:00 +0
-    frontpage: 3
+    frontpage: 4
     events:
     body: |
       <p>
@@ -420,7 +473,7 @@ posts:
   - title: Melbourne CocoaHeads 2018
     subtitle: Back from holidays
     created_at: 2018-02-05 07:00:00 +0
-    frontpage: 3
+    frontpage: 0
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21
