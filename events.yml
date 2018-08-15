@@ -669,9 +669,9 @@ events:
         tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/252426480/
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
-        location: TBA
+        location: IBM
         location_link: https://melbournecocoaheads.com
-        address_display: 'Melbourne'
+        address_display: 'Level 28 60 City Road'
         address: 'Level 28 Design Hall 2, 60 City Road, Melbourne VIC, 3000'
         lat: -37.821358
         lng: 144.966130
@@ -690,8 +690,8 @@ events:
         contact_name: Luke Tupper
         location: Cognizant Digital Business
         location_link: https://melbournecocoaheads.com
-        address_display: Level 6, 215 William Street, Melbourne
-        address: Level 6, 215 William Street, Melbourne VIC 3000
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
         lat: -37.819073
         lng: 144.9592
 
@@ -710,7 +710,7 @@ events:
         contact_name: Luke Tupper
         location: Cognizant Digital Business
         location_link: https://melbournecocoaheads.com
-        address_display: Level 6, 215 William Street, Melbourne
-        address: Level 6, 215 William Street, Melbourne VIC 3000
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
         lat: -37.819073
         lng: 144.9592
