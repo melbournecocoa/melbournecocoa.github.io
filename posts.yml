@@ -1,8 +1,51 @@
 posts:
+  - title: Speakers for CocoaHeads no. 118
+    subtitle: September 2018
+    created_at: 2018-09-13 00:00:00 +0
+    frontpage: 1
+    events:
+    - meetup-2018-09-13
+    - hacknight-2018-09-19
+
+    body: |
+      <h3 class="section-heading">Schedule for September</h3>
+
+      <p>
+        <strong>Jesse Collis <a href="https://www.twitter.com/sirjec">@sirjec</a></strong><br>
+         A recap of the "Gather round" event and some crowd sourced tid bits from the #til channel.
+      </p>
+
+      <p>
+        <strong>Gerald Kim <a href="https://www.twitter.com/gerald_kim">@gerald_kim</a></strong><br>
+         The USDZ file format.
+      </p>
+
+      <dl>
+      <dt>When</dt>
+      <dd><strong>Thursday August 9th</strong>, doors open at 5:45pm.</dd>
+      <dt>Where</dt>
+      <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+      <dt>6:00 - 6:30</dt>
+      <dd>Arrival and Pizza</dd>
+      <dt>6:30 - 6:50</dt>
+      <dd><strong>Jesse Collis</strong> - Welcome, "Garther Round" recap</dd>
+      <dt>6:50 - 7:30</dt>
+      <dd><strong>Gerald Kim</strong> - The USDZ file format</dd>
+      <dt>7:30</dt>
+      <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
   - title: Speakers for CocoaHeads no. 117
     subtitle: August 2018
     created_at: 2018-07-29 01:00:00 +0
-    frontpage: 1
+    frontpage: 3
     events:
       - meetup-2018-08-09
       - hacknight-2018-08-22
@@ -55,7 +98,7 @@ posts:
   - title: Speakers for CocoaHeads no. 116
     subtitle: July 2018
     created_at: 2018-07-08 01:00:00 +0
-    frontpage: 2
+    frontpage: 4
     events:
       - meetup-2018-07-12
       - hacknight-2018-07-18
@@ -107,7 +150,7 @@ posts:
   - title: Speakers for CocoaHeads no. 115
     subtitle: June 2018
     created_at: 2018-05-11 01:00:00 +0
-    frontpage: 3
+    frontpage: 5
     events:
       - meetup-2018-06-14
       - hacknight-2018-06-16
@@ -167,7 +210,7 @@ posts:
   - title: Speakers for CocoaHeads no. 114
     subtitle: May 2018
     created_at: 2018-04-06 01:00:00 +0
-    frontpage: 0
+    frontpage: 6
     events:
       - meetup-2018-05-08
       - hacknight-2018-05-16
@@ -244,7 +287,7 @@ posts:
   - title: Speakers for CocoaHeads no. 113
     subtitle: April 2018
     created_at: 2018-04-06 01:00:00 +0
-    frontpage: 0
+    frontpage: 7
     events:
       - meetup-2018-04-12
       - hacknight-2018-04-18
@@ -306,7 +349,7 @@ posts:
   - title: Sponsors for 2018
     subtitle: ''
     created_at: 2018-04-05 00:00:00 +0
-    frontpage: 4
+    frontpage: 2
     events:
     body: |
       <p>
@@ -372,7 +415,7 @@ posts:
   - title: Speakers for CocoaHeads no. 112
     subtitle: March 2018
     created_at: 2018-03-05 07:00:00 +0
-    frontpage: 0
+    frontpage: 8
     events:
       - meetup-2018-03-08
       - hacknight-2018-03-21
@@ -425,7 +468,7 @@ posts:
   - title: Speakers for CocoaHeads no. 111
     subtitle: February 2018
     created_at: 2018-02-07 07:00:00 +0
-    frontpage: 0
+    frontpage: 9
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21
