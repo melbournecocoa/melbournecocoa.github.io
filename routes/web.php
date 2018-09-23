@@ -16,6 +16,10 @@ Route::get('/contact', ['as' => 'contact', function () {
     return view('contact');
 }]);
 
+Route::get('/codeofconduct', function () {
+    return view('code-of-conduct');
+});
+
 Route::get('/code-of-conduct', ['as' => 'coc', function () {
     return view('code-of-conduct');
 }]);
@@ -29,6 +33,10 @@ Route::get('/2018', function () {
         'post',
         ['post' => \App\Post::where('slug', '=', 'cococaheads-2017-summer-break')->firstOrFail()]
     );
+});
+
+Route::get('/til', function () {
+    return response('', 303)->header('location', 'https://github.com/melbournecocoa/til');
 });
 
 Route::get('/events/past', ['as' => 'pastEvents', 'uses' => 'EventsController@getPastEvents']);
