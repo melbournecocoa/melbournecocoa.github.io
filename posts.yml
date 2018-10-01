@@ -1,4 +1,55 @@
 posts:
+  - title: A callout for speakers
+    subtitle: Looking for speakers for Oct, Nov, Dec 2018
+    created_at: 2018-10-01 00:00:00 +0
+    frontpage: 1
+    coverImage: /img/posts/2018-1-/LookingForPresentations.jpg
+    events:
+    - meetup-2018-10-11
+    - meetup-2018-11-08
+    - meetup-2018-12-13
+
+    body: |
+      <p>2018 has been a great year to date for CocoaHeads, we've had excellent presentations volunteered each month. If you've missed any, all 22 have been published
+      over on the <a href="https://www.youtube.com/playlist?list=PLRdg1MF7wOwySNZgwwKPS0vV6TxxbUbK-"> Melbourne CocoaHeads "2018 Presentations" playlist</a> over on YouTube.</p>
+
+      <h3 class="section-heading">A callout for speakers</h3>
+
+      <p>Having said that, I'm calling out for more speakers to fill out the rest of 2018. Right now we have presentation spots open for all three of our remaining
+      events. <strong>October 11</strong>, <strong>November 8</strong> and <strong>December 13</strong>. We've got the sponsors and venue, now we just need <strong>you</strong>!</p>
+
+
+      <h3 class="section-heading">What's in a presentation?</h3>
+
+      <img src="/img/posts/2018-10/raun_dev_2018-Jul-12.jpg" alt="@argentumko presneting on macOS Marzipan" class="img-responsive">
+
+      <p><i>@argentumko presneting on macOS Marzipan - image credit <a href="https://twitter.com/raun_dev/status/1017335286072684544">@raun_dev</a></i>.</p>
+
+      <p>A presentation is either a "Lightning talk" of about 5 or 10 minutes or a longer full presentation of about 20 to 25 minutes. The topic can be anything of your choosing as long
+      as it's loosely related to iOS or macOS development. "Loosely related" is a broad term, but if you work in the industry (or are trying too!) then anything about your experiences with code,
+      tools, designs, or just something you've learnt lately that you've found interesting. Sometimes the <strong>simpler</strong> the topic the better!</p>
+
+      <h3 class="section-heading">Support for speakers</h3>
+
+      <p>Speaking at a meetup can be daunting. Involving first time speakers, new members to the group or the industry is something I'm passionate about. If you need convincing
+      <a href="mailto:jesse@melbournecocoaheads.com">get in touch with me</a> and I'll give you my spiel!</p>
+
+      <p>To support new or interested speakers we have a dedicated #speakers channel in the <a href="http://slack.melbournecocoaheads.com/">melbournecocoaheads slack organisation</a> especially
+      for discussing ideas and helping with questions, and as I said I'm keen to help anyone with ideas or queries either over email or a coffee.</p>
+
+      <p>Just quickly on YouTube - all of our presentations have been live streamed and published to YouTube so far this year for future reference but this is <strong>100% optional</strong>.</p>
+
+      <h3 class="section-heading">Get in touch</h3>
+
+      <ul>
+        <li>You can use the <a href="https://www.melbournecocoaheads.com/talks">"Submit A Talk" form</a> that gets directed to me.</li>
+        <li>You can call out in the #speakers channel in the <a href="http://slack.melbournecocoaheads.com/">melbournecocoaheads slack organisation</a>.</li>
+        <li>You can get in touch with me directly at jesse@melbournecocoaheads.com</li>
+      </ul>
+
+      <p>Cheers!</p>
+
+
   - title: Speakers for CocoaHeads no. 118
     subtitle: September 2018
     created_at: 2018-09-13 00:00:00 +0
