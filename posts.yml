@@ -1,8 +1,71 @@
 posts:
+  - title: Speakers for CocoaHeads no. 119
+    subtitle: October 2018
+    created_at: 2018-10-09 00:00:00 +0
+    frontpage: 1
+    events:
+    - meetup-2018-10-11
+    - hacknight-2018-10-17
+
+    body: |
+      <p>Thank you to those who pu their hands up to present for October and the upcoming months. We still have some availability so get in touch if you'd like to present!</p>
+
+      <h3 class="section-heading">Schedule for October</h3>
+
+      <p>
+        <strong>Pablo Caif <a href="https://www.twitter.com/pablocaif">@pablocaif</a></strong><br>
+         Getting connected with CoreNFC.
+      </p>
+
+      <p>
+        <strong>Edward Greenaway</strong><br>
+          NS{Spain} and Mobiconf overview.
+      </p>
+
+      <p>
+        <strong>Jean Etienne <a href="https://www.twitter.com/jeanetienne">@jeanetienne</a></strong><br>
+         The current CI/CD Landscape.
+      </p>
+
+      <p>
+        <strong>Jesse Collis <a href="https://www.twitter.com/sirjec">@sirjec</a></strong><br>
+         Tips and tricks from th #til channel for October.
+      </p>
+
+      <dl>
+      <dt>When</dt>
+      <dd><strong>Thursday October 11th</strong>, doors open at 5:45pm.</dd>
+      <dt>Where</dt>
+      <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+      <dt>6:00 - 6:30</dt>
+      <dd>Arrival and Pizza</dd>
+      <dt>6:30 - 6:40</dt>
+      <ds>Jesse Collis - Welcome</dd>
+      <dt>6:40 - 7:10</dt>
+      <dd>Pablo Caif - Using NFC to pair WIFI</dd>
+      <dt>7:10 - 7:20</dt>
+      <dd>Edwdard Greenaway - NS{Spain} and Mobiconf overview</dd>
+      <dt>7:20 - 7:30</dt>
+      <dd>Break</dd>
+      <dt>7:30 - 7:45</dt>
+      <dd>Jean Etienne - The current CI/CD landscape</dd>
+      <dt>7:45 - 8:00</dt>
+      <dd>Jesse Collis - #til October 2018</dd>
+      <dt>8:00 - 8:15</dt>
+      <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
   - title: A callout for speakers
     subtitle: Looking for speakers for Oct, Nov, Dec 2018
     created_at: 2018-10-01 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     coverImage: /img/posts/2018-1-/LookingForPresentations.jpg
     events:
     - meetup-2018-10-11
@@ -53,7 +116,7 @@ posts:
   - title: Speakers for CocoaHeads no. 118
     subtitle: September 2018
     created_at: 2018-09-13 00:00:00 +0
-    frontpage: 1
+    frontpage: 3
     events:
     - meetup-2018-09-13
     - hacknight-2018-09-19
@@ -96,7 +159,7 @@ posts:
   - title: Speakers for CocoaHeads no. 117
     subtitle: August 2018
     created_at: 2018-07-29 01:00:00 +0
-    frontpage: 3
+    frontpage: 4
     events:
       - meetup-2018-08-09
       - hacknight-2018-08-22
@@ -149,7 +212,7 @@ posts:
   - title: Speakers for CocoaHeads no. 116
     subtitle: July 2018
     created_at: 2018-07-08 01:00:00 +0
-    frontpage: 4
+    frontpage: 5
     events:
       - meetup-2018-07-12
       - hacknight-2018-07-18
@@ -201,7 +264,7 @@ posts:
   - title: Speakers for CocoaHeads no. 115
     subtitle: June 2018
     created_at: 2018-05-11 01:00:00 +0
-    frontpage: 5
+    frontpage: 6
     events:
       - meetup-2018-06-14
       - hacknight-2018-06-16
@@ -261,7 +324,7 @@ posts:
   - title: Speakers for CocoaHeads no. 114
     subtitle: May 2018
     created_at: 2018-04-06 01:00:00 +0
-    frontpage: 6
+    frontpage: 7
     events:
       - meetup-2018-05-08
       - hacknight-2018-05-16
@@ -338,7 +401,7 @@ posts:
   - title: Speakers for CocoaHeads no. 113
     subtitle: April 2018
     created_at: 2018-04-06 01:00:00 +0
-    frontpage: 7
+    frontpage: 8
     events:
       - meetup-2018-04-12
       - hacknight-2018-04-18
@@ -466,7 +529,7 @@ posts:
   - title: Speakers for CocoaHeads no. 112
     subtitle: March 2018
     created_at: 2018-03-05 07:00:00 +0
-    frontpage: 8
+    frontpage: 9
     events:
       - meetup-2018-03-08
       - hacknight-2018-03-21
@@ -519,7 +582,7 @@ posts:
   - title: Speakers for CocoaHeads no. 111
     subtitle: February 2018
     created_at: 2018-02-07 07:00:00 +0
-    frontpage: 9
+    frontpage: 10
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21
@@ -567,7 +630,7 @@ posts:
   - title: Melbourne CocoaHeads 2018
     subtitle: Back from holidays
     created_at: 2018-02-05 07:00:00 +0
-    frontpage: 0
+    frontpage: 11
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21

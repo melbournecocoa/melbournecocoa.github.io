@@ -723,8 +723,8 @@ events:
 
           Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
         slug: hacknight-2018-10-17
-        starts_at: '2018-10-17 09:00:00 +0000'
-        ends_at: '2018-10-17 12:00:00 +0000'
+        starts_at: '2018-10-17 07:00:00 +0000'
+        ends_at: '2018-10-17 10:00:00 +0000'
         tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/253809372/
         contact: 'https://twitter.com/tupps'
         contact_name: Luke Tupper
