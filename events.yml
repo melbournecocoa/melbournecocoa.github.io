@@ -10,7 +10,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -26,7 +26,7 @@ events:
         title: 'Melbourne CocoaHeads #102'
         subtitle: 'Melbourne CocoaHeads Meetup'
         location: Outware
-        location_link: 'http://www.outware.com.au/contact'
+        location_link: 'https://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
@@ -43,7 +43,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -59,7 +59,7 @@ events:
         title: 'Melbourne CocoaHeads #103'
         subtitle: 'Melbourne CocoaHeads Meetup'
         location: Outware
-        location_link: 'http://www.outware.com.au/contact'
+        location_link: 'https://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
@@ -76,7 +76,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -92,7 +92,7 @@ events:
         title: 'Melbourne CocoaHeads #104'
         subtitle: 'Melbourne CocoaHeads Meetup'
         location: Outware
-        location_link: 'http://www.outware.com.au/contact'
+        location_link: 'https://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
@@ -109,7 +109,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -125,7 +125,7 @@ events:
         title: 'Melbourne CocoaHeads #105 - UIKit'
         subtitle: 'The topic this month is all things UIKit'
         location: Outware
-        location_link: 'http://www.outware.com.au/contact'
+        location_link: 'https://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
@@ -142,7 +142,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -158,7 +158,7 @@ events:
         title: 'Melbourne CocoaHeads #106 - WWDC 2017 Edition'
         subtitle: Fresh from WWDC, let's recap what's new in iOS/macOS/watchOS/tvOS for 2017
         location: Outware
-        location_link: 'http://www.outware.com.au/contact'
+        location_link: 'https://www.outware.com.au/contact'
         address_display: 'Level 21, 367 Collins St, Melbourne'
         address: 'Level 21, 367 Collins Street, Melbourne Melbourne VIC 3000'
         lat: -37.816982
@@ -174,7 +174,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -190,7 +190,7 @@ events:
         title: 'Melbourne CocoaHeads #107'
         subtitle: 'Melbourne CocoaHeads Meetup'
         location: Outware
-        location_link: 'http://www.outware.com.au/contact'
+        location_link: 'https://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
@@ -207,7 +207,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -223,7 +223,7 @@ events:
         title: 'Melbourne CocoaHeads #108'
         subtitle: 'Melbourne CocoaHeads Meetup'
         location: Outware
-        location_link: 'http://www.outware.com.au/contact'
+        location_link: 'https://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
@@ -240,7 +240,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -256,7 +256,7 @@ events:
         title: 'Melbourne CocoaHeads #109'
         subtitle: 'Melbourne CocoaHeads Meetup'
         location: Outware
-        location_link: 'http://www.outware.com.au/contact'
+        location_link: 'https://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
@@ -273,7 +273,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -289,7 +289,7 @@ events:
         title: 'Melbourne CocoaHeads #110'
         subtitle: 'Melbourne CocoaHeads Meetup'
         location: Outware
-        location_link: 'http://www.outware.com.au/contact'
+        location_link: 'https://www.outware.com.au/contact'
         address_display: 'Level 3, 469 La Trobe Street, Melbourne'
         address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
         lat: -37.8126541
@@ -306,7 +306,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -322,7 +322,7 @@ events:
         contact: 'https://twitter.com/tupps'
         contact_name: 'Luke Tupper'
         location: 'The Mill House'
-        location_link: 'http://themillhouse.com.au'
+        location_link: 'https://themillhouse.com.au'
         address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
         address: '277 Flinders Lane, Melbourne, VIC 3000'
         lat: -37.8171867
@@ -338,7 +338,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: Itty Bitty Apps
-        location_link: http://www.ittybittyapps.com
+        location_link: https://www.ittybittyapps.com
         address_display: 'Level 6, 84 William St, Melbourne'
         address: 'Level 6, 84 William St, Melbourne, VIC, 3000'
         lat: -37.8171325
@@ -370,7 +370,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -405,7 +405,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -440,7 +440,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -476,7 +476,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -512,7 +512,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -548,7 +548,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -565,7 +565,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -582,7 +582,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -599,7 +599,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -616,7 +616,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -633,7 +633,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
-        location_link: http://ybfventures.com
+        location_link: https://ybfventures.com
         address_display: Level 1, 520 Bourke Street, Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744
@@ -651,7 +651,7 @@ events:
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: TBA
-        location_link: http://melbournecocoaheads.com
+        location_link: https://melbournecocoaheads.com
         address_display: Melbourne
         address: Level 1, 520 Bourke Street, Melbourne VIC 3000
         lat: -37.8153744

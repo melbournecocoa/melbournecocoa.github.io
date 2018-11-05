@@ -6,7 +6,8 @@ Route::get('/updates', ['as' => 'posts', 'uses' => 'PostsController@getPosts']);
 Route::get('/updates/{post}', ['as' => 'post', 'uses' => 'PostsController@getSinglePost']);
 
 Route::get('/events', ['as' => 'events', 'uses' => 'EventsController@getUpcomingEvents']);
-Route::get('/events/{event}', ['as' => 'event', 'uses' => 'EventsController@getEvent']);
+Route::get('/events/{event}', ['uses' => 'EventsController@getEvent'])
+    ->name('event');
 
 Route::get('/about', ['as' => 'about', function () {
     return view('about');

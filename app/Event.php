@@ -41,15 +41,21 @@ class Event extends Model
         'lng' => 'double',
     ];
 
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
+
     /**
      * Returns the format we require for the API/JSON
      *
      * @param DateTimeInterface $date
      * @return string
      */
-    protected function serializeDate(DateTimeInterface $date)
+    protected function serializeDate(DateTimeInterface $date): string
     {
-        return $date->format(Carbon::ISO8601);
+        return $date->format(\DateTime::ATOM);
     }
 
     public function posts()

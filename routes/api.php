@@ -10,13 +10,16 @@ Route::get('/events', function () {
         ->orderBy('starts_at', 'asc')
         ->get();
 
-    $eventsArray = $events->map(function (Event $event) {
-        $a = $event->toArray();
-        ksort($a);
-        return $a;
-    });
-
-    return response()
-        ->json(['events' => $eventsArray])
+    return (new \App\Http\Resources\EventCollection($events))
+        ->response()
         ->setEncodingOptions(JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-});
+
+})
+    ->name('events-api');
+
+Route::get('/events/{event}', function (Event $event) {
+    return (new \App\Http\Resources\Event($event))
+        ->response()
+        ->setEncodingOptions(JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+})
+    ->name('events-api-event');
