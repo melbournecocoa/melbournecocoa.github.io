@@ -12,7 +12,7 @@ info:
     name: MIT
     url: https://opensource.org/licenses/MIT
 servers:
-  - url: https://melbournecocoaheads.com/api
+  - url: https://www.melbournecocoaheads.com/api
     description: Production
 paths:
   /events:
