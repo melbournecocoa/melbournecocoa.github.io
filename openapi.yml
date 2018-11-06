@@ -174,26 +174,7 @@ components:
           description: Additional information about the event 
           type: string
         links:
-          type: object
-          allOf:
-            - $ref: "#/components/schemas/Links"
-            - type: object
-              required:
-                - web
-                - location
-              properties:
-                tickets:
-                  description: Optional web link to RSVP or purchase tickets
-                  type: string
-                  format: uri
-                web:
-                  description: Web link for this event on melbournecocoaheds.com
-                  type: string
-                  format: uri
-                location:
-                  description: Web link to the venue or location's website
-                  type: string
-                  format: uri
+          $ref: "#/components/schemas/EventLinks"
         startDate:
           description: Start time of the event in UTC
           type: string
@@ -214,6 +195,28 @@ components:
           location: https://ybfventures.com
           self: https://www.melbournecocoaheads.com/api/events/meetup-2018-11-08
           web: https://www.melbournecocoaheads.com/events/meetup-2018-11-08
+    EventLinks:
+      type: object 
+      required:
+        - self
+        - web
+        - location
+      properties:
+        self:
+          type: string
+          format: uri
+        tickets:
+          description: Optional web link to RSVP or purchase tickets
+          type: string
+          format: uri
+        web:
+          description: Web link for this event on melbournecocoaheds.com
+          type: string
+          format: uri
+        location:
+          description: Web link to the venue or location's website
+          type: string
+          format: uri
     Links:
       type: object
       required:
