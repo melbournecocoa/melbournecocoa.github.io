@@ -1,0 +1,237 @@
+openapi: "3.0.1"
+info:
+  version: 2.0.0
+  title: Melbourne CocoaHeads Events API
+  description: |
+    Melbourne CocoaHeads events API
+  contact:
+    name: Jesse Collis
+    email: jesse@melbournecocoaheads.com
+    url: https://melbournecocoaheads.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+servers:
+  - url: https://melbournecocoaheads.com/api
+    description: Production
+paths:
+  /events:
+    get:
+      operationId: getEvents
+      description: Fetch list of published, upcoming events
+      tags:
+        - Events
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - data
+                  - links
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Event"
+                  links:
+                    $ref: "#/components/schemas/Links"
+              examples:
+                json-response:
+                  summary: Events response
+                  value: |
+                    {
+                      "data": [
+                        {
+                          "title": "Melbourne CocoaHeads No. 120",
+                          "subtitle": "CocoaHeads November 2018\n",
+                          "startDate": "2018-11-08T07:00:00+00:00",
+                          "address": {
+                            "display": "Level 1, 520 Bourke Street, Melbourne",
+                            "location": {
+                              "latitude": -37.815374400000003,
+                              "longitude": 144.958427
+                            }
+                          },
+                          "links": {
+                            "tickets": "https://www.meetup.com/Melbourne-CocoaHeads/events/247038819/",
+                            "location": "https://ybfventures.com",
+                            "self": "https://www.melbournecocoaheads.com/api/events/meetup-2018-11-08",
+                            "web": "https://www.melbournecocoaheads.com/events/meetup-2018-11-08"
+                          }
+                        }
+                      ],
+                      "links": {
+                        "self": "https://www.melbournecocoaheads.com/api/events"
+                      }
+                    }
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+                  
+  /evenets/{eventSlug}:
+    get:
+      operationId: getEvent
+      description: Fetch an individual event
+      tags:
+        - Events
+      parameters:
+        - name: eventSlug
+          in: path
+          required: true
+          description: slug of the event
+          schema:
+            type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - data
+                properties:
+                  data:
+                    $ref: "#/components/schemas/Event"
+              examples:
+                json-response:
+                  summary: Event resposne
+                  value: |
+                    {
+                      "data": {
+                        "title": "Melbourne CocoaHeads No. 120",
+                        "subtitle": "CocoaHeads November 2018\n",
+                        "startDate": "2018-11-08T07:00:00+00:00",
+                        "address": {
+                          "display": "Level 1, 520 Bourke Street, Melbourne",
+                          "location": {
+                            "latitude": -37.815374400000003,
+                            "longitude": 144.958427
+                          }
+                        },
+                        "links": {
+                          "tickets": "https://www.meetup.com/Melbourne-CocoaHeads/events/247038819/",
+                          "location": "https://ybfventures.com",
+                          "self": "https://www.melbournecocoaheads.com/api/events/meetup-2018-11-08",
+                          "web": "https://www.melbournecocoaheads.com/events/meetup-2018-11-08"
+                        }
+                      }
+                    }
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+components:
+  schemas:
+    Address:
+      type: object
+      required:
+        - display
+        - location
+      properties:
+        display:
+          description: Display string for the location
+          type: string
+        location:
+          $ref: "#/components/schemas/Coordinate"
+      example:
+        display: Level 1, 520 Bourke Street, Melbourne,
+        location:
+          latitude: -37.815374400000003,
+          longitude: 144.958427
+    Coordinate:
+      type: object
+      required:
+        - latitude
+        - longitude
+      properties:
+        latitude:
+          type: number
+          format: double
+        longitude:
+          type: number
+          format: double
+    Event:
+      type: object
+      required:
+        - address
+        - description
+        - links
+        - startDate
+        - title
+      properties:
+        address:
+          $ref: "#/components/schemas/Address"
+        description:
+          description: Additional information about the event 
+          type: string
+        links:
+          type: object
+          allOf:
+            - $ref: "#/components/schemas/Links"
+            - type: object
+              required:
+                - web
+                - location
+              properties:
+                tickets:
+                  description: Optional web link to RSVP or purchase tickets
+                  type: string
+                  format: uri
+                web:
+                  description: Web link for this event on melbournecocoaheds.com
+                  type: string
+                  format: uri
+                location:
+                  description: Web link to the venue or location's website
+                  type: string
+                  format: uri
+        startDate:
+          description: Start time of the event in UTC
+          type: string
+          format: date-time
+        title: 
+          type: string
+      example:
+        title: Melbourne CocoaHeads No. 120,
+        subtitle: CocoaHeads November 2018,
+        startDate: 2018-11-08T07:00:00+00:00
+        address: 
+          display: Level 1, 520 Bourke Street, Melbourne
+          location:
+            latitude: -37.815374400000003
+            longitude: 144.958427
+        links:
+          tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038819/
+          location: https://ybfventures.com
+          self: https://www.melbournecocoaheads.com/api/events/meetup-2018-11-08
+          web: https://www.melbournecocoaheads.com/events/meetup-2018-11-08
+    Links:
+      type: object
+      required:
+        - self
+      properties:
+        self:
+          type: string
+          format: uri
+    Error:
+      type: object
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
+
+        

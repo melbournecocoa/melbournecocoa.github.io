@@ -11,7 +11,7 @@ class Event extends JsonResource
     {
         return [
             'title' => $this->title,
-            'subtitle' => $this->subtitle,
+            'description' => $this->subtitle,
             'startDate' => $this->starts_at->format(DateTime::ATOM),
             'address' => [
                 'display' => $this->address_display,
