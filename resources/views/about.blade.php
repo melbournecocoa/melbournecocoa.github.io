@@ -47,8 +47,8 @@
                         <li><a href ="https://www.meetup.com/Melbourne-CocoaHeads">Melbourne CocoaHeads on Meetup.com</a></li>
                         <li><a href="http://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw">YouTube</a></li>
                         <li><a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory">Melbourne CocoaHeads History</a></li>
-                        <li><a href="https://slack.melbournecocoaheads.com">Slack - @meloburnecocoa</a> - click for an invite</li>
-                        <li><a href="https://www.twitter.com/melbournecocoa">Twitter - @meloburnecocoa</a></li>
+                        <li><a href="https://slack.melbournecocoaheads.com">Slack - @melbournecocoa</a> - click for an invite</li>
+                        <li><a href="https://www.twitter.com/melbournecocoa">Twitter - @melbournecocoa</a></li>
                         <li><a href="https://github.com/melbournecocoa">Github</a></li>
                     </ul>
 
