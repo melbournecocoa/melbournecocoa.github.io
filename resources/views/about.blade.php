@@ -58,7 +58,7 @@
 
                     <p>
                         Presentation night is our main event, running on the <strong>2nd Thursday</strong> of the month, from February to December. We are centrally located in the Melbourne CBD.
-                        Check the events page and meetup.com for the most recent date and venue.
+                        Check the <a href="{{ route('events') }}" title="Events">events page</a> and <a href ="https://www.meetup.com/Melbourne-CocoaHeads">meetup.com</a> for the most recent date and venue.
                     </p>
 
                     <p><strong>Event Agenda (2018)</strong></p>
