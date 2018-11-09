@@ -47,8 +47,8 @@
                         <li><a href ="https://www.meetup.com/Melbourne-CocoaHeads">Melbourne CocoaHeads on Meetup.com</a></li>
                         <li><a href="http://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw">YouTube</a></li>
                         <li><a href="https://github.com/melbournecocoa/MelbourneCocoaheadsHistory">Melbourne CocoaHeads History</a></li>
-                        <li><a href="https://slack.melbournecocoaheads.com">Slack - @meloburnecocoa</a> - click for an invite</li>
-                        <li><a href="https://www.twitter.com/melbournecocoa">Twitter - @meloburnecocoa</a></li>
+                        <li><a href="https://slack.melbournecocoaheads.com">Slack - @melbournecocoa</a> - click for an invite</li>
+                        <li><a href="https://www.twitter.com/melbournecocoa">Twitter - @melbournecocoa</a></li>
                         <li><a href="https://github.com/melbournecocoa">Github</a></li>
                     </ul>
 
@@ -58,7 +58,7 @@
 
                     <p>
                         Presentation night is our main event, running on the <strong>2nd Thursday</strong> of the month, from February to December. We are centrally located in the Melbourne CBD.
-                        Check the events page and meetup.com for the most recent date and venue.
+                        Check the <a href="{{ route('events') }}" title="Events">events page</a> and <a href ="https://www.meetup.com/Melbourne-CocoaHeads">meetup.com</a> for the most recent date and venue.
                     </p>
 
                     <p><strong>Event Agenda (2018)</strong></p>
