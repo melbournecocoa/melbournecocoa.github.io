@@ -1,8 +1,46 @@
 posts:
+  - title: Xmas party 2018 (CocoaHeads no. 121)
+    subtitle: CocoaHeads, Android GDG & Melbourne Mobile
+    created_at: 2018-12-08 00:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2018-12-13
+    body: |
+      <p>Melbourne's 3 mobile meet-ups: CocoaHeads, Android GDG and Melbourne Mobile will be getting together for a combined Christmas party! There’ll be food, drinks, fun activities and give-aways!</p>
+
+      <h3 class="section-heading">Talks</h3>
+
+      <p>
+      <strong>Ayesha Ahmed <a href="https://www.twitter.com/tesseract_256">@tesseract_256</a></strong> - An Ode to the Hacker
+      </p>
+
+      <p>What happens when you combine abstract ideas with the power of technology? From building vehicles out of shopping carts to playing tetris on a building, hackers bring novelty in unexpected ways. Join us in this talk bringing together the history of hacker culture and the hacker ethic, and how they cross both economic and cultural barriers.</p>
+
+      <h3 class="section-heading">Activities</h3>
+
+      <p>Once again we will be doing awful startup pitches! “Uber for clowns”, “Cloud services for toddlers”, “Twitter for dogs” - We will be putting together elevator pitches for some truly terrible startup ideas. Teams will be formed on the night and you will get to pick a ‘terrible startup idea’ out of a hat. Each team will have 10 minutes to put together an elevator pitch for their startup. Prizes will be awarded for ‘worst startup idea’.<p>
+
+      <h3 class="section-heading">Prizes</h3>
+
+      <dl>
+      <dt>Apple TV 4K - Provided by Melbourne CocoaHeads</dt>
+      <dt>Google branded swag and Mini Android Figures - Provided by GDG</dt>
+      <dt>2 Reveal Licenses - Provided by IttyBittyApps</dt>
+      <dt>Slack socks - We have 5 pairs of <a href="https://slack-shop.myshopify.com/products/slack-socks">slack socks</a>, which will be stuffed with Christmas goodies.</dt>
+      </dl>
+
+      <h3 class="section-heading">Schedule & Location</h3>
+
+      <p>The Christmas party will be hosted on the 1st floor, YBF Ventures, 520 Bourke Street, Melbourne. Doors open for drinks and pizza at 6pm.</p>
+
+      <h3 class="section-heading">RSVP</h3>
+
+      <p>Head over to the related events and RVP over at meetup.com. Spaces are limited!</p>
+
   - title: Speakers for CocoaHeads no. 120
     subtitle: November 2018
     created_at: 2018-11-08 00:00:00 +0
-    frontpage: 1
+    frontpage: 3
     events:
     - meetup-2018-11-08
     - hacknight-2018-11-14
@@ -46,7 +84,7 @@ posts:
   - title: Speakers for CocoaHeads no. 119
     subtitle: October 2018
     created_at: 2018-10-09 00:00:00 +0
-    frontpage: 3
+    frontpage: 2
     events:
     - meetup-2018-10-11
     - hacknight-2018-10-17
