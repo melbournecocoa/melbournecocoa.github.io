@@ -645,9 +645,9 @@ events:
         subtitle: |
           CocoaHeads February 2019
         slug: meetup-2019-02-13
-        starts_at: '2019-02-13 07:00:00 +0000'
-        ends_at: '2019-02-13 09:30:00 +0000'
-        tickets: https://melbournecocoaheads.com
+        starts_at: '2019-02-14 07:00:00 +0000'
+        ends_at: '2019-02-14 09:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258087796/
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'
         location: YBF Ventures
