@@ -18,18 +18,14 @@ Starting from scratch. This will clean out the DB, add everything again.
 got push heroku master && heroku run php artisan migrate:refresh && heroku run php artisan cocoa:update --bootstrap
 ```
 
-## Running this locally
-
-- homebrew
-- homebrew php
-- php71
+## Running Locally
 
 ```sh
+cp .env.example .env
 php artisan key:generate
 touch database/database.sqlite
 php artisan migrate
-php artisan cocoa:events
-php artisan cocoa:posts
+php artisan cocoa:update
 php artisan serve
 ```
 
@@ -46,13 +42,7 @@ This will replace the existing file.
 
 ## API
 
-Return a JSON file with the `next` 'event'.
-
-Return a list of 2016 events with title, sponsor, speakers, location, event bright link
-
-Return a list of sponsors
-
-Return a list of contact details
+See http://localhost:8080/api or https://www.melbournecocoaheads.com/api
 
 
 ## Feed
