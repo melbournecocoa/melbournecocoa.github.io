@@ -625,7 +625,7 @@ events:
         type: meetup
         title: 'Melbourne CocoaHeads No. 121'
         subtitle: |
-          CocoaHeads December 2018
+          CocoaHeads December 2018 - Xmas party
         slug: meetup-2018-12-13
         starts_at: '2018-12-13 07:00:00 +0000'
         ends_at: '2018-12-13 09:30:00 +0000'
