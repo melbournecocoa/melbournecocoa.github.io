@@ -1,8 +1,84 @@
 posts:
+  - title: February 2019 Meetup Agenda (No. 122)
+    subtitle: Back for 2019
+    created_at: 2019-02-11 00:00:00 +0
+    frontpage: 1
+    events:
+     - meetup-2019-02-13
+     - hacknight-2019-02-20
+    body: |
+
+      <p>Welcome back to Melbourne CocoaHeads for 2019! We will be running on the 2nd Thursday of each month all the way up to December this year, read on for more info.</p>
+
+      <h3 class="section-heading">Schedule for February</h3>
+
+      <p>Thanks for everyone putting their hands up to present this month!</p>
+
+      <p>
+      <strong>Adriaan Stellingwerff <a href="https://www.twitter.com/astellingwerff">@astellingwerff</a></strong><br>
+       Review prompting: Getting (closer) to ⭐️⭐️⭐️⭐️⭐️ ratings
+      </p>
+
+      <p>
+      <strong>Dermot Holmes</strong><br>
+      Everyone’s a Designer - Design Tips for Devs (with love)
+      </p>
+
+      <p>
+      <strong>Vlas <a href="https://www.twitter.com/argentumko">@argentumko</a></strong><br>
+      Recording and Visualising ARKit Sessions
+      </p>
+
+      <dl>
+      <dt>When</dt>
+      <dd>Thursday February 14, doors open at 5:45pm.</dd>
+      <dt>Where</dt>
+      <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+      <dt>6:00 - 6:30</dt>
+      <dd>Arrival, pizza and refreshments</dd>
+      <dt>6:30 - 6:40</dt>
+      <ds>Jesse Collis - Welcome and Introductions</dd>
+      <dt>6:40 - 7:10</dt>
+      <dd>Adriaan Stellingwerff - Review prompting</dd>
+      <dt>7:15 - 7:45</dt>
+      <dd>Dermot Holmes - Everyone's a Designer</dd>
+      <dt>7:45 - 8:00</dt>
+      <dd>Break</dd>
+      <dt>8:00 - 8:15</dt>
+      <dd>Vlas - AR Kit</dd>
+      <dt>8:15 - 8:30</dt>
+      <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
+      <h3 class="section-heading">Upcoming Events</h3>
+
+      <p>Our main presentation night will be running on the 2nd Thursday of the month and Hack Nights will be continuing again this year on the following dates:
+        <ul>
+        <li>20 February</li>
+        <li>20 March</li>
+        <li>17 April</li>
+        <li>15 May</li>
+        <li>19 June</li>
+        <li>17 July</li>
+        <li>21 August</li>
+        <li>18 September</li>
+        <li>16 October</li>
+        <li>20 November</li>
+        <li>18 December</li>
+        </ul>
+      </p>
+
   - title: Xmas party 2018 (CocoaHeads no. 121)
     subtitle: CocoaHeads, Android GDG & Melbourne Mobile
     created_at: 2018-12-08 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2018-12-13
     body: |
@@ -40,7 +116,7 @@ posts:
   - title: Speakers for CocoaHeads no. 120
     subtitle: November 2018
     created_at: 2018-11-08 00:00:00 +0
-    frontpage: 3
+    frontpage: 0
     events:
     - meetup-2018-11-08
     - hacknight-2018-11-14
@@ -84,7 +160,7 @@ posts:
   - title: Speakers for CocoaHeads no. 119
     subtitle: October 2018
     created_at: 2018-10-09 00:00:00 +0
-    frontpage: 2
+    frontpage: 0
     events:
     - meetup-2018-10-11
     - hacknight-2018-10-17
@@ -147,7 +223,7 @@ posts:
   - title: A callout for speakers
     subtitle: Looking for speakers for Oct, Nov, Dec 2018
     created_at: 2018-10-01 00:00:00 +0
-    frontpage: 4
+    frontpage: 0
     coverImage: /img/posts/2018-1-/LookingForPresentations.jpg
     events:
     - meetup-2018-10-11
@@ -198,7 +274,7 @@ posts:
   - title: Speakers for CocoaHeads no. 118
     subtitle: September 2018
     created_at: 2018-09-13 00:00:00 +0
-    frontpage: 5
+    frontpage: 0
     events:
     - meetup-2018-09-13
     - hacknight-2018-09-19
@@ -241,7 +317,7 @@ posts:
   - title: Speakers for CocoaHeads no. 117
     subtitle: August 2018
     created_at: 2018-07-29 01:00:00 +0
-    frontpage: 6
+    frontpage: 0
     events:
       - meetup-2018-08-09
       - hacknight-2018-08-22
@@ -294,7 +370,7 @@ posts:
   - title: Speakers for CocoaHeads no. 116
     subtitle: July 2018
     created_at: 2018-07-08 01:00:00 +0
-    frontpage: 7
+    frontpage: 0
     events:
       - meetup-2018-07-12
       - hacknight-2018-07-18
@@ -346,7 +422,7 @@ posts:
   - title: Speakers for CocoaHeads no. 115
     subtitle: June 2018
     created_at: 2018-05-11 01:00:00 +0
-    frontpage: 8
+    frontpage: 0
     events:
       - meetup-2018-06-14
       - hacknight-2018-06-16
@@ -406,7 +482,7 @@ posts:
   - title: Speakers for CocoaHeads no. 114
     subtitle: May 2018
     created_at: 2018-04-06 01:00:00 +0
-    frontpage: 9
+    frontpage: 0
     events:
       - meetup-2018-05-08
       - hacknight-2018-05-16
@@ -483,7 +559,7 @@ posts:
   - title: Speakers for CocoaHeads no. 113
     subtitle: April 2018
     created_at: 2018-04-06 01:00:00 +0
-    frontpage: 10
+    frontpage: 0
     events:
       - meetup-2018-04-12
       - hacknight-2018-04-18
@@ -545,7 +621,7 @@ posts:
   - title: Sponsors for 2018
     subtitle: ''
     created_at: 2018-04-05 00:00:00 +0
-    frontpage: 2
+    frontpage: 0
     events:
     body: |
       <p>
@@ -611,7 +687,7 @@ posts:
   - title: Speakers for CocoaHeads no. 112
     subtitle: March 2018
     created_at: 2018-03-05 07:00:00 +0
-    frontpage: 11
+    frontpage: 0
     events:
       - meetup-2018-03-08
       - hacknight-2018-03-21
@@ -664,7 +740,7 @@ posts:
   - title: Speakers for CocoaHeads no. 111
     subtitle: February 2018
     created_at: 2018-02-07 07:00:00 +0
-    frontpage: 12
+    frontpage: 0
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21
@@ -712,7 +788,7 @@ posts:
   - title: Melbourne CocoaHeads 2018
     subtitle: Back from holidays
     created_at: 2018-02-05 07:00:00 +0
-    frontpage: 13
+    frontpage: 0
     events:
       - meetup-2018-02-08
       - hacknight-2018-02-21
