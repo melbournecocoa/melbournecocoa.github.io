@@ -791,10 +791,10 @@ events:
         type: meetup
         title: 'Melbourne CocoaHeads No. 125'
         subtitle: |
-            CocoaHeads May 2019
+            CocoaHeads May 2019 (Wednesday the 8th!)
         slug: meetup-2019-05-09
-        starts_at: '2019-05-09 08:00:00 +0000'
-        ends_at: '2019-05-09 10:30:00 +0000'
+        starts_at: '2019-05-08 08:00:00 +0000'
+        ends_at: '2019-05-08 10:30:00 +0000'
         tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091092/
         contact: 'jesse@melbournecocoaheads.com.au'
         contact_name: 'Jesse Collis'

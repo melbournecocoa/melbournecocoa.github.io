@@ -1,8 +1,84 @@
 posts:
+  - title: March 2019 Meetup Agenda
+    subtitle: CocoaHeads No. 123
+    created_at: 2019-03-12 00:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2019-03-14
+      - hacknight-2019-03-20
+    body: |
+      <p>We're back for March this week with three great presentations scheduled! Thanks again to everyone who put their hands up to present this month.</p>
+
+      <h3 class="section-heading">Sponsors for 2019</h3>
+
+      <p>Each year members of the CocoaHeads community generiously sponsor the costs of hiring a venue, food, drinks and the other associated monthly expenses of Melbourne CocoaHeads.
+      I'm excited to annouce our sponsors for 2019! I will highlight our sponsonsors in a special post in the coming weeks as well as at the beginning of each night.</p>
+
+      <dl>
+      <dt>Gold Sponsor</dt>
+      <dd>Cognizant Digital Business - <a href="https://www.cognizant.com/cognizant-digital-business">cognizant.com/cognizant-digital-business</a></dd>
+      </dl>
+      <dl>
+      <dt>Silver Sponosors</dt>
+      <dd>Appscore - <a href="http://appscore.com.au/">appscore.com.au</a></dd>
+      <dd>Domestic Cat Software - <a href="https://domesticcat.com.au">domesticcat.com.au</a></dd>
+      <dd>Itty Bitty Apps - <a href="https://www.ittybittyapps.com">ittybittyapps.com</a></dd>
+      <dd>Latitude Financial - <a href="https://www.latitudefinancial.com.au">latitudefinancial.com.au</a></dd>
+      </dl>
+
+      <h3 class="section-heading">Schedule for March</h3>
+
+      <p>
+      <strong>Kevin O'Neill <a href="https://www.twitter.com/kevinoneill">@kevinoneill</a></strong><br>
+       iOS and TEA based on <a href="https://github.com/weegigs/weedux">github.com/weegigs/weedux</a>
+      </p>
+
+      <p>
+        <strong>Pablo Caif <a href="https://www.twitter.com/pablocaif">@pablocaif</a></strong><br>
+         Custom View Controller presentations without the code mess
+      </p>
+
+      <p>
+      <strong>Renaud Lienhart <a href="https://www.twitter.com/layoutSubviews">@layoutSubviews</a></strong><br>
+       Unit testing memory leaks
+      </p>
+
+      <dl>
+      <dt>When</dt>
+      <dd>Thursday March 14, doors open at 5:45pm.</dd>
+      <dt>Where</dt>
+      <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+      <dt>6:00 - 6:30</dt>
+      <dd>Arrival, pizza and refreshments</dd>
+      <dt>6:30 - 6:40</dt>
+      <ds>Jesse Collis - Welcome and Introductions</dd>
+      <dt>6:40 - 7:10</dt>
+      <dd>Kevin O'Neill - iOS and TEA</dd>
+      <dt>7:15 - 7:45</dt>
+      <dd>Pablo Caif - Custom View Controller Presentations</dd>
+      <dt>7:45 - 8:00</dt>
+      <dd>Break</dd>
+      <dt>8:00 - 8:15</dt>
+      <dd>Renaud Lienhard - Unit Testing Memory Leaks</dd>
+      <dt>8:15 - 8:30</dt>
+      <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
+      <h3 class="section-heading">Upcoming Events</h3>
+
+      <p>A special note that our <a href="/events/meetup-2019-05-09">May event</a> has been changed to <strong>Wednesday May 8th - One day earlier</strong>.</p>
+
   - title: February 2019 Meetup Agenda (No. 122)
     subtitle: Back for 2019
     created_at: 2019-02-11 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
      - meetup-2019-02-13
      - hacknight-2019-02-20
@@ -64,7 +140,7 @@ posts:
         <li>20 February</li>
         <li>20 March</li>
         <li>17 April</li>
-        <li>15 May</li>
+        <li>8 May <strong>Updated! Now Wednesday!</strong></li>
         <li>19 June</li>
         <li>17 July</li>
         <li>21 August</li>
@@ -78,7 +154,7 @@ posts:
   - title: Xmas party 2018 (CocoaHeads no. 121)
     subtitle: CocoaHeads, Android GDG & Melbourne Mobile
     created_at: 2018-12-08 00:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2018-12-13
     body: |
