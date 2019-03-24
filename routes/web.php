@@ -26,7 +26,7 @@ Route::get('/code-of-conduct', ['as' => 'coc', function () {
 }]);
 
 Route::get('/live', function () {
-    return response('', 303)->header('location', 'http://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw/live');
+    return response('', 303)->header('location', 'http://www.youtube.com/c/MelbourneCococHeads/live');
 });
 
 Route::get('/2018', function () {
