@@ -961,3 +961,43 @@ events:
         address: Level 6, 15 William Street, Melbourne VIC 3000
         lat: -37.819073
         lng: 144.9592
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-03-20
+        starts_at: '2019-04-17 07:00:00 +0000'
+        ends_at: '2019-04-17 10:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/253809564/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: special
+        title: 'CocoaHeads 2019 planning meeting'
+        subtitle: |
+            As announced in March, Jesse is stepping down from CocoaHeads from July. This meeting is for interested parties to meet and set roles and responsibitiles for CocoaHeads going forward.
+
+            See the blog post here: https://www.melbournecocoaheads.com/updates/melbourne-cocoaheads-next
+        slug: planning-meeting-2019-04-16
+        starts_at: '2019-04-16 07:45:00 +0000'
+        ends_at: '2019-04-16 9:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/260212858/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: Itty Bitty Apps
+        location_link: https://www.ittybittyapps.com
+        address_display: 'Level 6, 84 William St, Melbourne'
+        address: 'Level 6, 84 William St, Melbourne, VIC, 3000'
+        lat: -37.8171325
+        lng: 144.9571
+
