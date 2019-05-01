@@ -982,6 +982,26 @@ events:
         lng: 144.9592
 
     -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-05-15
+        starts_at: '2019-05-15 18:00:00 +1000'
+        ends_at: '2019-05-15 20:00:00 +1000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/261056715/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
         type: special
         title: 'CocoaHeads 2019 planning meeting'
         subtitle: |
