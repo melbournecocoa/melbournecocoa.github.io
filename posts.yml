@@ -1,4 +1,59 @@
 posts:
+  - title: May 2019 Meetup Agenda
+    subtitle: CocoaHeads No. 125
+    created_at: 2019-05-01 17:30:00 +1000
+    frontpage: 1
+    events:
+      - meetup-2019-05-08
+      - hacknight-2019-05-15
+    body: |
+      <p>We're back for May this week with N great presentations scheduled! Thanks again to everyone who put their hands up to present this month.</p>
+
+      <h3 class="section-heading">Schedule for May</h3>
+
+      <p>
+      <strong>Jayant Varma</strong><br>
+       What's new in Swift 5.0
+      </p>
+
+      <p>
+        <strong>Adam Weiss<br>
+        Using video to expand the reach of your app
+      </p>
+
+      <dl>
+        <dt>When</dt>
+        <dd>Wednesday May 15, doors open at 5:45pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:40</dt>
+        <ds>Jesse Collis - Welcome and Introductions</dd>
+
+        <dt>6:40 - 7:10</dt>
+        <dd>Jayant Varma - What's new in Swift 5.0</dd>
+
+        <dt>7:15 - 7:45</dt>
+        <dd>Adam Weiss - Using video to expand the reach of your app</dd>
+
+        <dt>7:45 - 8:00</dt>
+        <dd>Break</dd>
+
+        <dt>8:00 - 8:15</dt>
+        <dd>Unknown Speaker? - Unknown Presentation?</dd>
+
+        <dt>8:15 - 8:30</dt>
+        <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.melbournecocoaheads.com/live">http://www.melbournecocoaheads.com/live</a>.</p>
+
   - title: Melbourne CocoaHeads Next
     subtitle: So long and thanks for all the Pizza
     created_at: 2019-03-24 06:00:00 +0
