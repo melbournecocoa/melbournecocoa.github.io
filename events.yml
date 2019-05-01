@@ -792,7 +792,7 @@ events:
         title: 'Melbourne CocoaHeads No. 125'
         subtitle: |
             CocoaHeads May 2019 (Wednesday the 8th!)
-        slug: meetup-2019-05-08
+        slug: meetup-2019-05-09
         starts_at: '2019-05-08 08:00:00 +0000'
         ends_at: '2019-05-08 10:30:00 +0000'
         tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091092/
@@ -989,8 +989,8 @@ events:
 
             Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
         slug: hacknight-2019-05-15
-        starts_at: '2019-05-15 18:00:00 +1000'
-        ends_at: '2019-05-15 20:00:00 +1000'
+        starts_at: '2019-05-15 07:45:00 +0000'
+        ends_at: '2019-05-15 11:00:00 +0000'
         tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/261056715/
         contact: 'https://twitter.com/tupps'
         contact_name: Luke Tupper

@@ -1,13 +1,13 @@
 posts:
   - title: May 2019 Meetup Agenda
     subtitle: CocoaHeads No. 125
-    created_at: 2019-05-01 17:30:00 +1000
+    created_at: 2019-05-01 00:00:00 +0
     frontpage: 1
     events:
-      - meetup-2019-05-08
+      - meetup-2019-05-09
       - hacknight-2019-05-15
     body: |
-      <p>We're back for May this week with N great presentations scheduled! Thanks again to everyone who put their hands up to present this month.</p>
+      <p>We're back for May, one day earlier than usual on a <strong>Wednesday</strong>! Thanks again to everyone who put their hands up to present this month.</p>
 
       <h3 class="section-heading">Schedule for May</h3>
 
@@ -17,7 +17,7 @@ posts:
       </p>
 
       <p>
-        <strong>Adam Weiss<br>
+        <strong>Adam Weiss</strong><br>
         Using video to expand the reach of your app
       </p>
 
@@ -45,7 +45,7 @@ posts:
         <dd>Break</dd>
 
         <dt>8:00 - 8:15</dt>
-        <dd>Unknown Speaker? - Unknown Presentation?</dd>
+        <dd>TBC</dd>
 
         <dt>8:15 - 8:30</dt>
         <dd>Discussions & Finish up</dd>
@@ -62,7 +62,7 @@ posts:
     events:
       - meetup-2019-04-11
       - planning-meeting-2019-04-16
-      - meetup-2019-05-08
+      - meetup-2019-05-09
       - meetup-2019-06-13
       - meetup-2019-07-11
     body: |
@@ -183,7 +183,7 @@ posts:
 
       <h3 class="section-heading">Upcoming Events</h3>
 
-      <p>A special note that our <a href="/events/meetup-2019-05-08">May event</a> has been changed to <strong>Wednesday May 8th - One day earlier</strong>.</p>
+      <p>A special note that our <a href="/events/meetup-2019-05-09">May event</a> has been changed to <strong>Wednesday May 8th - One day earlier</strong>.</p>
 
   - title: February 2019 Meetup Agenda (No. 122)
     subtitle: Back for 2019
