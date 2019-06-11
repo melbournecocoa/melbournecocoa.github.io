@@ -1,8 +1,77 @@
 posts:
+  - title: June 2019 Meetup Agenda
+    subtitle: CocoaHeads No. 126
+    created_at: 2019-06-11 00:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2019-06-13
+      - hacknight-2019-06-19
+    body: |
+      <p>We're back for June after a couple of busy weeks of conferences! Thanks again to everyone who put their hands up to present this month.</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for June</h3>
+
+      <p>
+      <strong>Thom Mackey <a href="https://www.twitter.com/thommackey">@thommackey</a></strong><br>
+       Swift for Tensorflow - A hairbrained intro
+      </p>
+
+      <p>
+        <strong>Raunak <a href="https://www.twitter.com/raun">@raun</a></strong><br>
+        WWDC 2019 Recap
+      </p>
+
+      <p>
+        <strong>Aydrey Tam <a href="https://www.twitter.com/mataharimau">@mataharimau</a></strong><br>
+        Swift UI: Getting Started
+      </p>
+
+      <p>
+        <strong>Peter Shi and Bramley</strong><br>
+        Google I/O Recap
+      </p>
+
+      <dl>
+        <dt>When</dt>
+        <dd>Thursday June 13th, doors open at 5:45pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:40</dt>
+        <ds>Jayant Varma - Welcome and Introductions</dd>
+
+        <dt>6:40 - 7:10</dt>
+        <dd>Thom Mackey - Swift for Tensorflow</dd>
+
+        <dt>7:15 - 7:30</dt>
+        <dd>Raunak - WWDC Recap</dd>
+
+        <dt>7:35 - 7:45</dt>
+        <dd>Aurdry Tam - Swift UI: Getting Started</dd>
+
+        <dt>7:45 - 8:00</dt>
+        <dd>Break</dd>
+
+        <dt>8:00 - 8:15</dt>
+        <dd>Peter Shi and Bramle - Google I/O Recap</dd>
+
+        <dt>8:15 - 8:30</dt>
+        <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="https://www.melbournecocoaheads.com/live">https://www.melbournecocoaheads.com/live</a>.</p>
   - title: May 2019 Meetup Agenda
     subtitle: CocoaHeads No. 125
     created_at: 2019-05-01 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2019-05-09
       - hacknight-2019-05-15
@@ -63,7 +132,7 @@ posts:
     subtitle: So long and thanks for all the Pizza
     created_at: 2019-03-24 06:00:00 +0
     coverImage: /img/posts/2019-03/CHxjOqZUcAA2v-K.jpg
-    frontpage: 1
+    frontpage: 3
     events:
       - meetup-2019-04-11
       - planning-meeting-2019-04-16
@@ -117,7 +186,7 @@ posts:
   - title: March 2019 Meetup Agenda
     subtitle: CocoaHeads No. 123
     created_at: 2019-03-12 00:00:00 +0
-    frontpage: 1
+    frontpage: 4
     events:
       - meetup-2019-03-14
       - hacknight-2019-03-20
@@ -193,7 +262,7 @@ posts:
   - title: February 2019 Meetup Agenda (No. 122)
     subtitle: Back for 2019
     created_at: 2019-02-11 00:00:00 +0
-    frontpage: 2
+    frontpage: 5
     events:
      - meetup-2019-02-13
      - hacknight-2019-02-20
@@ -269,7 +338,7 @@ posts:
   - title: Xmas party 2018 (CocoaHeads no. 121)
     subtitle: CocoaHeads, Android GDG & Melbourne Mobile
     created_at: 2018-12-08 00:00:00 +0
-    frontpage: 3
+    frontpage: 0
     events:
       - meetup-2018-12-13
     body: |
