@@ -2,7 +2,24 @@
 
 Visit the website at: https://www.melbournecocoaheads.com.
 
-## Deploying to Heroku
+## Month-to-month updates (June 2019)
+
+The github repository at http://github.com/melbournecocoa/website is setup to automatically deploy Heroku on merges to the master branch. 
+
+- Each month, edit `posts.yml` with a new post
+    - Update the front page ordering.
+    - Link to the relevant events from `events.yml` for this month. Use the `slug` value.
+- Create a PR [similar to this one][https://github.com/melbournecocoa/website/pull/14] with the changes and ask someone in the community to check the details
+- Merge the PR, this will deploy the code
+
+From here someone with access to the heroku instance needs to run the migration:
+
+```bash
+heroku run -a melbourne-cocoaheads php artisan cocoa:update
+```
+
+
+## Deploying to Heroku manually
 
 ```sh
 git push heroku master && heroku run php artisan migrate && heroku run php artisan cocoa:update
@@ -17,7 +34,7 @@ git push heroku master && heroku run php artisan cocoa:update
 Starting from scratch. This will clean out the DB, add everything again.
 
 ```sh
-got push heroku master && heroku run php artisan migrate:refresh && heroku run php artisan cocoa:update --bootstrap
+git push heroku master && heroku run php artisan migrate:refresh && heroku run php artisan cocoa:update --bootstrap
 ```
 
 ## Running Locally
@@ -33,7 +50,7 @@ php artisan serve
 
 ## Writing Posts
 
-You can write posts by creating new entries in posts.yml. These are ingested automatically on deployment.
+You can write posts by creating new entries in posts.yml.
 
 ## Events
 
@@ -45,7 +62,6 @@ This will replace the existing file.
 ## API
 
 See http://localhost:8080/api or https://www.melbournecocoaheads.com/api
-
 
 ## Feed
 
@@ -80,7 +96,6 @@ Twitter cards: https://dev.twitter.com/cards/getting-started
 
 Open graph: http://ogp.me
 
-
 ## Graphics
 
 Favicon.ico
@@ -89,7 +104,6 @@ Favicon.ico
 
 - https://github.com/RoumenDamianoff/laravel-sitemap
 - https://github.com/RoumenDamianoff/laravel-sitemap/wiki/Dynamic-sitemap
-
 
 ## JS
 
