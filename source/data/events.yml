@@ -1,0 +1,1142 @@
+events:
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-01-31
+        starts_at: '2017-01-31 07:30:00 +0000'
+        ends_at: '2017-01-31 10:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/events/237278532/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-02-09
+        starts_at: '2017-02-09 07:30:00 +0000'
+        ends_at: '2017-02-09 10:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/events/237278367/'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne CocoaHeads #102'
+        subtitle: 'Melbourne CocoaHeads Meetup'
+        location: Outware
+        location_link: 'https://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Playgrounds, Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-02-28
+        starts_at: '2017-02-28 07:30:00 +0000'
+        ends_at: '2017-02-28 10:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/events/kqdhnmywdblc/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-03-09
+        starts_at: '2017-03-09 07:30:00 +0000'
+        ends_at: '2017-03-09 10:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne CocoaHeads #103'
+        subtitle: 'Melbourne CocoaHeads Meetup'
+        location: Outware
+        location_link: 'https://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-03-28
+        starts_at: '2017-03-28 07:30:00 +0000'
+        ends_at: '2017-03-28 10:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-04-13
+        starts_at: '2017-04-13 08:30:00 +0000'
+        ends_at: '2017-04-13 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne CocoaHeads #104'
+        subtitle: 'Melbourne CocoaHeads Meetup'
+        location: Outware
+        location_link: 'https://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-04-25
+        starts_at: '2017-04-25 08:30:00 +0000'
+        ends_at: '2017-04-25 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-05-11
+        starts_at: '2017-05-11 08:30:00 +0000'
+        ends_at: '2017-05-11 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne CocoaHeads #105 - UIKit'
+        subtitle: 'The topic this month is all things UIKit'
+        location: Outware
+        location_link: 'https://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-05-30
+        starts_at: '2017-05-30 08:30:00 +0000'
+        ends_at: '2017-05-30 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-06-15
+        starts_at: '2017-06-15 08:30:00 +0000'
+        ends_at: '2017-06-15 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne CocoaHeads #106 - WWDC 2017 Edition'
+        subtitle: Fresh from WWDC, let's recap what's new in iOS/macOS/watchOS/tvOS for 2017
+        location: Outware
+        location_link: 'https://www.outware.com.au/contact'
+        address_display: 'Level 21, 367 Collins St, Melbourne'
+        address: 'Level 21, 367 Collins Street, Melbourne Melbourne VIC 3000'
+        lat: -37.816982
+        lng: 144.9627356
+        sponsors: [DiUS]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-06-27
+        starts_at: '2017-06-27 08:30:00 +0000'
+        ends_at: '2017-06-27 11:30:00 +0000'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-07-13
+        starts_at: '2017-07-13 08:30:00 +0000'
+        ends_at: '2017-07-13 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne CocoaHeads #107'
+        subtitle: 'Melbourne CocoaHeads Meetup'
+        location: Outware
+        location_link: 'https://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware, jtribe]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-07-25
+        starts_at: '2017-07-25 08:30:00 +0000'
+        ends_at: '2017-07-25 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-08-10
+        starts_at: '2017-08-10 08:30:00 +0000'
+        ends_at: '2017-08-10 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne CocoaHeads #108'
+        subtitle: 'Melbourne CocoaHeads Meetup'
+        location: Outware
+        location_link: 'https://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-08-29
+        starts_at: '2017-08-22 08:30:00 +0000'
+        ends_at: '2017-08-22 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-09-14
+        starts_at: '2017-09-14 08:30:00 +0000'
+        ends_at: '2017-09-14 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne CocoaHeads #109'
+        subtitle: 'Melbourne CocoaHeads Meetup'
+        location: Outware
+        location_link: 'https://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware, Realestate.com.au]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-09-26
+        starts_at: '2017-09-26 08:30:00 +0000'
+        ends_at: '2017-09-26 11:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: meetup
+        slug: meetup-2017-10-12
+        starts_at: '2017-10-12 07:30:00 +0000'
+        ends_at: '2017-10-12 10:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'mailto:jesse@jcmultimedia.com.au'
+        contact_name: 'Jesse Collis'
+        title: 'Melbourne CocoaHeads #110'
+        subtitle: 'Melbourne CocoaHeads Meetup'
+        location: Outware
+        location_link: 'https://www.outware.com.au/contact'
+        address_display: 'Level 3, 469 La Trobe Street, Melbourne'
+        address: 'Level 3, 469 La Trobe Street, Melbourne VIC 3000'
+        lat: -37.8126541
+        lng: 144.9551303
+        sponsors: [Outware, jtribe]
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-10-31
+        starts_at: '2017-10-31 07:30:00 +0000'
+        ends_at: '2017-10-31 10:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: 'Melbourne CocoaHeads Hack Night'
+        slug: hacknight-2017-11-28
+        starts_at: '2017-11-28 07:30:00 +0000'
+        ends_at: '2017-11-28 10:30:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'The Mill House'
+        location_link: 'https://themillhouse.com.au'
+        address_display: '277 Flinders Lane (between Elizabeth & Swanston)'
+        address: '277 Flinders Lane, Melbourne, VIC 3000'
+        lat: -37.8171867
+        lng: 144.9652635
+    -
+        type: special
+        title: 'CocoaHeads 2018 planning meeting'
+        subtitle: 'Planning for CocoaHeads in 2018'
+        slug: planning-meeting-2017-10-26
+        starts_at: '2017-12-07 06:45:00 +0000'
+        ends_at: '2017-12-07 8:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/244099223/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: Itty Bitty Apps
+        location_link: https://www.ittybittyapps.com
+        address_display: 'Level 6, 84 William St, Melbourne'
+        address: 'Level 6, 84 William St, Melbourne, VIC, 3000'
+        lat: -37.8171325
+        lng: 144.9571
+    -
+        type: meetup
+        title: 'Xmas party CocaHeads, Android GDG & Melbourne Mobile'
+        subtitle: 'Planning for CocoaHeads in 2018'
+        slug: xmas-party-2017
+        starts_at: '2017-12-20 07:00:00 +0000'
+        ends_at: '2017-12-20 10:00:00 +0000'
+        tickets: https://www.eventbrite.com.au/e/xmas-party-cocaheads-android-gdg-melbourne-mobile-tickets-41000132500
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: Shine Solutions
+        location_link: https://shinesolutions.com
+        address_display: 'Level 30, 600 Bourke Street, Melbourne'
+        address: 'Level 30, 600 Bourke St, Melbourne, VIC, 3000'
+        lat: -37.815936
+        lng: 144.9538003
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads #111'
+        subtitle: 'Back for 2018!'
+        slug: meetup-2018-02-08
+        starts_at: '2018-02-08 07:00:00 +0000'
+        ends_at: '2018-02-08 10:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038398/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+          Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+          Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-02-21
+        starts_at: '2018-02-21 07:00:00 +0000'
+        ends_at: '2018-02-21 10:00:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/events/247038969/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'Aconex'
+        location_link: 'https://twitter.com/melbournecocoa/status/966194205122093058'
+        address_display: 'Back entrance to Aconex via Duckboard Place'
+        address: 'Duckboard Place, Melbourne, VIC 3000'
+        lat: -37.815683
+        lng: 144.971355
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads #112'
+        subtitle: ''
+        slug: meetup-2018-03-08
+        starts_at: '2018-03-08 07:00:00 +0000'
+        ends_at: '2018-03-08 10:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038531/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+          Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+          Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-03-21
+        starts_at: '2018-03-21 07:00:00 +0000'
+        ends_at: '2018-03-21 10:00:00 +0000'
+        tickets: 'https://www.meetup.com/Melbourne-CocoaHeads/'
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'Aconex'
+        location_link: 'https://twitter.com/melbournecocoa/status/966194205122093058'
+        address_display: 'Back entrance to Aconex via Duckboard Place'
+        address: 'Duckboard Place, Melbourne, VIC 3000'
+        lat: -37.815683
+        lng: 144.971355
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 113'
+        subtitle: ''
+        slug: meetup-2018-04-12
+        starts_at: '2018-04-12 08:00:00 +0000'
+        ends_at: '2018-04-12 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038588/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+          Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+          Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-04-18
+        starts_at: '2018-04-18 08:00:00 +0000'
+        ends_at: '2018-04-18 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/249146838/
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'Aconex'
+        location_link: 'https://twitter.com/melbournecocoa/status/966194205122093058'
+        address_display: 'Back entrance to Aconex via Duckboard Place'
+        address: 'Duckboard Place, Melbourne, VIC 3000'
+        lat: -37.815683
+        lng: 144.971355
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 114'
+        subtitle: |
+          Please note that this meetup is two days earlier on the Tuesday!
+        slug: meetup-2018-05-08
+        starts_at: '2018-05-08 08:00:00 +0000'
+        ends_at: '2018-05-08 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038639/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+          Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+          Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-05-16
+        starts_at: '2018-05-16 08:00:00 +0000'
+        ends_at: '2018-05-16 11:00:00 +0000'
+        tickets:
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'Aconex'
+        location_link: 'https://twitter.com/melbournecocoa/status/966194205122093058'
+        address_display: 'Back entrance to Aconex via Duckboard Place'
+        address: 'Duckboard Place, Melbourne, VIC 3000'
+        lat: -37.815683
+        lng: 144.971355
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 115'
+        subtitle: |
+          Post WWDC!
+        slug: meetup-2018-06-14
+        starts_at: '2018-06-14 08:00:00 +0000'
+        ends_at: '2018-06-14 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038691/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+          Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+          Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-06-16
+        starts_at: '2018-06-20 08:00:00 +0000'
+        ends_at: '2018-06-20 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/249968379/
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: 'IBM'
+        location_link: 'https://twitter.com/melbournecocoa/status/966194205122093058'
+        address_display: 'Level 28 Design Hall 2, 60 City Road, Melbourne'
+        address: 'Level 28 Design Hall 2, 60 City Road, Melbourne VIC, 3000'
+        lat: -37.821358
+        lng: 144.966130
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 116'
+        subtitle: |
+          CocoaHeads July 2018
+        slug: meetup-2018-07-12
+        starts_at: '2018-07-12 08:00:00 +0000'
+        ends_at: '2018-07-12 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038730/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 117'
+        subtitle: |
+          CocoaHeads August 2018
+        slug: meetup-2018-08-09
+        starts_at: '2018-08-09 08:00:00 +0000'
+        ends_at: '2018-08-09 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038746/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 118'
+        subtitle: |
+          CocoaHeads September 2018
+        slug: meetup-2018-09-13
+        starts_at: '2018-09-13 08:00:00 +0000'
+        ends_at: '2018-09-13 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038769/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 119'
+        subtitle: |
+          CocoaHeads October 2018
+        slug: meetup-2018-10-11
+        starts_at: '2018-10-11 07:00:00 +0000'
+        ends_at: '2018-10-11 09:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038793/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 120'
+        subtitle: |
+          CocoaHeads November 2018
+        slug: meetup-2018-11-08
+        starts_at: '2018-11-08 07:00:00 +0000'
+        ends_at: '2018-11-08 09:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038819/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 121'
+        subtitle: |
+          CocoaHeads December 2018 - Xmas party
+        slug: meetup-2018-12-13
+        starts_at: '2018-12-13 07:00:00 +0000'
+        ends_at: '2018-12-13 09:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/247038825/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 122'
+        subtitle: |
+          CocoaHeads February 2019
+        slug: meetup-2019-02-13
+        starts_at: '2019-02-14 07:00:00 +0000'
+        ends_at: '2019-02-14 09:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258087796/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+          Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+          Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-07-18
+        starts_at: '2018-07-18 08:00:00 +0000'
+        ends_at: '2018-07-18 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/252426480/
+        contact: 'https://twitter.com/tupps'
+        contact_name: 'Luke Tupper'
+        location: IBM
+        location_link: https://melbournecocoaheads.com
+        address_display: 'Level 28 60 City Road'
+        address: 'Level 28 Design Hall 2, 60 City Road, Melbourne VIC, 3000'
+        lat: -37.821358
+        lng: 144.966130
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+          Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+          Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-08-22
+        starts_at: '2018-08-15 08:00:00 +0000'
+        ends_at: '2018-08-15 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/253203963/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+          Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+          Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-09-19
+        starts_at: '2018-09-19 08:00:00 +0000'
+        ends_at: '2018-09-19 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/253203963/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+          Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+          Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-10-17
+        starts_at: '2018-10-17 07:00:00 +0000'
+        ends_at: '2018-10-17 10:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/253809372/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2018-11-14
+        starts_at: '2018-11-21 07:00:00 +0000'
+        ends_at: '2018-11-21 10:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/253809372/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 123'
+        subtitle: |
+            CocoaHeads March 2019
+        slug: meetup-2019-03-14
+        starts_at: '2019-03-14 07:00:00 +0000'
+        ends_at: '2019-03-14 09:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091042/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 124'
+        subtitle: |
+            CocoaHeads April 2019
+        slug: meetup-2019-04-11
+        starts_at: '2019-04-11 08:00:00 +0000'
+        ends_at: '2019-04-11 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091070/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 125'
+        subtitle: |
+            CocoaHeads May 2019 (Wednesday the 8th!)
+        slug: meetup-2019-05-09
+        starts_at: '2019-05-08 08:00:00 +0000'
+        ends_at: '2019-05-08 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091092/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lat: -37.8153744
+        lng: 144.958427
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 126'
+        subtitle: |
+            CocoaHeads June 2019
+        slug: meetup-2019-06-13
+        starts_at: '2019-06-13 08:00:00 +0000'
+        ends_at: '2019-06-13 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091104/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lng: 144.958427
+        lat: -37.8153744
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 127'
+        subtitle: |
+            CocoaHeads July 2019
+        slug: meetup-2019-07-11
+        starts_at: '2019-07-11 08:00:00 +0000'
+        ends_at: '2019-07-11 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091118/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lng: 144.958427
+        lat: -37.8153744
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 128'
+        subtitle: |
+            CocoaHeads August 2019
+        slug: meetup-2019-08-08
+        starts_at: '2019-08-08 08:00:00 +0000'
+        ends_at: '2019-08-08 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091149/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lng: 144.958427
+        lat: -37.8153744
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 129'
+        subtitle: |
+            CocoaHeads September 2019
+        slug: meetup-2019-09-12
+        starts_at: '2019-09-12 08:00:00 +0000'
+        ends_at: '2019-09-12 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091166/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lng: 144.958427
+        lat: -37.8153744
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 130'
+        subtitle: |
+            CocoaHeads October 2019
+        slug: meetup-2019-10-10
+        starts_at: '2019-10-10 07:00:00 +0000'
+        ends_at: '2019-10-10 09:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091194/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lng: 144.958427
+        lat: -37.8153744
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 131'
+        subtitle: |
+            CocoaHeads November 2019
+        slug: meetup-2019-11-14
+        starts_at: '2019-11-14 07:00:00 +0000'
+        ends_at: '2019-11-14 09:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091221/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lng: 144.958427
+        lat: -37.8153744
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 132'
+        subtitle: |
+            CocoaHeads 2019 Christmas Party
+        slug: meetup-2019-12-12
+        starts_at: '2019-12-12 07:00:00 +0000'
+        ends_at: '2019-12-12 09:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/258091398/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: YBF Ventures
+        location_link: https://ybfventures.com
+        address_display: Level 1, 520 Bourke Street, Melbourne
+        address: Level 1, 520 Bourke Street, Melbourne VIC 3000
+        lng: 144.958427
+        lat: -37.8153744
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-02-20
+        starts_at: '2019-02-20 07:00:00 +0000'
+        ends_at: '2019-02-20 10:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/253809551/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-03-20
+        starts_at: '2019-03-20 07:00:00 +0000'
+        ends_at: '2019-03-20 10:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/253809571/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-04-17
+        starts_at: '2019-04-17 07:00:00 +0000'
+        ends_at: '2019-04-17 10:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/253809564/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-05-15
+        starts_at: '2019-05-15 07:45:00 +0000'
+        ends_at: '2019-05-15 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/261056715/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: special
+        title: 'CocoaHeads 2019 planning meeting'
+        subtitle: |
+            As announced in March, Jesse is stepping down from CocoaHeads from July. This meeting is for interested parties to meet and set roles and responsibitiles for CocoaHeads going forward.
+
+            See the blog post here: https://www.melbournecocoaheads.com/updates/melbourne-cocoaheads-next
+        slug: planning-meeting-2019-04-16
+        starts_at: '2019-04-16 07:45:00 +0000'
+        ends_at: '2019-04-16 9:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/260212858/
+        contact: 'jesse@melbournecocoaheads.com.au'
+        contact_name: 'Jesse Collis'
+        location: Itty Bitty Apps
+        location_link: https://www.ittybittyapps.com
+        address_display: 'Level 6, 84 William St, Melbourne'
+        address: 'Level 6, 84 William St, Melbourne, VIC, 3000'
+        lat: -37.8171325
+        lng: 144.9571
+
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-06-19
+        starts_at: '2019-06-19 07:45:00 +0000'
+        ends_at: '2019-06-19 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/261056728/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-07-17
+        starts_at: '2019-07-17 07:45:00 +0000'
+        ends_at: '2019-07-17 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/261064709/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-08-21
+        starts_at: '2019-08-21 07:45:00 +0000'
+        ends_at: '2019-08-21 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/261064894/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-09-18
+        starts_at: '2019-09-18 07:45:00 +0000'
+        ends_at: '2019-09-18 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/261064991/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-10-16
+        starts_at: '2019-10-16 07:45:00 +0000'
+        ends_at: '2019-10-16 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/261067014/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592
+
+    -
+        type: hacknight
+        title: 'Hack Night'
+        subtitle: |
+            Bring your laptop and your iOS, macOS, tvOS or watchOS project to the CocoaHeads hack night.
+
+            Everyone is welcome to our all-ages alcohol-free event. Hosted in a professional environment to allow you to work on your project. Get help from industry experts who are on hand to help you out.
+        slug: hacknight-2019-11-20
+        starts_at: '2019-11-20 07:45:00 +0000'
+        ends_at: '2019-11-20 11:00:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/261067037/
+        contact: 'https://twitter.com/tupps'
+        contact_name: Luke Tupper
+        location: Cognizant Digital Business
+        location_link: https://melbournecocoaheads.com
+        address_display: Level 6, 15 William Street, Melbourne
+        address: Level 6, 15 William Street, Melbourne VIC 3000
+        lat: -37.819073
+        lng: 144.9592

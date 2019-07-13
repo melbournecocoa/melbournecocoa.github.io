@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+
+<title>{{ .Title }}{{ if eq .IsHome false }} | {{ .Site.Title }}{{ end }}</title>
+
+{{ $summary := trim (plainify (htmlUnescape .Page.Summary)) " \t\n" }}
+{{ $description := cond (ne (len $summary) 0) $summary .Site.Params.Description }}
+
+<meta name="robots" content="all">
+<meta name="author" content="{{ .Site.Params.Author }}">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="{{ .Site.Params.Color }}">
+<meta name="description" content="{{ $description }}">
+
+<link rel="canonical" href="{{ .Permalink }}">
+{{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+
+{{ $sass := resources.Get "scss/style.scss" }}
+{{ $style := $sass | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">

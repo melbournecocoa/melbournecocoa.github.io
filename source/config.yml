@@ -1,0 +1,11 @@
+# ------------------------------------------------------------
+# Site Configuration
+# ------------------------------------------------------------
+
+title: Melbourne CocoaHeads
+baseUrl: https://www.melbournecocoaheads.com
+
+params:
+  color: FFFFFF
+  author: Melbourne Cocoaheads
+  description: The website for Melbourne's longest-running Apple developer community event

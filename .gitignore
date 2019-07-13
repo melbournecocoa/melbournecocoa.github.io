@@ -1,5 +1,8 @@
-/vendor
-/node_modules
-Homestead.yaml
-Homestead.json
+.DS_Store
+
+source/resources/_gen/*
+
+dist/
+dist.zip
+
 .env

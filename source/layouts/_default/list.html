@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main id="list">
+	<h1>{{ .Title }}</h1>
+	<ul>
+		{{ range (.Paginator 4).Pages }}
+		<li>
+			<a href="{{ .Permalink }}">
+				<h1>{{ .Title }}</h1>
+				<time datetime='{{ .Date.Format "2006-01-02T15:04:05-0700" }}"'>{{ .Date.Format "January 2, 2006" }}</time>
+				<p>{{ .Summary | plainify | safeHTML | truncate 180 }}</p>
+			</a>
+		</li>
+		{{ end }}
+	</ul>
+	{{ if .Paginator.HasNext }}
+		<a href="{{ .Paginator.Next.URL }}">Older Posts</a>
+	{{ end }}
+	{{ if .Paginator.HasPrev }}
+		<a href="{{ .Paginator.Prev.URL }}">Newer Posts</a>
+	{{ end }}
+</main>
+{{ end }}

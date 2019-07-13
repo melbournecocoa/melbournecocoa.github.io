@@ -1,0 +1,16 @@
+// ------------------------------------------------------------
+// Styles
+// ------------------------------------------------------------
+
+$baseURL: '{{ .Site.BaseURL }}';
+
+@import 'global/variables';
+@import 'global/base';
+@import 'global/typography';
+
+@import 'partials/header';
+@import 'partials/footer';
+
+@import 'layouts/home';
+@import 'layouts/list';
+@import 'layouts/single';

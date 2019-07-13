@@ -1,0 +1,35 @@
+// ------------------------------------------------------------
+// Base
+// ------------------------------------------------------------
+
+::root {
+	font-size: $font--size;
+	line-height: $font--height;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul, ol, li,
+h1, h2, h3,
+img, video,
+figure, embed,
+p, blockquote, pre {
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+
+html {
+	color: #000000;
+	background-color: #FFFFFF;
+
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
