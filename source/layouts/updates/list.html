@@ -2,10 +2,11 @@
 <main id="list">
 	<h1>{{ .Title }}</h1>
 	<ul>
-		{{ range (.Paginator 4).Pages }}
+		{{ range (.Paginator 5).Pages }}
 		<li>
 			<a href="{{ .Permalink }}">
 				<h1>{{ .Title }}</h1>
+				<h2>{{ .Params.Subtitle }}</h2>
 				<time datetime='{{ .Date.Format "2006-01-02T15:04:05-0700" }}"'>{{ .Date.Format "January 2, 2006" }}</time>
 				<p>{{ .Summary | plainify | safeHTML | truncate 180 }}</p>
 			</a>

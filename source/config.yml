@@ -5,7 +5,10 @@
 title: Melbourne CocoaHeads
 baseUrl: https://www.melbournecocoaheads.com
 
+permalinks:
+  updates: "/updates/:title"
+
 params:
   color: FFFFFF
-  author: Melbourne Cocoaheads
+  author: Melbourne CocoaHeads
   description: The website for Melbourne's longest-running Apple developer community event

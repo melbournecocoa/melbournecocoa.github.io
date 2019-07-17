@@ -1,5 +1,5 @@
 ---
 title: "Livestream"
+layout: "redirect"
+link: "http://www.youtube.com/c/MelbourneCocoaHeads/live"
 ---
-
-This page will link or redirect to the Melbourne CocoaHeads YouTube live stream.
