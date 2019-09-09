@@ -4,7 +4,7 @@ Visit the website at: https://www.melbournecocoaheads.com.
 
 ## Month-to-month updates (June 2019)
 
-The github repository at http://github.com/melbournecocoa/website is setup to automatically deploy Heroku on merges to the master branch. 
+The github repository at http://github.com/melbournecocoa/website is setup to automatically deploy Heroku on merges to the master branch.
 
 - Each month, edit `posts.yml` with a new post
     - Update the front page ordering.
@@ -56,8 +56,8 @@ You can write posts by creating new entries in posts.yml.
 
 Update events.yml with new events in the same format as what's there and you can add more events.
 
-There is a command `cocoa:events-2017` that populates the events.yml with a base set of 2017 events. 
-This will replace the existing file.  
+There is a command `cocoa:events-2017` that populates the events.yml with a base set of 2017 events.
+This will replace the existing file.
 
 ## API
 

@@ -1,4 +1,70 @@
 posts:
+  - title: September 2019 Meetup
+    subtitle: CocoaHeads No. 129
+    created_at: 2019-06-11 00:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2019-06-13
+      - hacknight-2019-06-19
+    body: |
+      <p>We're back once more for September!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <p>
+        <strong>Matt <a href="https://www.twitter.com/mattdelves">@mattdelves</a></strong><br>
+        The Month That Was
+      </p>
+
+      <p>
+        <strong>Ben <a href="https://www.twitter.com/viewDidAppear">@viewDidAppear</a></strong><br>
+        ViewModelのインターフェースを設計する時のコツ
+      </p>
+
+      <p>
+        <strong>Rob <a href="https://www.twitter.com/bok_">@bok_</a></strong><br>
+        Cross-platform apps
+      </p>
+
+      <p>
+        <strong>Huw <a href="https://www.twitter.com/huwr">@huwr</a></strong><br>
+        /dev/world/2019 recap
+      </p>
+
+      <dl>
+        <dt>When</dt>
+        <dd>Thursday 12 September, doors open at 5:45pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:45</dt>
+        <ds>Matt - The Month That Was</dd>
+
+        <dt>6:45 - 7:15</dt>
+        <dd>Ben - ViewModelのインターフェースを設計する時のコツ</dd>
+
+        <dt>7:15 - 7:45</dt>
+        <dd>Rob - Cross-platform apps</dd>
+
+        <dt>7:45 - 8:00</dt>
+        <dd>Break</dd>
+
+        <dt>8:00 - 8:15</dt>
+        <dd>Huw - /dev/world recap</dd>
+
+        <dt>8:15 - 8:30</dt>
+        <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="https://www.melbournecocoaheads.com/live">https://www.melbournecocoaheads.com/live</a>.</p>
   - title: June 2019 Meetup Agenda
     subtitle: CocoaHeads No. 126
     created_at: 2019-06-11 00:00:00 +0
