@@ -14,13 +14,18 @@ posts:
       <h3 class="section-heading">Schedule for this month</h3>
 
       <p>
-        <strong>Yumi <a href="https://www.twitter.com/yumaSoerianto">@yumaSoerianto</a></strong><br>
-        Making an ARKit game
+        <strong>Yuma <a href="https://www.twitter.com/yumaSoerianto">@yumaSoerianto</a></strong><br>
+        Making an Animoji with AR Face Tracking
+      </p>
+      
+      <p>
+        <strong>Gerald <a href="https://www.twitter.com/gerald_kim">@gerald_kim</a></strong><br>
+        RealityKit
       </p>
 
       <p>
         <strong>CocoaHeads Origin Stories</strong><br>
-        Two chairs on stage, where I (Pete G) interview a member of CocoaHeads about what they do now, how they discovered CocoaHeads, their career journey, and how they got interested in computers. Light hearted casual format. Will be conducting three interviews, across a range of experience levels.
+        Where we interview members of CocoaHeads about what they do now, how they discovered CocoaHeads, their career journey, and how they got interested in computers. Light hearted casual format.
       </p>
 
       <dl>
@@ -40,14 +45,14 @@ posts:
         <dt>6:40 - 7:10</dt>
         <dd>Yuma - Making an ARKit game</dd>
 
-        <dt>7:15 - 7:45</dt>
-        <dd>Cocoaheads Origin Stories - Interview 1&2</dd>
+        <dt>7:15 - 7:30</dt>
+        <dd>Geral - RealityKit</dd>
 
-        <dt>7:45 - 8:00</dt>
+        <dt>7:30 - 7:45</dt>
         <dd>Break</dd>
 
-        <dt>8:00 - 8:15</dt>
-        <dd>Cocoaheads Origin Stories - Interview 3</dd>
+        <dt>7:45 - 8:15</dt>
+        <dd>Cocoaheads Origin Stories</dd>
 
         <dt>8:15 - 8:30</dt>
         <dd>Discussions & Finish up</dd>
