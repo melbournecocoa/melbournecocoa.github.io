@@ -1,8 +1,50 @@
 posts:
+  - title: November 2019 Meetup
+    subtitle: CocoaHeads No. 131
+    created_at: 2019-11-07 00:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2019-11-14
+      - hacknight-2019-10-16
+    body: |
+      <p>November is here!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:40</dt>
+        <ds>Welcome and Introductions</dd>
+
+        <dt>6:40 - 7:00</dt>
+        <dd>A programmer's guide for DIY App Store videos - Mike Monaghan</dd>
+		<dd>Based on his experience writing apps and producing videos for the App Store, Mike will share tips around the planning, recording and production of video content for your apps.</dd>
+		
+        <dt>7:10 - 7:30</dt>
+        <dd>Recommendation at Redbubble - Zoe Wen & Karl Grieser</dd>
+		<dd>Redbubble was founded in 2007 with the mission of becoming the world's largest marketplace for independent artists, bringing more creativity into the world. Today, Redbubble has grown to host in excess of 20 million+ art works across 700,000+ artists. To allow users to explore, engage with and purchase from our vast collection of artworks, the Redbubble iOS and Data Science teams put a lot of time and effort into making sure the content presented to users is exactly what they're interested in, across a variety of experiences. This talk will provide an overview of how the Redbubble iOS app creates personalised experiences for our users using a distributed recommendation architecture.</dd>	
+
+        <dt>Break</dt>
+
+        <dt>7:40 - 8:00</dt>
+        <dd>Lightning talks</dd>
+        <dd>UI Testing on iOS - Vignesh Sankaran</dd>
+        <dd>An overview on how to set up UI tests, and tips and tricks for writing them</dd>
+
+        <dt>8:00 - 8:10</dt>
+        <dd>Discussions & Wrap up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="https://www.melbournecocoaheads.com/live">https://www.melbournecocoaheads.com/live</a>.</p>
   - title: October 2019 Meetup
     subtitle: CocoaHeads No. 130
     created_at: 2019-10-09 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2019-10-10
       - hacknight-2019-10-16
@@ -63,7 +105,7 @@ posts:
   - title: September 2019 Meetup
     subtitle: CocoaHeads No. 129
     created_at: 2019-09-09 00:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2019-09-12
       - hacknight-2019-09-18
@@ -129,7 +171,7 @@ posts:
   - title: June 2019 Meetup Agenda
     subtitle: CocoaHeads No. 126
     created_at: 2019-06-11 00:00:00 +0
-    frontpage: 3
+    frontpage: 4
     events:
       - meetup-2019-06-13
       - hacknight-2019-06-19
@@ -198,7 +240,7 @@ posts:
   - title: May 2019 Meetup Agenda
     subtitle: CocoaHeads No. 125
     created_at: 2019-05-01 00:00:00 +0
-    frontpage: 4
+    frontpage: 5
     events:
       - meetup-2019-05-09
       - hacknight-2019-05-15
@@ -259,7 +301,7 @@ posts:
     subtitle: So long and thanks for all the Pizza
     created_at: 2019-03-24 06:00:00 +0
     coverImage: /img/posts/2019-03/CHxjOqZUcAA2v-K.jpg
-    frontpage: 5
+    frontpage: 0
     events:
       - meetup-2019-04-11
       - planning-meeting-2019-04-16
