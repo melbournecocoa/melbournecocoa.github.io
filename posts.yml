@@ -1,8 +1,60 @@
 posts:
+  - title: February 2020 Meetup
+    subtitle: CocoaHeads No. 133
+    created_at: 2020-02-11 00:00:00 +0
+    frontpage: 1
+    events:
+      - meetup-2019-02-13
+      - hacknight-2020-02-19
+    body: |
+      <p>First Melbourne Cocoaheads meetup of the decade!!</p>
+
+      <p>Come to our meetup night and get a chance to be our lucky giveaway winner!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:45</dt>
+        <ds>Welcome and Introductions</dd>
+
+        <dt>6:45 - 7:05</dt>
+        <dd>Sharing Swift Across Your Backend, Frontend, and Build Pipeline - Rob Amos</dd>
+        <dd>Rob has been in IT for far too long and has worked almost every job in the industry (except, thankfully, DBA or Storage Admin). These days he splits his time between his two favourite jobs: iOS Developer and AWS Solution Architect; combining them into Copilot. An iOS/macOS app replacement for the AWS Management Console.</dd>
+        <dd>With the advent of Swift on the Server, its now possible to share your Swift code across your entire stack. Rob runs through two practical examples of what you can do with this, diving into key points of the source, which will be available on GitHub.</dd>
+
+        <dt>7:05 - 7:15</dt>
+        <dd>Lightning talks</dd>
+        <dd>Swift Property Wrappers - Claire Kugelman</dd>
+        <dd>Claire will deliver a lightning talk about an introduction to property wrappers and their application.</dd>
+
+        <dt>Break</dt>
+
+        <dt>7:25 - 7:45</dt>
+        <dd>SwiftUI and SVG, a love story - Matt Delves</dd>
+        <dd>Matt is a product minded iOS and macOS developer who loves solving user problems. He enjoys working on interesting and innovative design that is a delight for the user. When not working he's often found cycling around Melbourne looking for tough hills to climb.</dd>
+        <dd>His talk is about handling images in your apps by using SVG and SwiftUI</dd>
+
+        <dt>7:45 - 7:50</dt>
+        <dd>Giveaway winners announcement</dd>
+
+        <dt>7:50 - 8:05</dt>
+        <dd>Discussions & Wrap up</dd>
+
+        <dt>8:05 - Finish</dt>
+        <dd>After drinks at The Bourke St Green (501 Bourke St)</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">http://www.youtube.com/c/MelbourneCocoaHeads/live</a>.</p>
   - title: November 2019 Meetup
     subtitle: CocoaHeads No. 131
     created_at: 2019-11-07 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2019-11-14
       - hacknight-2019-10-16
@@ -44,7 +96,7 @@ posts:
   - title: October 2019 Meetup
     subtitle: CocoaHeads No. 130
     created_at: 2019-10-09 00:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2019-10-10
       - hacknight-2019-10-16
@@ -105,7 +157,7 @@ posts:
   - title: September 2019 Meetup
     subtitle: CocoaHeads No. 129
     created_at: 2019-09-09 00:00:00 +0
-    frontpage: 3
+    frontpage: 4
     events:
       - meetup-2019-09-12
       - hacknight-2019-09-18
@@ -171,7 +223,7 @@ posts:
   - title: June 2019 Meetup Agenda
     subtitle: CocoaHeads No. 126
     created_at: 2019-06-11 00:00:00 +0
-    frontpage: 4
+    frontpage: 5
     events:
       - meetup-2019-06-13
       - hacknight-2019-06-19
@@ -240,7 +292,7 @@ posts:
   - title: May 2019 Meetup Agenda
     subtitle: CocoaHeads No. 125
     created_at: 2019-05-01 00:00:00 +0
-    frontpage: 5
+    frontpage: 0
     events:
       - meetup-2019-05-09
       - hacknight-2019-05-15
