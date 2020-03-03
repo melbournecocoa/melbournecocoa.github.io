@@ -25,6 +25,10 @@ Route::get('/code-of-conduct', ['as' => 'coc', function () {
     return view('code-of-conduct');
 }]);
 
+Route::get('/sponsorship', ['as' => 'sponsorship', function () {
+    return view('sponsorship');
+}]);
+
 Route::get('/live', function () {
     return response('', 303)->header('location', 'http://www.youtube.com/c/MelbourneCocoaHeads/live');
 });

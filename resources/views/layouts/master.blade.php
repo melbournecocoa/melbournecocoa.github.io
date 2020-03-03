@@ -72,6 +72,9 @@
                 <li>
                     <a href="{{ route('talks') }}">Submit a Talk</a>
                 </li>
+                <li>
+                    <a href="{{ route('sponsorship') }}">Sponsorship</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
