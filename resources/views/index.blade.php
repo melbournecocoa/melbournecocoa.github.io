@@ -53,19 +53,19 @@
             <h3>Silver Sponsors</h3>
         </div>
         <div class="row text-center">
-            <div class="col-lg-4 vcenter">
+            <div class="col vcenter">
                 <a href="https://www.latitudefinancial.com.au">
                     <img src="/img/sponsors/Latitude_Financial_Services_Logo.png" height="112px" class="mr-3" alt="Latitude Financial Services">
                 </a>
             </div>
-            <div class="col-lg-4 vcenter">
+            <div class="col vcenter">
                 <a href="https://www.cognizant.com/en-au">
-                    <img src="/img/sponsors/Cognizant-logo.png" height="72px" class="mr-3" alt="Cognizant">
+                    <img src="/img/sponsors/Cognizant-logo.png" height="64px" class="mr-3" alt="Cognizant">
                 </a>
             </div>
-            <div class="col-lg-4 vcenter">
+            <div class="col vcenter">
                     <a href="https://realestate.com.au">
-                    <img src="/img/sponsors/reagroup.png" height="72px" class="mr-3" alt="REA Group">
+                    <img src="/img/sponsors/reagroup.png" height="64px" class="mr-3" alt="REA Group">
                 </a>
             </div>
         </div>
