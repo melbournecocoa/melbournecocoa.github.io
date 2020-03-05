@@ -43,45 +43,30 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <h1 class="text-center">Thank you to our Sponsors</h1>
-            <p class="text-center"><b>Gold Sponsor</b> &nbsp; &nbsp;
-                <a href="https://www.ittybittyapps.com"><img src="/img/sponsors/IttyBittyApps.png" height="128px" class="mr-3" alt="IttyBittyApps"></a>&nbsp;&nbsp;<a href="https://www.ittybittyapps.com">Itty Bitty Apps</a>.</p>
+            <div class="row text-center">
+                <h2 class="text-center">Thank you to our Sponsors</h1>
+                <h3>Gold Sponsor</h3>
+                <a href="https://www.ittybittyapps.com"><img src="/img/sponsors/IttyBittyApps.png" height="128px" class="mr-3" alt="IttyBittyApps"></a>
+            </div>
         </div>
-        <div class="row">
-            <p class="text-center"><b>Silver Sponsors</b></p>
+        <div class="row text-center">
+            <h3>Silver Sponsors</h3>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="row text-center">
-                        <a href="https://www.latitudefinancial.com.au">
-                            <img src="/img/sponsors/Latitude_Financial_Services_Logo.png" height="96px" class="mr-3" alt="Latitude Financial Services">
-                        </a>
-                    </div>
-                    <div class="row text-center">
-                        <a href="https://www.latitudefinancial.com.au">Latitude Financial Services</a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="row text-center">
-                        <a href="https://www.cognizant.com/en-au">
-                            <img src="/img/sponsors/Cognizant-logo.png" height="48px" class="mr-3" alt="Cognizant">
-                        </a>
-                    </div>
-                    <div class="row text-center">
-                        <a href="https://www.cognizant.com/en-au">Cognizant Australia</a>.
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="row text-center">
-                        <a href="https://realestate.com.au">
-                            <img src="/img/sponsors/realestate.jpg" height="64px" class="mr-3" alt="REA Group">
-                        </a>
-                    </div>
-                    <div class="row text-center">
-                        <a href="https://realestate.com.au">REA Group Ltd</a>.
-                    </div>
-                </div>
+        <div class="row text-center">
+            <div class="col-lg-4 vcenter">
+                <a href="https://www.latitudefinancial.com.au">
+                    <img src="/img/sponsors/Latitude_Financial_Services_Logo.png" height="112px" class="mr-3" alt="Latitude Financial Services">
+                </a>
+            </div>
+            <div class="col-lg-4 vcenter">
+                <a href="https://www.cognizant.com/en-au">
+                    <img src="/img/sponsors/Cognizant-logo.png" height="72px" class="mr-3" alt="Cognizant">
+                </a>
+            </div>
+            <div class="col-lg-4 vcenter">
+                    <a href="https://realestate.com.au">
+                    <img src="/img/sponsors/reagroup.png" height="72px" class="mr-3" alt="REA Group">
+                </a>
             </div>
         </div>
 
