@@ -1,8 +1,53 @@
 posts:
+  - title: March 2020 Meetup
+    subtitle: CocoaHeads No. 134
+    created_at: 2020-03-10 00:00:00 +0
+    frontpage: 1
+    events: 
+      - meetup-2020-03-12
+      - hacknight-2020-03-18
+    body: |
+      <p>Our regular monthly presentation night on the second Thursday of the month from 6pm.</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:45</dt>
+        <ds>Welcome and Introductions</dd>
+
+        <dt></dt>
+        <ds>🐜 A Bug Story: Tale of Two Clocks - Pete Goldsmith</dd>
+
+        <dt></dt>
+        <ds>🧼 Clean Swift Architecture - Ojas Chimane</dd>
+
+        <dt></dt>
+        <ds>🌚 Supporting Dark Mode - Jarrod Robbins</dd>
+
+        <dt>7:50 - 8:05</dt>
+        <dd>Wrap up</dd>
+
+        <dt>8:05 - Finish</dt>
+        <dd>After drinks at The Bourke St Green (501 Bourke St)</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">http://www.youtube.com/c/MelbourneCocoaHeads/live</a>.</p>
+
+      <h3 class="section-heading">Important Notice Regarding Coronavirus (CoViD-19)</h3>
+      <p>Following advice from the government, if you have travelled to high-risk areas (China, Iran, Italy, South Korea, Japan, Mongolia, parts of the US) in the last 2 weeks, or if you’re feeling unwell (even a mild cough and low-grade fever), please consider watching the live stream instead of attending.</p>
+      <p>More information: https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert</p>
+      <p>We will encourage touch-free networking: when you see someone you know or meet a new person, please avoid hugging or shaking hands, instead, just say hi, wave, nod or employ any other kind of touch-free greeting.</p>
+
   - title: February 2020 Meetup
     subtitle: CocoaHeads No. 133
     created_at: 2020-02-11 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2019-02-13
       - hacknight-2020-02-19
@@ -54,7 +99,7 @@ posts:
   - title: November 2019 Meetup
     subtitle: CocoaHeads No. 131
     created_at: 2019-11-07 00:00:00 +0
-    frontpage: 2
+    frontpage: 3
     events:
       - meetup-2019-11-14
       - hacknight-2019-10-16
@@ -96,7 +141,7 @@ posts:
   - title: October 2019 Meetup
     subtitle: CocoaHeads No. 130
     created_at: 2019-10-09 00:00:00 +0
-    frontpage: 3
+    frontpage: 4
     events:
       - meetup-2019-10-10
       - hacknight-2019-10-16
@@ -157,7 +202,7 @@ posts:
   - title: September 2019 Meetup
     subtitle: CocoaHeads No. 129
     created_at: 2019-09-09 00:00:00 +0
-    frontpage: 4
+    frontpage: 5
     events:
       - meetup-2019-09-12
       - hacknight-2019-09-18
@@ -223,7 +268,7 @@ posts:
   - title: June 2019 Meetup Agenda
     subtitle: CocoaHeads No. 126
     created_at: 2019-06-11 00:00:00 +0
-    frontpage: 5
+    frontpage: 0
     events:
       - meetup-2019-06-13
       - hacknight-2019-06-19
