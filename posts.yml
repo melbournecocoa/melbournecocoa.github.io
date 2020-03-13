@@ -1,8 +1,21 @@
 posts:
+  - title: March Events Cancelled
+    subtitle: Hack Night and Drinks Night Cancelled
+    created_at: 2020-03-13 07:22:00 +0
+    frontpage: 1
+    body: |
+      <p>Melbourne CocoaHeads has taken the decision to cancel its remaining events for March 2020.</p>
+      <p>As I'm sure everyone has, our team of volunteers has watched the COVID-19 situation escalate over the past few days and while there has been no advice yet from Victoria's Chief Medical Officer to avoid social events there is also no evidence that the worst is behind us. The experience of other countries suggests it is still to come.</p>
+      <p>In light of this we have been in discussion with our venues and partners over at GDG Melbourne about our ongoing events and we have come to the decision to cancel next week's Hack Night and the Drinks Night in the following week.</p>
+      <p>At this time we are not cancelling events in April and beyond, but the situation would need to be vastly improved before we will make a decision to go ahead with them. We are also looking into options to take these events online when possible. If you have any ideas for what we could do for an online only event or want to be a part in putting one together please join us in <a href="https://slack.melbournecocoaheads.com" target="_blank">#volunteers on Slack</a>.</a>
+      <p>We'd like to take this opportunity to invite everyone to join us on <a href="https://slack.melbournecocoaheads.com" target="_blank">Slack</a>; which has a number of great channels to discuss Apple's platforms and technologies, as well as ask questions, look for work and help out with the running of Melbourne CocoaHeads.</p>
+      <p>You can also follow us on Twitter (<a href="https://twitter.com/melbournecocoa" target="_blank">@melbournecocoa</a>) to connect with the community.</p>
+      <p>We hope everyone takes all necessary precautions to look after themselves and stays healthy.</p>
+
   - title: March 2020 Meetup
     subtitle: CocoaHeads No. 134
     created_at: 2020-03-10 00:00:00 +0
-    frontpage: 1
+    frontpage: 2
     events: 
       - meetup-2020-03-12
       - hacknight-2020-03-18
