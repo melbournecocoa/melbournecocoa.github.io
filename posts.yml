@@ -1,32 +1,32 @@
 posts:
   - title: April 2020 Online Meetup
-  subtitle: CocoaHeads No. 135
-  created_at: 2020-05-08 07:30:00 +0
-  frontpage: 1
-  events:
-    - meetup-2020-05-09
-  body: |
-    <p>Our regular monthly presentation night on the second Thursday of the month from 6.30pm. Now online via <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">YouTube</a> and #meetup on <a href="https://slack.melbournecocoaheads.com/">Slack</a>!</p>
+    subtitle: CocoaHeads No. 135
+    created_at: 2020-05-08 07:30:00 +0
+    frontpage: 1
+    events:
+      - meetup-2020-05-09
+    body: |
+      <p>Our regular monthly presentation night on the second Thursday of the month from 6.30pm. Now online via <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">YouTube</a> and #meetup on <a href="https://slack.melbournecocoaheads.com/">Slack</a>!</p>
 
-    <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">channel</a>. </p>
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">channel</a>. </p>
 
-    <h3 class="section-heading">Schedule for this month</h3>
+      <h3 class="section-heading">Schedule for this month</h3>
 
-    <dl>
+      <dl>
 
-      <dt>Tim Oliver</dt>
-      <ds>Automating your releases with Buildkite</dd>
+        <dt>Tim Oliver</dt>
+        <ds>Automating your releases with Buildkite</dd>
 
-      <dt>Adam Weiss</dt>
-      <ds>Lockdown Communications: How to Meet, Pitch, and Collaborate Via Videoconferencing</dd>
+        <dt>Adam Weiss</dt>
+        <ds>Lockdown Communications: How to Meet, Pitch, and Collaborate Via Videoconferencing</dd>
 
-    </dl>
+      </dl>
 
-    <h3 class="section-heading">Discussion</h3>
-    <p>All audience and presenter interaction will happen in the #meetup channel in the Melbourne CocoaHeads Slack group. Feel free to join us in the <a href="https://slack.melbournecocoaheads.com/">slack channel</a> prior to and after the presentation night.</p>
+      <h3 class="section-heading">Discussion</h3>
+      <p>All audience and presenter interaction will happen in the #meetup channel in the Melbourne CocoaHeads Slack group. Feel free to join us in the <a href="https://slack.melbournecocoaheads.com/">slack channel</a> prior to and after the presentation night.</p>
 
-    <h3 class="section-heading">Live Streaming</h3>
-    <p>We will be live streaming the presentations from the start time. Stream will be up at <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">http://www.youtube.com/c/MelbourneCocoaHeads/live</a>.</p>
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from the start time. Stream will be up at <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">http://www.youtube.com/c/MelbourneCocoaHeads/live</a>.</p>
 
   - title: March Events Cancelled
     subtitle: Hack Night and Drinks Night Cancelled
