@@ -6,7 +6,7 @@
 @section('title', 'Melbourne CocoaHeads')
 
 @section('subtitle')
-    <!-- @if($meetup)
+    @if($meetup)
         <p class="subheading">
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
             <a href="{{ $meetup->url }}" style="color:white">Next Meetup</a> &rarr; {{ $meetup->getFormattedTimeAttribute() }}
@@ -36,12 +36,7 @@
             <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
             No upcoming Hack Nights scheduled.
         </p>
-    @endif -->
-
-    <p class="subheading" style="padding-top: 10px;">
-        Melbourne CocoaHeads has taken the decision to cancel our remaining March events in light of the spread of COVID-19.<br />
-        <a class="btn btn-danger" style="margin-top: 20px; text-decoration: none;" href="/updates/march-events-cancelled" role="button">Read More &raquo;</a>
-    </p>
+    @endif
 @endsection
 
 
