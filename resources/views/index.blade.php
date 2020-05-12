@@ -59,18 +59,8 @@
                 </a>
             </div>
             <div class="col vcenter">
-                <a href="https://www.cognizant.com/en-au">
-                    <img src="/img/sponsors/Cognizant-logo.png" height="64px" class="mr-3" alt="Cognizant">
-                </a>
-            </div>
-            <div class="col vcenter">
                     <a href="https://realestate.com.au">
                     <img src="/img/sponsors/reagroup.png" height="64px" class="mr-3" alt="REA Group">
-                </a>
-            </div>
-            <div class="col vcenter">
-                    <a href="https://www.appscore.com.au">
-                    <img src="/img/sponsors/appscore.png" height="64px" class="mr-3" alt="appscore">
                 </a>
             </div>
         </div>
