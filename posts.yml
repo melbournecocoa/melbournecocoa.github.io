@@ -1,8 +1,37 @@
 posts:
+  - title: May 2020 Online Meetup
+    subtitle: CocoaHeads No. 136
+    created_at: 2020-05-08 07:30:00 +0
+    frontpage: 1
+    events:
+      - meetup-2020-05-09
+    body: |
+      <p>Our regular monthly presentation night on the second Thursday of the month from 6.30pm. Now online via <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">YouTube</a> and #meetup on <a href="https://slack.melbournecocoaheads.com/">Slack</a>!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <dl>
+
+      <dt>Pete Goldsmith - @_petegoldsmith</dt>
+      <ds>The Month That Was</dd>
+
+      <dt>Anthony Agius - @decryption</dt>
+      <ds>Archiving Old Stuff</dd>
+
+      </dl>
+
+      <h3 class="section-heading">Discussion</h3>
+      <p>All audience and presenter interaction will happen in the #meetup channel in the Melbourne CocoaHeads Slack group. Feel free to join us in the <a href="https://slack.melbournecocoaheads.com/">slack channel</a> prior to and after the presentation night.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from the start time. Stream will be up at <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">http://www.youtube.com/c/MelbourneCocoaHeads/live</a>.</p>
+
   - title: April 2020 Online Meetup
     subtitle: CocoaHeads No. 135
     created_at: 2020-04-08 07:30:00 +0
-    frontpage: 1
+    frontpage: 2
     events:
       - meetup-2020-04-09
     body: |
@@ -31,7 +60,7 @@ posts:
   - title: March Events Cancelled
     subtitle: Hack Night and Drinks Night Cancelled
     created_at: 2020-03-13 07:22:00 +0
-    frontpage: 2
+    frontpage: 3
     body: |
       <p>Melbourne CocoaHeads has taken the decision to cancel its remaining events for March 2020.</p>
       <p>As I'm sure everyone has, our team of volunteers has watched the COVID-19 situation escalate over the past few days and while there has been no advice yet from Victoria's Chief Medical Officer to avoid social events there is also no evidence that the worst is behind us. The experience of other countries suggests it is still to come.</p>
@@ -44,8 +73,8 @@ posts:
   - title: March 2020 Meetup
     subtitle: CocoaHeads No. 134
     created_at: 2020-03-10 00:00:00 +0
-    frontpage: 3
-    events: 
+    frontpage: 4
+    events:
       - meetup-2020-03-12
       - hacknight-2020-03-18
     body: |
@@ -89,7 +118,7 @@ posts:
   - title: February 2020 Meetup
     subtitle: CocoaHeads No. 133
     created_at: 2020-02-11 00:00:00 +0
-    frontpage: 4
+    frontpage: 5
     events:
       - meetup-2019-02-13
       - hacknight-2020-02-19
@@ -141,7 +170,7 @@ posts:
   - title: November 2019 Meetup
     subtitle: CocoaHeads No. 131
     created_at: 2019-11-07 00:00:00 +0
-    frontpage: 5
+    frontpage: 6
     events:
       - meetup-2019-11-14
       - hacknight-2019-10-16
@@ -183,7 +212,7 @@ posts:
   - title: October 2019 Meetup
     subtitle: CocoaHeads No. 130
     created_at: 2019-10-09 00:00:00 +0
-    frontpage: 6
+    frontpage: 7
     events:
       - meetup-2019-10-10
       - hacknight-2019-10-16
@@ -198,7 +227,7 @@ posts:
         <strong>Yuma <a href="https://www.twitter.com/yumaSoerianto">@yumaSoerianto</a></strong><br>
         Making an Animoji with AR Face Tracking
       </p>
-      
+
       <p>
         <strong>Gerald <a href="https://www.twitter.com/gerald_kim">@gerald_kim</a></strong><br>
         RealityKit
@@ -244,7 +273,7 @@ posts:
   - title: September 2019 Meetup
     subtitle: CocoaHeads No. 129
     created_at: 2019-09-09 00:00:00 +0
-    frontpage: 7
+    frontpage: 8
     events:
       - meetup-2019-09-12
       - hacknight-2019-09-18
@@ -310,7 +339,7 @@ posts:
   - title: June 2019 Meetup Agenda
     subtitle: CocoaHeads No. 126
     created_at: 2019-06-11 00:00:00 +0
-    frontpage: 8
+    frontpage: 9
     events:
       - meetup-2019-06-13
       - hacknight-2019-06-19
