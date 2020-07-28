@@ -92,6 +92,24 @@ main, article {
     margin: 2rem 1rem 4rem;
 }
 
+/* Home Layout (_default/home.html) */
+/* ---------------------------------------- */
+
+#home {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#home section {
+    height: 16rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background-secondary);
+}
+
 /* Header Partial (_partials/header.html) */
 /* ---------------------------------------- */
 
@@ -185,6 +203,21 @@ main, article {
         max-width: var(--width-site);
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #home {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #home section {
+        height: 20rem;
+        width: calc(50% - 0.5rem);
+    }
+
+    #home .full {
+        width: 100%;
     }
     
     #header {
