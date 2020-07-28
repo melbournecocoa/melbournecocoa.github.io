@@ -1,8 +1,345 @@
 posts:
+  - title: May 2020 Online Meetup
+    subtitle: CocoaHeads No. 136
+    created_at: 2020-05-08 07:30:00 +0
+    frontpage: 1
+    events:
+      - meetup-2020-05-09
+    body: |
+      <p>Our regular monthly presentation night on the second Thursday of the month from 6.30pm. Now online via <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">YouTube</a> and #meetup on <a href="https://slack.melbournecocoaheads.com/">Slack</a>!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <dl>
+
+      <dt>Pete Goldsmith - @_petegoldsmith</dt>
+      <ds>The Month That Was</dd>
+
+      <dt>Anthony Agius - @decryption</dt>
+      <ds>Archiving Old Stuff</dd>
+
+      </dl>
+
+      <h3 class="section-heading">Discussion</h3>
+      <p>All audience and presenter interaction will happen in the #meetup channel in the Melbourne CocoaHeads Slack group. Feel free to join us in the <a href="https://slack.melbournecocoaheads.com/">slack channel</a> prior to and after the presentation night.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from the start time. Stream will be up at <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">http://www.youtube.com/c/MelbourneCocoaHeads/live</a>.</p>
+
+  - title: April 2020 Online Meetup
+    subtitle: CocoaHeads No. 135
+    created_at: 2020-04-08 07:30:00 +0
+    frontpage: 2
+    events:
+      - meetup-2020-04-09
+    body: |
+      <p>Our regular monthly presentation night on the second Thursday of the month from 6.30pm. Now online via <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">YouTube</a> and #meetup on <a href="https://slack.melbournecocoaheads.com/">Slack</a>!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <dl>
+
+        <dt>Tim Oliver</dt>
+        <ds>Automating your releases with Buildkite</dd>
+
+        <dt>Adam Weiss</dt>
+        <ds>Lockdown Communications: How to Meet, Pitch, and Collaborate Via Videoconferencing</dd>
+
+      </dl>
+
+      <h3 class="section-heading">Discussion</h3>
+      <p>All audience and presenter interaction will happen in the #meetup channel in the Melbourne CocoaHeads Slack group. Feel free to join us in the <a href="https://slack.melbournecocoaheads.com/">slack channel</a> prior to and after the presentation night.</p>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from the start time. Stream will be up at <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">http://www.youtube.com/c/MelbourneCocoaHeads/live</a>.</p>
+
+  - title: March Events Cancelled
+    subtitle: Hack Night and Drinks Night Cancelled
+    created_at: 2020-03-13 07:22:00 +0
+    frontpage: 3
+    body: |
+      <p>Melbourne CocoaHeads has taken the decision to cancel its remaining events for March 2020.</p>
+      <p>As I'm sure everyone has, our team of volunteers has watched the COVID-19 situation escalate over the past few days and while there has been no advice yet from Victoria's Chief Medical Officer to avoid social events there is also no evidence that the worst is behind us. The experience of other countries suggests it is still to come.</p>
+      <p>In light of this we have been in discussion with our venues and partners over at GDG Melbourne about our ongoing events and we have come to the decision to cancel next week's Hack Night and the Drinks Night in the following week.</p>
+      <p>At this time we are not cancelling events in April and beyond, but the situation would need to be vastly improved before we will make a decision to go ahead with them. We are also looking into options to take these events online when possible. If you have any ideas for what we could do for an online only event or want to be a part in putting one together please join us in <a href="https://slack.melbournecocoaheads.com" target="_blank">#volunteers on Slack</a>.</a>
+      <p>We'd like to take this opportunity to invite everyone to join us on <a href="https://slack.melbournecocoaheads.com" target="_blank">Slack</a>; which has a number of great channels to discuss Apple's platforms and technologies, as well as ask questions, look for work and help out with the running of Melbourne CocoaHeads.</p>
+      <p>You can also follow us on Twitter (<a href="https://twitter.com/melbournecocoa" target="_blank">@melbournecocoa</a>) to connect with the community.</p>
+      <p>We hope everyone takes all necessary precautions to look after themselves and stays healthy.</p>
+
+  - title: March 2020 Meetup
+    subtitle: CocoaHeads No. 134
+    created_at: 2020-03-10 00:00:00 +0
+    frontpage: 4
+    events:
+      - meetup-2020-03-12
+      - hacknight-2020-03-18
+    body: |
+      <p>Our regular monthly presentation night on the second Thursday of the month from 6pm.</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:45</dt>
+        <ds>Welcome and Introductions</dd>
+
+        <dt></dt>
+        <ds>🐜 A Bug Story: Tale of Two Clocks - Pete Goldsmith</dd>
+
+        <dt></dt>
+        <ds>🧼 Clean Swift Architecture - Ojas Chimane</dd>
+
+        <dt></dt>
+        <ds>🌚 Supporting Dark Mode - Jarrod Robbins</dd>
+
+        <dt>7:50 - 8:05</dt>
+        <dd>Wrap up</dd>
+
+        <dt>8:05 - Finish</dt>
+        <dd>After drinks at The Bourke St Green (501 Bourke St)</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">http://www.youtube.com/c/MelbourneCocoaHeads/live</a>.</p>
+
+      <h3 class="section-heading">Important Notice Regarding Coronavirus (CoViD-19)</h3>
+      <p>Following advice from the government, if you have travelled to high-risk areas (China, Iran, Italy, South Korea, Japan, Mongolia, parts of the US) in the last 2 weeks, or if you’re feeling unwell (even a mild cough and low-grade fever), please consider watching the live stream instead of attending.</p>
+      <p>More information: https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert</p>
+      <p>We will encourage touch-free networking: when you see someone you know or meet a new person, please avoid hugging or shaking hands, instead, just say hi, wave, nod or employ any other kind of touch-free greeting.</p>
+
+  - title: February 2020 Meetup
+    subtitle: CocoaHeads No. 133
+    created_at: 2020-02-11 00:00:00 +0
+    frontpage: 5
+    events:
+      - meetup-2019-02-13
+      - hacknight-2020-02-19
+    body: |
+      <p>First Melbourne Cocoaheads meetup of the decade!!</p>
+
+      <p>Come to our meetup night and get a chance to be our lucky giveaway winner!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:45</dt>
+        <ds>Welcome and Introductions</dd>
+
+        <dt>6:45 - 7:05</dt>
+        <dd>Sharing Swift Across Your Backend, Frontend, and Build Pipeline - Rob Amos</dd>
+        <dd>Rob has been in IT for far too long and has worked almost every job in the industry (except, thankfully, DBA or Storage Admin). These days he splits his time between his two favourite jobs: iOS Developer and AWS Solution Architect; combining them into Copilot. An iOS/macOS app replacement for the AWS Management Console.</dd>
+        <dd>With the advent of Swift on the Server, its now possible to share your Swift code across your entire stack. Rob runs through two practical examples of what you can do with this, diving into key points of the source, which will be available on GitHub.</dd>
+
+        <dt>7:05 - 7:15</dt>
+        <dd>Lightning talks</dd>
+        <dd>Swift Property Wrappers - Claire Kugelman</dd>
+        <dd>Claire will deliver a lightning talk about an introduction to property wrappers and their application.</dd>
+
+        <dt>Break</dt>
+
+        <dt>7:25 - 7:45</dt>
+        <dd>SwiftUI and SVG, a love story - Matt Delves</dd>
+        <dd>Matt is a product minded iOS and macOS developer who loves solving user problems. He enjoys working on interesting and innovative design that is a delight for the user. When not working he's often found cycling around Melbourne looking for tough hills to climb.</dd>
+        <dd>His talk is about handling images in your apps by using SVG and SwiftUI</dd>
+
+        <dt>7:45 - 7:50</dt>
+        <dd>Giveaway winners announcement</dd>
+
+        <dt>7:50 - 8:05</dt>
+        <dd>Discussions & Wrap up</dd>
+
+        <dt>8:05 - Finish</dt>
+        <dd>After drinks at The Bourke St Green (501 Bourke St)</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="http://www.youtube.com/c/MelbourneCocoaHeads/live">http://www.youtube.com/c/MelbourneCocoaHeads/live</a>.</p>
+  - title: November 2019 Meetup
+    subtitle: CocoaHeads No. 131
+    created_at: 2019-11-07 00:00:00 +0
+    frontpage: 0
+    events:
+      - meetup-2019-11-14
+      - hacknight-2019-10-16
+    body: |
+      <p>November is here!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:40</dt>
+        <ds>Welcome and Introductions</dd>
+
+        <dt>6:40 - 7:00</dt>
+        <dd>A programmer's guide for DIY App Store videos - Mike Monaghan</dd>
+        <dd>Based on his experience writing apps and producing videos for the App Store, Mike will share tips around the planning, recording and production of video content for your apps.</dd>
+
+        <dt>7:10 - 7:30</dt>
+        <dd>Recommendation at Redbubble - Zoe Wen & Karl Grieser</dd>
+        <dd>Redbubble was founded in 2007 with the mission of becoming the world's largest marketplace for independent artists, bringing more creativity into the world. Today, Redbubble has grown to host in excess of 20 million+ art works across 700,000+ artists. To allow users to explore, engage with and purchase from our vast collection of artworks, the Redbubble iOS and Data Science teams put a lot of time and effort into making sure the content presented to users is exactly what they're interested in, across a variety of experiences. This talk will provide an overview of how the Redbubble iOS app creates personalised experiences for our users using a distributed recommendation architecture.</dd>
+
+        <dt>Break</dt>
+
+        <dt>7:40 - 8:00</dt>
+        <dd>Lightning talks</dd>
+        <dd>UI Testing on iOS - Vignesh Sankaran</dd>
+        <dd>An overview on how to set up UI tests, and tips and tricks for writing them</dd>
+
+        <dt>8:00 - 8:10</dt>
+        <dd>Discussions & Wrap up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="https://www.melbournecocoaheads.com/live">https://www.melbournecocoaheads.com/live</a>.</p>
+  - title: October 2019 Meetup
+    subtitle: CocoaHeads No. 130
+    created_at: 2019-10-09 00:00:00 +0
+    frontpage: 0
+    events:
+      - meetup-2019-10-10
+      - hacknight-2019-10-16
+    body: |
+      <p>It's October - We have new iPhones Month!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <p>
+        <strong>Yuma <a href="https://www.twitter.com/yumaSoerianto">@yumaSoerianto</a></strong><br>
+        Making an Animoji with AR Face Tracking
+      </p>
+
+      <p>
+        <strong>Gerald <a href="https://www.twitter.com/gerald_kim">@gerald_kim</a></strong><br>
+        RealityKit
+      </p>
+
+      <p>
+        <strong>CocoaHeads Origin Stories</strong><br>
+        Where we interview members of CocoaHeads about what they do now, how they discovered CocoaHeads, their career journey, and how they got interested in computers. Light hearted casual format.
+      </p>
+
+      <dl>
+        <dt>When</dt>
+        <dd>Thursday 10 October, doors open at 5:45pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:40</dt>
+        <ds>Welcome and Introductions</dd>
+
+        <dt>6:40 - 7:10</dt>
+        <dd>Yuma - Making an Animoji with AR Face Tracking</dd>
+
+        <dt>7:15 - 7:30</dt>
+        <dd>Gerald - RealityKit: AR in Easy Mode</dd>
+
+        <dt>7:30 - 7:45</dt>
+        <dd>Break</dd>
+
+        <dt>7:45 - 8:15</dt>
+        <dd>Cocoaheads Origin Stories</dd>
+
+        <dt>8:15 - 8:30</dt>
+        <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="https://www.melbournecocoaheads.com/live">https://www.melbournecocoaheads.com/live</a>.</p>
+  - title: September 2019 Meetup
+    subtitle: CocoaHeads No. 129
+    created_at: 2019-09-09 00:00:00 +0
+    frontpage: 0
+    events:
+      - meetup-2019-09-12
+      - hacknight-2019-09-18
+    body: |
+      <p>We're back once more for September!</p>
+
+      <p>A reminder if you'd like to help out, please join us in the #volunteers <a href="https://slack.melbournecocoaheads.com/">slack channel</a>. </p>
+
+      <h3 class="section-heading">Schedule for this month</h3>
+
+      <p>
+        <strong>Matt <a href="https://www.twitter.com/mattdelves">@mattdelves</a></strong><br>
+        The Month That Was
+      </p>
+
+      <p>
+        <strong>Ben <a href="https://www.twitter.com/viewDidAppear">@viewDidAppear</a></strong><br>
+        ViewModelのインターフェースを設計する時のコツ
+      </p>
+
+      <p>
+        <strong>Rob <a href="https://www.twitter.com/bok_">@bok_</a></strong><br>
+        Cross-platform apps
+      </p>
+
+      <p>
+        <strong>Huw <a href="https://www.twitter.com/huwr">@huwr</a></strong><br>
+        /dev/world/2019 recap
+      </p>
+
+      <dl>
+        <dt>When</dt>
+        <dd>Thursday 12 September, doors open at 5:45pm.</dd>
+        <dt>Where</dt>
+        <dd>YBF Ventures - Level 1, 520 Bourke Street</dd>
+      </dl>
+
+      <dl>
+        <dt>6:00 - 6:30</dt>
+        <dd>Arrival, pizza and refreshments</dd>
+
+        <dt>6:30 - 6:45</dt>
+        <ds>Matt - The Month That Was</dd>
+
+        <dt>6:45 - 7:15</dt>
+        <dd>Ben - ViewModelのインターフェースを設計する時のコツ</dd>
+
+        <dt>7:15 - 7:45</dt>
+        <dd>Rob - Cross-platform apps</dd>
+
+        <dt>7:45 - 8:00</dt>
+        <dd>Break</dd>
+
+        <dt>8:00 - 8:15</dt>
+        <dd>Huw - /dev/world recap</dd>
+
+        <dt>8:15 - 8:30</dt>
+        <dd>Discussions & Finish up</dd>
+      </dl>
+
+      <h3 class="section-heading">Live Streaming</h3>
+      <p>We will be live streaming the presentations from 6:30pm. Stream will be up at <a href="https://www.melbournecocoaheads.com/live">https://www.melbournecocoaheads.com/live</a>.</p>
   - title: June 2019 Meetup Agenda
     subtitle: CocoaHeads No. 126
     created_at: 2019-06-11 00:00:00 +0
-    frontpage: 1
+    frontpage: 0
     events:
       - meetup-2019-06-13
       - hacknight-2019-06-19
@@ -71,7 +408,7 @@ posts:
   - title: May 2019 Meetup Agenda
     subtitle: CocoaHeads No. 125
     created_at: 2019-05-01 00:00:00 +0
-    frontpage: 2
+    frontpage: 0
     events:
       - meetup-2019-05-09
       - hacknight-2019-05-15
@@ -132,7 +469,7 @@ posts:
     subtitle: So long and thanks for all the Pizza
     created_at: 2019-03-24 06:00:00 +0
     coverImage: /img/posts/2019-03/CHxjOqZUcAA2v-K.jpg
-    frontpage: 3
+    frontpage: 0
     events:
       - meetup-2019-04-11
       - planning-meeting-2019-04-16
@@ -186,7 +523,7 @@ posts:
   - title: March 2019 Meetup Agenda
     subtitle: CocoaHeads No. 123
     created_at: 2019-03-12 00:00:00 +0
-    frontpage: 4
+    frontpage: 0
     events:
       - meetup-2019-03-14
       - hacknight-2019-03-20
@@ -262,7 +599,7 @@ posts:
   - title: February 2019 Meetup Agenda (No. 122)
     subtitle: Back for 2019
     created_at: 2019-02-11 00:00:00 +0
-    frontpage: 5
+    frontpage: 0
     events:
      - meetup-2019-02-13
      - hacknight-2019-02-20

@@ -10,7 +10,8 @@
         "laravel/framework": "5.7.*",
         "artesaos/seotools": "^0.8.2",
         "roumen/feed": "^2.9",
-        "symfony/yaml": "^4.0"
+        "symfony/yaml": "^4.0",
+        "ext-json": "*"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

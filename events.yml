@@ -1140,3 +1140,37 @@ events:
         address: Level 6, 15 William Street, Melbourne VIC 3000
         lat: -37.819073
         lng: 144.9592
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 135'
+        subtitle: |
+            CocoaHeads April 2020
+        slug: meetup-2020-04-09
+        starts_at: '2020-04-09 08:00:00 +0000'
+        ends_at: '2020-04-09 10:30:00 +0000'
+        tickets: https://www.meetup.com/en-AU/Melbourne-CocoaHeads/events/268474481/
+        contact: 'vignesh@sankaran.io'
+        contact_name: 'Vignesh Sankaran'
+        location: Live on YouTube
+        location_link: http://www.melbournecocoaheads.com/live
+        address_display: Live on YouTube
+        address: Live on YouTube
+        lng: 144.958427
+        lat: -37.8153744
+    -
+        type: meetup
+        title: 'Melbourne CocoaHeads No. 136'
+        subtitle: |
+            CocoaHeads May 2020
+        slug: meetup-2020-05-09
+        starts_at: '2020-05-14 08:30:00 +0000'
+        ends_at: '2020-05-14 10:30:00 +0000'
+        tickets: https://www.meetup.com/Melbourne-CocoaHeads/events/268474526/
+        contact: 'huw.rowlands@ieee.org'
+        contact_name: 'Huw Rowlands'
+        location: Live on YouTube
+        location_link: http://www.melbournecocoaheads.com/live
+        address_display: Live on YouTube
+        address: Live on YouTube
+        lng: 144.958427
+        lat: -37.8153744

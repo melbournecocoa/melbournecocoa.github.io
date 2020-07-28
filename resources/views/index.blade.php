@@ -1,7 +1,10 @@
 @extends('layouts.master')
 
+<!-- Sponsors Banner -->
+
 @section('image', '/img/cch-events-bg.jpg')
 @section('title', 'Melbourne CocoaHeads')
+
 @section('subtitle')
     @if($meetup)
         <p class="subheading">
@@ -36,8 +39,37 @@
     @endif
 @endsection
 
+
 @section('content')
     <div class="container">
+        <div class="row">
+            <div class="row text-center">
+                <h2 class="text-center">Thank you to our Sponsors</h1>
+                <h3>Gold Sponsor</h3>
+                <a href="https://www.ittybittyapps.com"><img src="/img/sponsors/IttyBittyApps.png" height="128px" class="mr-3" alt="IttyBittyApps"></a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <h3>Silver Sponsors</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col vcenter">
+            <a href="https://www.cognizant.com/en-au">
+                    <img src="/img/sponsors/Cognizant-logo.png" height="64px" class="mr-3" alt="Cognizant">
+                </a>
+            </div>
+            <div class="col vcenter">
+                <a href="https://www.latitudefinancial.com.au">
+                    <img src="/img/sponsors/Latitude_Financial_Services_Logo.png" height="112px" class="mr-3" alt="Latitude Financial Services">
+                </a>
+            </div>
+            <div class="col vcenter">
+                    <a href="https://realestate.com.au">
+                    <img src="/img/sponsors/reagroup.png" height="64px" class="mr-3" alt="REA Group">
+                </a>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 @foreach($posts as $post)
