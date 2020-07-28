@@ -3,3 +3,10 @@ title: Melbourne CocoaHeads
 params:
   author: Melbourne CocoaHeads
   description: The website for Melbourne's CocoaHeads community
+
+  socials:
+    twitter: https://www.twitter.com/melbournecocoa
+    meetup: https://www.meetup.com/Melbourne-CocoaHeads
+    slack: https://slack.melbournecocoaheads.com/
+    github: https://www.github.com/melbournecocoa
+    youtube: https://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw
