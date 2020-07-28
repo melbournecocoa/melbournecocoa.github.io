@@ -4,6 +4,8 @@
         {{ partial "head" . }}
     </head>
     <body>
+        {{ partial "nav" . }}
+
         {{ block "main" . }}
         <main>
             {{ .Content }}
