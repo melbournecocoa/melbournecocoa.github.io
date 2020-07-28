@@ -176,3 +176,45 @@ main, article {
     text-align: center;
     color: var(--color-content-secondary);
 }
+
+/* Desktop Styles */
+/* ---------------------------------------- */
+
+@media (min-width: 768px) {
+    main, article {
+        max-width: var(--width-site);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #header {
+        border-bottom: none;
+        max-width: var(--width-site);
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    #header .logo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    #header .logo svg {
+        margin: 0 1rem 0 0;
+    }
+
+    #footer nav ul {
+        columns: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer nav ul li {
+        margin: 0 1rem 1rem;
+    }
+}
