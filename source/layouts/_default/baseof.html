@@ -3,7 +3,7 @@
     <head>
         {{ partial "head" . }}
     </head>
-    <body>
+    <body{{ if eq .IsHome true }} id="homepage"{{ end }}>
         {{ partial "header" . }}
         {{ block "main" . }}
         <main>

@@ -2,14 +2,26 @@
 /* ---------------------------------------- */
 
 :root {
-    --color-accent: #009EBE;
+    --color-accent: #C0810B;
     --color-content: #333333;
     --color-content-secondary: #636366;
     --color-heading: #000000;
     --color-background: #FFFFFF;
-    --color-background-secondary: #F2F2F7;
+    --color-background-secondary: #F6F6FA;
 
     --width-site: 720px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-accent: #CFA352;
+        --color-content: #CCCCCC;
+        --color-content-secondary: #BBBBBB;
+        --color-heading: #FFFFFF;
+        --color-background: #000000;
+        --color-background-secondary: #121212;
+    }
+    
 }
 
 * {
@@ -116,7 +128,6 @@ main, article {
 #header {
     padding: 2rem;
     text-align: center;
-    border-bottom: 1px solid var(--color-background-secondary);
 }
 
 #header .logo {
@@ -137,6 +148,10 @@ main, article {
 #header .logo svg {
     margin: 0 auto 0.5rem;
     display: block;
+}
+
+#header .logo svg path {
+    stroke: var(--color-heading);
 }
 
 #header ul {
@@ -198,8 +213,10 @@ main, article {
 /* Desktop Styles */
 /* ---------------------------------------- */
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     main, article {
+        padding-left: 1rem;
+        padding-right: 1rem;
         max-width: var(--width-site);
         margin-left: auto;
         margin-right: auto;
@@ -228,7 +245,7 @@ main, article {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 0;
+        padding: 2rem 1rem;
     }
 
     #header .logo {
@@ -239,6 +256,14 @@ main, article {
 
     #header .logo svg {
         margin: 0 1rem 0 0;
+    }
+
+    #header li {
+        margin: 0 0 0 2rem;
+    }
+
+    #footer {
+        padding: 2rem 1rem;
     }
 
     #footer nav ul {
