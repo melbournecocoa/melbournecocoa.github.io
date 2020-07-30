@@ -125,6 +125,7 @@ main, article {
     background-color: var(--color-background-secondary);
     background-repeat: no-repeat;
     background-size: auto 16rem;
+    border-radius: 0.5rem;
 }
 
 #home section a {
