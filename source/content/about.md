@@ -1,5 +1,6 @@
 ---
 title: About
+image: /images/about/about.png
 ---
 
 Melbourne CocoaHeads has been running monthly since 2007 and is Melbourne’s longest running independent Apple developer community event.

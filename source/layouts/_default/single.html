@@ -1,5 +1,11 @@
 {{ define "main" }}
 <article>
+    {{ if .Params.Image }}
+    <figure>
+        <img src="{{ .Params.Image }}" alt="{{  .Title }}"/>
+    </figure>
+    {{ end }}
+
     <h1>{{ .Title }}</h1>
 
     {{ .Content }}
