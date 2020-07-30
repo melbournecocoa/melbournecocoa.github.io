@@ -1,16 +1,16 @@
 {{ define "main" }}
 <main id="home">
-    <section class="full" style="background-image: url({{ .Site.BaseURL }}/images/home/meetup.png);">
+    <section class="top full" style="background-image: url({{ .Site.BaseURL }}/images/home/meetup.png);">
         <h1>Melbourne CocoaHeads No. 139</h1>
         <p>Online Event • Thu, 13 Aug, 6:00PM AEST</p>
         <a href="https://www.meetup.com/en-AU/Melbourne-CocoaHeads/events/268474601/">View event details</a>
     </section>
-    <section style="background-image: url({{ .Site.BaseURL }}/images/home/slack.png);">
+    <section class="bottom" style="background-image: url({{ .Site.BaseURL }}/images/home/slack.png);">
         <h1>Join us on Slack</h1>
         <p>Be a part of the community</p>
         <a href="{{ .Site.Params.Socials.Slack }}">Get an invite</a>
     </section>
-    <section style="background-image: url({{ .Site.BaseURL }}/images/home/past-events.jpg);">
+    <section class="bottom" style="background-image: url({{ .Site.BaseURL }}/images/home/past.png);">
         <h1>Past Events</h1>
         <p>Catch up on previous presentations</p>
         <a href="{{ .Site.Params.Socials.Youtube }}">Watch on YouTube</a>
