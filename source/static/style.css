@@ -237,6 +237,37 @@ main, article {
     color: var(--color-content-secondary);
 }
 
+/* Sponsors Partial (_partials/sponsors.html) */
+/* ---------------------------------------- */
+
+#sponsors {
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+#sponsors .tier {
+    margin-top: 2rem;
+}
+
+#sponsors .tier h4 {
+    color: var(--color-content-secondary);
+}
+
+#sponsors a {
+    display: inline-block;
+    margin: 1rem;
+}
+
+#sponsors img {
+    width: auto;
+    height: 2.5rem;
+    margin: 0;
+}
+
+#sponsors .large {
+    height: 4rem;
+}
+
 /* Desktop Styles */
 /* ---------------------------------------- */
 
