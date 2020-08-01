@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        {{ partial "head" . }}
+    </head>
+    <body{{ if eq .IsHome true }} id="homepage"{{ end }}>
+        {{ partial "header" . }}
+        {{ block "main" . }}
+        <main>
+            {{ .Content }}
+        </main>
+        {{ end }}
+        {{ partial "footer" . }}
+    </body>
+</html>

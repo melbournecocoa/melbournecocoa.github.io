@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+
+<title>{{ .Title }} — {{ .Site.Title }}</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name="author" content="{{ .Site.Params.Author }}">
+<meta name="theme-color" content="#{{ .Site.Params.Color }}">
+<meta name="description" content="{{ .Site.Params.Description }}">
+
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ .Title }} — {{ .Site.Title }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}/images/preview.jpg">
+<meta property="og:locale" content="en_AU">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:description" content="{{ .Site.Params.Description }}">
+
+
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twittersite" content="@{{ .Site.Params.Social.Twitter }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }} — {{ .Site.Title }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}/images/preview.jpg">
+<meta name="twitter:description" content="{{ .Site.Params.Description }}">
+
+<link rel="mask-icon" href="{{ .Site.BaseURL }}/images/mask.svg">
+<link rel="shortcut icon" href="{{ .Site.BaseURL }}/images/favicon.ico">
+<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/images/icon.png">
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/style.css">
