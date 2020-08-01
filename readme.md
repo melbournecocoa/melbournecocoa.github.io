@@ -16,4 +16,4 @@ This site was built using [Hugo](https://gohugo.io), a framework for building li
 
 ## Deploying Changes
 
-This website is hosted on [Netlify](https://www.netlify.com), and continuously deploys any changes made to the main branch.
+This website's deployed on GitHub Pages. If you would like to make a change, please make a pull request. When it is merged, a GitHub Action will deploy the change.

@@ -2,7 +2,7 @@
 <article>
     {{ if .Params.Image }}
     <figure>
-        <img src="{{ .Params.Image }}" alt="{{  .Title }}"/>
+        <img src="{{ .Site.BaseURL }}/{{ .Params.Image }}" alt="{{  .Title }}"/>
     </figure>
     {{ end }}
 
