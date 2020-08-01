@@ -11,3 +11,5 @@ params:
     slack: https://slack.melbournecocoaheads.com/
     github: https://www.github.com/melbournecocoa
     youtube: https://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw
+
+baseUrl: https://melbournecocoa.github.io/website
