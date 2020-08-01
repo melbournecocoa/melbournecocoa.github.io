@@ -13,7 +13,7 @@ CocoaHeads is open to everyone. A diverse range of people come to the meetings i
 
 All of Melbourne CocoaHeads' events and associated channels are covered by a Code of Conduct. All a members or attendees of CocoaHeads events are expected to be familiar with our code of conduct.
 
-Please read our [Code of Conduct](/code-of-conduct) if you haven't already.
+Please read our {{< linkpage page="code-of-conduct" title="Code of Conduct" >}} if you haven't already.
 
 ## Finding Us
 
