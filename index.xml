@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Melbourne CocoaHeads</title>
+    <link>/</link>
+    <description>Recent content in Home on Melbourne CocoaHeads</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Melbourne CocoaHeads has been running monthly since 2007 and is Melbourne’s longest running independent Apple developer community event.
+We&amp;rsquo;re run by a small group of volunteers and supported by the wider Melbourne community. Each month members volunteer their time to present on iOS, macOS and software development topics. Events are also streamed to YouTube.
+CocoaHeads is open to everyone. A diverse range of people come to the meetings including hobbyist developers, designers, freelance contractors, commercial and indie developers.</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-of-conduct/</guid>
+      <description>The Quick Version Our community is dedicated to providing an inclusive environment for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices.
+We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate for any venue, including talks, workshops, parties, Slack and other online media. Participants violating these rules may be sanctioned or expelled at the discretion of the community organisers.</description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Livestream</title>
+      <link>/live/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/live/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sponsor</title>
+      <link>/sponsor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sponsor/</guid>
+      <description>Melbourne CocoaHeads, the city&amp;rsquo;s longest-running independent Apple Developers community event.
+Being run by a small group of volunteers, Melbourne CocoaHeads relies on the support of local companies willing to financially support it so that the community can gather, present and share knowledge on Apple technologies.
+You&amp;rsquo;ll find more information in the our Sponsorship Pack.</description>
+    </item>
+    
+    <item>
+      <title>Submit a Talk</title>
+      <link>/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/talks/</guid>
+      <description>Learned something new, built something nifty, or just got something you&amp;rsquo;d like to show? Join us on Slack and tell us your idea!</description>
+    </item>
+    
+  </channel>
+</rss>
