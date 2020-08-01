@@ -2,3 +2,4 @@
 .env
 
 source/resources/_gen/*
+build/*
