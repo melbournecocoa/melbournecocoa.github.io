@@ -260,12 +260,13 @@ main, article {
 
 #sponsors img {
     width: auto;
-    height: 2.5rem;
+    height: 3rem;
     margin: 0;
+    vertical-align: middle;
 }
 
 #sponsors .large {
-    height: 4rem;
+    height: 5rem;
 }
 
 /* Desktop Styles */
