@@ -32,6 +32,7 @@
 <link rel="apple-touch-icon" href="/images/icon.png">
 
 <link rel="stylesheet" href="/style.css">
+<script type="text/javascript" src="/scripts/jquery-3.4.1.slim.min.js"></script>
     </head>
     <body id="homepage">
         <header id="header">
@@ -50,9 +51,9 @@
         
 <main id="home">
     <section class="top full" style="background-image: url(/images/home/meetup.png);">
-        <h1>Melbourne CocoaHeads No. 139</h1>
-        <p>Online Event • Thu, 13 Aug, 6:00PM AEST</p>
-        <a href="https://www.meetup.com/en-AU/Melbourne-CocoaHeads/events/268474601/">View event details</a>
+        <h1 id="event-title">Melbourne CocoaHeads</h1>
+        <p id="event-details">Online Event • Second Thursday every month</p>
+        <a id="event-link" href="https://www.meetup.com/en-AU/Melbourne-CocoaHeads/">View event details</a>
     </section>
     <section class="bottom" style="background-image: url(/images/home/slack.png);">
         <h1>Join us on Slack</h1>
@@ -82,6 +83,29 @@
         <a href="https://realestate.com.au/" target="_blank"><img src="/images/sponsors/reagroup.png"/></a>
     </div>
 </aside>
+
+<script type="text/javascript">
+    $(() => {
+        fetch('https://sig4ybows8.execute-api.ap-southeast-2.amazonaws.com/v1/event/next?group=melcch', { mode: 'cors' })
+        .then(res => res.json())
+        .then(result => {
+            if (result.length > 0) {
+                let event = result[0];
+                let date = new Date(event.time);
+                console.log(event);
+                $('#event-title').text(event.name);
+                $('#event-details').text(
+                    event.venue.name
+                        + ' • '
+                        + date.toLocaleDateString('en-AU', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' })
+                        + ' at '
+                        + date.toLocaleTimeString('en-AU', { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' })
+                );
+                $('#event-link').prop('href', event.link);
+            }
+        })
+    })
+</script>
 
 
         <footer id="footer">
