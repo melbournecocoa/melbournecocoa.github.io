@@ -24,6 +24,6 @@ Melbourne CocoaHeads is managed by Melbourne CocoaHeads Inc; an incorporated ass
 * [Melbourne CocoaHeads on Meetup.com](https://www.meetup.com/Melbourne-CocoaHeads)
 * [YouTube](http://www.youtube.com/channel/UCpTDVzUkk9ieAyVyUi28bWw)
 * [Melbourne CocoaHeads History](https://github.com/melbournecocoa/MelbourneCocoaheadsHistory)
-* [Slack - @melbournecocoa](https://slack.melbournecocoaheads.com/) - click for an invite
+* [Slack - @melbournecocoa]({{<slacklink>}}) - click for an invite
 * [Twitter - @melbournecocoa](https://www.twitter.com/melbournecocoa)
 * [Github](https://github.com/melbournecocoa)
