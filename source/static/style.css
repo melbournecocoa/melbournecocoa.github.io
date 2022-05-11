@@ -271,8 +271,12 @@ main, article {
     vertical-align: middle;
 }
 
-#sponsors .large {
-    height: 5rem;
+#sponsors .gold {
+    height: 12rem;
+}
+
+#sponsors .silver {
+    height: 4rem;
 }
 
 /* Desktop Styles */
