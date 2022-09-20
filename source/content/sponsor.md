@@ -6,4 +6,4 @@ Melbourne CocoaHeads, the city's longest-running independent Apple Developers co
 
 Being run by a small group of volunteers, Melbourne CocoaHeads relies on the support of local companies willing to financially support it so that the community can gather, present and share knowledge on Apple technologies.
 
-You'll find more information in the our {{< linkpage page="pdfs/sponsorship-pack-2020.pdf" title="Sponsorship Pack" >}}.
+You'll find more information in the our {{< linkpage page="pdfs/sponsorship-pack-2022.pdf" title="Sponsorship Pack" >}}.
