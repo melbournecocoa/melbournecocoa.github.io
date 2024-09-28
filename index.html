@@ -33,6 +33,7 @@
 
 <link rel="stylesheet" href="/style.css">
 <script type="text/javascript" src="/scripts/jquery-3.6.4.slim.min.js"></script>
+<script type="text/javascript" src="/scripts/showdown-2.1.0.min.js"></script>
     </head>
     <body id="homepage">
         <header id="header">
@@ -53,7 +54,8 @@
     
     <section class="top full" style="background-image: url(/images/home/meetup.png);">
         <h1 id="event-title">Melbourne CocoaHeads</h1>
-        <p id="event-details">Online Event • Second Thursday every month</p>
+        <p id="event-location">Online Event • Second Thursday every month</p>
+        <div id="event-details"></div>
         <a id="event-link" href="https://www.meetup.com/en-AU/Melbourne-CocoaHeads/">View event details</a>
     </section>
     <section class="bottom" style="background-image: url(/images/home/slack.png);">
@@ -108,13 +110,33 @@
                 let date = new Date(event.time);
                 console.log(event);
                 $('#event-title').text(event.name);
-                $('#event-details').text(
+                $('#event-location').text(
                     event.venue.name
                         + ' • '
                         + date.toLocaleDateString('en-AU', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' })
                         + ' at '
                         + date.toLocaleTimeString('en-AU', { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' })
                 );
+
+                console.log(event);
+
+                var description = event.plain_text_description
+                    .replace(/\\#/gim, "#")
+                    .replace(/\\-/gim, "-")
+                    .replace(/\\\+/gim, "+")
+                    .replace(/\\\*/gim, "*")
+                    .replace(/\\\|/gim, "|")
+                    .replace(/\\\(/gim, "(")
+                    .replace(/\\\)/gim, ")")
+                    .replace(/\\\[/gim, "[")
+                    .replace(/\\\]/gim, "]")
+                    .replace(/[^\[\(](https:\/\/[\w./]+)[^\])]/g, ' [$1]($1)') 
+                    .replace(/\*\*Agenda\*\*\n\n\| /gim, "### Agenda\n\n| Time | Action |\n|---|---|\n| ");
+                var converter = new showdown.Converter();
+                converter.setOption('tables', true);
+                description = converter.makeHtml(description);
+                $('#event-details').html(description);
+
                 $('#event-link').prop('href', event.link);
             }
         })
