@@ -154,7 +154,7 @@ main, article {
 }
 
 #event-details p {
-  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 #home #event-details a {
