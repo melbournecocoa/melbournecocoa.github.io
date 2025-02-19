@@ -153,6 +153,10 @@ main, article {
     text-align: left;
 }
 
+#event-details p {
+  overflow-wrap: anywhere;
+}
+
 #home #event-details a {
     display: inline;
     color: var(--color-accent);
