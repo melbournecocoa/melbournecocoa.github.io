@@ -153,6 +153,10 @@ main, article {
     text-align: left;
 }
 
+#event-details p {
+  word-break: break-word;
+}
+
 #home #event-details a {
     display: inline;
     color: var(--color-accent);
