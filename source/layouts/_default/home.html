@@ -28,43 +28,23 @@
 {{ partial "sponsors" . }}
 
 <script type="text/javascript">
-    $(() => {
-        fetch('https://sig4ybows8.execute-api.ap-southeast-2.amazonaws.com/v1/event/next?group=melcch', { mode: 'cors' })
+    document.addEventListener('DOMContentLoaded', () => {
+        fetch('API_ENDPOINT_URL', { mode: 'cors' })
         .then(res => res.json())
         .then(result => {
             if (result.length > 0) {
-                let event = result[0];
-                let date = new Date(event.time);
-                console.log(event);
-                $('#event-title').text(event.name);
-                $('#event-location').text(
-                    event.venue.name
-                        + ' • '
+                const event = result[0];
+                const date = new Date(event.startDate);
+
+                document.getElementById('event-title').textContent = event.name;
+                document.getElementById('event-location').textContent =
+                    event.venue
+                        + ' \u2022 '
                         + date.toLocaleDateString('en-AU', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' })
                         + ' at '
-                        + date.toLocaleTimeString('en-AU', { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' })
-                );
-
-                console.log(event);
-
-                var description = event.plain_text_description
-                    .replace(/\\#/gim, "#")
-                    .replace(/\\-/gim, "-")
-                    .replace(/\\\+/gim, "+")
-                    .replace(/\\\*/gim, "*")
-                    .replace(/\\\|/gim, "|")
-                    .replace(/\\\(/gim, "(")
-                    .replace(/\\\)/gim, ")")
-                    .replace(/\\\[/gim, "[")
-                    .replace(/\\\]/gim, "]")
-                    .replace(/[^\[\(](https:\/\/[\w./]+)[^\])]/g, ' [$1]($1)') //links
-                    .replace(/\*\*Agenda\*\*\n\n\| /gim, "### Agenda\n\n| Time | Action |\n|---|---|\n| ");
-                var converter = new showdown.Converter();
-                converter.setOption('tables', true);
-                description = converter.makeHtml(description);
-                $('#event-details').html(description);
-
-                $('#event-link').prop('href', event.link);
+                        + date.toLocaleTimeString('en-AU', { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' });
+                document.getElementById('event-details').innerHTML = event.description_html;
+                document.getElementById('event-link').href = event.link;
             }
         })
     })
