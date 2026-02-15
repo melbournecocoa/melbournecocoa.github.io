@@ -7,4 +7,6 @@ build/*
 
 # Terraform
 **/.terraform/*
+*.tfstate
+*.tfstate.backup
 infrastructure/lambda/function.zip
