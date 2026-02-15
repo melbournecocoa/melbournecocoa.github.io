@@ -3,3 +3,4 @@
 
 source/resources/_gen/*
 build/*
+.worktrees/
