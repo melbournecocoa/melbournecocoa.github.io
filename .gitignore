@@ -4,6 +4,7 @@
 source/resources/_gen/*
 build/*
 .worktrees/
+docs/plans/
 
 # Terraform
 **/.terraform/*
