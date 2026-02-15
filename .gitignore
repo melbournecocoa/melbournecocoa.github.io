@@ -4,3 +4,7 @@
 source/resources/_gen/*
 build/*
 .worktrees/
+
+# Terraform
+**/.terraform/*
+infrastructure/lambda/function.zip
