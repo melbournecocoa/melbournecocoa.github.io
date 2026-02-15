@@ -1,24 +1,44 @@
 {{ define "main" }}
 <main id="home">
     {{/*
-    <section class="bottom full" style="background-image: url({{ .Site.BaseURL }}/images/home/beyond-wwdc.png); background-size: cover; background-color: #121212;">
-        <h1 style="color: #FFFFFF;">Beyond WWDC</h1>
-        <p style="color: #FFFFFF; opacity: 0.75;">In-person and Online • Wednesday, 14 June 2023</p>
-        <a href="https://www.meetup.com/melbourne-cocoaheads/events/293250938/">View event details</a>
+    <section
+        class="bottom full"
+        style="background-image: url({{ .Site.BaseURL }}/images/home/beyond-wwdc.png); background-size: cover; background-color: #121212;"
+    >
+        <h1 style="color: #ffffff">Beyond WWDC</h1>
+        <p style="color: #ffffff; opacity: 0.75">
+            In-person and Online • Wednesday, 14 June 2023
+        </p>
+        <a href="https://www.meetup.com/melbourne-cocoaheads/events/293250938/"
+            >View event details</a
+        >
     </section>
     */}}
-    <section class="top full" style="background-image: url({{ .Site.BaseURL }}/images/home/meetup.png);">
+    <section
+        class="top full"
+        style="background-image: url({{ .Site.BaseURL }}/images/home/meetup.png);"
+    >
         <h1 id="event-title">Melbourne CocoaHeads</h1>
         <p id="event-location">Online Event • Second Thursday every month</p>
         <div id="event-details"></div>
-        <a id="event-link" href="https://www.meetup.com/en-AU/Melbourne-CocoaHeads/">View event details</a>
+        <a
+            id="event-link"
+            href="https://www.meetup.com/en-AU/Melbourne-CocoaHeads/"
+            >View event details</a
+        >
     </section>
-    <section class="bottom" style="background-image: url({{ .Site.BaseURL }}/images/home/slack.png);">
+    <section
+        class="bottom"
+        style="background-image: url({{ .Site.BaseURL }}/images/home/slack.png);"
+    >
         <h1>Join us on Slack</h1>
         <p>Be a part of the community</p>
         <a href="{{ .Site.Params.Socials.Slack }}">Get an invite</a>
     </section>
-    <section class="bottom" style="background-image: url({{ .Site.BaseURL }}/images/home/past.png);">
+    <section
+        class="bottom"
+        style="background-image: url({{ .Site.BaseURL }}/images/home/past.png);"
+    >
         <h1>Past Sessions</h1>
         <p>Catch up on previous presentations</p>
         <a href="{{ .Site.Params.Socials.Youtube }}">Watch on YouTube</a>
@@ -28,26 +48,40 @@
 {{ partial "sponsors" . }}
 
 <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', () => {
-        fetch('API_ENDPOINT_URL', { mode: 'cors' })
-        .then(res => res.json())
-        .then(result => {
-            if (result.length > 0) {
-                const event = result[0];
-                const date = new Date(event.startDate);
+    document.addEventListener("DOMContentLoaded", () => {
+        fetch(
+            "https://xvzbtoiysc.execute-api.ap-southeast-2.amazonaws.com/events",
+            { mode: "cors" },
+        )
+            .then((res) => res.json())
+            .then((result) => {
+                if (result.length > 0) {
+                    const event = result[0];
+                    const date = new Date(event.startDate);
 
-                document.getElementById('event-title').textContent = event.name;
-                document.getElementById('event-location').textContent =
-                    event.venue
-                        + ' \u2022 '
-                        + date.toLocaleDateString('en-AU', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' })
-                        + ' at '
-                        + date.toLocaleTimeString('en-AU', { hour: 'numeric', minute: 'numeric', timeZoneName: 'short' });
-                document.getElementById('event-details').innerHTML = event.description_html;
-                document.getElementById('event-link').href = event.link;
-            }
-        })
-    })
+                    document.getElementById("event-title").textContent =
+                        event.name;
+                    document.getElementById("event-location").textContent =
+                        event.venue +
+                        " \u2022 " +
+                        date.toLocaleDateString("en-AU", {
+                            weekday: "short",
+                            day: "numeric",
+                            month: "short",
+                            year: "numeric",
+                        }) +
+                        " at " +
+                        date.toLocaleTimeString("en-AU", {
+                            hour: "numeric",
+                            minute: "numeric",
+                            timeZoneName: "short",
+                        });
+                    document.getElementById("event-details").innerHTML =
+                        event.description_html;
+                    document.getElementById("event-link").href = event.link;
+                }
+            });
+    });
 </script>
 
 {{ end }}
