@@ -1,5 +1,4 @@
 const MEETUP_URL = "https://www.meetup.com/Melbourne-CocoaHeads/";
-const ALLOWED_ORIGIN = "https://melbournecocoaheads.com";
 
 /**
  * Extract all JSON-LD blocks from HTML and return parsed objects.
@@ -85,13 +84,18 @@ function descriptionToHtml(text) {
  * Apply inline formatting: bold and auto-linked URLs.
  */
 function inlineFormat(text) {
+  // Escape HTML entities first (XSS prevention)
+  text = text.replace(/&/g, "&amp;");
+  text = text.replace(/</g, "&lt;");
+  text = text.replace(/>/g, "&gt;");
+
   // Bold: **text**
   text = text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
 
   // Auto-link bare URLs that are not already inside an href
   text = text.replace(
     /(?<!")https?:\/\/[^\s<)]+/g,
-    (url) => `<a href="${url}">${url}</a>`
+    (url) => `<a href="${url}" rel="noopener noreferrer">${url}</a>`
   );
 
   return text;
@@ -108,12 +112,6 @@ function venueName(event) {
 }
 
 export async function handler() {
-  const corsHeaders = {
-    "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
-    "Access-Control-Allow-Methods": "GET, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type",
-  };
-
   try {
     const res = await fetch(MEETUP_URL);
     if (!res.ok) {
@@ -142,7 +140,6 @@ export async function handler() {
       headers: {
         "Content-Type": "application/json",
         "Cache-Control": "public, max-age=300",
-        ...corsHeaders,
       },
       body: JSON.stringify(result),
     };
@@ -152,7 +149,7 @@ export async function handler() {
       statusCode: 502,
       headers: {
         "Content-Type": "application/json",
-        ...corsHeaders,
+        "Cache-Control": "no-cache",
       },
       body: JSON.stringify({ error: "Failed to fetch events from Meetup" }),
     };
