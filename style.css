@@ -149,6 +149,10 @@ main, article {
     background-position: center top;
 }
 
+#home #event-name {
+    margin-top: 0;
+}
+
 #home #event-details {
     text-align: left;
 }

@@ -54,7 +54,8 @@
         class="top full"
         style="background-image: url(/images/home/meetup.png);"
     >
-        <h1 id="event-title">Melbourne CocoaHeads</h1>
+        <h1>Next Event</h1>
+        <h2 id="event-name" hidden></h2>
         <p id="event-location">Online Event • Second Thursday every month</p>
         <div id="event-details"></div>
         <a
@@ -123,8 +124,9 @@
                     const event = result[0];
                     const date = new Date(event.startDate);
 
-                    document.getElementById("event-title").textContent =
-                        event.name;
+                    const eventNameEl = document.getElementById("event-name");
+                    eventNameEl.textContent = event.name;
+                    eventNameEl.hidden = false;
                     document.getElementById("event-location").textContent =
                         event.venue +
                         " \u2022 " +
