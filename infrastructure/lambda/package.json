@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild index.mjs --bundle --platform=node --target=node20 --format=esm --outfile=dist/index.mjs"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

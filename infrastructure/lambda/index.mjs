@@ -1,3 +1,5 @@
+import { marked } from "marked";
+
 const MEETUP_URL = "https://www.meetup.com/Melbourne-CocoaHeads/";
 
 /**
@@ -36,13 +38,10 @@ function collectEvents(data) {
 }
 
 /**
- * Convert a Meetup description (light Markdown) to HTML.
+ * Convert a Meetup description (Markdown) to HTML using marked.
  *
- * Handles:
- * - **bold** -> <strong>bold</strong>
- * - Lines starting with bullet character -> <li> items wrapped in <ul>
- * - Bare URLs -> <a> links
- * - Blank-line-separated paragraphs -> <p> blocks
+ * Pre-processes Meetup-specific quirks (backslash escapes, headerless tables)
+ * then delegates to marked for full Markdown rendering.
  */
 function descriptionToHtml(text) {
   if (!text) return "";
@@ -50,58 +49,17 @@ function descriptionToHtml(text) {
   // Strip backslash escapes added by Meetup (e.g. \| \- \+ \. \*)
   text = text.replace(/\\([^\\])/g, "$1");
 
-  // Normalize line endings
-  text = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
-
-  // Split into paragraphs on blank lines
-  const paragraphs = text.split(/\n\n+/);
-
-  const htmlParts = [];
-
-  for (const para of paragraphs) {
-    const lines = para.split("\n");
-
-    // Check if this paragraph is a bullet list (all non-empty lines start with bullet)
-    const nonEmpty = lines.filter((l) => l.trim().length > 0);
-    const isList =
-      nonEmpty.length > 0 &&
-      nonEmpty.every((l) => /^\s*[•\-\*]\s/.test(l));
-
-    if (isList) {
-      const items = nonEmpty.map((l) => {
-        const content = l.replace(/^\s*[•\-\*]\s*/, "");
-        return `<li>${inlineFormat(content)}</li>`;
-      });
-      htmlParts.push(`<ul>${items.join("")}</ul>`);
-    } else {
-      // Regular paragraph — join lines with <br> for single newlines
-      const joined = lines.map((l) => inlineFormat(l)).join("<br>");
-      htmlParts.push(`<p>${joined}</p>`);
-    }
-  }
-
-  return htmlParts.join("");
-}
-
-/**
- * Apply inline formatting: bold and auto-linked URLs.
- */
-function inlineFormat(text) {
-  // Escape HTML entities first (XSS prevention)
-  text = text.replace(/&/g, "&amp;");
-  text = text.replace(/</g, "&lt;");
-  text = text.replace(/>/g, "&gt;");
-
-  // Bold: **text**
-  text = text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-
-  // Auto-link bare URLs that are not already inside an href
+  // Meetup table rows lack a header — prepend one so marked renders a <table>
   text = text.replace(
-    /(?<!")https?:\/\/[^\s<)]+/g,
-    (url) => `<a href="${url}" rel="noopener noreferrer">${url}</a>`
+    /(^|\n\n)((\|[^\n]+\|\n?){2,})/g,
+    (_, prefix, tableBlock) => {
+      // Only prepend header if the block doesn't already have a separator row
+      if (/^\|[-|\s]+\|$/m.test(tableBlock)) return prefix + tableBlock;
+      return prefix + "| Time | Item |\n|-|-|\n" + tableBlock;
+    },
   );
 
-  return text;
+  return marked.parse(text);
 }
 
 /**

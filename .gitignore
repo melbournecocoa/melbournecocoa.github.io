@@ -11,3 +11,5 @@ docs/plans/
 *.tfstate
 *.tfstate.backup
 infrastructure/lambda/function.zip
+infrastructure/lambda/node_modules/
+infrastructure/lambda/dist/

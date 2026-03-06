@@ -29,6 +29,14 @@ jobs:
           aws-region: ap-southeast-2
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build Lambda
+        working-directory: infrastructure/lambda
+        run: npm ci && npm run build
+
       - uses: hashicorp/setup-terraform@v3
 
       - name: Terraform Init
