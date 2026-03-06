@@ -47,6 +47,9 @@ function collectEvents(data) {
 function descriptionToHtml(text) {
   if (!text) return "";
 
+  // Strip backslash escapes added by Meetup (e.g. \| \- \+ \. \*)
+  text = text.replace(/\\([^\\])/g, "$1");
+
   // Normalize line endings
   text = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
 
